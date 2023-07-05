@@ -1,0 +1,88 @@
+----------------
+Crateria_0
+Extra - map_name: Crateria0
+Extra - room_id: 0
+----------------
+Crateria_1
+Extra - map_name: Crateria1
+Extra - room_id: 1
+----------------
+Crateria_2
+Extra - map_name: Crateria2
+Extra - room_id: 2
+----------------
+Crateria_3
+Extra - map_name: Crateria3
+Extra - room_id: 3
+----------------
+Crateria_4
+Extra - map_name: Crateria4
+Extra - room_id: 4
+----------------
+Crateria_5
+Extra - map_name: Crateria5
+Extra - room_id: 5
+----------------
+Crateria_6
+Extra - map_name: Crateria6
+Extra - room_id: 6
+----------------
+Crateria_7
+Extra - map_name: Crateria7
+Extra - room_id: 7
+----------------
+Crateria_8
+Extra - map_name: Crateria8
+Extra - room_id: 8
+----------------
+Crateria_9
+Extra - map_name: Crateria9
+Extra - room_id: 9
+----------------
+Crateria_10
+Extra - map_name: Crateria10
+Extra - room_id: 10
+----------------
+Crateria_11
+Extra - map_name: Crateria11
+Extra - room_id: 11
+----------------
+Crateria_12
+Extra - map_name: Crateria12
+Extra - room_id: 12
+----------------
+Crateria_13
+Extra - map_name: Crateria13
+Extra - room_id: 13
+----------------
+Crateria_14
+Extra - map_name: Crateria14
+Extra - room_id: 14
+----------------
+Crateria_15
+Extra - map_name: Crateria15
+Extra - room_id: 15
+----------------
+Crateria_16
+Extra - map_name: Crateria16
+Extra - room_id: 16
+----------------
+Crateria_17
+Extra - map_name: Crateria17
+Extra - room_id: 17
+----------------
+Crateria_18
+Extra - map_name: Crateria18
+Extra - room_id: 18
+----------------
+Crateria_19
+Extra - map_name: Crateria19
+Extra - room_id: 19
+----------------
+Crateria_20
+Extra - map_name: Crateria20
+Extra - room_id: 20
+----------------
+Crateria_21
+Extra - map_name: Crateria21
+Extra - room_id: 21

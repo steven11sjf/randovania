@@ -1,0 +1,228 @@
+----------------
+Norfair_0
+Extra - map_name: Norfair0
+Extra - room_id: 0
+----------------
+Norfair_1
+Extra - map_name: Norfair1
+Extra - room_id: 1
+----------------
+Norfair_2
+Extra - map_name: Norfair2
+Extra - room_id: 2
+----------------
+Norfair_3
+Extra - map_name: Norfair3
+Extra - room_id: 3
+----------------
+Norfair_4
+Extra - map_name: Norfair4
+Extra - room_id: 4
+----------------
+Norfair_5
+Extra - map_name: Norfair5
+Extra - room_id: 5
+----------------
+Norfair_6
+Extra - map_name: Norfair6
+Extra - room_id: 6
+----------------
+Norfair_7
+Extra - map_name: Norfair7
+Extra - room_id: 7
+----------------
+Norfair_8
+Extra - map_name: Norfair8
+Extra - room_id: 8
+----------------
+Norfair_9
+Extra - map_name: Norfair9
+Extra - room_id: 9
+----------------
+Norfair_10
+Extra - map_name: Norfair10
+Extra - room_id: 10
+----------------
+Norfair_11
+Extra - map_name: Norfair11
+Extra - room_id: 11
+----------------
+Norfair_12
+Extra - map_name: Norfair12
+Extra - room_id: 12
+----------------
+Norfair_13
+Extra - map_name: Norfair13
+Extra - room_id: 13
+----------------
+Norfair_14
+Extra - map_name: Norfair14
+Extra - room_id: 14
+----------------
+Norfair_15
+Extra - map_name: Norfair15
+Extra - room_id: 15
+----------------
+Norfair_16
+Extra - map_name: Norfair16
+Extra - room_id: 16
+----------------
+Norfair_17
+Extra - map_name: Norfair17
+Extra - room_id: 17
+----------------
+Norfair_18
+Extra - map_name: Norfair18
+Extra - room_id: 18
+----------------
+Norfair_19
+Extra - map_name: Norfair19
+Extra - room_id: 19
+----------------
+Norfair_20
+Extra - map_name: Norfair20
+Extra - room_id: 20
+----------------
+Norfair_21
+Extra - map_name: Norfair21
+Extra - room_id: 21
+----------------
+Norfair_22
+Extra - map_name: Norfair22
+Extra - room_id: 22
+----------------
+Norfair_23
+Extra - map_name: Norfair23
+Extra - room_id: 23
+----------------
+Norfair_24
+Extra - map_name: Norfair24
+Extra - room_id: 24
+----------------
+Norfair_25
+Extra - map_name: Norfair25
+Extra - room_id: 25
+----------------
+Norfair_26
+Extra - map_name: Norfair26
+Extra - room_id: 26
+----------------
+Norfair_27
+Extra - map_name: Norfair27
+Extra - room_id: 27
+----------------
+Norfair_28
+Extra - map_name: Norfair28
+Extra - room_id: 28
+----------------
+Norfair_29
+Extra - map_name: Norfair29
+Extra - room_id: 29
+----------------
+Norfair_30
+Extra - map_name: Norfair30
+Extra - room_id: 30
+----------------
+Norfair_31
+Extra - map_name: Norfair31
+Extra - room_id: 31
+----------------
+Norfair_32
+Extra - map_name: Norfair32
+Extra - room_id: 32
+----------------
+Norfair_33
+Extra - map_name: Norfair33
+Extra - room_id: 33
+----------------
+Norfair_34
+Extra - map_name: Norfair34
+Extra - room_id: 34
+----------------
+Norfair_35
+Extra - map_name: Norfair35
+Extra - room_id: 35
+----------------
+Norfair_36
+Extra - map_name: Norfair36
+Extra - room_id: 36
+----------------
+Norfair_37
+Extra - map_name: Norfair37
+Extra - room_id: 37
+----------------
+Norfair_38
+Extra - map_name: Norfair38
+Extra - room_id: 38
+----------------
+Norfair_39
+Extra - map_name: Norfair39
+Extra - room_id: 39
+----------------
+Norfair_40
+Extra - map_name: Norfair40
+Extra - room_id: 40
+----------------
+Norfair_41
+Extra - map_name: Norfair41
+Extra - room_id: 41
+----------------
+Norfair_42
+Extra - map_name: Norfair42
+Extra - room_id: 42
+----------------
+Norfair_43
+Extra - map_name: Norfair43
+Extra - room_id: 43
+----------------
+Norfair_44
+Extra - map_name: Norfair44
+Extra - room_id: 44
+----------------
+Norfair_45
+Extra - map_name: Norfair45
+Extra - room_id: 45
+----------------
+Norfair_46
+Extra - map_name: Norfair46
+Extra - room_id: 46
+----------------
+Norfair_47
+Extra - map_name: Norfair47
+Extra - room_id: 47
+----------------
+Norfair_48
+Extra - map_name: Norfair48
+Extra - room_id: 48
+----------------
+Norfair_49
+Extra - map_name: Norfair49
+Extra - room_id: 49
+----------------
+Norfair_50
+Extra - map_name: Norfair50
+Extra - room_id: 50
+----------------
+Norfair_51
+Extra - map_name: Norfair51
+Extra - room_id: 51
+----------------
+Norfair_52
+Extra - map_name: Norfair52
+Extra - room_id: 52
+----------------
+Norfair_53
+Extra - map_name: Norfair53
+Extra - room_id: 53
+----------------
+Norfair_54
+Extra - map_name: Norfair54
+Extra - room_id: 54
+----------------
+Norfair_55
+Extra - map_name: Norfair55
+Extra - room_id: 55
+----------------
+Norfair_56
+Extra - map_name: Norfair56
+Extra - room_id: 56

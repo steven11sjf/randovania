@@ -3,5 +3,182 @@
     "extra": {
         "area_id": 5
     },
-    "areas": {}
+    "areas": {
+        "Crateria_0": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria0",
+                "room_id": 0
+            },
+            "nodes": {}
+        },
+        "Crateria_1": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria1",
+                "room_id": 1
+            },
+            "nodes": {}
+        },
+        "Crateria_2": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria2",
+                "room_id": 2
+            },
+            "nodes": {}
+        },
+        "Crateria_3": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria3",
+                "room_id": 3
+            },
+            "nodes": {}
+        },
+        "Crateria_4": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria4",
+                "room_id": 4
+            },
+            "nodes": {}
+        },
+        "Crateria_5": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria5",
+                "room_id": 5
+            },
+            "nodes": {}
+        },
+        "Crateria_6": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria6",
+                "room_id": 6
+            },
+            "nodes": {}
+        },
+        "Crateria_7": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria7",
+                "room_id": 7
+            },
+            "nodes": {}
+        },
+        "Crateria_8": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria8",
+                "room_id": 8
+            },
+            "nodes": {}
+        },
+        "Crateria_9": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria9",
+                "room_id": 9
+            },
+            "nodes": {}
+        },
+        "Crateria_10": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria10",
+                "room_id": 10
+            },
+            "nodes": {}
+        },
+        "Crateria_11": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria11",
+                "room_id": 11
+            },
+            "nodes": {}
+        },
+        "Crateria_12": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria12",
+                "room_id": 12
+            },
+            "nodes": {}
+        },
+        "Crateria_13": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria13",
+                "room_id": 13
+            },
+            "nodes": {}
+        },
+        "Crateria_14": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria14",
+                "room_id": 14
+            },
+            "nodes": {}
+        },
+        "Crateria_15": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria15",
+                "room_id": 15
+            },
+            "nodes": {}
+        },
+        "Crateria_16": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria16",
+                "room_id": 16
+            },
+            "nodes": {}
+        },
+        "Crateria_17": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria17",
+                "room_id": 17
+            },
+            "nodes": {}
+        },
+        "Crateria_18": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria18",
+                "room_id": 18
+            },
+            "nodes": {}
+        },
+        "Crateria_19": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria19",
+                "room_id": 19
+            },
+            "nodes": {}
+        },
+        "Crateria_20": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria20",
+                "room_id": 20
+            },
+            "nodes": {}
+        },
+        "Crateria_21": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria21",
+                "room_id": 21
+            },
+            "nodes": {}
+        }
+    }
 }

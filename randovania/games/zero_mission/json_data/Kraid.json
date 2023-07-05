@@ -3,5 +3,342 @@
     "extra": {
         "area_id": 1
     },
-    "areas": {}
+    "areas": {
+        "Kraid_0": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid0",
+                "room_id": 0
+            },
+            "nodes": {}
+        },
+        "Kraid_1": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid1",
+                "room_id": 1
+            },
+            "nodes": {}
+        },
+        "Kraid_2": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid2",
+                "room_id": 2
+            },
+            "nodes": {}
+        },
+        "Kraid_3": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid3",
+                "room_id": 3
+            },
+            "nodes": {}
+        },
+        "Kraid_4": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid4",
+                "room_id": 4
+            },
+            "nodes": {}
+        },
+        "Kraid_5": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid5",
+                "room_id": 5
+            },
+            "nodes": {}
+        },
+        "Kraid_6": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid6",
+                "room_id": 6
+            },
+            "nodes": {}
+        },
+        "Kraid_7": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid7",
+                "room_id": 7
+            },
+            "nodes": {}
+        },
+        "Kraid_8": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid8",
+                "room_id": 8
+            },
+            "nodes": {}
+        },
+        "Kraid_9": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid9",
+                "room_id": 9
+            },
+            "nodes": {}
+        },
+        "Kraid_10": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid10",
+                "room_id": 10
+            },
+            "nodes": {}
+        },
+        "Kraid_11": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid11",
+                "room_id": 11
+            },
+            "nodes": {}
+        },
+        "Kraid_12": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid12",
+                "room_id": 12
+            },
+            "nodes": {}
+        },
+        "Kraid_13": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid13",
+                "room_id": 13
+            },
+            "nodes": {}
+        },
+        "Kraid_14": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid14",
+                "room_id": 14
+            },
+            "nodes": {}
+        },
+        "Kraid_15": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid15",
+                "room_id": 15
+            },
+            "nodes": {}
+        },
+        "Kraid_16": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid16",
+                "room_id": 16
+            },
+            "nodes": {}
+        },
+        "Kraid_17": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid17",
+                "room_id": 17
+            },
+            "nodes": {}
+        },
+        "Kraid_18": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid18",
+                "room_id": 18
+            },
+            "nodes": {}
+        },
+        "Kraid_19": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid19",
+                "room_id": 19
+            },
+            "nodes": {}
+        },
+        "Kraid_20": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid20",
+                "room_id": 20
+            },
+            "nodes": {}
+        },
+        "Kraid_21": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid21",
+                "room_id": 21
+            },
+            "nodes": {}
+        },
+        "Kraid_22": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid22",
+                "room_id": 22
+            },
+            "nodes": {}
+        },
+        "Kraid_23": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid23",
+                "room_id": 23
+            },
+            "nodes": {}
+        },
+        "Kraid_24": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid24",
+                "room_id": 24
+            },
+            "nodes": {}
+        },
+        "Kraid_25": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid25",
+                "room_id": 25
+            },
+            "nodes": {}
+        },
+        "Kraid_26": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid26",
+                "room_id": 26
+            },
+            "nodes": {}
+        },
+        "Kraid_27": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid27",
+                "room_id": 27
+            },
+            "nodes": {}
+        },
+        "Kraid_28": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid28",
+                "room_id": 28
+            },
+            "nodes": {}
+        },
+        "Kraid_29": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid29",
+                "room_id": 29
+            },
+            "nodes": {}
+        },
+        "Kraid_30": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid30",
+                "room_id": 30
+            },
+            "nodes": {}
+        },
+        "Kraid_31": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid31",
+                "room_id": 31
+            },
+            "nodes": {}
+        },
+        "Kraid_32": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid32",
+                "room_id": 32
+            },
+            "nodes": {}
+        },
+        "Kraid_33": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid33",
+                "room_id": 33
+            },
+            "nodes": {}
+        },
+        "Kraid_34": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid34",
+                "room_id": 34
+            },
+            "nodes": {}
+        },
+        "Kraid_35": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid35",
+                "room_id": 35
+            },
+            "nodes": {}
+        },
+        "Kraid_36": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid36",
+                "room_id": 36
+            },
+            "nodes": {}
+        },
+        "Kraid_37": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid37",
+                "room_id": 37
+            },
+            "nodes": {}
+        },
+        "Kraid_38": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid38",
+                "room_id": 38
+            },
+            "nodes": {}
+        },
+        "Kraid_39": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid39",
+                "room_id": 39
+            },
+            "nodes": {}
+        },
+        "Kraid_40": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid40",
+                "room_id": 40
+            },
+            "nodes": {}
+        },
+        "Kraid_41": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Kraid41",
+                "room_id": 41
+            },
+            "nodes": {}
+        }
+    }
 }

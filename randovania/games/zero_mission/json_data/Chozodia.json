@@ -3,5 +3,798 @@
     "extra": {
         "area_id": 6
     },
-    "areas": {}
+    "areas": {
+        "Chozodia_0": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia0",
+                "room_id": 0
+            },
+            "nodes": {}
+        },
+        "Chozodia_1": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia1",
+                "room_id": 1
+            },
+            "nodes": {}
+        },
+        "Chozodia_2": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia2",
+                "room_id": 2
+            },
+            "nodes": {}
+        },
+        "Chozodia_3": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia3",
+                "room_id": 3
+            },
+            "nodes": {}
+        },
+        "Chozodia_4": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia4",
+                "room_id": 4
+            },
+            "nodes": {}
+        },
+        "Chozodia_5": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia5",
+                "room_id": 5
+            },
+            "nodes": {}
+        },
+        "Chozodia_6": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia6",
+                "room_id": 6
+            },
+            "nodes": {}
+        },
+        "Chozodia_7": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia7",
+                "room_id": 7
+            },
+            "nodes": {}
+        },
+        "Chozodia_8": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia8",
+                "room_id": 8
+            },
+            "nodes": {}
+        },
+        "Chozodia_9": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia9",
+                "room_id": 9
+            },
+            "nodes": {}
+        },
+        "Chozodia_10": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia10",
+                "room_id": 10
+            },
+            "nodes": {}
+        },
+        "Chozodia_11": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia11",
+                "room_id": 11
+            },
+            "nodes": {}
+        },
+        "Chozodia_12": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia12",
+                "room_id": 12
+            },
+            "nodes": {}
+        },
+        "Chozodia_13": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia13",
+                "room_id": 13
+            },
+            "nodes": {}
+        },
+        "Chozodia_14": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia14",
+                "room_id": 14
+            },
+            "nodes": {}
+        },
+        "Chozodia_15": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia15",
+                "room_id": 15
+            },
+            "nodes": {}
+        },
+        "Chozodia_16": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia16",
+                "room_id": 16
+            },
+            "nodes": {}
+        },
+        "Chozodia_17": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia17",
+                "room_id": 17
+            },
+            "nodes": {}
+        },
+        "Chozodia_18": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia18",
+                "room_id": 18
+            },
+            "nodes": {}
+        },
+        "Chozodia_19": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia19",
+                "room_id": 19
+            },
+            "nodes": {}
+        },
+        "Chozodia_20": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia20",
+                "room_id": 20
+            },
+            "nodes": {}
+        },
+        "Chozodia_21": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia21",
+                "room_id": 21
+            },
+            "nodes": {}
+        },
+        "Chozodia_22": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia22",
+                "room_id": 22
+            },
+            "nodes": {}
+        },
+        "Chozodia_23": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia23",
+                "room_id": 23
+            },
+            "nodes": {}
+        },
+        "Chozodia_24": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia24",
+                "room_id": 24
+            },
+            "nodes": {}
+        },
+        "Chozodia_25": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia25",
+                "room_id": 25
+            },
+            "nodes": {}
+        },
+        "Chozodia_26": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia26",
+                "room_id": 26
+            },
+            "nodes": {}
+        },
+        "Chozodia_27": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia27",
+                "room_id": 27
+            },
+            "nodes": {}
+        },
+        "Chozodia_28": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia28",
+                "room_id": 28
+            },
+            "nodes": {}
+        },
+        "Chozodia_29": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia29",
+                "room_id": 29
+            },
+            "nodes": {}
+        },
+        "Chozodia_30": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia30",
+                "room_id": 30
+            },
+            "nodes": {}
+        },
+        "Chozodia_31": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia31",
+                "room_id": 31
+            },
+            "nodes": {}
+        },
+        "Chozodia_32": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia32",
+                "room_id": 32
+            },
+            "nodes": {}
+        },
+        "Chozodia_33": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia33",
+                "room_id": 33
+            },
+            "nodes": {}
+        },
+        "Chozodia_34": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia34",
+                "room_id": 34
+            },
+            "nodes": {}
+        },
+        "Chozodia_35": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia35",
+                "room_id": 35
+            },
+            "nodes": {}
+        },
+        "Chozodia_36": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia36",
+                "room_id": 36
+            },
+            "nodes": {}
+        },
+        "Chozodia_37": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia37",
+                "room_id": 37
+            },
+            "nodes": {}
+        },
+        "Chozodia_38": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia38",
+                "room_id": 38
+            },
+            "nodes": {}
+        },
+        "Chozodia_39": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia39",
+                "room_id": 39
+            },
+            "nodes": {}
+        },
+        "Chozodia_40": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia40",
+                "room_id": 40
+            },
+            "nodes": {}
+        },
+        "Chozodia_41": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia41",
+                "room_id": 41
+            },
+            "nodes": {}
+        },
+        "Chozodia_42": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia42",
+                "room_id": 42
+            },
+            "nodes": {}
+        },
+        "Chozodia_43": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia43",
+                "room_id": 43
+            },
+            "nodes": {}
+        },
+        "Chozodia_44": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia44",
+                "room_id": 44
+            },
+            "nodes": {}
+        },
+        "Chozodia_45": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia45",
+                "room_id": 45
+            },
+            "nodes": {}
+        },
+        "Chozodia_46": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia46",
+                "room_id": 46
+            },
+            "nodes": {}
+        },
+        "Chozodia_47": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia47",
+                "room_id": 47
+            },
+            "nodes": {}
+        },
+        "Chozodia_48": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia48",
+                "room_id": 48
+            },
+            "nodes": {}
+        },
+        "Chozodia_49": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia49",
+                "room_id": 49
+            },
+            "nodes": {}
+        },
+        "Chozodia_50": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia50",
+                "room_id": 50
+            },
+            "nodes": {}
+        },
+        "Chozodia_51": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia51",
+                "room_id": 51
+            },
+            "nodes": {}
+        },
+        "Chozodia_52": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia52",
+                "room_id": 52
+            },
+            "nodes": {}
+        },
+        "Chozodia_53": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia53",
+                "room_id": 53
+            },
+            "nodes": {}
+        },
+        "Chozodia_54": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia54",
+                "room_id": 54
+            },
+            "nodes": {}
+        },
+        "Chozodia_55": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia55",
+                "room_id": 55
+            },
+            "nodes": {}
+        },
+        "Chozodia_56": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia56",
+                "room_id": 56
+            },
+            "nodes": {}
+        },
+        "Chozodia_57": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia57",
+                "room_id": 57
+            },
+            "nodes": {}
+        },
+        "Chozodia_58": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia58",
+                "room_id": 58
+            },
+            "nodes": {}
+        },
+        "Chozodia_59": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia59",
+                "room_id": 59
+            },
+            "nodes": {}
+        },
+        "Chozodia_60": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia60",
+                "room_id": 60
+            },
+            "nodes": {}
+        },
+        "Chozodia_61": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia61",
+                "room_id": 61
+            },
+            "nodes": {}
+        },
+        "Chozodia_62": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia62",
+                "room_id": 62
+            },
+            "nodes": {}
+        },
+        "Chozodia_63": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia63",
+                "room_id": 63
+            },
+            "nodes": {}
+        },
+        "Chozodia_64": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia64",
+                "room_id": 64
+            },
+            "nodes": {}
+        },
+        "Chozodia_65": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia65",
+                "room_id": 65
+            },
+            "nodes": {}
+        },
+        "Chozodia_66": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia66",
+                "room_id": 66
+            },
+            "nodes": {}
+        },
+        "Chozodia_67": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia67",
+                "room_id": 67
+            },
+            "nodes": {}
+        },
+        "Chozodia_68": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia68",
+                "room_id": 68
+            },
+            "nodes": {}
+        },
+        "Chozodia_69": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia69",
+                "room_id": 69
+            },
+            "nodes": {}
+        },
+        "Chozodia_70": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia70",
+                "room_id": 70
+            },
+            "nodes": {}
+        },
+        "Chozodia_71": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia71",
+                "room_id": 71
+            },
+            "nodes": {}
+        },
+        "Chozodia_72": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia72",
+                "room_id": 72
+            },
+            "nodes": {}
+        },
+        "Chozodia_73": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia73",
+                "room_id": 73
+            },
+            "nodes": {}
+        },
+        "Chozodia_74": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia74",
+                "room_id": 74
+            },
+            "nodes": {}
+        },
+        "Chozodia_75": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia75",
+                "room_id": 75
+            },
+            "nodes": {}
+        },
+        "Chozodia_76": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia76",
+                "room_id": 76
+            },
+            "nodes": {}
+        },
+        "Chozodia_77": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia77",
+                "room_id": 77
+            },
+            "nodes": {}
+        },
+        "Chozodia_78": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia78",
+                "room_id": 78
+            },
+            "nodes": {}
+        },
+        "Chozodia_79": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia79",
+                "room_id": 79
+            },
+            "nodes": {}
+        },
+        "Chozodia_80": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia80",
+                "room_id": 80
+            },
+            "nodes": {}
+        },
+        "Chozodia_81": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia81",
+                "room_id": 81
+            },
+            "nodes": {}
+        },
+        "Chozodia_82": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia82",
+                "room_id": 82
+            },
+            "nodes": {}
+        },
+        "Chozodia_83": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia83",
+                "room_id": 83
+            },
+            "nodes": {}
+        },
+        "Chozodia_84": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia84",
+                "room_id": 84
+            },
+            "nodes": {}
+        },
+        "Chozodia_85": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia85",
+                "room_id": 85
+            },
+            "nodes": {}
+        },
+        "Chozodia_86": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia86",
+                "room_id": 86
+            },
+            "nodes": {}
+        },
+        "Chozodia_87": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia87",
+                "room_id": 87
+            },
+            "nodes": {}
+        },
+        "Chozodia_88": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia88",
+                "room_id": 88
+            },
+            "nodes": {}
+        },
+        "Chozodia_89": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia89",
+                "room_id": 89
+            },
+            "nodes": {}
+        },
+        "Chozodia_90": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia90",
+                "room_id": 90
+            },
+            "nodes": {}
+        },
+        "Chozodia_91": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia91",
+                "room_id": 91
+            },
+            "nodes": {}
+        },
+        "Chozodia_92": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia92",
+                "room_id": 92
+            },
+            "nodes": {}
+        },
+        "Chozodia_93": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia93",
+                "room_id": 93
+            },
+            "nodes": {}
+        },
+        "Chozodia_94": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia94",
+                "room_id": 94
+            },
+            "nodes": {}
+        },
+        "Chozodia_95": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia95",
+                "room_id": 95
+            },
+            "nodes": {}
+        },
+        "Chozodia_96": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia96",
+                "room_id": 96
+            },
+            "nodes": {}
+        },
+        "Chozodia_97": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia97",
+                "room_id": 97
+            },
+            "nodes": {}
+        },
+        "Chozodia_98": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia98",
+                "room_id": 98
+            },
+            "nodes": {}
+        }
+    }
 }

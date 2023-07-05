@@ -1,0 +1,168 @@
+{
+    "name": "Tourian",
+    "extra": {
+        "area_id": 4
+    },
+    "areas": {
+        "Tourian_0": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian0",
+                "room_id": 0
+            },
+            "nodes": {}
+        },
+        "Tourian_1": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian1",
+                "room_id": 1
+            },
+            "nodes": {}
+        },
+        "Tourian_2": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian2",
+                "room_id": 2
+            },
+            "nodes": {}
+        },
+        "Tourian_3": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian3",
+                "room_id": 3
+            },
+            "nodes": {}
+        },
+        "Tourian_4": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian4",
+                "room_id": 4
+            },
+            "nodes": {}
+        },
+        "Tourian_5": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian5",
+                "room_id": 5
+            },
+            "nodes": {}
+        },
+        "Tourian_6": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian6",
+                "room_id": 6
+            },
+            "nodes": {}
+        },
+        "Tourian_7": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian7",
+                "room_id": 7
+            },
+            "nodes": {}
+        },
+        "Tourian_8": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian8",
+                "room_id": 8
+            },
+            "nodes": {}
+        },
+        "Tourian_9": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian9",
+                "room_id": 9
+            },
+            "nodes": {}
+        },
+        "Tourian_10": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian10",
+                "room_id": 10
+            },
+            "nodes": {}
+        },
+        "Tourian_11": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian11",
+                "room_id": 11
+            },
+            "nodes": {}
+        },
+        "Tourian_12": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian12",
+                "room_id": 12
+            },
+            "nodes": {}
+        },
+        "Tourian_13": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian13",
+                "room_id": 13
+            },
+            "nodes": {}
+        },
+        "Tourian_14": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian14",
+                "room_id": 14
+            },
+            "nodes": {}
+        },
+        "Tourian_15": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian15",
+                "room_id": 15
+            },
+            "nodes": {}
+        },
+        "Tourian_16": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian16",
+                "room_id": 16
+            },
+            "nodes": {}
+        },
+        "Tourian_17": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian17",
+                "room_id": 17
+            },
+            "nodes": {}
+        },
+        "Tourian_18": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian18",
+                "room_id": 18
+            },
+            "nodes": {}
+        },
+        "Tourian_19": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian19",
+                "room_id": 19
+            },
+            "nodes": {}
+        }
+    }
+}

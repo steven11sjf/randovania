@@ -3,5 +3,270 @@
     "extra": {
         "area_id": 3
     },
-    "areas": {}
+    "areas": {
+        "Ridley_0": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley0",
+                "room_id": 0
+            },
+            "nodes": {}
+        },
+        "Ridley_1": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley1",
+                "room_id": 1
+            },
+            "nodes": {}
+        },
+        "Ridley_2": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley2",
+                "room_id": 2
+            },
+            "nodes": {}
+        },
+        "Ridley_3": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley3",
+                "room_id": 3
+            },
+            "nodes": {}
+        },
+        "Ridley_4": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley4",
+                "room_id": 4
+            },
+            "nodes": {}
+        },
+        "Ridley_5": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley5",
+                "room_id": 5
+            },
+            "nodes": {}
+        },
+        "Ridley_6": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley6",
+                "room_id": 6
+            },
+            "nodes": {}
+        },
+        "Ridley_7": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley7",
+                "room_id": 7
+            },
+            "nodes": {}
+        },
+        "Ridley_8": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley8",
+                "room_id": 8
+            },
+            "nodes": {}
+        },
+        "Ridley_9": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley9",
+                "room_id": 9
+            },
+            "nodes": {}
+        },
+        "Ridley_10": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley10",
+                "room_id": 10
+            },
+            "nodes": {}
+        },
+        "Ridley_11": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley11",
+                "room_id": 11
+            },
+            "nodes": {}
+        },
+        "Ridley_12": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley12",
+                "room_id": 12
+            },
+            "nodes": {}
+        },
+        "Ridley_13": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley13",
+                "room_id": 13
+            },
+            "nodes": {}
+        },
+        "Ridley_14": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley14",
+                "room_id": 14
+            },
+            "nodes": {}
+        },
+        "Ridley_15": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley15",
+                "room_id": 15
+            },
+            "nodes": {}
+        },
+        "Ridley_16": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley16",
+                "room_id": 16
+            },
+            "nodes": {}
+        },
+        "Ridley_17": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley17",
+                "room_id": 17
+            },
+            "nodes": {}
+        },
+        "Ridley_18": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley18",
+                "room_id": 18
+            },
+            "nodes": {}
+        },
+        "Ridley_19": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley19",
+                "room_id": 19
+            },
+            "nodes": {}
+        },
+        "Ridley_20": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley20",
+                "room_id": 20
+            },
+            "nodes": {}
+        },
+        "Ridley_21": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley21",
+                "room_id": 21
+            },
+            "nodes": {}
+        },
+        "Ridley_22": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley22",
+                "room_id": 22
+            },
+            "nodes": {}
+        },
+        "Ridley_23": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley23",
+                "room_id": 23
+            },
+            "nodes": {}
+        },
+        "Ridley_24": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley24",
+                "room_id": 24
+            },
+            "nodes": {}
+        },
+        "Ridley_25": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley25",
+                "room_id": 25
+            },
+            "nodes": {}
+        },
+        "Ridley_26": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley26",
+                "room_id": 26
+            },
+            "nodes": {}
+        },
+        "Ridley_27": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley27",
+                "room_id": 27
+            },
+            "nodes": {}
+        },
+        "Ridley_28": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley28",
+                "room_id": 28
+            },
+            "nodes": {}
+        },
+        "Ridley_29": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley29",
+                "room_id": 29
+            },
+            "nodes": {}
+        },
+        "Ridley_30": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley30",
+                "room_id": 30
+            },
+            "nodes": {}
+        },
+        "Ridley_31": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley31",
+                "room_id": 31
+            },
+            "nodes": {}
+        },
+        "Ridley_32": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Ridley32",
+                "room_id": 32
+            },
+            "nodes": {}
+        }
+    }
 }

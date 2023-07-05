@@ -1,0 +1,396 @@
+----------------
+Chozodia_0
+Extra - map_name: Chozodia0
+Extra - room_id: 0
+----------------
+Chozodia_1
+Extra - map_name: Chozodia1
+Extra - room_id: 1
+----------------
+Chozodia_2
+Extra - map_name: Chozodia2
+Extra - room_id: 2
+----------------
+Chozodia_3
+Extra - map_name: Chozodia3
+Extra - room_id: 3
+----------------
+Chozodia_4
+Extra - map_name: Chozodia4
+Extra - room_id: 4
+----------------
+Chozodia_5
+Extra - map_name: Chozodia5
+Extra - room_id: 5
+----------------
+Chozodia_6
+Extra - map_name: Chozodia6
+Extra - room_id: 6
+----------------
+Chozodia_7
+Extra - map_name: Chozodia7
+Extra - room_id: 7
+----------------
+Chozodia_8
+Extra - map_name: Chozodia8
+Extra - room_id: 8
+----------------
+Chozodia_9
+Extra - map_name: Chozodia9
+Extra - room_id: 9
+----------------
+Chozodia_10
+Extra - map_name: Chozodia10
+Extra - room_id: 10
+----------------
+Chozodia_11
+Extra - map_name: Chozodia11
+Extra - room_id: 11
+----------------
+Chozodia_12
+Extra - map_name: Chozodia12
+Extra - room_id: 12
+----------------
+Chozodia_13
+Extra - map_name: Chozodia13
+Extra - room_id: 13
+----------------
+Chozodia_14
+Extra - map_name: Chozodia14
+Extra - room_id: 14
+----------------
+Chozodia_15
+Extra - map_name: Chozodia15
+Extra - room_id: 15
+----------------
+Chozodia_16
+Extra - map_name: Chozodia16
+Extra - room_id: 16
+----------------
+Chozodia_17
+Extra - map_name: Chozodia17
+Extra - room_id: 17
+----------------
+Chozodia_18
+Extra - map_name: Chozodia18
+Extra - room_id: 18
+----------------
+Chozodia_19
+Extra - map_name: Chozodia19
+Extra - room_id: 19
+----------------
+Chozodia_20
+Extra - map_name: Chozodia20
+Extra - room_id: 20
+----------------
+Chozodia_21
+Extra - map_name: Chozodia21
+Extra - room_id: 21
+----------------
+Chozodia_22
+Extra - map_name: Chozodia22
+Extra - room_id: 22
+----------------
+Chozodia_23
+Extra - map_name: Chozodia23
+Extra - room_id: 23
+----------------
+Chozodia_24
+Extra - map_name: Chozodia24
+Extra - room_id: 24
+----------------
+Chozodia_25
+Extra - map_name: Chozodia25
+Extra - room_id: 25
+----------------
+Chozodia_26
+Extra - map_name: Chozodia26
+Extra - room_id: 26
+----------------
+Chozodia_27
+Extra - map_name: Chozodia27
+Extra - room_id: 27
+----------------
+Chozodia_28
+Extra - map_name: Chozodia28
+Extra - room_id: 28
+----------------
+Chozodia_29
+Extra - map_name: Chozodia29
+Extra - room_id: 29
+----------------
+Chozodia_30
+Extra - map_name: Chozodia30
+Extra - room_id: 30
+----------------
+Chozodia_31
+Extra - map_name: Chozodia31
+Extra - room_id: 31
+----------------
+Chozodia_32
+Extra - map_name: Chozodia32
+Extra - room_id: 32
+----------------
+Chozodia_33
+Extra - map_name: Chozodia33
+Extra - room_id: 33
+----------------
+Chozodia_34
+Extra - map_name: Chozodia34
+Extra - room_id: 34
+----------------
+Chozodia_35
+Extra - map_name: Chozodia35
+Extra - room_id: 35
+----------------
+Chozodia_36
+Extra - map_name: Chozodia36
+Extra - room_id: 36
+----------------
+Chozodia_37
+Extra - map_name: Chozodia37
+Extra - room_id: 37
+----------------
+Chozodia_38
+Extra - map_name: Chozodia38
+Extra - room_id: 38
+----------------
+Chozodia_39
+Extra - map_name: Chozodia39
+Extra - room_id: 39
+----------------
+Chozodia_40
+Extra - map_name: Chozodia40
+Extra - room_id: 40
+----------------
+Chozodia_41
+Extra - map_name: Chozodia41
+Extra - room_id: 41
+----------------
+Chozodia_42
+Extra - map_name: Chozodia42
+Extra - room_id: 42
+----------------
+Chozodia_43
+Extra - map_name: Chozodia43
+Extra - room_id: 43
+----------------
+Chozodia_44
+Extra - map_name: Chozodia44
+Extra - room_id: 44
+----------------
+Chozodia_45
+Extra - map_name: Chozodia45
+Extra - room_id: 45
+----------------
+Chozodia_46
+Extra - map_name: Chozodia46
+Extra - room_id: 46
+----------------
+Chozodia_47
+Extra - map_name: Chozodia47
+Extra - room_id: 47
+----------------
+Chozodia_48
+Extra - map_name: Chozodia48
+Extra - room_id: 48
+----------------
+Chozodia_49
+Extra - map_name: Chozodia49
+Extra - room_id: 49
+----------------
+Chozodia_50
+Extra - map_name: Chozodia50
+Extra - room_id: 50
+----------------
+Chozodia_51
+Extra - map_name: Chozodia51
+Extra - room_id: 51
+----------------
+Chozodia_52
+Extra - map_name: Chozodia52
+Extra - room_id: 52
+----------------
+Chozodia_53
+Extra - map_name: Chozodia53
+Extra - room_id: 53
+----------------
+Chozodia_54
+Extra - map_name: Chozodia54
+Extra - room_id: 54
+----------------
+Chozodia_55
+Extra - map_name: Chozodia55
+Extra - room_id: 55
+----------------
+Chozodia_56
+Extra - map_name: Chozodia56
+Extra - room_id: 56
+----------------
+Chozodia_57
+Extra - map_name: Chozodia57
+Extra - room_id: 57
+----------------
+Chozodia_58
+Extra - map_name: Chozodia58
+Extra - room_id: 58
+----------------
+Chozodia_59
+Extra - map_name: Chozodia59
+Extra - room_id: 59
+----------------
+Chozodia_60
+Extra - map_name: Chozodia60
+Extra - room_id: 60
+----------------
+Chozodia_61
+Extra - map_name: Chozodia61
+Extra - room_id: 61
+----------------
+Chozodia_62
+Extra - map_name: Chozodia62
+Extra - room_id: 62
+----------------
+Chozodia_63
+Extra - map_name: Chozodia63
+Extra - room_id: 63
+----------------
+Chozodia_64
+Extra - map_name: Chozodia64
+Extra - room_id: 64
+----------------
+Chozodia_65
+Extra - map_name: Chozodia65
+Extra - room_id: 65
+----------------
+Chozodia_66
+Extra - map_name: Chozodia66
+Extra - room_id: 66
+----------------
+Chozodia_67
+Extra - map_name: Chozodia67
+Extra - room_id: 67
+----------------
+Chozodia_68
+Extra - map_name: Chozodia68
+Extra - room_id: 68
+----------------
+Chozodia_69
+Extra - map_name: Chozodia69
+Extra - room_id: 69
+----------------
+Chozodia_70
+Extra - map_name: Chozodia70
+Extra - room_id: 70
+----------------
+Chozodia_71
+Extra - map_name: Chozodia71
+Extra - room_id: 71
+----------------
+Chozodia_72
+Extra - map_name: Chozodia72
+Extra - room_id: 72
+----------------
+Chozodia_73
+Extra - map_name: Chozodia73
+Extra - room_id: 73
+----------------
+Chozodia_74
+Extra - map_name: Chozodia74
+Extra - room_id: 74
+----------------
+Chozodia_75
+Extra - map_name: Chozodia75
+Extra - room_id: 75
+----------------
+Chozodia_76
+Extra - map_name: Chozodia76
+Extra - room_id: 76
+----------------
+Chozodia_77
+Extra - map_name: Chozodia77
+Extra - room_id: 77
+----------------
+Chozodia_78
+Extra - map_name: Chozodia78
+Extra - room_id: 78
+----------------
+Chozodia_79
+Extra - map_name: Chozodia79
+Extra - room_id: 79
+----------------
+Chozodia_80
+Extra - map_name: Chozodia80
+Extra - room_id: 80
+----------------
+Chozodia_81
+Extra - map_name: Chozodia81
+Extra - room_id: 81
+----------------
+Chozodia_82
+Extra - map_name: Chozodia82
+Extra - room_id: 82
+----------------
+Chozodia_83
+Extra - map_name: Chozodia83
+Extra - room_id: 83
+----------------
+Chozodia_84
+Extra - map_name: Chozodia84
+Extra - room_id: 84
+----------------
+Chozodia_85
+Extra - map_name: Chozodia85
+Extra - room_id: 85
+----------------
+Chozodia_86
+Extra - map_name: Chozodia86
+Extra - room_id: 86
+----------------
+Chozodia_87
+Extra - map_name: Chozodia87
+Extra - room_id: 87
+----------------
+Chozodia_88
+Extra - map_name: Chozodia88
+Extra - room_id: 88
+----------------
+Chozodia_89
+Extra - map_name: Chozodia89
+Extra - room_id: 89
+----------------
+Chozodia_90
+Extra - map_name: Chozodia90
+Extra - room_id: 90
+----------------
+Chozodia_91
+Extra - map_name: Chozodia91
+Extra - room_id: 91
+----------------
+Chozodia_92
+Extra - map_name: Chozodia92
+Extra - room_id: 92
+----------------
+Chozodia_93
+Extra - map_name: Chozodia93
+Extra - room_id: 93
+----------------
+Chozodia_94
+Extra - map_name: Chozodia94
+Extra - room_id: 94
+----------------
+Chozodia_95
+Extra - map_name: Chozodia95
+Extra - room_id: 95
+----------------
+Chozodia_96
+Extra - map_name: Chozodia96
+Extra - room_id: 96
+----------------
+Chozodia_97
+Extra - map_name: Chozodia97
+Extra - room_id: 97
+----------------
+Chozodia_98
+Extra - map_name: Chozodia98
+Extra - room_id: 98

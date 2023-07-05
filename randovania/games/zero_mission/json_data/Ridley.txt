@@ -1,0 +1,132 @@
+----------------
+Ridley_0
+Extra - map_name: Ridley0
+Extra - room_id: 0
+----------------
+Ridley_1
+Extra - map_name: Ridley1
+Extra - room_id: 1
+----------------
+Ridley_2
+Extra - map_name: Ridley2
+Extra - room_id: 2
+----------------
+Ridley_3
+Extra - map_name: Ridley3
+Extra - room_id: 3
+----------------
+Ridley_4
+Extra - map_name: Ridley4
+Extra - room_id: 4
+----------------
+Ridley_5
+Extra - map_name: Ridley5
+Extra - room_id: 5
+----------------
+Ridley_6
+Extra - map_name: Ridley6
+Extra - room_id: 6
+----------------
+Ridley_7
+Extra - map_name: Ridley7
+Extra - room_id: 7
+----------------
+Ridley_8
+Extra - map_name: Ridley8
+Extra - room_id: 8
+----------------
+Ridley_9
+Extra - map_name: Ridley9
+Extra - room_id: 9
+----------------
+Ridley_10
+Extra - map_name: Ridley10
+Extra - room_id: 10
+----------------
+Ridley_11
+Extra - map_name: Ridley11
+Extra - room_id: 11
+----------------
+Ridley_12
+Extra - map_name: Ridley12
+Extra - room_id: 12
+----------------
+Ridley_13
+Extra - map_name: Ridley13
+Extra - room_id: 13
+----------------
+Ridley_14
+Extra - map_name: Ridley14
+Extra - room_id: 14
+----------------
+Ridley_15
+Extra - map_name: Ridley15
+Extra - room_id: 15
+----------------
+Ridley_16
+Extra - map_name: Ridley16
+Extra - room_id: 16
+----------------
+Ridley_17
+Extra - map_name: Ridley17
+Extra - room_id: 17
+----------------
+Ridley_18
+Extra - map_name: Ridley18
+Extra - room_id: 18
+----------------
+Ridley_19
+Extra - map_name: Ridley19
+Extra - room_id: 19
+----------------
+Ridley_20
+Extra - map_name: Ridley20
+Extra - room_id: 20
+----------------
+Ridley_21
+Extra - map_name: Ridley21
+Extra - room_id: 21
+----------------
+Ridley_22
+Extra - map_name: Ridley22
+Extra - room_id: 22
+----------------
+Ridley_23
+Extra - map_name: Ridley23
+Extra - room_id: 23
+----------------
+Ridley_24
+Extra - map_name: Ridley24
+Extra - room_id: 24
+----------------
+Ridley_25
+Extra - map_name: Ridley25
+Extra - room_id: 25
+----------------
+Ridley_26
+Extra - map_name: Ridley26
+Extra - room_id: 26
+----------------
+Ridley_27
+Extra - map_name: Ridley27
+Extra - room_id: 27
+----------------
+Ridley_28
+Extra - map_name: Ridley28
+Extra - room_id: 28
+----------------
+Ridley_29
+Extra - map_name: Ridley29
+Extra - room_id: 29
+----------------
+Ridley_30
+Extra - map_name: Ridley30
+Extra - room_id: 30
+----------------
+Ridley_31
+Extra - map_name: Ridley31
+Extra - room_id: 31
+----------------
+Ridley_32
+Extra - map_name: Ridley32
+Extra - room_id: 32

@@ -297,7 +297,7 @@ Extra - room_id: 30
   * Layers: default
   * Power Beam Door to Blue-Tinted Shaft/Door to Chozo Statue Chamber
   > Event - Brinstar Corridor 2 Chozo
-      After Brinstar Corridor 2 Chozo
+      After Brinstar Corridor 2 Chozo Statue
 
 > Event - Brinstar Corridor 2 Chozo; Heals? True
   * Layers: default

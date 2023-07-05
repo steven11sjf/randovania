@@ -1,0 +1,80 @@
+----------------
+Tourian_0
+Extra - map_name: Tourian0
+Extra - room_id: 0
+----------------
+Tourian_1
+Extra - map_name: Tourian1
+Extra - room_id: 1
+----------------
+Tourian_2
+Extra - map_name: Tourian2
+Extra - room_id: 2
+----------------
+Tourian_3
+Extra - map_name: Tourian3
+Extra - room_id: 3
+----------------
+Tourian_4
+Extra - map_name: Tourian4
+Extra - room_id: 4
+----------------
+Tourian_5
+Extra - map_name: Tourian5
+Extra - room_id: 5
+----------------
+Tourian_6
+Extra - map_name: Tourian6
+Extra - room_id: 6
+----------------
+Tourian_7
+Extra - map_name: Tourian7
+Extra - room_id: 7
+----------------
+Tourian_8
+Extra - map_name: Tourian8
+Extra - room_id: 8
+----------------
+Tourian_9
+Extra - map_name: Tourian9
+Extra - room_id: 9
+----------------
+Tourian_10
+Extra - map_name: Tourian10
+Extra - room_id: 10
+----------------
+Tourian_11
+Extra - map_name: Tourian11
+Extra - room_id: 11
+----------------
+Tourian_12
+Extra - map_name: Tourian12
+Extra - room_id: 12
+----------------
+Tourian_13
+Extra - map_name: Tourian13
+Extra - room_id: 13
+----------------
+Tourian_14
+Extra - map_name: Tourian14
+Extra - room_id: 14
+----------------
+Tourian_15
+Extra - map_name: Tourian15
+Extra - room_id: 15
+----------------
+Tourian_16
+Extra - map_name: Tourian16
+Extra - room_id: 16
+----------------
+Tourian_17
+Extra - map_name: Tourian17
+Extra - room_id: 17
+----------------
+Tourian_18
+Extra - map_name: Tourian18
+Extra - room_id: 18
+----------------
+Tourian_19
+Extra - map_name: Tourian19
+Extra - room_id: 19

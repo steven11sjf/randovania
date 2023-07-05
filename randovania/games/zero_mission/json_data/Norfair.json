@@ -3,5 +3,462 @@
     "extra": {
         "area_id": 2
     },
-    "areas": {}
+    "areas": {
+        "Norfair_0": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair0",
+                "room_id": 0
+            },
+            "nodes": {}
+        },
+        "Norfair_1": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair1",
+                "room_id": 1
+            },
+            "nodes": {}
+        },
+        "Norfair_2": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair2",
+                "room_id": 2
+            },
+            "nodes": {}
+        },
+        "Norfair_3": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair3",
+                "room_id": 3
+            },
+            "nodes": {}
+        },
+        "Norfair_4": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair4",
+                "room_id": 4
+            },
+            "nodes": {}
+        },
+        "Norfair_5": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair5",
+                "room_id": 5
+            },
+            "nodes": {}
+        },
+        "Norfair_6": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair6",
+                "room_id": 6
+            },
+            "nodes": {}
+        },
+        "Norfair_7": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair7",
+                "room_id": 7
+            },
+            "nodes": {}
+        },
+        "Norfair_8": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair8",
+                "room_id": 8
+            },
+            "nodes": {}
+        },
+        "Norfair_9": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair9",
+                "room_id": 9
+            },
+            "nodes": {}
+        },
+        "Norfair_10": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair10",
+                "room_id": 10
+            },
+            "nodes": {}
+        },
+        "Norfair_11": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair11",
+                "room_id": 11
+            },
+            "nodes": {}
+        },
+        "Norfair_12": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair12",
+                "room_id": 12
+            },
+            "nodes": {}
+        },
+        "Norfair_13": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair13",
+                "room_id": 13
+            },
+            "nodes": {}
+        },
+        "Norfair_14": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair14",
+                "room_id": 14
+            },
+            "nodes": {}
+        },
+        "Norfair_15": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair15",
+                "room_id": 15
+            },
+            "nodes": {}
+        },
+        "Norfair_16": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair16",
+                "room_id": 16
+            },
+            "nodes": {}
+        },
+        "Norfair_17": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair17",
+                "room_id": 17
+            },
+            "nodes": {}
+        },
+        "Norfair_18": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair18",
+                "room_id": 18
+            },
+            "nodes": {}
+        },
+        "Norfair_19": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair19",
+                "room_id": 19
+            },
+            "nodes": {}
+        },
+        "Norfair_20": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair20",
+                "room_id": 20
+            },
+            "nodes": {}
+        },
+        "Norfair_21": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair21",
+                "room_id": 21
+            },
+            "nodes": {}
+        },
+        "Norfair_22": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair22",
+                "room_id": 22
+            },
+            "nodes": {}
+        },
+        "Norfair_23": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair23",
+                "room_id": 23
+            },
+            "nodes": {}
+        },
+        "Norfair_24": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair24",
+                "room_id": 24
+            },
+            "nodes": {}
+        },
+        "Norfair_25": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair25",
+                "room_id": 25
+            },
+            "nodes": {}
+        },
+        "Norfair_26": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair26",
+                "room_id": 26
+            },
+            "nodes": {}
+        },
+        "Norfair_27": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair27",
+                "room_id": 27
+            },
+            "nodes": {}
+        },
+        "Norfair_28": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair28",
+                "room_id": 28
+            },
+            "nodes": {}
+        },
+        "Norfair_29": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair29",
+                "room_id": 29
+            },
+            "nodes": {}
+        },
+        "Norfair_30": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair30",
+                "room_id": 30
+            },
+            "nodes": {}
+        },
+        "Norfair_31": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair31",
+                "room_id": 31
+            },
+            "nodes": {}
+        },
+        "Norfair_32": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair32",
+                "room_id": 32
+            },
+            "nodes": {}
+        },
+        "Norfair_33": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair33",
+                "room_id": 33
+            },
+            "nodes": {}
+        },
+        "Norfair_34": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair34",
+                "room_id": 34
+            },
+            "nodes": {}
+        },
+        "Norfair_35": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair35",
+                "room_id": 35
+            },
+            "nodes": {}
+        },
+        "Norfair_36": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair36",
+                "room_id": 36
+            },
+            "nodes": {}
+        },
+        "Norfair_37": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair37",
+                "room_id": 37
+            },
+            "nodes": {}
+        },
+        "Norfair_38": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair38",
+                "room_id": 38
+            },
+            "nodes": {}
+        },
+        "Norfair_39": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair39",
+                "room_id": 39
+            },
+            "nodes": {}
+        },
+        "Norfair_40": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair40",
+                "room_id": 40
+            },
+            "nodes": {}
+        },
+        "Norfair_41": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair41",
+                "room_id": 41
+            },
+            "nodes": {}
+        },
+        "Norfair_42": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair42",
+                "room_id": 42
+            },
+            "nodes": {}
+        },
+        "Norfair_43": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair43",
+                "room_id": 43
+            },
+            "nodes": {}
+        },
+        "Norfair_44": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair44",
+                "room_id": 44
+            },
+            "nodes": {}
+        },
+        "Norfair_45": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair45",
+                "room_id": 45
+            },
+            "nodes": {}
+        },
+        "Norfair_46": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair46",
+                "room_id": 46
+            },
+            "nodes": {}
+        },
+        "Norfair_47": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair47",
+                "room_id": 47
+            },
+            "nodes": {}
+        },
+        "Norfair_48": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair48",
+                "room_id": 48
+            },
+            "nodes": {}
+        },
+        "Norfair_49": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair49",
+                "room_id": 49
+            },
+            "nodes": {}
+        },
+        "Norfair_50": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair50",
+                "room_id": 50
+            },
+            "nodes": {}
+        },
+        "Norfair_51": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair51",
+                "room_id": 51
+            },
+            "nodes": {}
+        },
+        "Norfair_52": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair52",
+                "room_id": 52
+            },
+            "nodes": {}
+        },
+        "Norfair_53": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair53",
+                "room_id": 53
+            },
+            "nodes": {}
+        },
+        "Norfair_54": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair54",
+                "room_id": 54
+            },
+            "nodes": {}
+        },
+        "Norfair_55": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair55",
+                "room_id": 55
+            },
+            "nodes": {}
+        },
+        "Norfair_56": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair56",
+                "room_id": 56
+            },
+            "nodes": {}
+        }
+    }
 }
