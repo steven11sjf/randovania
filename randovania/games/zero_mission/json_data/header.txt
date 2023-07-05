@@ -2,9 +2,27 @@
 Templates
 
 * Destroy Bomb Blocks:
-      All of the following:
-          Morph Ball
-          Bombs or Power Bombs
+      Lay Bomb or Lay Power Bomb
+
+* Defeat Charge Beam Beast:
+      Any of the following:
+          Missiles ≥ 6 and Morph Ball
+          Missiles ≥ 3 and Combat (Intermediate)
+
+* Lay Bomb:
+      Bombs and Morph Ball
+
+* Lay Power Bomb:
+      Morph Ball and Power Bombs
+
+* Fire Plasma Beam:
+      Plasma Beam (Unknown Item 1) and After Ruins Test Completed
+
+* Use Space Jump:
+      Space Jump (Unknown Item 2) and After Ruins Test Completed
+
+* Gravity Suit Equipped:
+      Gravity Suit and After Ruins Test Completed
 
 ====================
 Dock Weaknesses

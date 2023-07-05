@@ -9,7 +9,9 @@ Extra - room_id: 0
   > Door to Fake Block Shaft
       Trivial
   > Shaft to Crateria
-      Bombs and Morph Ball and Power Bombs
+      Any of the following:
+          Speed Booster
+          Lay Bomb and Lay Power Bomb
 
 > Pickup (Morph Ball); Heals? False
   * Layers: default
@@ -77,7 +79,7 @@ Extra - room_id: 2
       Any of the following:
           Hi-Jump Boots or Ice Beam or Space Jump (Unknown Item 2)
           Bombs and Morph Ball
-  > Event (Long Beam hint)
+  > Event - Long Beam Hint
       Morph Ball
 
 > Pickup (Energy Tank); Heals? True
@@ -86,8 +88,9 @@ Extra - room_id: 2
   > Door to Fake Block Shaft
       Trivial
 
-> Event (Long Beam hint); Heals? False
+> Event - Long Beam Hint; Heals? True
   * Layers: default
+  * Event Brinstar Underhang Corridor Chozo Statue
   > Door to Fake Block Shaft
       Morph Ball
   > Door to Blue-Tinted Shaft
@@ -96,8 +99,8 @@ Extra - room_id: 2
 > Door to Blue-Tinted Shaft; Heals? False
   * Layers: default
   * Power Beam Door to Blue-Tinted Shaft/Door to Underhang Corridor
-  > Event (Long Beam hint)
-      Trivial
+  > Event - Long Beam Hint
+      After Brinstar Underhang Corridor Chozo Statue
 
 ----------------
 Blue-Tinted Shaft
@@ -128,7 +131,7 @@ Extra - room_id: 3
       Any of the following:
           # TODO add knowledge to get in through top hidden blocks
           Long Beam or Missiles ≥ 3 or Destroy Bomb Blocks
-  > Door to Corridor No. 2
+  > Door to Chozo Statue Chamber
       Long Beam or Screw Attack or Destroy Bomb Blocks
   > Tunnel to Hidden Tank Shaft (Top)
       Wall Jumps (Beginner) and Destroy Bomb Blocks
@@ -141,9 +144,9 @@ Extra - room_id: 3
           # TODO add knowledge for shooting out the top blocks without long
           Long Beam or Missiles ≥ 3 or Destroy Bomb Blocks
 
-> Door to Corridor No. 2; Heals? False
+> Door to Chozo Statue Chamber; Heals? False
   * Layers: default
-  * Power Beam Door to Corridor No. 2/Door to Blue-Tinted Shaft
+  * Power Beam Door to Chozo Statue Chamber/Door to Blue-Tinted Shaft
   > Door to Long Beam Corridor
       Trivial
 
@@ -255,7 +258,7 @@ Extra - room_id: 9
   * Access Open to Cave Shaft/Dock to Corridor No. 2
   > Door to Entrance to Tourian
       Morph Ball
-  > Door to Blue-Tinted Shaft
+  > Door to Chozo Statue Chamber
       Morph Ball
 
 > Door to Entrance to Tourian; Heals? False
@@ -264,9 +267,9 @@ Extra - room_id: 9
   > Dock to Cave Shaft
       Morph Ball
 
-> Door to Blue-Tinted Shaft; Heals? False
+> Door to Chozo Statue Chamber; Heals? False
   * Layers: default
-  * Power Beam Door to Blue-Tinted Shaft/Door to Corridor No. 2
+  * Power Beam Door to Chozo Statue Chamber/Door to Corridor No. 2
   > Dock to Cave Shaft
       Morph Ball
 
@@ -290,6 +293,26 @@ Extra - room_id: 10
 Chozo Statue Chamber
 Extra - map_name: Brinstar30
 Extra - room_id: 30
+> Door to Blue-Tinted Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Blue-Tinted Shaft/Door to Chozo Statue Chamber
+  > Event - Brinstar Corridor 2 Chozo
+      After Brinstar Corridor 2 Chozo
+
+> Event - Brinstar Corridor 2 Chozo; Heals? True
+  * Layers: default
+  * Event Brinstar Corridor 2 Chozo Statue
+  > Door to Blue-Tinted Shaft
+      Trivial
+  > Door to Corridor No. 2
+      Trivial
+
+> Door to Corridor No. 2; Heals? False
+  * Layers: default
+  * Power Beam Door to Corridor No. 2/Door to Chozo Statue Chamber
+  > Event - Brinstar Corridor 2 Chozo
+      Trivial
+
 ----------------
 Vestibule
 Extra - map_name: Brinstar6
@@ -320,6 +343,8 @@ Extra - room_id: 7
   > Door to Save Room 2
       Morph Ball
   > Door to Mero Corridor
+      Trivial
+  > Door to Four Pipes Corridor
       Trivial
 
 > Tunnel to Sloped Alcove; Heals? False
@@ -352,7 +377,13 @@ Extra - room_id: 7
 
 > Door to Mero Corridor; Heals? False
   * Layers: default
-  * Power Beam Door to Mero Corridor/Door to Gold-Colored Shaft
+  * Missile Door to Mero Corridor/Door to Gold-Colored Shaft
+  > Door to Vestibule
+      Trivial
+
+> Door to Four Pipes Corridor; Heals? False
+  * Layers: default
+  * Power Beam Door to Four Pipes Corridor/Door to Gold-Colored Shaft
   > Door to Vestibule
       Trivial
 
@@ -378,11 +409,46 @@ Extra - room_id: 12
 > Door to Gold-Colored Shaft; Heals? False
   * Layers: default
   * Power Beam Door to Gold-Colored Shaft/Door to Corridor No. 5
+  > Pickup (Charge Beam Beast)
+      Defeat Charge Beam Beast
+  > Pickup (Missile Tank)
+      Trivial
+
+> Pickup (Charge Beam Beast); Heals? False
+  * Layers: default
+  * Pickup 8; Category? Major
+  > Door to Gold-Colored Shaft
+      Trivial
+
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 9; Category? Minor
+  > Door to Gold-Colored Shaft
+      Trivial
+  > Door to Transport to Norfair
+      Destroy Bomb Blocks
+
+> Door to Transport to Norfair; Heals? False
+  * Layers: default
+  * Power Beam Door to Transport to Norfair/Door to Corridor No. 5
+  > Pickup (Missile Tank)
+      Destroy Bomb Blocks
 
 ----------------
 Transport to Norfair
 Extra - map_name: Brinstar26
 Extra - room_id: 26
+> Door to Corridor No. 5; Heals? False
+  * Layers: default
+  * Power Beam Door to Corridor No. 5/Door to Transport to Norfair
+  > Elevator to Norfair
+      Trivial
+
+> Elevator to Norfair; Heals? False
+  * Layers: default
+  > Door to Corridor No. 5
+      Trivial
+
 ----------------
 Sloped Alcove
 Extra - map_name: Brinstar29
@@ -409,10 +475,44 @@ Extra - room_id: 29
 Four Pipes Corridor
 Extra - map_name: Brinstar28
 Extra - room_id: 28
+> Door to Corridor-Connecting Room; Heals? False
+  * Layers: default
+  * Power Beam Door to Corridor-Connecting Room/Door to Four Pipes Corridor
+  > Door to Gold-Colored Shaft
+      Destroy Bomb Blocks
+
+> Door to Gold-Colored Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Gold-Colored Shaft/Door to Four Pipes Corridor
+  > Door to Corridor-Connecting Room
+      Destroy Bomb Blocks
+
 ----------------
 Corridor-Connecting Room
 Extra - map_name: Brinstar22
 Extra - room_id: 22
+> Door to Acid Tanglevine Fruit Corridor; Heals? False
+  * Layers: default
+  * Power Beam Door to Acid Tanglevine Fruit Corridor/Door to Corridor-Connecting Room
+  > Door to Four Pipes Corridor
+      Trivial
+
+> Door to Four Pipes Corridor; Heals? False
+  * Layers: default
+  * Power Beam Door to Four Pipes Corridor/Door to Corridor-Connecting Room
+  > Door to Acid Tanglevine Fruit Corridor
+      Trivial
+  > Door to Varia Suit Corridor
+      Any of the following:
+          Hi-Jump Boots
+          Infinite Bomb Jump (Advanced) and Lay Bomb
+
+> Door to Varia Suit Corridor; Heals? False
+  * Layers: default
+  * Power Beam Door to Varia Suit Corridor/Door to Corridor-Connecting Room
+  > Door to Four Pipes Corridor
+      Trivial
+
 ----------------
 Save Room 3
 Extra - map_name: Brinstar39
@@ -421,34 +521,191 @@ Extra - room_id: 39
 Varia Suit Corridor
 Extra - map_name: Brinstar23
 Extra - room_id: 23
+> Door to Corridor-Connecting Room; Heals? False
+  * Layers: default
+  * Power Beam Door to Corridor-Connecting Room/Door to Varia Suit Corridor
+  > Door to Varia Suit Room
+      All of the following:
+          Morph Ball
+          Any of the following:
+              Power Grip
+              All of the following:
+                  # TODO test
+                  Bombs and Infinite Bomb Jump (Beginner)
+  > Pickup (Energy Tank)
+      Any of the following:
+          Destroy Bomb Blocks
+          Long Beam and Morph Ball
+
+> Door to Varia Suit Room; Heals? False
+  * Layers: default
+  * Missile Door to Varia Suit Room/Door to Varia Suit Corridor
+  > Door to Corridor-Connecting Room
+      Trivial
+
+> Pickup (Energy Tank); Heals? False
+  * Layers: default
+  * Pickup 17; Category? Minor
+  > Door to Corridor-Connecting Room
+      Destroy Bomb Blocks
+
 ----------------
 Varia Suit Room
 Extra - map_name: Brinstar27
 Extra - room_id: 27
+> Door to Varia Suit Corridor; Heals? False
+  * Layers: default
+  * Missile Door to Varia Suit Corridor/Door to Varia Suit Room
+  > Pickup (Varia Suit)
+      Trivial
+
+> Pickup (Varia Suit); Heals? False
+  * Layers: default
+  * Pickup 18; Category? Major
+  > Door to Varia Suit Corridor
+      Trivial
+
 ----------------
 Brinstar End Shaft
 Extra - map_name: Brinstar20
 Extra - room_id: 20
+> Door to Corridor No. 4; Heals? False
+  * Layers: default
+  * Power Beam Door to Corridor No. 4/Door to Brinstar End Shaft
+  > Door to Map Room
+      Trivial
+  > Door to Short Shaft
+      Trivial
+
+> Door to Map Room; Heals? False
+  * Layers: default
+  * Missile Door to Map Room/Door to Brinstar End Shaft
+  > Door to Corridor No. 4
+      Trivial
+
+> Door to Short Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Short Shaft/Door to Brinstar End Shaft
+  > Door to Corridor No. 4
+      Trivial
+  > Door to Corridor 5 Chozo Statue Room
+      Any of the following:
+          Ice Beam or Use Space Jump
+          Bombs and Infinite Bomb Jump (Advanced)
+          All of the following:
+              # TODO test: speedboost from save station, climb to second platform and spark up
+              Speed Booster and Shinespark (Intermediate)
+
+> Door to Corridor 5 Chozo Statue Room; Heals? False
+  * Layers: default
+  * Power Beam Door to Corridor 5 Chozo Statue Room/Door to Brinstar End Shaft
+  > Door to Short Shaft
+      Trivial
+
 ----------------
 Map Room
 Extra - map_name: Brinstar32
 Extra - room_id: 32
+> Door to Brinstar End Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Brinstar End Shaft/Door to Map Room
+  > Map Station
+      Trivial
+
+> Map Station; Heals? False
+  * Layers: default
+  > Door to Brinstar End Shaft
+      Trivial
+
 ----------------
 Short Shaft
 Extra - map_name: Brinstar31
 Extra - room_id: 31
+> Door to Brinstar End Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Brinstar End Shaft/Door to Short Shaft
+  > Door to Save Room 4
+      Trivial
+
+> Door to Save Room 4; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Room 4/Door to Short Shaft
+  > Door to Brinstar End Shaft
+      Trivial
+  > Door to Bomb Access Corridor
+      Trivial
+
+> Door to Bomb Access Corridor; Heals? False
+  * Layers: default
+  * Power Beam Door to Bomb Access Corridor/Door to Short Shaft
+  > Door to Save Room 4
+      Trivial
+
 ----------------
 Save Room 4
 Extra - map_name: Brinstar33
 Extra - room_id: 3
+> Door to Short Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Short Shaft/Door to Save Room 4
+  > Save Station
+      Trivial
+
+> Save Station; Heals? False
+  * Layers: default
+  > Door to Short Shaft
+      Trivial
+
 ----------------
 Bomb Access Corridor
 Extra - map_name: Brinstar24
 Extra - room_id: 24
+> Door to Short Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Short Shaft/Door to Bomb Access Corridor
+  > Door to Bomb Room
+      Morph Ball
+
+> Door to Bomb Room; Heals? False
+  * Layers: default
+  * Missile Door to Bomb Room/Door to Bomb Access Corridor
+  > Door to Short Shaft
+      Destroy Bomb Blocks
+
 ----------------
 Bomb Room
 Extra - map_name: Brinstar25
 Extra - room_id: 25
+> Door to Bomb Access Corridor; Heals? False
+  * Layers: default
+  * Missile Door to Bomb Access Corridor/Door to Bomb Room
+  > Pickup (Bombs)
+      Trivial
+
+> Pickup (Bombs); Heals? True
+  * Layers: default
+  * Pickup 14; Category? Major
+  > Door to Bomb Access Corridor
+      Trivial
+  > Pickup (Missile Tank)
+      Any of the following:
+          Lay Bomb
+          All of the following:
+              Lay Power Bomb
+              Hi-Jump Boots or Power Grip
+
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 15; Category? Minor
+  > Pickup (Bombs)
+      Any of the following:
+          Lay Bomb
+          All of the following:
+              Lay Power Bomb
+              Any of the following:
+                  # TODO test power grip to see if you can grab that
+                  Hi-Jump Boots or Power Grip
+
 ----------------
 Hidden Tank Shaft
 Extra - map_name: Brinstar41
@@ -541,14 +798,66 @@ Extra - room_id: 40
 Corridor No. 4
 Extra - map_name: Brinstar19
 Extra - room_id: 19
+> Door to Cavernous Hall Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Cavernous Hall Access/Door to Corridor No. 4
+  > Pickup (Missile Tank)
+      Trivial
+  > Pickup (Energy Tank)
+      Trivial
+
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 12; Category? Minor
+  > Door to Cavernous Hall Access
+      Trivial
+
+> Pickup (Energy Tank); Heals? False
+  * Layers: default
+  * Pickup 13; Category? Minor
+  > Door to Cavernous Hall Access
+      Trivial
+  > Door to Brinstar End Shaft
+      Trivial
+
+> Door to Brinstar End Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Brinstar End Shaft/Door to Corridor No. 4
+  > Pickup (Energy Tank)
+      Trivial
+
 ----------------
 Cavernous Hall
 Extra - map_name: Brinstar17
 Extra - room_id: 17
+> Door to Cavernous Hall Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Cavernous Hall Access/Door to Cavernous Hall
+  > Door to Second Guide Chamber
+      Trivial
+
+> Door to Second Guide Chamber; Heals? False
+  * Layers: default
+  * Missile Door to Second Guide Chamber/Door to Cavernous Hall
+  > Door to Cavernous Hall Access
+      Trivial
+
 ----------------
 Second Guide Chamber
 Extra - map_name: Brinstar18
 Extra - room_id: 18
+> Door to Cavernous Hall; Heals? False
+  * Layers: default
+  * Missile Door to Cavernous Hall/Door to Second Guide Chamber
+  > Hint (Ice Beam)
+      Trivial
+
+> Hint (Ice Beam); Heals? True
+  * Layers: default
+  * Hint
+  > Door to Cavernous Hall
+      Trivial
+
 ----------------
 Transport to Tourian
 Extra - map_name: Brinstar11
@@ -570,25 +879,180 @@ Extra - map_name: Brinstar13
 Extra - room_id: 13
 > Door to Gold-Colored Shaft; Heals? False
   * Layers: default
-  * Power Beam Door to Gold-Colored Shaft/Door to Mero Corridor
+  * Missile Door to Gold-Colored Shaft/Door to Mero Corridor
+  > Door to Mero Fake Block Shaft
+      Trivial
+
+> Door to Mero Fake Block Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Mero Fake Block Shaft/Door to Mero Corridor
+  > Door to Gold-Colored Shaft
+      Trivial
 
 ----------------
 Mero Fake Block Shaft
 Extra - map_name: Brinstar14
 Extra - room_id: 14
+> Door to Mero Corridor; Heals? False
+  * Layers: default
+  * Power Beam Door to Mero Corridor/Door to Mero Fake Block Shaft
+  > Pickup (Missile Tank)
+      All of the following:
+          Destroy Bomb Blocks
+          Hi-Jump Boots or Power Grip or Infinite Bomb Jump (Advanced)
+  > Door to Mero Hive Room
+      Trivial
+
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 10; Category? Minor
+  > Door to Mero Corridor
+      Destroy Bomb Blocks
+
+> Door to Mero Hive Room; Heals? False
+  * Layers: default
+  * Power Beam Door to Mero Hive Room/Door to Mero Fake Block Shaft
+  > Door to Mero Corridor
+      Trivial
+
 ----------------
 Mero Hive Room
 Extra - map_name: Brinstar15
 Extra - room_id: 15
+> Door to Mero Fake Block Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Mero Fake Block Shaft/Door to Mero Hive Room
+  > Pickup (Missile Tank)
+      All of the following:
+          Knowledge (Beginner)
+          Any of the following:
+              Long Beam or Missiles ≥ 25 or Lay Power Bomb
+              Missiles ≥ 10 and Combat (Advanced)
+  > Door to Cavernous Hall Access
+      Any of the following:
+          Long Beam or Missiles ≥ 25 or Lay Power Bomb
+          All of the following:
+              # This strat is very inconsistent and depends on fly patterns
+              Missiles ≥ 10 and Combat (Hypermode)
+
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 11; Category? Minor
+  > Door to Mero Fake Block Shaft
+      Trivial
+
+> Door to Cavernous Hall Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Cavernous Hall Access/Door to Mero Hive Room
+  > Door to Mero Fake Block Shaft
+      Any of the following:
+          Long Beam or Missiles ≥ 25 or Lay Power Bomb
+          All of the following:
+              # This strat is very inconsistent and depends on fly patterns
+              Missiles ≥ 10 and Combat (Hypermode)
+
 ----------------
-Path to Cavernous Chamber
+Cavernous Hall Access
 Extra - map_name: Brinstar16
 Extra - room_id: 16
+> Door to Mero Hive Room; Heals? False
+  * Layers: default
+  * Power Beam Door to Mero Hive Room/Door to Cavernous Hall Access
+  > Door to Cavernous Hall
+      Destroy Bomb Blocks
+  > Door to Corridor No. 4
+      Trivial
+
+> Door to Cavernous Hall; Heals? False
+  * Layers: default
+  * Power Beam Door to Cavernous Hall/Door to Cavernous Hall Access
+  > Door to Mero Hive Room
+      Destroy Bomb Blocks
+
+> Door to Corridor No. 4; Heals? False
+  * Layers: default
+  * Power Beam Door to Corridor No. 4/Door to Cavernous Hall Access
+  > Door to Mero Hive Room
+      Trivial
+
 ----------------
 Acid Tanglevine Fruit Corridor
 Extra - map_name: Brinstar21
 Extra - room_id: 21
+> Tunnel to Corridor 5 Chozo Statue Room (Top); Heals? False
+  * Layers: default
+  * Tunnel to Corridor 5 Chozo Statue Room/Tunnel to Acid Tanglevine Fruit Corridor (Top)
+  > Pickup (Missile Tank)
+      Morph Ball
+
+> Tunnel to Corridor 5 Chozo Statue Room (Bottom); Heals? False
+  * Layers: default
+  * Tunnel to Corridor 5 Chozo Statue Room/Tunnel to Acid Tanglevine Fruit Corridor (Bottom)
+  > Event - Brinstar Acid Fruit
+      After Brinstar Acid Tanglefruit Destroyed
+
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 16; Category? Minor
+  > Tunnel to Corridor 5 Chozo Statue Room (Top)
+      Morph Ball
+  > Event - Brinstar Acid Fruit
+      All of the following:
+          # Safe vanilla way, has acid protection, morph and can destroy parasites if needed
+          Varia Suit and Destroy Bomb Blocks
+  > Door to Corridor-Connecting Room
+      Trivial
+
+> Event - Brinstar Acid Fruit; Heals? False
+  * Layers: default
+  * Event Brinstar Acid Tanglefruit Destroyed
+  > Tunnel to Corridor 5 Chozo Statue Room (Bottom)
+      Trivial
+  > Pickup (Missile Tank)
+      Any of the following:
+          Destroy Bomb Blocks
+          Long Beam and Morph Ball and Wall Jumps (Beginner)
+
+> Door to Corridor-Connecting Room; Heals? False
+  * Layers: default
+  * Power Beam Door to Corridor-Connecting Room/Door to Acid Tanglevine Fruit Corridor
+  > Pickup (Missile Tank)
+      Trivial
+
 ----------------
-Corridor 5 Chozo Statue
+Corridor 5 Chozo Statue Room
 Extra - map_name: Brinstar38
 Extra - room_id: 38
+> Door to Brinstar End Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Brinstar End Shaft/Door to Corridor 5 Chozo Statue Room
+  > Hint (Chozo Statue)
+      After Brinstar Corridor 5 Chozo Statue
+  > Tunnel to Acid Tanglevine Fruit Corridor (Bottom)
+      Morph Ball and Varia Suit
+
+> Hint (Chozo Statue); Heals? False
+  * Layers: default
+  > Door to Brinstar End Shaft
+      Trivial
+  > Tunnel to Acid Tanglevine Fruit Corridor (Top)
+      Morph Ball and After Brinstar Corridor 5 Chozo Statue
+
+> Tunnel to Acid Tanglevine Fruit Corridor (Top); Heals? False
+  * Layers: default
+  * Tunnel to Acid Tanglevine Fruit Corridor/Tunnel to Corridor 5 Chozo Statue Room (Top)
+  > Event - Brinstar Corridor 5 Chozo Statue
+      Morph Ball
+
+> Tunnel to Acid Tanglevine Fruit Corridor (Bottom); Heals? False
+  * Layers: default
+  * Tunnel to Acid Tanglevine Fruit Corridor/Tunnel to Corridor 5 Chozo Statue Room (Bottom)
+  > Door to Brinstar End Shaft
+      Trivial
+
+> Event - Brinstar Corridor 5 Chozo Statue; Heals? False
+  * Layers: default
+  * Event Brinstar Corridor 5 Chozo Statue
+  > Hint (Chozo Statue)
+      Trivial
+
