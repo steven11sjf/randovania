@@ -1,0 +1,44 @@
+====================
+Templates
+
+* Destroy Bomb Blocks:
+      All of the following:
+          Morph Ball
+          Bombs or Power Bombs
+
+====================
+Dock Weaknesses
+
+> Door
+  * Power Beam Door
+      Open:
+          Trivial
+      No lock
+
+
+  * Missile Door
+      Open:
+          Trivial
+      Lock type: FRONT_BLAST_BACK_FREE_UNLOCK
+          Missiles ≥ 5 or Super Missiles
+
+  > Dock Rando: Disabled
+
+
+> Dock
+  * Access Open
+      Open:
+          Trivial
+      No lock
+
+  > Dock Rando: Disabled
+
+
+> Tunnel
+  * Tunnel
+      Open:
+          Trivial
+      No lock
+
+  > Dock Rando: Disabled
+

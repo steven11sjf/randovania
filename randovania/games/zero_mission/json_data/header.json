@@ -100,10 +100,73 @@
             }
         },
         "events": {
-
+            "VictoryEvent": {
+                "long_name": "Victory Event",
+                "extra": ""
+            },
+            "KraidDefeated": {
+                "long_name": "Kraid Defeated",
+                "extra": {}
+            },
+            "RidleyDefeated": {
+                "long_name": "Ridley Defeated",
+                "extra": {}
+            },
+            "MotherBrainDefeated": {
+                "long_name": "Mother Brain Defeated",
+                "extra": {}
+            },
+            "RuinsTestCompleted": {
+                "long_name": "Ruins Test Completed",
+                "extra": {}
+            }
         },
         "tricks": {
-
+            "WallJump": {
+                "long_name": "Wall Jumps",
+                "description": "By spin jumping against a wall, reversing the direction of the D-Pad, and pressing jump again, the player can perform a wall jump. Although an intentional mechanic, this technique is treated as a trick to make the randomizer more accessible.",
+                "extra": {}
+            },
+            "Shinespark": {
+                "long_name": "Shinespark",
+                "description": "By building a speed boost and crouching, Samus can store the Speed Booster's immense energy, and pressing the jump button allows her to release it all at once, flying through the air. Although an intentional mechanic, this technique is treated as a trick to make the randomizer more accessible.",
+                "extra": {}
+            },
+            "HeatRuns": {
+                "long_name": "Heat Runs",
+                "description": "Although the volcanic Norfair is perilous, it is still entirely possible to brave its heat without the Varia suit. Heat Running is the act of traversing heated rooms without protection.",
+                "extra": {}
+            },
+            "IBA": {
+                "long_name": "Ice Beam Abuse",
+                "description": "Using the Ice Beam to freeze enemies opens many possibilities for traversal, some unintentional. Well-placed frozen enemies can be used to reach high places or clip through thin ceilings.",
+                "extra": {}
+            },
+            "IBJ": {
+                "long_name": "Infinite Bomb Jump",
+                "description": "By timing bombs precisely, the player can ride their blasts to gain an infinite amount of height.",
+                "extra": {}
+            },
+            "DBoost": {
+                "long_name": "Damage Boosting",
+                "description": "When Samus takes damage from physical sources, like spikes and enemies, she receives a small knockback away from the enemy. However, by carefully manipulating inputs, a player can use this boost to send Samus flying across rooms.",
+                "extra": {}
+            },
+            "Movement": {
+                "long_name": "Movement",
+                "description": "Covers general movement skills the player can use to optimize their movement.",
+                "extra": {}
+            },
+            "Knowledge": {
+                "long_name": "Knowledge",
+                "description": "Covers a number of tricks which require little to no skill from the player except to know that they exist. ",
+                "extra": {}
+            },
+            "Combat": {
+                "long_name": "Combat",
+                "description": "Encapsulates a number of more specific tricks related to combat, as well as the player's general skill in dealing damage without taking it. Dictates how many resources the player is expected to have for fights, and whether certain techniques are considered to be in logic.",
+                "extra": {}
+            }
         },
         "damage": {
             "Damage": {
@@ -129,11 +192,51 @@
                 "extra": {}
             }
         },
-        "misc": {
-
-        },
-        "requirement_templates": {
-
+        "misc": {},
+        "requirement_template": {
+            "Destroy Bomb Blocks": {
+                "type": "and",
+                "data": {
+                    "comment": null,
+                    "items": [
+                        {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "Morph Ball",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        {
+                            "type": "or",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Bombs",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Power Bombs",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
         },
         "damage_reductions": [],
         "energy_tank_item_index": "Energy Tank"
@@ -143,7 +246,7 @@
     ],
     "starting_location": {
         "region": "Brinstar",
-        "area": "Intro Room",
+        "area": "Corridor No. 1",
         "node": "Spawn Point"
     },
     "initial_states": {
@@ -154,5 +257,151 @@
         "custom_item_amount": [],
         "events_to_exclude": [],
         "description": "Nothing is checked."
-    }
+    },
+    "victory_condition": {
+        "type": "and",
+        "data": {
+            "comment": null,
+            "items": [
+                {
+                    "type": "resource",
+                    "data": {
+                        "type": "events",
+                        "name": "VictoryEvent",
+                        "amount": 1,
+                        "negate": false
+                    }
+                }
+            ]
+        }
+    },
+    "dock_weakness_database": {
+        "types": {
+            "door": {
+                "name": "Door",
+                "extra": {},
+                "items": {
+                    "Power Beam Door": {
+                        "extra": {},
+                        "requirement": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "lock": null
+                    },
+                    "Missile Door": {
+                        "extra": {},
+                        "requirement": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "lock": {
+                            "lock_type": "front-blast-back-free-unlock",
+                            "requirement": {
+                                "type": "or",
+                                "data": {
+                                    "comment": null,
+                                    "items": [
+                                        {
+                                            "type": "resource",
+                                            "data": {
+                                                "type": "items",
+                                                "name": "Missiles",
+                                                "amount": 5,
+                                                "negate": false
+                                            }
+                                        },
+                                        {
+                                            "type": "resource",
+                                            "data": {
+                                                "type": "items",
+                                                "name": "Super Missiles",
+                                                "amount": 1,
+                                                "negate": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "dock_rando": {
+                    "unlocked": null,
+                    "locked": null,
+                    "change_from": [],
+                    "change_to": []
+                }
+            },
+            "dock": {
+                "name": "Dock",
+                "extra": {},
+                "items": {
+                    "Access Open": {
+                        "extra": {},
+                        "requirement": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "lock": null
+                    }
+                },
+                "dock_rando": {
+                    "unlocked": null,
+                    "locked": null,
+                    "change_from": [],
+                    "change_to": []
+                }
+            },
+            "tunnel": {
+                "name": "Tunnel",
+                "extra": {},
+                "items": {
+                    "Tunnel": {
+                        "extra": {},
+                        "requirement": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "lock": null
+                    }
+                },
+                "dock_rando": {
+                    "unlocked": null,
+                    "locked": null,
+                    "change_from": [],
+                    "change_to": []
+                }
+            }
+        },
+        "default_weakness": {
+            "type": "door",
+            "name": "Power Beam Door"
+        },
+        "dock_rando": {
+            "force_change_two_way": false,
+            "resolver_attempts": 125,
+            "to_shuffle_proportion": 1.0
+        }
+    },
+    "regions": [
+        "Brinstar.json",
+        "Chozodia.json",
+        "Crateria.json",
+        "Kraid.json",
+        "Norfair.json",
+        "Ridley.json"
+    ]
 }

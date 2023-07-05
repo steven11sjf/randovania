@@ -1,0 +1,3345 @@
+{
+    "name": "Brinstar",
+    "extra": {
+        "area_id": 0
+    },
+    "areas": {
+        "Corridor No. 1": {
+            "default_node": "Spawn Point",
+            "extra": {
+                "map_name": "Brinstar0",
+                "room_id": 0
+            },
+            "nodes": {
+                "Spawn Point": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 631.3605989326454,
+                        "y": 234.98960467410274,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": true,
+                    "connections": {
+                        "Pickup (Morph Ball)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Door to Fake Block Shaft": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Shaft to Crateria": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Morph Ball",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Bombs",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Power Bombs",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Pickup (Morph Ball)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 166.01,
+                        "y": 248.87,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 0,
+                    "location_category": "major",
+                    "connections": {
+                        "Spawn Point": {
+                            "type": "or",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Morph Ball",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Space Jump",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Door to Fake Block Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 1185.5704119266534,
+                        "y": 257.7897511817568,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Fake Block Shaft",
+                        "node": "Door to Corridor No. 1"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Spawn Point": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Shaft to Crateria": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 624.54,
+                        "y": 671.19,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Spawn Point": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Fake Block Shaft": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar1",
+                "room_id": 1
+            },
+            "nodes": {
+                "Door to Corridor No. 1": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 59.67,
+                        "y": 594.72,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Corridor No. 1",
+                        "node": "Door to Fake Block Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Underhang Corridor": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Door to Transport to Kraid": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Morph Ball",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Bombs",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Power Bombs",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Door to Underhang Corridor": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 242.85,
+                        "y": 592.8,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Underhang Corridor",
+                        "node": "Door to Fake Block Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Corridor No. 1": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Door to Transport to Kraid": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 243.82,
+                        "y": 93.39,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Transport to Kraid",
+                        "node": "Door to Fake Block Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Corridor No. 1": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Morph Ball",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Bombs",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Power Bombs",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Pickup (Missile Tank)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Morph Ball",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Bombs",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Speed Booster",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Pickup (Missile Tank)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 212.73,
+                        "y": 743.4,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 1,
+                    "location_category": "minor",
+                    "connections": {
+                        "Door to Corridor No. 1": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Underhang Corridor": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar2",
+                "room_id": 2
+            },
+            "nodes": {
+                "Door to Fake Block Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 56.2,
+                        "y": 112.51,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Fake Block Shaft",
+                        "node": "Door to Underhang Corridor"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Pickup (Energy Tank)": {
+                            "type": "or",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Ice Beam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Hi-Jump",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Space Jump",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "and",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Morph Ball",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Bombs",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Event (Long Beam hint)": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "Morph Ball",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
+                },
+                "Pickup (Energy Tank)": {
+                    "node_type": "pickup",
+                    "heal": true,
+                    "coordinates": {
+                        "x": 453.08,
+                        "y": 185.92,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 2,
+                    "location_category": "minor",
+                    "connections": {
+                        "Door to Fake Block Shaft": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Event (Long Beam hint)": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 840.9056287926345,
+                        "y": 91.644277045407,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Fake Block Shaft": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "Morph Ball",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        "Door to Blue-Tinted Shaft": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Door to Blue-Tinted Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 963.04,
+                        "y": 113.07,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Blue-Tinted Shaft",
+                        "node": "Door to Underhang Corridor"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Event (Long Beam hint)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Blue-Tinted Shaft": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar3",
+                "room_id": 3
+            },
+            "nodes": {
+                "Door to Underhang Corridor": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 59.6,
+                        "y": 116.33,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Underhang Corridor",
+                        "node": "Door to Blue-Tinted Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Save Room 1": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Door to Long Beam Corridor": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Tunnel to Hidden Tank Shaft (Top)": {
+                            "type": "template",
+                            "data": "Destroy Bomb Blocks"
+                        }
+                    }
+                },
+                "Door to Save Room 1": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 244.46,
+                        "y": 106.7,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Save Room 1",
+                        "node": "Door to Blue-Tinted Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Underhang Corridor": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Door to Long Beam Corridor": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 59.94,
+                        "y": 1549.55,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Long Beam Corridor",
+                        "node": "Door to Blue-Tinted Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Underhang Corridor": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Door to Vestibule": {
+                            "type": "or",
+                            "data": {
+                                "comment": "TODO add knowledge to get in through top hidden blocks",
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Long Beam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Missiles",
+                                            "amount": 3,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Destroy Bomb Blocks"
+                                    }
+                                ]
+                            }
+                        },
+                        "Door to Corridor No. 2": {
+                            "type": "or",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Long Beam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Destroy Bomb Blocks"
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Screw Attack",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Tunnel to Hidden Tank Shaft (Top)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "tricks",
+                                            "name": "WallJump",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Destroy Bomb Blocks"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Door to Vestibule": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 246.03,
+                        "y": 1233.84,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Vestibule",
+                        "node": "Door to Blue-Tinted Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Long Beam Corridor": {
+                            "type": "or",
+                            "data": {
+                                "comment": "TODO add knowledge for shooting out the top blocks without long",
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Long Beam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Missiles",
+                                            "amount": 3,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Destroy Bomb Blocks"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Door to Corridor No. 2": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 58.12,
+                        "y": 2030.84,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Corridor No. 2",
+                        "node": "Door to Blue-Tinted Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Long Beam Corridor": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Tunnel to Sloped Alcove": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 260.97,
+                        "y": 1812.76,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Sloped Alcove",
+                        "node": "Tunnel to Blue-Tinted Shaft"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Long Beam Corridor": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Tunnel to Hidden Tank Shaft (Top)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 38.44,
+                        "y": 955.55,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Hidden Tank Shaft",
+                        "node": "Tunnel to Blue-Tinted Shaft (Top)"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Tunnel to Hidden Tank Shaft (Bottom)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 41.33,
+                        "y": 570.75,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Hidden Tank Shaft",
+                        "node": "Tunnel to Blue-Tinted Shaft (Bottom)"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Underhang Corridor": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Tunnel to Shaft-Connecting Room": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 256.88,
+                        "y": 570.75,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Shaft-Connecting Room",
+                        "node": "Tunnel to Blue-Tinted Shaft"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Tunnel to Hidden Tank Shaft (Bottom)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Speed Booster",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "tricks",
+                                            "name": "Shinespark",
+                                            "amount": 3,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "tricks",
+                                            "name": "Movement",
+                                            "amount": 3,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "tricks",
+                                            "name": "Knowledge",
+                                            "amount": 2,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Bombs",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Long Beam Corridor": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar4",
+                "room_id": 4
+            },
+            "nodes": {
+                "Door to Blue-Tinted Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 722.97,
+                        "y": 112.6,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Blue-Tinted Shaft",
+                        "node": "Door to Long Beam Corridor"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Long Beam Room": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "Morph Ball",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
+                },
+                "Door to Long Beam Room": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 58.62,
+                        "y": 93.35,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Long Beam Room",
+                        "node": "Door to Long Beam Corridor"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Blue-Tinted Shaft": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Morph Ball",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Bombs",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Power Bombs",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Dock to Cave Shaft": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Morph Ball",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Long Beam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Missiles",
+                                                        "amount": 3,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Bombs",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Power Bombs",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Dock to Cave Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 471.43,
+                        "y": 211.29,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Cave Shaft",
+                        "node": "Dock to Long Beam Corridor"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Long Beam Room": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Morph Ball",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Long Beam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Bombs",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Missiles",
+                                                        "amount": 3,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Power Bombs",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Long Beam Room": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar5",
+                "room_id": 5
+            },
+            "nodes": {
+                "Door to Long Beam Corridor": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 242.53,
+                        "y": 94.03,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Long Beam Corridor",
+                        "node": "Door to Long Beam Room"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Pickup (Long Beam)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Pickup (Long Beam)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 100.67,
+                        "y": 127.17,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 3,
+                    "location_category": "major",
+                    "connections": {
+                        "Door to Long Beam Corridor": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Save Room 1": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar36",
+                "room_id": 36
+            },
+            "nodes": {
+                "Door to Blue-Tinted Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 61.38,
+                        "y": 111.78,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Blue-Tinted Shaft",
+                        "node": "Door to Save Room 1"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Save Station 1": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Save Station 1": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 165.64,
+                        "y": 71.61,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Blue-Tinted Shaft": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Cave Shaft": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar35",
+                "room_id": 35
+            },
+            "nodes": {
+                "Dock to Long Beam Corridor": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 230.88,
+                        "y": 24.58,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Long Beam Corridor",
+                        "node": "Dock to Cave Shaft"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Dock to Corridor No. 2": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Morph Ball",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Dock to Corridor No. 2": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 42.9,
+                        "y": 255.36,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Corridor No. 2",
+                        "node": "Dock to Cave Shaft"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Dock to Long Beam Corridor": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Morph Ball",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Corridor No. 2": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar9",
+                "room_id": 9
+            },
+            "nodes": {
+                "Dock to Cave Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 1040.25,
+                        "y": 99.53,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Cave Shaft",
+                        "node": "Dock to Corridor No. 2"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Entrance to Tourian": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "Morph Ball",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        "Door to Blue-Tinted Shaft": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "Morph Ball",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
+                },
+                "Door to Entrance to Tourian": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 60.66,
+                        "y": 272.15,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Entrance to Tourian",
+                        "node": "Door to Corridor No. 2"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Dock to Cave Shaft": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "Morph Ball",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
+                },
+                "Door to Blue-Tinted Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 1203.34,
+                        "y": 272.15,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Blue-Tinted Shaft",
+                        "node": "Door to Corridor No. 2"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Dock to Cave Shaft": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "Morph Ball",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Entrance to Tourian": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar10",
+                "room_id": 10
+            },
+            "nodes": {
+                "Door to Corridor No. 2": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 483.71,
+                        "y": 272.07,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Corridor No. 2",
+                        "node": "Door to Entrance to Tourian"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Transport to Tourian": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "events",
+                                            "name": "KraidDefeated",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "events",
+                                            "name": "RidleyDefeated",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Door to Transport to Tourian": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 57.12,
+                        "y": 257.51,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Transport to Tourian",
+                        "node": "Door to Entrance to Tourian"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Corridor No. 2": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "events",
+                                            "name": "KraidDefeated",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "events",
+                                            "name": "RidleyDefeated",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Chozo Statue Chamber": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar30",
+                "room_id": 30
+            },
+            "nodes": {}
+        },
+        "Vestibule": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar6",
+                "room_id": 6
+            },
+            "nodes": {
+                "Door to Blue-Tinted Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 58.96,
+                        "y": 112.46,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Blue-Tinted Shaft",
+                        "node": "Door to Vestibule"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Gold-Colored Shaft": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Door to Gold-Colored Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 245.65,
+                        "y": 111.23,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Gold-Colored Shaft",
+                        "node": "Door to Vestibule"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Blue-Tinted Shaft": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Gold-Colored Shaft": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar7",
+                "room_id": 7
+            },
+            "nodes": {
+                "Door to Vestibule": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 60.01,
+                        "y": 756.09,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Vestibule",
+                        "node": "Door to Gold-Colored Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Tunnel to Sloped Alcove": {
+                            "type": "or",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Ice Beam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "and",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Bombs",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "tricks",
+                                                        "name": "IBJ",
+                                                        "amount": 3,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "tricks",
+                                            "name": "WallJump",
+                                            "amount": 3,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Door to Save Room 2": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Morph Ball",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Door to Mero Corridor": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Tunnel to Sloped Alcove": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 36.79,
+                        "y": 1609.89,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Sloped Alcove",
+                        "node": "Tunnel to Gold-Colored Shaft"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Vestibule": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Tunnel to Shaft-Connecting Room": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 63.58,
+                        "y": 75.55,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Shaft-Connecting Room",
+                        "node": "Tunnel to Gold-Colored Shaft"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Corridor No. 5": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "template",
+                                        "data": "Destroy Bomb Blocks"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Door to Corridor No. 5": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 241.7,
+                        "y": 94.77,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Corridor No. 5",
+                        "node": "Door to Gold-Colored Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Tunnel to Shaft-Connecting Room": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Speed Booster",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "tricks",
+                                            "name": "Shinespark",
+                                            "amount": 3,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "tricks",
+                                            "name": "Movement",
+                                            "amount": 3,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "tricks",
+                                            "name": "Movement",
+                                            "amount": 2,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Bombs",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Door to Save Room 2": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Door to Save Room 2": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 241.7,
+                        "y": 574.87,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Save Room 2",
+                        "node": "Door to Gold-Colored Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Vestibule": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Morph Ball",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Door to Corridor No. 5": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Door to Mero Corridor": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 245.12,
+                        "y": 754.26,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Mero Corridor",
+                        "node": "Door to Gold-Colored Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Vestibule": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Save Room 2": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar34",
+                "room_id": 34
+            },
+            "nodes": {
+                "Door to Gold-Colored Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 57.73,
+                        "y": 95.55,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Gold-Colored Shaft",
+                        "node": "Door to Save Room 2"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Save Station 2": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Save Station 2": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 168.1469003718036,
+                        "y": 66.63489895540886,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Gold-Colored Shaft": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Corridor No. 5": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar12",
+                "room_id": 12
+            },
+            "nodes": {
+                "Door to Gold-Colored Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 57.85,
+                        "y": 90.62,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Gold-Colored Shaft",
+                        "node": "Door to Corridor No. 5"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
+        },
+        "Transport to Norfair": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar26",
+                "room_id": 26
+            },
+            "nodes": {}
+        },
+        "Sloped Alcove": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar29",
+                "room_id": 29
+            },
+            "nodes": {
+                "Tunnel to Blue-Tinted Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 9.86,
+                        "y": 56.17,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Blue-Tinted Shaft",
+                        "node": "Tunnel to Sloped Alcove"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Pickup (Missile Tank)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 72.16,
+                        "y": 216.25,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 4,
+                    "location_category": "minor",
+                    "connections": {
+                        "Tunnel to Blue-Tinted Shaft": {
+                            "type": "template",
+                            "data": "Destroy Bomb Blocks"
+                        },
+                        "Tunnel to Gold-Colored Shaft": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Morph Ball",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Tunnel to Gold-Colored Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 282.87,
+                        "y": 327.41,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Gold-Colored Shaft",
+                        "node": "Tunnel to Sloped Alcove"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Pickup (Missile Tank)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Four Pipes Corridor": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar28",
+                "room_id": 28
+            },
+            "nodes": {}
+        },
+        "Corridor-Connecting Room": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar22",
+                "room_id": 22
+            },
+            "nodes": {}
+        },
+        "Save Room 3": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar39",
+                "room_id": 39
+            },
+            "nodes": {}
+        },
+        "Varia Suit Corridor": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar23",
+                "room_id": 23
+            },
+            "nodes": {}
+        },
+        "Varia Suit Room": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar27",
+                "room_id": 27
+            },
+            "nodes": {}
+        },
+        "Brinstar End Shaft": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar20",
+                "room_id": 20
+            },
+            "nodes": {}
+        },
+        "Map Room": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar32",
+                "room_id": 32
+            },
+            "nodes": {}
+        },
+        "Short Shaft": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar31",
+                "room_id": 31
+            },
+            "nodes": {}
+        },
+        "Save Room 4": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar33",
+                "room_id": 3
+            },
+            "nodes": {}
+        },
+        "Bomb Access Corridor": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar24",
+                "room_id": 24
+            },
+            "nodes": {}
+        },
+        "Bomb Room": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar25",
+                "room_id": 25
+            },
+            "nodes": {}
+        },
+        "Hidden Tank Shaft": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar41",
+                "room_id": 41
+            },
+            "nodes": {
+                "Tunnel to Blue-Tinted Shaft (Top)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 286.6,
+                        "y": 470.25,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Blue-Tinted Shaft",
+                        "node": "Tunnel to Hidden Tank Shaft (Top)"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Pickup (Missile Tank)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Morph Ball",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Pickup (Missile Tank)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 86.89,
+                        "y": 246.6,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 6,
+                    "location_category": "minor",
+                    "connections": {
+                        "Tunnel to Blue-Tinted Shaft (Bottom)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Morph Ball",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Pickup (Super Missile Tank)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 88.06,
+                        "y": 135.06,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 7,
+                    "location_category": "minor",
+                    "connections": {
+                        "Tunnel to Blue-Tinted Shaft (Bottom)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Tunnel to Blue-Tinted Shaft (Bottom)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 277.26,
+                        "y": 87.18,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Blue-Tinted Shaft",
+                        "node": "Tunnel to Hidden Tank Shaft (Bottom)"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Pickup (Super Missile Tank)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Speed Booster",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "tricks",
+                                            "name": "Shinespark",
+                                            "amount": 3,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "tricks",
+                                            "name": "Movement",
+                                            "amount": 3,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "tricks",
+                                            "name": "Knowledge",
+                                            "amount": 2,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Bombs",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Transport to Kraid": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar8",
+                "room_id": 8
+            },
+            "nodes": {
+                "Door to Fake Block Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 58.88,
+                        "y": 253.54,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Fake Block Shaft",
+                        "node": "Door to Transport to Kraid"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Elevator to Kraid": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Door to First Guide Chamber": {
+                            "type": "resource",
+                            "data": {
+                                "type": "events",
+                                "name": "KraidDefeated",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
+                },
+                "Elevator to Kraid": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 151.33148568069203,
+                        "y": 223.44368858654573,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Fake Block Shaft": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Door to First Guide Chamber": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 483.62,
+                        "y": 255.02,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "First Guide Chamber",
+                        "node": "Door to Transport to Kraid"
+                    },
+                    "default_dock_weakness": "Missile Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Door to Fake Block Shaft": {
+                            "type": "resource",
+                            "data": {
+                                "type": "events",
+                                "name": "KraidDefeated",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "First Guide Chamber": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar37",
+                "room_id": 37
+            },
+            "nodes": {
+                "Door to Transport to Kraid": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 59.89,
+                        "y": 96.47,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Transport to Kraid",
+                        "node": "Door to First Guide Chamber"
+                    },
+                    "default_dock_weakness": "Missile Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Chozo Statue": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Chozo Statue": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 199.51802109416494,
+                        "y": 81.70533930242559,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Transport to Kraid": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Shaft-Connecting Room": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar40",
+                "room_id": 40
+            },
+            "nodes": {
+                "Tunnel to Blue-Tinted Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 51.67,
+                        "y": 87.36,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Blue-Tinted Shaft",
+                        "node": "Tunnel to Shaft-Connecting Room"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Tunnel to Gold-Colored Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 256.58,
+                        "y": 72.98,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Gold-Colored Shaft",
+                        "node": "Tunnel to Shaft-Connecting Room"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Tunnel to Blue-Tinted Shaft": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Morph Ball",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "tricks",
+                                            "name": "Shinespark",
+                                            "amount": 3,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "tricks",
+                                            "name": "Movement",
+                                            "amount": 3,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "tricks",
+                                            "name": "Knowledge",
+                                            "amount": 2,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Bombs",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Pickup (Missile Tank)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Pickup (Missile Tank)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 119.81,
+                        "y": 151.73,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 5,
+                    "location_category": "minor",
+                    "connections": {
+                        "Tunnel to Gold-Colored Shaft": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Morph Ball",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Corridor No. 4": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar19",
+                "room_id": 19
+            },
+            "nodes": {}
+        },
+        "Cavernous Hall": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar17",
+                "room_id": 17
+            },
+            "nodes": {}
+        },
+        "Second Guide Chamber": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar18",
+                "room_id": 18
+            },
+            "nodes": {}
+        },
+        "Transport to Tourian": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar11",
+                "room_id": 11
+            },
+            "nodes": {
+                "Door to Entrance to Tourian": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 242.0,
+                        "y": 254.35,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Entrance to Tourian",
+                        "node": "Door to Transport to Tourian"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Elevator to Tourian": {
+                            "type": "and",
+                            "data": {
+                                "comment": "TODO add requirements for equipment/expansions for tourian sequence",
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Elevator to Tourian": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 154.493800921006,
+                        "y": 222.60573857598297,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Entrance to Tourian": {
+                            "type": "and",
+                            "data": {
+                                "comment": "TODO add requirements for equipment/expansions for tourian sequence",
+                                "items": []
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Mero Corridor": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar13",
+                "room_id": 13
+            },
+            "nodes": {
+                "Door to Gold-Colored Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 57.72,
+                        "y": 111.48,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Gold-Colored Shaft",
+                        "node": "Door to Mero Corridor"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
+        },
+        "Mero Fake Block Shaft": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar14",
+                "room_id": 14
+            },
+            "nodes": {}
+        },
+        "Mero Hive Room": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar15",
+                "room_id": 15
+            },
+            "nodes": {}
+        },
+        "Path to Cavernous Chamber": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar16",
+                "room_id": 16
+            },
+            "nodes": {}
+        },
+        "Acid Tanglevine Fruit Corridor": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar21",
+                "room_id": 21
+            },
+            "nodes": {}
+        },
+        "Corridor 5 Chozo Statue": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Brinstar38",
+                "room_id": 38
+            },
+            "nodes": {}
+        }
+    }
+}
