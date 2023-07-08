@@ -4,7 +4,7 @@
         "area_id": 5
     },
     "areas": {
-        "Crateria_0": {
+        "Landing Site": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria0",
@@ -12,7 +12,7 @@
             },
             "nodes": {}
         },
-        "Crateria_1": {
+        "Rocky Cave": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria1",
@@ -20,31 +20,182 @@
             },
             "nodes": {}
         },
-        "Crateria_2": {
+        "Weed-Filled Hall": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria2",
                 "room_id": 2
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Transport to Brinstar": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 483.47,
+                        "y": 96.3,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Transport to Brinstar",
+                        "node": "Door to Weed-Filled Hall"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Crateria_3": {
-            "default_node": null,
+        "Transport to Brinstar": {
+            "default_node": "Shaft to Brinstar",
             "extra": {
                 "map_name": "Crateria3",
                 "room_id": 3
             },
-            "nodes": {}
+            "nodes": {
+                "Shaft to Brinstar": {
+                    "node_type": "teleporter",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 152.23,
+                        "y": 223.06,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "destination": {
+                        "region": "Brinstar",
+                        "area": "Corridor No. 1"
+                    },
+                    "keep_name_when_vanilla": false,
+                    "editable": false,
+                    "connections": {
+                        "Door to Weed-Filled Hall": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Door to Weed-Filled Hall": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 58.82,
+                        "y": 256.61,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Weed-Filled Hall",
+                        "node": "Door to Transport to Brinstar"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Shaft to Brinstar": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                }
+            }
         },
-        "Crateria_4": {
-            "default_node": null,
+        "Transport to Tourian": {
+            "default_node": "Transport to Tourian (Destroyed)",
             "extra": {
                 "map_name": "Crateria4",
                 "room_id": 4
             },
-            "nodes": {}
+            "nodes": {
+                "Transport to Tourian (Destroyed)": {
+                    "node_type": "teleporter",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 151.21,
+                        "y": 254.1,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "destination": {
+                        "region": "Tourian",
+                        "area": "Destroyed Escape Shaft"
+                    },
+                    "keep_name_when_vanilla": false,
+                    "editable": false,
+                    "connections": {
+                        "Door to Rocky Cave": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Door to Rocky Cave": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 243.47222350567543,
+                        "y": 255.28143048560736,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Transport to Tourian (Destroyed)": {
+                            "type": "resource",
+                            "data": {
+                                "type": "events",
+                                "name": "MotherBrainDefeated",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
+                }
+            }
         },
-        "Crateria_5": {
+        "Landing Site (Post Escape)": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria5",
@@ -52,15 +203,32 @@
             },
             "nodes": {}
         },
-        "Crateria_6": {
-            "default_node": null,
+        "Crateria's Undershaft": {
+            "default_node": "Transport to Norfair",
             "extra": {
                 "map_name": "Crateria6",
                 "room_id": 6
             },
-            "nodes": {}
+            "nodes": {
+                "Transport to Norfair": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 149.72,
+                        "y": 227.36,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {}
+                }
+            }
         },
-        "Crateria_7": {
+        "Flooded Cavern": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria7",
@@ -68,7 +236,7 @@
             },
             "nodes": {}
         },
-        "Crateria_8": {
+        "Statuary Shaft (Initial)": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria8",
@@ -76,7 +244,7 @@
             },
             "nodes": {}
         },
-        "Crateria_9": {
+        "Chozo Ruins Main Cavern": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria9",
@@ -84,7 +252,7 @@
             },
             "nodes": {}
         },
-        "Crateria_10": {
+        "Chozodia Access Hall (From Chozodia)": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria10",
@@ -92,7 +260,7 @@
             },
             "nodes": {}
         },
-        "Crateria_11": {
+        "Crateria Tube": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria11",
@@ -100,7 +268,7 @@
             },
             "nodes": {}
         },
-        "Crateria_12": {
+        "Chozo Reliquary": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria12",
@@ -108,7 +276,7 @@
             },
             "nodes": {}
         },
-        "Crateria_13": {
+        "Wrecked Ship Entrance": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria13",
@@ -116,7 +284,7 @@
             },
             "nodes": {}
         },
-        "Crateria_14": {
+        "Water-Filled Hole": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria14",
@@ -124,7 +292,7 @@
             },
             "nodes": {}
         },
-        "Crateria_15": {
+        "Chozo Ruins Entrance": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria15",
@@ -132,7 +300,7 @@
             },
             "nodes": {}
         },
-        "Crateria_16": {
+        "Statuary Shaft (Unknown)": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria16",
@@ -140,7 +308,7 @@
             },
             "nodes": {}
         },
-        "Crateria_17": {
+        "Statuary Shaft": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria17",
@@ -148,7 +316,7 @@
             },
             "nodes": {}
         },
-        "Crateria_18": {
+        "Transport to Tourian (a)": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria18",
@@ -164,7 +332,7 @@
             },
             "nodes": {}
         },
-        "Crateria_20": {
+        "Chozodia Access Hall (From Crateria)": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria20",
@@ -172,7 +340,7 @@
             },
             "nodes": {}
         },
-        "Crateria_21": {
+        "Rocky Cave (Escape)": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria21",

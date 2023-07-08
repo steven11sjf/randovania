@@ -1,77 +1,107 @@
 ----------------
-Crateria_0
+Landing Site
 Extra - map_name: Crateria0
 Extra - room_id: 0
 ----------------
-Crateria_1
+Rocky Cave
 Extra - map_name: Crateria1
 Extra - room_id: 1
 ----------------
-Crateria_2
+Weed-Filled Hall
 Extra - map_name: Crateria2
 Extra - room_id: 2
+> Door to Transport to Brinstar; Heals? False
+  * Layers: default
+  * Power Beam Door to Transport to Brinstar/Door to Weed-Filled Hall
+
 ----------------
-Crateria_3
+Transport to Brinstar
 Extra - map_name: Crateria3
 Extra - room_id: 3
+> Shaft to Brinstar; Heals? False; Default Node
+  * Layers: default
+  * Teleporter to Brinstar - Corridor No. 1
+  > Door to Weed-Filled Hall
+      Trivial
+
+> Door to Weed-Filled Hall; Heals? False
+  * Layers: default
+  * Power Beam Door to Weed-Filled Hall/Door to Transport to Brinstar
+  > Shaft to Brinstar
+      Trivial
+
 ----------------
-Crateria_4
+Transport to Tourian
 Extra - map_name: Crateria4
 Extra - room_id: 4
+> Transport to Tourian (Destroyed); Heals? False; Default Node
+  * Layers: default
+  * Teleporter to Tourian - Destroyed Escape Shaft
+  > Door to Rocky Cave
+      Trivial
+
+> Door to Rocky Cave; Heals? False
+  * Layers: default
+  > Transport to Tourian (Destroyed)
+      After Mother Brain Defeated
+
 ----------------
-Crateria_5
+Landing Site (Post Escape)
 Extra - map_name: Crateria5
 Extra - room_id: 5
 ----------------
-Crateria_6
+Crateria's Undershaft
 Extra - map_name: Crateria6
 Extra - room_id: 6
+> Transport to Norfair; Heals? False; Default Node
+  * Layers: default
+
 ----------------
-Crateria_7
+Flooded Cavern
 Extra - map_name: Crateria7
 Extra - room_id: 7
 ----------------
-Crateria_8
+Statuary Shaft (Initial)
 Extra - map_name: Crateria8
 Extra - room_id: 8
 ----------------
-Crateria_9
+Chozo Ruins Main Cavern
 Extra - map_name: Crateria9
 Extra - room_id: 9
 ----------------
-Crateria_10
+Chozodia Access Hall (From Chozodia)
 Extra - map_name: Crateria10
 Extra - room_id: 10
 ----------------
-Crateria_11
+Crateria Tube
 Extra - map_name: Crateria11
 Extra - room_id: 11
 ----------------
-Crateria_12
+Chozo Reliquary
 Extra - map_name: Crateria12
 Extra - room_id: 12
 ----------------
-Crateria_13
+Wrecked Ship Entrance
 Extra - map_name: Crateria13
 Extra - room_id: 13
 ----------------
-Crateria_14
+Water-Filled Hole
 Extra - map_name: Crateria14
 Extra - room_id: 14
 ----------------
-Crateria_15
+Chozo Ruins Entrance
 Extra - map_name: Crateria15
 Extra - room_id: 15
 ----------------
-Crateria_16
+Statuary Shaft (Unknown)
 Extra - map_name: Crateria16
 Extra - room_id: 16
 ----------------
-Crateria_17
+Statuary Shaft
 Extra - map_name: Crateria17
 Extra - room_id: 17
 ----------------
-Crateria_18
+Transport to Tourian (a)
 Extra - map_name: Crateria18
 Extra - room_id: 18
 ----------------
@@ -79,10 +109,10 @@ Crateria_19
 Extra - map_name: Crateria19
 Extra - room_id: 19
 ----------------
-Crateria_20
+Chozodia Access Hall (From Crateria)
 Extra - map_name: Crateria20
 Extra - room_id: 20
 ----------------
-Crateria_21
+Rocky Cave (Escape)
 Extra - map_name: Crateria21
 Extra - room_id: 21

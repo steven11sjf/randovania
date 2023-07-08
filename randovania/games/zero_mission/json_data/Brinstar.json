@@ -15,8 +15,8 @@
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
-                        "x": 631.3605989326454,
-                        "y": 234.98960467410274,
+                        "x": 631.36,
+                        "y": 234.99,
                         "z": 0.0
                     },
                     "description": "",
@@ -41,34 +41,17 @@
                             }
                         },
                         "Shaft to Crateria": {
-                            "type": "or",
+                            "type": "and",
                             "data": {
                                 "comment": null,
                                 "items": [
                                     {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "Speed Booster",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
+                                        "type": "template",
+                                        "data": "Lay Power Bomb"
                                     },
                                     {
-                                        "type": "and",
-                                        "data": {
-                                            "comment": null,
-                                            "items": [
-                                                {
-                                                    "type": "template",
-                                                    "data": "Lay Power Bomb"
-                                                },
-                                                {
-                                                    "type": "template",
-                                                    "data": "Lay Bomb"
-                                                }
-                                            ]
-                                        }
+                                        "type": "template",
+                                        "data": "Lay Bomb"
                                     }
                                 ]
                             }
@@ -156,11 +139,11 @@
                     }
                 },
                 "Shaft to Crateria": {
-                    "node_type": "generic",
+                    "node_type": "teleporter",
                     "heal": false,
                     "coordinates": {
-                        "x": 632.9481801542294,
-                        "y": 672.9589822066193,
+                        "x": 632.95,
+                        "y": 672.96,
                         "z": 0.0
                     },
                     "description": "",
@@ -169,6 +152,12 @@
                     ],
                     "extra": {},
                     "valid_starting_location": false,
+                    "destination": {
+                        "region": "Crateria",
+                        "area": "Transport to Brinstar"
+                    },
+                    "keep_name_when_vanilla": false,
+                    "editable": false,
                     "connections": {
                         "Spawn Point": {
                             "type": "and",
@@ -482,12 +471,29 @@
                                 "comment": null,
                                 "items": [
                                     {
-                                        "type": "resource",
+                                        "type": "and",
                                         "data": {
-                                            "type": "items",
-                                            "name": "Ice Beam",
-                                            "amount": 1,
-                                            "negate": false
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Ice Beam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "tricks",
+                                                        "name": "IBA",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
                                         }
                                     },
                                     {
@@ -2303,26 +2309,8 @@
                                         "type": "resource",
                                         "data": {
                                             "type": "tricks",
-                                            "name": "Shinespark",
-                                            "amount": 3,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "tricks",
-                                            "name": "Movement",
-                                            "amount": 3,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "tricks",
-                                            "name": "Movement",
-                                            "amount": 2,
+                                            "name": "Knowledge",
+                                            "amount": 1,
                                             "negate": false
                                         }
                                     },
@@ -2330,7 +2318,16 @@
                                         "type": "resource",
                                         "data": {
                                             "type": "items",
-                                            "name": "Bombs",
+                                            "name": "Morph Ball",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Hi-Jump",
                                             "amount": 1,
                                             "negate": false
                                         }
@@ -2942,7 +2939,7 @@
                 "room_id": 22
             },
             "nodes": {
-                "Door to Acid Tanglevine Fruit Corridor": {
+                "Door to Save Room 3": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2959,7 +2956,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Acid Tanglevine Fruit Corridor",
+                        "area": "Save Room 3",
                         "node": "Door to Corridor-Connecting Room"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -3003,7 +3000,7 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "connections": {
-                        "Door to Acid Tanglevine Fruit Corridor": {
+                        "Door to Save Room 3": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -3039,6 +3036,41 @@
                                                         "type": "tricks",
                                                         "name": "IBJ",
                                                         "amount": 3,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "and",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Ice Beam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Long Beam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "tricks",
+                                                        "name": "IBA",
+                                                        "amount": 4,
                                                         "negate": false
                                                     }
                                                 }
@@ -3093,7 +3125,109 @@
                 "map_name": "Brinstar39",
                 "room_id": 39
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Corridor-Connecting Room": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 59.72,
+                        "y": 111.22,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Corridor-Connecting Room",
+                        "node": "Door to Save Room 3"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Save Station": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Door to Acid Tanglevine Fruit Corridor": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 244.9,
+                        "y": 112.47,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Acid Tanglevine Fruit Corridor",
+                        "node": "Door to Save Room 3"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {
+                        "Save Station": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Save Station": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 150.91439649015405,
+                        "y": 65.31904907662485,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Corridor-Connecting Room": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Door to Acid Tanglevine Fruit Corridor": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                }
+            }
         },
         "Varia Suit Corridor": {
             "default_node": null,
@@ -3143,6 +3277,50 @@
                                         }
                                     },
                                     {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Hi-Jump",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Power Grip",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Pickup (Energy Tank)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Varia Suit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Morph Ball",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
                                         "type": "or",
                                         "data": {
                                             "comment": null,
@@ -3151,74 +3329,23 @@
                                                     "type": "resource",
                                                     "data": {
                                                         "type": "items",
-                                                        "name": "Power Grip",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "and",
-                                                    "data": {
-                                                        "comment": "TODO test",
-                                                        "items": [
-                                                            {
-                                                                "type": "resource",
-                                                                "data": {
-                                                                    "type": "items",
-                                                                    "name": "Bombs",
-                                                                    "amount": 1,
-                                                                    "negate": false
-                                                                }
-                                                            },
-                                                            {
-                                                                "type": "resource",
-                                                                "data": {
-                                                                    "type": "tricks",
-                                                                    "name": "IBJ",
-                                                                    "amount": 1,
-                                                                    "negate": false
-                                                                }
-                                                            }
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        "Pickup (Energy Tank)": {
-                            "type": "or",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "template",
-                                        "data": "Destroy Bomb Blocks"
-                                    },
-                                    {
-                                        "type": "and",
-                                        "data": {
-                                            "comment": null,
-                                            "items": [
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Morph Ball",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
                                                         "name": "Long Beam",
                                                         "amount": 1,
                                                         "negate": false
                                                     }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "Missiles",
+                                                        "amount": 6,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "template",
+                                                    "data": "Destroy Bomb Blocks"
                                                 }
                                             ]
                                         }
@@ -3961,6 +4088,10 @@
                                 "comment": null,
                                 "items": []
                             }
+                        },
+                        "Pickup (Missile Tank)": {
+                            "type": "template",
+                            "data": "Lay Bomb"
                         }
                     }
                 },
@@ -3987,56 +4118,6 @@
                                 "comment": null,
                                 "items": []
                             }
-                        },
-                        "Pickup (Missile Tank)": {
-                            "type": "or",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "template",
-                                        "data": "Lay Bomb"
-                                    },
-                                    {
-                                        "type": "and",
-                                        "data": {
-                                            "comment": null,
-                                            "items": [
-                                                {
-                                                    "type": "template",
-                                                    "data": "Lay Power Bomb"
-                                                },
-                                                {
-                                                    "type": "or",
-                                                    "data": {
-                                                        "comment": null,
-                                                        "items": [
-                                                            {
-                                                                "type": "resource",
-                                                                "data": {
-                                                                    "type": "items",
-                                                                    "name": "Hi-Jump",
-                                                                    "amount": 1,
-                                                                    "negate": false
-                                                                }
-                                                            },
-                                                            {
-                                                                "type": "resource",
-                                                                "data": {
-                                                                    "type": "items",
-                                                                    "name": "Power Grip",
-                                                                    "amount": 1,
-                                                                    "negate": false
-                                                                }
-                                                            }
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
                         }
                     }
                 },
@@ -4057,55 +4138,9 @@
                     "pickup_index": 15,
                     "location_category": "minor",
                     "connections": {
-                        "Pickup (Bombs)": {
-                            "type": "or",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "template",
-                                        "data": "Lay Bomb"
-                                    },
-                                    {
-                                        "type": "and",
-                                        "data": {
-                                            "comment": null,
-                                            "items": [
-                                                {
-                                                    "type": "template",
-                                                    "data": "Lay Power Bomb"
-                                                },
-                                                {
-                                                    "type": "or",
-                                                    "data": {
-                                                        "comment": "TODO test power grip to see if you can grab that",
-                                                        "items": [
-                                                            {
-                                                                "type": "resource",
-                                                                "data": {
-                                                                    "type": "items",
-                                                                    "name": "Hi-Jump",
-                                                                    "amount": 1,
-                                                                    "negate": false
-                                                                }
-                                                            },
-                                                            {
-                                                                "type": "resource",
-                                                                "data": {
-                                                                    "type": "items",
-                                                                    "name": "Power Grip",
-                                                                    "amount": 1,
-                                                                    "negate": false
-                                                                }
-                                                            }
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
+                        "Door to Bomb Access Corridor": {
+                            "type": "template",
+                            "data": "Destroy Bomb Blocks"
                         }
                     }
                 }
@@ -4522,7 +4557,12 @@
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {}
+                    "connections": {
+                        "Tunnel to Gold-Colored Shaft": {
+                            "type": "template",
+                            "data": "Destroy Bomb Blocks"
+                        }
+                    }
                 },
                 "Tunnel to Gold-Colored Shaft": {
                     "node_type": "dock",
@@ -4551,51 +4591,19 @@
                     "override_default_lock_requirement": null,
                     "connections": {
                         "Tunnel to Blue-Tinted Shaft": {
-                            "type": "and",
+                            "type": "or",
                             "data": {
                                 "comment": null,
                                 "items": [
                                     {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "Morph Ball",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "tricks",
-                                            "name": "Shinespark",
-                                            "amount": 3,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "tricks",
-                                            "name": "Movement",
-                                            "amount": 3,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "tricks",
-                                            "name": "Knowledge",
-                                            "amount": 2,
-                                            "negate": false
-                                        }
+                                        "type": "template",
+                                        "data": "Destroy Bomb Blocks"
                                     },
                                     {
                                         "type": "resource",
                                         "data": {
                                             "type": "items",
-                                            "name": "Bombs",
+                                            "name": "Speed Booster",
                                             "amount": 1,
                                             "negate": false
                                         }
@@ -4951,7 +4959,7 @@
             }
         },
         "Transport to Tourian": {
-            "default_node": null,
+            "default_node": "Elevator to Tourian",
             "extra": {
                 "map_name": "Brinstar11",
                 "room_id": 11
@@ -4993,11 +5001,11 @@
                     }
                 },
                 "Elevator to Tourian": {
-                    "node_type": "generic",
+                    "node_type": "teleporter",
                     "heal": false,
                     "coordinates": {
-                        "x": 154.493800921006,
-                        "y": 222.60573857598297,
+                        "x": 154.49,
+                        "y": 222.61,
                         "z": 0.0
                     },
                     "description": "",
@@ -5006,6 +5014,12 @@
                     ],
                     "extra": {},
                     "valid_starting_location": false,
+                    "destination": {
+                        "region": "Tourian",
+                        "area": "Transport to Brinstar"
+                    },
+                    "keep_name_when_vanilla": false,
+                    "editable": false,
                     "connections": {
                         "Door to Entrance to Tourian": {
                             "type": "and",
@@ -5773,7 +5787,7 @@
                                 ]
                             }
                         },
-                        "Door to Corridor-Connecting Room": {
+                        "Door to Save Room 3": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -5854,7 +5868,7 @@
                         }
                     }
                 },
-                "Door to Corridor-Connecting Room": {
+                "Door to Save Room 3": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -5871,7 +5885,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Corridor-Connecting Room",
+                        "area": "Save Room 3",
                         "node": "Door to Acid Tanglevine Fruit Corridor"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -5924,15 +5938,6 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "connections": {
-                        "Hint (Chozo Statue)": {
-                            "type": "resource",
-                            "data": {
-                                "type": "events",
-                                "name": "BrinstarC5Chozo",
-                                "amount": 1,
-                                "negate": false
-                            }
-                        },
                         "Tunnel to Acid Tanglevine Fruit Corridor (Bottom)": {
                             "type": "and",
                             "data": {
@@ -5966,55 +5971,14 @@
                                     }
                                 ]
                             }
-                        }
-                    }
-                },
-                "Hint (Chozo Statue)": {
-                    "node_type": "generic",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 87.24753292869234,
-                        "y": 255.3552169784054,
-                        "z": 0.0
-                    },
-                    "description": "",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "connections": {
-                        "Door to Brinstar End Shaft": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
                         },
-                        "Tunnel to Acid Tanglevine Fruit Corridor (Top)": {
-                            "type": "and",
+                        "Event - Brinstar Corridor 5 Chozo Statue": {
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "Morph Ball",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "events",
-                                            "name": "BrinstarC5Chozo",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    }
-                                ]
+                                "type": "events",
+                                "name": "BrinstarC5Chozo",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -6095,8 +6059,8 @@
                     "node_type": "event",
                     "heal": false,
                     "coordinates": {
-                        "x": 79.85,
-                        "y": 295.13,
+                        "x": 89.61790567545962,
+                        "y": 259.761790567546,
                         "z": 0.0
                     },
                     "description": "",
@@ -6107,11 +6071,20 @@
                     "valid_starting_location": false,
                     "event_name": "BrinstarC5Chozo",
                     "connections": {
-                        "Hint (Chozo Statue)": {
+                        "Door to Brinstar End Shaft": {
                             "type": "and",
                             "data": {
                                 "comment": null,
                                 "items": []
+                            }
+                        },
+                        "Tunnel to Acid Tanglevine Fruit Corridor (Top)": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "Morph Ball",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }

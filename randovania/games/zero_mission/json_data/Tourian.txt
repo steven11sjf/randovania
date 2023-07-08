@@ -1,80 +1,382 @@
 ----------------
-Tourian_0
+Transport to Brinstar
 Extra - map_name: Tourian0
 Extra - room_id: 0
+> Transport to Brinstar; Heals? False; Spawn Point; Default Node
+  * Layers: default
+  * Teleporter to Brinstar - Transport to Tourian
+  > Door to Save Room 1
+      Trivial
+
+> Door to Save Room 1; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Room 1/Door to Transport to Brinstar
+  > Transport to Brinstar
+      Trivial
+
 ----------------
-Tourian_1
+Tourian Lava Passage
 Extra - map_name: Tourian1
 Extra - room_id: 1
+> Door to Entrance Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Entrance Shaft/Door to Tourian Lava Passage
+  > Door to Metroid Pit
+      Defeat Metroid
+
+> Door to Metroid Pit; Heals? False
+  * Layers: default
+  * Power Beam Door to Metroid Pit/Door to Tourian Lava Passage
+  > Door to Entrance Shaft
+      Defeat Metroid
+
 ----------------
-Tourian_2
+Ledged Shaft
 Extra - map_name: Tourian2
 Extra - room_id: 2
+> Door to I-Shaped Room; Heals? False
+  * Layers: default
+  * Power Beam Door to I-Shaped Room/Door to Ledged Shaft
+  > Door to Triple-Tiered Room
+      Defeat Metroid
+
+> Door to Triple-Tiered Room; Heals? False
+  * Layers: default
+  * Power Beam Door to Triple-Tiered Room/Door to Ledged Shaft
+  > Door to I-Shaped Room
+      Defeat Metroid
+
 ----------------
-Tourian_3
+Rinka Hall
 Extra - map_name: Tourian3
 Extra - room_id: 3
+> Door to Save Room 3; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Room 3/Door to Rinka Hall
+  > Door to Zebesian Command Center
+      Trivial
+
+> Door to Zebesian Command Center; Heals? False
+  * Layers: default
+  * Missile Door to Zebesian Command Center/Door to Rinka Hall
+  > Door to Save Room 3
+      Trivial
+
 ----------------
-Tourian_4
+Zebesian Command Center
 Extra - map_name: Tourian4
 Extra - room_id: 4
+> Door to Rinka Hall; Heals? False
+  * Layers: default
+  * Missile Door to Rinka Hall/Door to Zebesian Command Center
+  > Mother Brain Battle
+      Any of the following:
+          # combat difficulties
+          All of the following:
+              # combat disabled
+              Charge Beam and Energy Tank ≥ 200 and Long Beam and Missiles ≥ 60 and Super Missiles ≥ 10 and Varia Suit
+          All of the following:
+              # combat intermediate
+              Charge Beam and Energy Tank ≥ 200 and Long Beam and Missiles ≥ 40 and Super Missiles ≥ 10 and Varia Suit
+
+> Mother Brain Battle; Heals? False
+  * Layers: default
+  > Door to Rinka Hall
+      Trivial
+  > Event - Mother Brain Defeated
+      Energy Tank ≥ 400 and Missiles ≥ 60 and Super Missiles ≥ 10
+
+> Event - Mother Brain Defeated; Heals? False
+  * Layers: default
+  * Event Mother Brain Defeated
+  > Door to Escape Shaft
+      Trivial
+
+> Door to Escape Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Escape Shaft/Door to Zebesian Command Center
+
 ----------------
-Tourian_5
+Escape Shaft
 Extra - map_name: Tourian5
 Extra - room_id: 5
+> Door to Zebesian Command Center; Heals? False
+  * Layers: default
+  * Power Beam Door to Zebesian Command Center/Door to Escape Shaft
+  > Transport to Crateria
+      Trivial
+
+> Transport to Crateria; Heals? False
+  * Layers: default
+
 ----------------
-Tourian_6
+Save Room 3
 Extra - map_name: Tourian6
 Extra - room_id: 6
+> Door to Triple-Tiered Room; Heals? False
+  * Layers: default
+  * Power Beam Door to Triple-Tiered Room/Door to Save Room 3
+  > Save Station
+      Trivial
+
+> Save Station; Heals? False
+  * Layers: default
+  > Door to Triple-Tiered Room
+      Trivial
+  > Door to Rinka Hall
+      Before Mother Brain Defeated
+  > Door to Destroyed Rinka Hall
+      After Mother Brain Defeated
+
+> Door to Rinka Hall; Heals? False
+  * Layers: default
+  * Power Beam Door to Rinka Hall/Door to Save Room 3
+  > Save Station
+      Trivial
+
+> Door to Destroyed Rinka Hall; Heals? False
+  * Layers: default
+  * Power Beam Door to Destroyed Rinka Hall/Door to Save Room 3
+  > Save Station
+      Trivial
+
 ----------------
-Tourian_7
+Mother Brain's Reliquary
 Extra - map_name: Tourian7
 Extra - room_id: 7
+> Dock to Destroyed Command Center; Heals? False
+  * Layers: default
+  * Access Open to Destroyed Command Center/Dock to Destroyed Rinka Hall
+  > Pickup (Power Bomb)
+      Morph Ball
+
+> Pickup (Power Bomb); Heals? False
+  * Layers: default
+  * Pickup 19; Category? Minor
+  > Dock to Destroyed Command Center
+      All of the following:
+          Morph Ball
+          Bombs or Power Grip
+
 ----------------
-Tourian_8
+Destroyed Escape Shaft
 Extra - map_name: Tourian8
 Extra - room_id: 8
+> Dock to Destroyed Command Center; Heals? False
+  * Layers: default
+  * Access Open to Destroyed Command Center/Dock to Destroyed Escape Shaft
+  > Transport to Crateria
+      Any of the following:
+          Use Space Jump
+          All of the following:
+              Power Grip
+              Hi-Jump Boots or Wall Jumps (Advanced)
+
+> Transport to Crateria; Heals? False; Default Node
+  * Layers: default
+  * Teleporter to Crateria - Transport to Tourian
+  > Dock to Destroyed Command Center
+      Trivial
+
 ----------------
-Tourian_9
+Destroyed Command Center
 Extra - map_name: Tourian9
 Extra - room_id: 9
+> Dock to Destroyed Rinka Hall; Heals? False
+  * Layers: default
+  * Tunnel to Destroyed Rinka Hall/Dock to Destroyed Command Center
+  > Dock to Mother Brain's Reliquary
+      Super Missiles
+  > Dock to Destroyed Escape Shaft
+      Trivial
+
+> Dock to Mother Brain's Reliquary; Heals? False
+  * Layers: default
+  * Access Open to Mother Brain's Reliquary/Dock to Destroyed Command Center
+  > Dock to Destroyed Rinka Hall
+      Trivial
+
+> Dock to Destroyed Escape Shaft; Heals? False
+  * Layers: default
+  * Access Open to Destroyed Escape Shaft/Dock to Destroyed Command Center
+  > Dock to Destroyed Rinka Hall
+      Trivial
+
 ----------------
-Tourian_10
+Destroyed Rinka Hall
 Extra - map_name: Tourian10
 Extra - room_id: 10
+> Dock to Destroyed Command Center; Heals? False
+  * Layers: default
+  * Access Open to Destroyed Command Center/Dock to Destroyed Rinka Hall
+  > Door to Save Room 3
+      Trivial
+
+> Door to Save Room 3; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Room 3/Door to Destroyed Rinka Hall
+  > Dock to Destroyed Command Center
+      Trivial
+
 ----------------
-Tourian_11
+Save Room 1
 Extra - map_name: Tourian11
 Extra - room_id: 11
+> Door to Transport to Brinstar; Heals? False
+  * Layers: default
+  * Power Beam Door to Transport to Brinstar/Door to Save Room 1
+  > Save Station
+      Trivial
+
+> Save Station; Heals? False
+  * Layers: default
+  > Door to Transport to Brinstar
+      Trivial
+  > Door to Antechamber
+      Trivial
+
+> Door to Antechamber; Heals? False
+  * Layers: default
+  * Power Beam Door to Antechamber/Door to Save Room 1
+  > Save Station
+      Trivial
+
 ----------------
-Tourian_12
+Antechamber
 Extra - map_name: Tourian12
 Extra - room_id: 12
+> Door to Save Room 1; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Room 1/Door to Antechamber
+  > Door to First Shaft
+      Trivial
+
+> Door to First Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to First Shaft/Door to Antechamber
+  > Door to Save Room 1
+      Trivial
+
 ----------------
-Tourian_13
+First Shaft
 Extra - map_name: Tourian13
 Extra - room_id: 13
+> Door to Antechamber; Heals? False
+  * Layers: default
+  * Power Beam Door to Antechamber/Door to First Shaft
+  > Door to Entrance Shaft Access
+      Trivial
+
+> Door to Entrance Shaft Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Entrance Shaft Access/Door to First Shaft
+  > Door to Antechamber
+      Trivial
+
 ----------------
-Tourian_14
+Entrance Shaft Access
 Extra - map_name: Tourian14
 Extra - room_id: 14
+> Door to First Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to First Shaft/Door to Entrance Shaft Access
+  > Door to Entrance Shaft
+      Defeat Metroid
+
+> Door to Entrance Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Entrance Shaft/Door to Entrance Shaft Access
+  > Door to First Shaft
+      Defeat Metroid
+
 ----------------
-Tourian_15
+Entrance Shaft
 Extra - map_name: Tourian15
 Extra - room_id: 15
+> Door to Entrance Shaft Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Entrance Shaft Access/Door to Entrance Shaft
+  > Door to Tourian Lava Passage
+      Defeat Metroid
+
+> Door to Tourian Lava Passage; Heals? False
+  * Layers: default
+  * Power Beam Door to Tourian Lava Passage/Door to Entrance Shaft
+  > Door to Entrance Shaft Access
+      Defeat Metroid
+
 ----------------
-Tourian_16
+Triple-Tiered Room
 Extra - map_name: Tourian16
 Extra - room_id: 16
+> Door to Ledged Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Ledged Shaft/Door to Triple-Tiered Room
+  > Door to Save Room 3
+      Defeat Metroid and Destroy Bomb Blocks
+
+> Door to Save Room 3; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Room 3/Door to Triple-Tiered Room
+  > Door to Ledged Shaft
+      Defeat Metroid and Destroy Bomb Blocks
+
 ----------------
-Tourian_17
+Save Room 2
 Extra - map_name: Tourian17
 Extra - room_id: 17
+> Save Station; Heals? False
+  * Layers: default
+  > Door to I-Shaped Room
+      Trivial
+
+> Door to I-Shaped Room; Heals? False
+  * Layers: default
+  * Power Beam Door to I-Shaped Room/Door to Save Room 2
+  > Save Station
+      Trivial
+
 ----------------
-Tourian_18
+I-Shaped Room
 Extra - map_name: Tourian18
 Extra - room_id: 18
+> Door to Metroid Pit; Heals? False
+  * Layers: default
+  * Power Beam Door to Metroid Pit/Door to I-Shaped Room
+  > Door to Save Room 2
+      Trivial
+  > Door to Ledged Shaft
+      Trivial
+
+> Door to Save Room 2; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Room 2/Door to I-Shaped Room
+  > Door to Metroid Pit
+      Trivial
+
+> Door to Ledged Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Ledged Shaft/Door to I-Shaped Room
+  > Door to Metroid Pit
+      Hi-Jump Boots or Ice Beam Abuse (Beginner) or Wall Jumps (Beginner) or Lay Bomb or Use Space Jump
+
 ----------------
-Tourian_19
+Metroid Pit
 Extra - map_name: Tourian19
 Extra - room_id: 19
+> Door to Tourian Lava Passage; Heals? False
+  * Layers: default
+  * Power Beam Door to Tourian Lava Passage/Door to Metroid Pit
+  > Door to I-Shaped Room
+      All of the following:
+          Defeat Metroid
+          Hi-Jump Boots or Ice Beam Abuse (Intermediate) or Lay Bomb or Use Space Jump
+
+> Door to I-Shaped Room; Heals? False
+  * Layers: default
+  * Power Beam Door to I-Shaped Room/Door to Metroid Pit
+  > Door to Tourian Lava Passage
+      All of the following:
+          Defeat Metroid
+          Hi-Jump Boots or Ice Beam Abuse (Intermediate) or Lay Bomb or Use Space Jump
+

@@ -9,9 +9,7 @@ Extra - room_id: 0
   > Door to Fake Block Shaft
       Trivial
   > Shaft to Crateria
-      Any of the following:
-          Speed Booster
-          Lay Bomb and Lay Power Bomb
+      Lay Bomb and Lay Power Bomb
 
 > Pickup (Morph Ball); Heals? False
   * Layers: default
@@ -27,6 +25,7 @@ Extra - room_id: 0
 
 > Shaft to Crateria; Heals? False
   * Layers: default
+  * Teleporter to Crateria - Transport to Brinstar
   > Spawn Point
       Trivial
 
@@ -77,7 +76,8 @@ Extra - room_id: 2
   * Power Beam Door to Fake Block Shaft/Door to Underhang Corridor
   > Pickup (Energy Tank)
       Any of the following:
-          Hi-Jump Boots or Ice Beam or Space Jump (Unknown Item 2)
+          Hi-Jump Boots or Space Jump (Unknown Item 2)
+          Ice Beam and Ice Beam Abuse (Beginner)
           Bombs and Morph Ball
   > Event - Long Beam Hint
       Morph Ball
@@ -363,7 +363,7 @@ Extra - room_id: 7
   * Layers: default
   * Power Beam Door to Corridor No. 5/Door to Gold-Colored Shaft
   > Tunnel to Shaft-Connecting Room
-      Bombs and Speed Booster and Movement (Intermediate) and Movement (Advanced) and Shinespark (Advanced)
+      Hi-Jump Boots and Morph Ball and Speed Booster and Knowledge (Beginner)
   > Door to Save Room 2
       Trivial
 
@@ -491,21 +491,22 @@ Extra - room_id: 28
 Corridor-Connecting Room
 Extra - map_name: Brinstar22
 Extra - room_id: 22
-> Door to Acid Tanglevine Fruit Corridor; Heals? False
+> Door to Save Room 3; Heals? False
   * Layers: default
-  * Power Beam Door to Acid Tanglevine Fruit Corridor/Door to Corridor-Connecting Room
+  * Power Beam Door to Save Room 3/Door to Corridor-Connecting Room
   > Door to Four Pipes Corridor
       Trivial
 
 > Door to Four Pipes Corridor; Heals? False
   * Layers: default
   * Power Beam Door to Four Pipes Corridor/Door to Corridor-Connecting Room
-  > Door to Acid Tanglevine Fruit Corridor
+  > Door to Save Room 3
       Trivial
   > Door to Varia Suit Corridor
       Any of the following:
           Hi-Jump Boots
           Infinite Bomb Jump (Advanced) and Lay Bomb
+          Ice Beam and Long Beam and Ice Beam Abuse (Expert)
 
 > Door to Varia Suit Corridor; Heals? False
   * Layers: default
@@ -517,6 +518,25 @@ Extra - room_id: 22
 Save Room 3
 Extra - map_name: Brinstar39
 Extra - room_id: 39
+> Door to Corridor-Connecting Room; Heals? False
+  * Layers: default
+  * Power Beam Door to Corridor-Connecting Room/Door to Save Room 3
+  > Save Station
+      Trivial
+
+> Door to Acid Tanglevine Fruit Corridor; Heals? False
+  * Layers: default
+  * Power Beam Door to Acid Tanglevine Fruit Corridor/Door to Save Room 3
+  > Save Station
+      Trivial
+
+> Save Station; Heals? False
+  * Layers: default
+  > Door to Corridor-Connecting Room
+      Trivial
+  > Door to Acid Tanglevine Fruit Corridor
+      Trivial
+
 ----------------
 Varia Suit Corridor
 Extra - map_name: Brinstar23
@@ -525,17 +545,11 @@ Extra - room_id: 23
   * Layers: default
   * Power Beam Door to Corridor-Connecting Room/Door to Varia Suit Corridor
   > Door to Varia Suit Room
-      All of the following:
-          Morph Ball
-          Any of the following:
-              Power Grip
-              All of the following:
-                  # TODO test
-                  Bombs and Infinite Bomb Jump (Beginner)
+      Hi-Jump Boots and Morph Ball and Power Grip
   > Pickup (Energy Tank)
-      Any of the following:
-          Destroy Bomb Blocks
-          Long Beam and Morph Ball
+      All of the following:
+          Morph Ball and Varia Suit
+          Long Beam or Missiles ≥ 6 or Destroy Bomb Blocks
 
 > Door to Varia Suit Room; Heals? False
   * Layers: default
@@ -681,30 +695,20 @@ Extra - room_id: 25
   * Missile Door to Bomb Access Corridor/Door to Bomb Room
   > Pickup (Bombs)
       Trivial
+  > Pickup (Missile Tank)
+      Lay Bomb
 
 > Pickup (Bombs); Heals? True
   * Layers: default
   * Pickup 14; Category? Major
   > Door to Bomb Access Corridor
       Trivial
-  > Pickup (Missile Tank)
-      Any of the following:
-          Lay Bomb
-          All of the following:
-              Lay Power Bomb
-              Hi-Jump Boots or Power Grip
 
 > Pickup (Missile Tank); Heals? False
   * Layers: default
   * Pickup 15; Category? Minor
-  > Pickup (Bombs)
-      Any of the following:
-          Lay Bomb
-          All of the following:
-              Lay Power Bomb
-              Any of the following:
-                  # TODO test power grip to see if you can grab that
-                  Hi-Jump Boots or Power Grip
+  > Door to Bomb Access Corridor
+      Destroy Bomb Blocks
 
 ----------------
 Hidden Tank Shaft
@@ -779,12 +783,14 @@ Extra - room_id: 40
 > Tunnel to Blue-Tinted Shaft; Heals? False
   * Layers: default
   * Tunnel to Blue-Tinted Shaft/Tunnel to Shaft-Connecting Room
+  > Tunnel to Gold-Colored Shaft
+      Destroy Bomb Blocks
 
 > Tunnel to Gold-Colored Shaft; Heals? False
   * Layers: default
   * Tunnel to Gold-Colored Shaft/Tunnel to Shaft-Connecting Room
   > Tunnel to Blue-Tinted Shaft
-      Bombs and Morph Ball and Knowledge (Intermediate) and Movement (Advanced) and Shinespark (Advanced)
+      Speed Booster or Destroy Bomb Blocks
   > Pickup (Missile Tank)
       Trivial
 
@@ -868,8 +874,9 @@ Extra - room_id: 11
   > Elevator to Tourian
       Trivial
 
-> Elevator to Tourian; Heals? False
+> Elevator to Tourian; Heals? False; Default Node
   * Layers: default
+  * Teleporter to Tourian - Transport to Brinstar
   > Door to Entrance to Tourian
       Trivial
 
@@ -1000,7 +1007,7 @@ Extra - room_id: 21
       All of the following:
           # Safe vanilla way, has acid protection, morph and can destroy parasites if needed
           Varia Suit and Destroy Bomb Blocks
-  > Door to Corridor-Connecting Room
+  > Door to Save Room 3
       Trivial
 
 > Event - Brinstar Acid Fruit; Heals? False
@@ -1013,9 +1020,9 @@ Extra - room_id: 21
           Destroy Bomb Blocks
           Long Beam and Morph Ball and Wall Jumps (Beginner)
 
-> Door to Corridor-Connecting Room; Heals? False
+> Door to Save Room 3; Heals? False
   * Layers: default
-  * Power Beam Door to Corridor-Connecting Room/Door to Acid Tanglevine Fruit Corridor
+  * Power Beam Door to Save Room 3/Door to Acid Tanglevine Fruit Corridor
   > Pickup (Missile Tank)
       Trivial
 
@@ -1026,17 +1033,10 @@ Extra - room_id: 38
 > Door to Brinstar End Shaft; Heals? False
   * Layers: default
   * Power Beam Door to Brinstar End Shaft/Door to Corridor 5 Chozo Statue Room
-  > Hint (Chozo Statue)
-      After Brinstar Corridor 5 Chozo Statue
   > Tunnel to Acid Tanglevine Fruit Corridor (Bottom)
       Morph Ball and Varia Suit
-
-> Hint (Chozo Statue); Heals? False
-  * Layers: default
-  > Door to Brinstar End Shaft
-      Trivial
-  > Tunnel to Acid Tanglevine Fruit Corridor (Top)
-      Morph Ball and After Brinstar Corridor 5 Chozo Statue
+  > Event - Brinstar Corridor 5 Chozo Statue
+      After Brinstar Corridor 5 Chozo Statue
 
 > Tunnel to Acid Tanglevine Fruit Corridor (Top); Heals? False
   * Layers: default
@@ -1053,6 +1053,8 @@ Extra - room_id: 38
 > Event - Brinstar Corridor 5 Chozo Statue; Heals? False
   * Layers: default
   * Event Brinstar Corridor 5 Chozo Statue
-  > Hint (Chozo Statue)
+  > Door to Brinstar End Shaft
       Trivial
+  > Tunnel to Acid Tanglevine Fruit Corridor (Top)
+      Morph Ball
 

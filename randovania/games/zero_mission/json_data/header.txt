@@ -24,6 +24,11 @@ Templates
 * Gravity Suit Equipped:
       Gravity Suit and After Ruins Test Completed
 
+* Defeat Metroid:
+      All of the following:
+          Ice Beam and Destroy Bomb Blocks
+          Missiles ≥ 5 or Super Missiles
+
 ====================
 Dock Weaknesses
 
