@@ -45,6 +45,20 @@ Dock Weaknesses
       Lock type: FRONT_BLAST_BACK_FREE_UNLOCK
           Missiles ≥ 5 or Super Missiles
 
+
+  * Super Missile Door
+      Open:
+          Trivial
+      Lock type: FRONT_BLAST_BACK_FREE_UNLOCK
+          Super Missiles
+
+
+  * Power Bomb Door
+      Open:
+          Trivial
+      Lock type: FRONT_BLAST_BACK_FREE_UNLOCK
+          Power Bombs
+
   > Dock Rando: Disabled
 
 
@@ -59,6 +73,17 @@ Dock Weaknesses
 
 > Tunnel
   * Tunnel
+      Open:
+          Trivial
+      No lock
+
+  > Dock Rando: Disabled
+
+
+> Teleporter
+* Extra - is_teleporter: True
+* Extra - ignore_for_hints: True
+  * Teleporter
       Open:
           Trivial
       No lock

@@ -1,0 +1,859 @@
+----------------
+Elevator to Brinstar
+Extra - map_name: Kraid0
+Extra - room_id: 0
+> Dock to Elevator to Kraid; Heals? False
+  * Layers: default
+  * Access Open to Elevator to Kraid/Dock to Elevator to Brinstar
+  * Generated from ROM.
+  * Extra - door_idx: 0
+
+> Door to Save Station A; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station A/Door to Elevator to Brinstar
+  * Generated from ROM.
+  * Extra - door_idx: 1
+
+> Door to Caged Sidehopper Hall; Heals? False
+  * Layers: default
+  * Missile Door to Caged Sidehopper Hall/Door to Elevator to Brinstar
+  * Generated from ROM.
+  * Extra - door_idx: 2
+
+> Door to Acidic Concourse; Heals? False
+  * Layers: default
+  * Power Beam Door to Acidic Concourse/Door to Elevator to Brinstar
+  * Generated from ROM.
+  * Extra - door_idx: 3
+
+> Door to Runway; Heals? False
+  * Layers: default
+  * Missile Door to Runway/Door to Elevator to Brinstar
+  * Generated from ROM.
+  * Extra - door_idx: 4
+
+> Door to Gauntlet; Heals? False
+  * Layers: default
+  * Power Beam Door to Gauntlet/Door to Elevator to Brinstar
+  * Generated from ROM.
+  * Extra - door_idx: 5
+
+> Door to Corrosive Pool; Heals? False
+  * Layers: default
+  * Power Beam Door to Corrosive Pool/Door to Elevator to Brinstar
+  * Generated from ROM.
+  * Extra - door_idx: 6
+
+> Door to Sidehopper Hall; Heals? False
+  * Layers: default
+  * Power Beam Door to Sidehopper Hall/Door to Elevator to Brinstar
+  * Generated from ROM.
+  * Extra - door_idx: 7
+
+> Door to Divided Alcove; Heals? False
+  * Layers: default
+  * Power Beam Door to Divided Alcove/Door to Elevator to Brinstar
+  * Generated from ROM.
+  * Extra - door_idx: 8
+
+----------------
+Caged Sidehopper Hall
+Extra - map_name: Kraid1
+Extra - room_id: 1
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 14; Category? Minor
+  * Generated from ROM.
+
+> Door to Elevator to Brinstar; Heals? False
+  * Layers: default
+  * Missile Door to Elevator to Brinstar/Door to Caged Sidehopper Hall
+  * Generated from ROM.
+  * Extra - door_idx: 9
+
+> Door to Apex Launcher Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Apex Launcher Shaft/Door to Caged Sidehopper Hall
+  * Generated from ROM.
+  * Extra - door_idx: 10
+
+----------------
+Apex Launcher Shaft
+Extra - map_name: Kraid2
+Extra - room_id: 2
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 15; Category? Minor
+  * Generated from ROM.
+
+> Door to Upper Corridor; Heals? False
+  * Layers: default
+  * Power Beam Door to Upper Corridor/Door to Apex Launcher Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 11
+
+> Door to Save Station B; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station B/Door to Apex Launcher Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 12
+
+> Door to Acid Worm Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Acid Worm Access/Door to Apex Launcher Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 13
+
+> Door to Caged Sidehopper Hall; Heals? False
+  * Layers: default
+  * Power Beam Door to Caged Sidehopper Hall/Door to Apex Launcher Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 14
+
+----------------
+Upper Corridor
+Extra - map_name: Kraid3
+Extra - room_id: 3
+> Door to Zeela-Infested Room; Heals? False
+  * Layers: default
+  * Power Beam Door to Zeela-Infested Room/Door to Upper Corridor
+  * Generated from ROM.
+  * Extra - door_idx: 15
+
+> Door to Apex Launcher Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Apex Launcher Shaft/Door to Upper Corridor
+  * Generated from ROM.
+  * Extra - door_idx: 16
+
+----------------
+Zipline Activation Chamber
+Extra - map_name: Kraid4
+Extra - room_id: 4
+> Pickup (Energy Tank); Heals? False
+  * Layers: default
+  * Pickup 16; Category? Minor
+  * Generated from ROM.
+
+> Door to Zeela-Infested Room; Heals? False
+  * Layers: default
+  * Power Beam Door to Zeela-Infested Room/Door to Zipline Activation Chamber
+  * Generated from ROM.
+  * Extra - door_idx: 17
+
+> Door to Save Station B; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station B/Door to Zipline Activation Chamber
+  * Generated from ROM.
+  * Extra - door_idx: 18
+
+----------------
+Acid Worm Battle
+Extra - map_name: Kraid5
+Extra - room_id: 5
+> Door to Zeela-Infested Room; Heals? False
+  * Layers: default
+  * Power Beam Door to Zeela-Infested Room/Door to Acid Worm Battle
+  * Generated from ROM.
+  * Extra - door_idx: 19
+
+> Door to Acid Worm Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Acid Worm Access/Door to Acid Worm Battle
+  * Generated from ROM.
+  * Extra - door_idx: 20
+
+> Tunnel to Cache; Heals? False
+  * Layers: default
+  * Tunnel to Cache/Tunnel to Acid Worm Battle
+  * Generated from ROM.
+  * Extra - door_idx: 91
+
+----------------
+Zeela-Infested Room
+Extra - map_name: Kraid6
+Extra - room_id: 6
+> Door to Upper Corridor; Heals? False
+  * Layers: default
+  * Power Beam Door to Upper Corridor/Door to Zeela-Infested Room
+  * Generated from ROM.
+  * Extra - door_idx: 21
+
+> Door to Zipline Activation Chamber; Heals? False
+  * Layers: default
+  * Missile Door to Zipline Activation Chamber/Door to Zeela-Infested Room
+  * Generated from ROM.
+  * Extra - door_idx: 22
+
+> Door to Acid Worm Battle; Heals? False
+  * Layers: default
+  * Power Beam Door to Acid Worm Battle/Door to Zeela-Infested Room
+  * Generated from ROM.
+  * Extra - door_idx: 23
+
+----------------
+Barisute Pit
+Extra - map_name: Kraid7
+Extra - room_id: 7
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 17; Category? Minor
+  * Generated from ROM.
+
+> Door to Illusionary Acid Pool; Heals? False
+  * Layers: default
+  * Power Beam Door to Illusionary Acid Pool/Door to Barisute Pit
+  * Generated from ROM.
+  * Extra - door_idx: 24
+
+> Tunnel to Save Station A; Heals? False
+  * Layers: default
+  * Tunnel to Save Station A/Tunnel to Barisute Pit
+  * Generated from ROM.
+  * Extra - door_idx: 76
+
+> Door to Illusionary Acid Pool (104); Heals? False
+  * Layers: default
+  * Power Beam Door to Illusionary Acid Pool/Door to Barisute Pit
+  * Generated from ROM.
+  * Extra - door_idx: 104
+
+----------------
+Acidic Concourse
+Extra - map_name: Kraid8
+Extra - room_id: 8
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 18; Category? Minor
+  * Generated from ROM.
+
+> Door to Illusionary Acid Pool; Heals? False
+  * Layers: default
+  * Power Beam Door to Illusionary Acid Pool/Door to Acidic Concourse
+  * Generated from ROM.
+  * Extra - door_idx: 26
+
+> Door to Elevator to Brinstar; Heals? False
+  * Layers: default
+  * Power Beam Door to Elevator to Brinstar/Door to Acidic Concourse
+  * Generated from ROM.
+  * Extra - door_idx: 27
+
+----------------
+Runway
+Extra - map_name: Kraid9
+Extra - room_id: 9
+> Pickup (Energy Tank); Heals? False
+  * Layers: default
+  * Pickup 19; Category? Minor
+  * Generated from ROM.
+
+> Door to Elevator to Brinstar; Heals? False
+  * Layers: default
+  * Missile Door to Elevator to Brinstar/Door to Runway
+  * Generated from ROM.
+  * Extra - door_idx: 28
+
+----------------
+Gauntlet
+Extra - map_name: Kraid10
+Extra - room_id: 10
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 20; Category? Minor
+  * Generated from ROM.
+
+> Door to Pipe Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Pipe Shaft/Door to Gauntlet
+  * Generated from ROM.
+  * Extra - door_idx: 29
+
+> Door to Elevator to Brinstar; Heals? False
+  * Layers: default
+  * Power Beam Door to Elevator to Brinstar/Door to Gauntlet
+  * Generated from ROM.
+  * Extra - door_idx: 30
+
+----------------
+Sidehopper Hall
+Extra - map_name: Kraid11
+Extra - room_id: 11
+> Door to Pipe Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Pipe Shaft/Door to Sidehopper Hall
+  * Generated from ROM.
+  * Extra - door_idx: 31
+
+> Door to Elevator to Brinstar; Heals? False
+  * Layers: default
+  * Power Beam Door to Elevator to Brinstar/Door to Sidehopper Hall
+  * Generated from ROM.
+  * Extra - door_idx: 32
+
+----------------
+Corrosive Pool
+Extra - map_name: Kraid12
+Extra - room_id: 12
+> Door to Elevator to Brinstar; Heals? False
+  * Layers: default
+  * Power Beam Door to Elevator to Brinstar/Door to Corrosive Pool
+  * Generated from ROM.
+  * Extra - door_idx: 33
+
+> Door to Block Column Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Block Column Shaft/Door to Corrosive Pool
+  * Generated from ROM.
+  * Extra - door_idx: 34
+
+> Dock to Acid Fall; Heals? False
+  * Layers: default
+  * Access Open to Acid Fall/Tunnel to Acid Fall
+  * Generated from ROM.
+  * Extra - door_idx: 85
+
+----------------
+Pipe Shaft
+Extra - map_name: Kraid13
+Extra - room_id: 13
+> Door to Gauntlet; Heals? False
+  * Layers: default
+  * Power Beam Door to Gauntlet/Door to Pipe Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 35
+
+> Door to Sidehopper Hall; Heals? False
+  * Layers: default
+  * Power Beam Door to Sidehopper Hall/Door to Pipe Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 36
+
+> Door to Map Station; Heals? False
+  * Layers: default
+  * Missile Door to Map Station/Door to Pipe Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 83
+
+----------------
+Divided Alcove
+Extra - map_name: Kraid14
+Extra - room_id: 14
+> Door to Elevator to Brinstar; Heals? False
+  * Layers: default
+  * Power Beam Door to Elevator to Brinstar/Door to Divided Alcove
+  * Generated from ROM.
+  * Extra - door_idx: 37
+
+> Door to Pit Block Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Pit Block Shaft/Door to Divided Alcove
+  * Generated from ROM.
+  * Extra - door_idx: 38
+
+----------------
+Pit Block Shaft
+Extra - map_name: Kraid15
+Extra - room_id: 15
+> Door to Divided Alcove; Heals? False
+  * Layers: default
+  * Power Beam Door to Divided Alcove/Door to Pit Block Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 39
+
+> Door to Ball Launcher Speedway; Heals? False
+  * Layers: default
+  * Power Beam Door to Ball Launcher Speedway/Door to Pit Block Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 40
+
+> Door to Ramp; Heals? False
+  * Layers: default
+  * Power Beam Door to Ramp/Door to Pit Block Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 41
+
+----------------
+Ramp
+Extra - map_name: Kraid16
+Extra - room_id: 16
+> Door to Pit Block Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Pit Block Shaft/Door to Ramp
+  * Generated from ROM.
+  * Extra - door_idx: 42
+
+> Door to Replenishment Station; Heals? False
+  * Layers: default
+  * Power Beam Door to Replenishment Station/Door to Ramp
+  * Generated from ROM.
+  * Extra - door_idx: 43
+
+----------------
+Acid Fall
+Extra - map_name: Kraid17
+Extra - room_id: 17
+> Pickup (Missile Tank (Hidden)); Heals? False
+  * Layers: default
+  * Pickup 21; Category? Minor
+  * Generated from ROM.
+
+> Door to Block Column Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Block Column Shaft/Door to Acid Fall
+  * Generated from ROM.
+  * Extra - door_idx: 44
+
+> Tunnel to Acid Fall; Heals? False
+  * Layers: default
+  * Tunnel to Acid Fall/Tunnel to Acid Fall
+  * Generated from ROM.
+  * Extra - door_idx: 86
+
+----------------
+Replenishment Station
+Extra - map_name: Kraid18
+Extra - room_id: 18
+> Door to Ramp; Heals? False
+  * Layers: default
+  * Power Beam Door to Ramp/Door to Replenishment Station
+  * Generated from ROM.
+  * Extra - door_idx: 45
+
+> Door to Hidden Drop; Heals? False
+  * Layers: default
+  * Power Beam Door to Hidden Drop/Door to Replenishment Station
+  * Generated from ROM.
+  * Extra - door_idx: 46
+
+----------------
+Hidden Drop
+Extra - map_name: Kraid19
+Extra - room_id: 19
+> Door to Save Station D; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station D/Door to Hidden Drop
+  * Generated from ROM.
+  * Extra - door_idx: 47
+
+> Door to Replenishment Station; Heals? False
+  * Layers: default
+  * Power Beam Door to Replenishment Station/Door to Hidden Drop
+  * Generated from ROM.
+  * Extra - door_idx: 48
+
+> Tunnel to Kraid's Slope; Heals? False
+  * Layers: default
+  * Tunnel to Kraid's Slope/Tunnel to Hidden Drop
+  * Generated from ROM.
+  * Extra - door_idx: 54
+
+----------------
+Save Station D
+Extra - map_name: Kraid20
+Extra - room_id: 20
+> Door to Sidehopper Path; Heals? False
+  * Layers: default
+  * Power Beam Door to Sidehopper Path/Door to Save Station D
+  * Generated from ROM.
+  * Extra - door_idx: 49
+
+> Door to Hidden Drop; Heals? False
+  * Layers: default
+  * Power Beam Door to Hidden Drop/Door to Save Station D
+  * Generated from ROM.
+  * Extra - door_idx: 50
+
+----------------
+Ball Launcher Speedway
+Extra - map_name: Kraid21
+Extra - room_id: 21
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 22; Category? Minor
+  * Generated from ROM.
+
+> Door to Drain; Heals? False
+  * Layers: default
+  * Missile Door to Drain/Door to Ball Launcher Speedway
+  * Generated from ROM.
+  * Extra - door_idx: 51
+
+> Door to Pit Block Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Pit Block Shaft/Door to Ball Launcher Speedway
+  * Generated from ROM.
+  * Extra - door_idx: 73
+
+----------------
+Sidehopper Path
+Extra - map_name: Kraid22
+Extra - room_id: 22
+> Door to Space Jump Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Space Jump Access/Door to Sidehopper Path
+  * Generated from ROM.
+  * Extra - door_idx: 52
+
+> Door to Save Station D; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station D/Door to Sidehopper Path
+  * Generated from ROM.
+  * Extra - door_idx: 53
+
+----------------
+Drain
+Extra - map_name: Kraid23
+Extra - room_id: 23
+> Door to Antechamber; Heals? False
+  * Layers: default
+  * Power Beam Door to Antechamber/Door to Drain
+  * Generated from ROM.
+  * Extra - door_idx: 55
+
+> Door to Ball Launcher Speedway; Heals? False
+  * Layers: default
+  * Missile Door to Ball Launcher Speedway/Door to Drain
+  * Generated from ROM.
+  * Extra - door_idx: 56
+
+> Tunnel to Space Jump Access; Heals? False
+  * Layers: default
+  * Tunnel to Space Jump Access/Tunnel to Drain
+  * Generated from ROM.
+  * Extra - door_idx: 57
+
+----------------
+Antechamber
+Extra - map_name: Kraid24
+Extra - room_id: 24
+> Door to Illusionary Acid Pool; Heals? False
+  * Layers: default
+  * Power Beam Door to Illusionary Acid Pool/Door to Antechamber
+  * Generated from ROM.
+  * Extra - door_idx: 58
+
+> Door to Drain; Heals? False
+  * Layers: default
+  * Power Beam Door to Drain/Door to Antechamber
+  * Generated from ROM.
+  * Extra - door_idx: 59
+
+----------------
+Space Jump Access
+Extra - map_name: Kraid25
+Extra - room_id: 25
+> Tunnel to Drain; Heals? False
+  * Layers: default
+  * Tunnel to Drain/Tunnel to Space Jump Access
+  * Generated from ROM.
+  * Extra - door_idx: 60
+
+> Door to Sidehopper Path; Heals? False
+  * Layers: default
+  * Power Beam Door to Sidehopper Path/Door to Space Jump Access
+  * Generated from ROM.
+  * Extra - door_idx: 61
+
+> Door to Save Station C; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station C/Door to Space Jump Access
+  * Generated from ROM.
+  * Extra - door_idx: 77
+
+> Tunnel to Space Jump Chamber; Heals? False
+  * Layers: default
+  * Tunnel to Space Jump Chamber/Tunnel to Space Jump Access
+  * Generated from ROM.
+  * Extra - door_idx: 97
+
+> Door to Space Jump Chamber; Heals? False
+  * Layers: default
+  * Power Beam Door to Space Jump Chamber/Door to Space Jump Access
+  * Generated from ROM.
+  * Extra - door_idx: 98
+
+----------------
+Illusionary Acid Pool
+Extra - map_name: Kraid26
+Extra - room_id: 26
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 23; Category? Minor
+  * Generated from ROM.
+
+> Door to Barisute Pit; Heals? False
+  * Layers: default
+  * Power Beam Door to Barisute Pit/Door to Illusionary Acid Pool
+  * Generated from ROM.
+  * Extra - door_idx: 62
+
+> Door to Acidic Concourse; Heals? False
+  * Layers: default
+  * Power Beam Door to Acidic Concourse/Door to Illusionary Acid Pool
+  * Generated from ROM.
+  * Extra - door_idx: 63
+
+> Door to Antechamber; Heals? False
+  * Layers: default
+  * Power Beam Door to Antechamber/Door to Illusionary Acid Pool
+  * Generated from ROM.
+  * Extra - door_idx: 64
+
+> Door to Barisute Pit (105); Heals? False
+  * Layers: default
+  * Power Beam Door to Barisute Pit/Door to Illusionary Acid Pool
+  * Generated from ROM.
+  * Extra - door_idx: 105
+
+----------------
+Block Column Shaft
+Extra - map_name: Kraid27
+Extra - room_id: 27
+> Door to Corrosive Pool; Heals? False
+  * Layers: default
+  * Power Beam Door to Corrosive Pool/Door to Block Column Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 65
+
+> Door to Acid Fall; Heals? False
+  * Layers: default
+  * Power Beam Door to Acid Fall/Door to Block Column Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 66
+
+> Door to Kraid's Slope; Heals? False
+  * Layers: default
+  * Power Beam Door to Kraid's Slope/Door to Block Column Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 67
+
+> Door to Save Station E; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station E/Door to Block Column Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 87
+
+----------------
+Kraid's Slope
+Extra - map_name: Kraid28
+Extra - room_id: 28
+> Door to Kraid's Chamber Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Kraid's Chamber Access/Door to Kraid's Slope
+  * Generated from ROM.
+  * Extra - door_idx: 68
+
+> Door to Block Column Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Block Column Shaft/Door to Kraid's Slope
+  * Generated from ROM.
+  * Extra - door_idx: 69
+
+> Tunnel to Hidden Drop; Heals? False
+  * Layers: default
+  * Tunnel to Hidden Drop/Tunnel to Kraid's Slope
+  * Generated from ROM.
+  * Extra - door_idx: 74
+
+> Dock to Kraid's Chamber (FINAL); Heals? False
+  * Layers: default
+  * Access Open to Kraid's Chamber (FINAL)/Dock to Kraid's Slope
+  * Generated from ROM.
+  * Extra - door_idx: 96
+
+----------------
+Kraid's Chamber Access
+Extra - map_name: Kraid29
+Extra - room_id: 29
+> Door to Kraid's Chamber; Heals? False
+  * Layers: default
+  * Missile Door to Kraid's Chamber/Dock to Kraid's Chamber Access
+  * Generated from ROM.
+  * Extra - door_idx: 70
+
+> Door to Kraid's Slope; Heals? False
+  * Layers: default
+  * Power Beam Door to Kraid's Slope/Door to Kraid's Chamber Access
+  * Generated from ROM.
+  * Extra - door_idx: 71
+
+----------------
+Kraid's Chamber
+Extra - map_name: Kraid30
+Extra - room_id: 30
+> Dock to Kraid's Chamber Access; Heals? False
+  * Layers: default
+  * Access Open to Kraid's Chamber Access/Door to Kraid's Chamber
+  * Generated from ROM.
+  * Extra - door_idx: 72
+
+> Dock to Kraid's Reliquary; Heals? False
+  * Layers: default
+  * Access Open to Kraid's Reliquary/Dock to Kraid's Chamber (FINAL)
+  * Generated from ROM.
+  * Extra - door_idx: 81
+
+----------------
+Save Station A
+Extra - map_name: Kraid31
+Extra - room_id: 31
+> Door to Elevator to Brinstar; Heals? False
+  * Layers: default
+  * Power Beam Door to Elevator to Brinstar/Door to Save Station A
+  * Generated from ROM.
+  * Extra - door_idx: 25
+
+> Tunnel to Barisute Pit; Heals? False
+  * Layers: default
+  * Tunnel to Barisute Pit/Tunnel to Save Station A
+  * Generated from ROM.
+  * Extra - door_idx: 75
+
+----------------
+Save Station C
+Extra - map_name: Kraid32
+Extra - room_id: 32
+> Door to Space Jump Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Space Jump Access/Door to Save Station C
+  * Generated from ROM.
+  * Extra - door_idx: 79
+
+----------------
+Space Jump Chamber
+Extra - map_name: Kraid33
+Extra - room_id: 33
+> Tunnel to Space Jump Access; Heals? False
+  * Layers: default
+  * Tunnel to Space Jump Access/Tunnel to Space Jump Chamber
+  * Generated from ROM.
+  * Extra - door_idx: 78
+
+> Door to Space Jump Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Space Jump Access/Door to Space Jump Chamber
+  * Generated from ROM.
+  * Extra - door_idx: 80
+
+----------------
+Kraid's Reliquary
+Extra - map_name: Kraid34
+Extra - room_id: 34
+> Dock to Kraid's Chamber (FINAL); Heals? False
+  * Layers: default
+  * Access Open to Kraid's Chamber (FINAL)/Dock to Kraid's Reliquary
+  * Generated from ROM.
+  * Extra - door_idx: 82
+
+----------------
+Map Station
+Extra - map_name: Kraid35
+Extra - room_id: 35
+> Door to Pipe Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Pipe Shaft/Door to Map Station
+  * Generated from ROM.
+  * Extra - door_idx: 84
+
+----------------
+Save Station E
+Extra - map_name: Kraid36
+Extra - room_id: 36
+> Door to Block Column Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Block Column Shaft/Door to Save Station E
+  * Generated from ROM.
+  * Extra - door_idx: 88
+
+> Dock to Norfair Tunnel; Heals? False
+  * Layers: default
+  * Access Open to Norfair Tunnel/Dock to Save Station E
+  * Generated from ROM.
+  * Extra - door_idx: 101
+
+----------------
+Kraid's Chamber (FINAL)
+Extra - map_name: Kraid37
+Extra - room_id: 37
+> Door to Kraid's Chamber Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Kraid's Chamber Access/Door to Kraid's Chamber
+  * Generated from ROM.
+  * Extra - door_idx: 89
+
+> Dock to Kraid's Reliquary; Heals? False
+  * Layers: default
+  * Access Open to Kraid's Reliquary/Dock to Kraid's Chamber (FINAL)
+  * Generated from ROM.
+  * Extra - door_idx: 90
+
+> Dock to Kraid's Slope; Heals? False
+  * Layers: default
+  * Access Open to Kraid's Slope/Dock to Kraid's Chamber (FINAL)
+  * Generated from ROM.
+  * Extra - door_idx: 95
+
+----------------
+Cache
+Extra - map_name: Kraid38
+Extra - room_id: 38
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 24; Category? Minor
+  * Generated from ROM.
+
+> Tunnel to Acid Worm Battle; Heals? False
+  * Layers: default
+  * Tunnel to Acid Worm Battle/Tunnel to Cache
+  * Generated from ROM.
+  * Extra - door_idx: 92
+
+----------------
+Save Station B
+Extra - map_name: Kraid39
+Extra - room_id: 39
+> Door to Apex Launcher Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Apex Launcher Shaft/Door to Save Station B
+  * Generated from ROM.
+  * Extra - door_idx: 93
+
+> Door to Zipline Activation Chamber; Heals? False
+  * Layers: default
+  * Power Beam Door to Zipline Activation Chamber/Door to Save Station B
+  * Generated from ROM.
+  * Extra - door_idx: 94
+
+----------------
+Acid Worm Access
+Extra - map_name: Kraid40
+Extra - room_id: 40
+> Door to Acid Worm Battle; Heals? False
+  * Layers: default
+  * Power Beam Door to Acid Worm Battle/Door to Acid Worm Access
+  * Generated from ROM.
+  * Extra - door_idx: 99
+
+> Door to Apex Launcher Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Apex Launcher Shaft/Door to Acid Worm Access
+  * Generated from ROM.
+  * Extra - door_idx: 100
+
+----------------
+Norfair Tunnel
+Extra - map_name: Kraid41
+Extra - room_id: 41
+> Dock to Save Station E; Heals? False
+  * Layers: default
+  * Access Open to Save Station E/Dock to Norfair Tunnel
+  * Generated from ROM.
+  * Extra - door_idx: 102
+
+> Dock to Secret Tunnel; Heals? False
+  * Layers: default
+  * Access Open to Secret Tunnel/Dock to Norfair Tunnel
+  * Generated from ROM.
+  * Extra - door_idx: 103
+

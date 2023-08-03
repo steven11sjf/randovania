@@ -1,0 +1,826 @@
+----------------
+Starting Room
+Extra - map_name: Brinstar0
+Extra - room_id: 0
+> Dock to Broken Elevator to Brinstar; Heals? False
+  * Layers: default
+  * Access Open to Broken Elevator to Brinstar/Dock to Starting Room
+  * Generated from ROM.
+  * Extra - door_idx: 0
+
+> Door to Fake Block Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Fake Block Shaft/Door to Starting Room
+  * Generated from ROM.
+  * Extra - door_idx: 1
+
+----------------
+Fake Block Shaft
+Extra - map_name: Brinstar1
+Extra - room_id: 1
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 0; Category? Minor
+  * Generated from ROM.
+
+> Door to Starting Room; Heals? False
+  * Layers: default
+  * Power Beam Door to Starting Room/Door to Fake Block Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 2
+
+> Door to Underhang Corridor; Heals? False
+  * Layers: default
+  * Power Beam Door to Underhang Corridor/Door to Fake Block Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 3
+
+> Door to Elevator to Kraid; Heals? False
+  * Layers: default
+  * Power Beam Door to Elevator to Kraid/Door to Fake Block Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 4
+
+----------------
+Underhang Corridor
+Extra - map_name: Brinstar2
+Extra - room_id: 2
+> Pickup (Energy Tank (Hidden)); Heals? False
+  * Layers: default
+  * Pickup 1; Category? Minor
+  * Generated from ROM.
+
+> Door to Fake Block Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Fake Block Shaft/Door to Underhang Corridor
+  * Generated from ROM.
+  * Extra - door_idx: 5
+
+> Door to Blue Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Blue Shaft/Door to Underhang Corridor
+  * Generated from ROM.
+  * Extra - door_idx: 6
+
+----------------
+Blue Shaft
+Extra - map_name: Brinstar3
+Extra - room_id: 3
+> Door to Underhang Corridor; Heals? False
+  * Layers: default
+  * Power Beam Door to Underhang Corridor/Door to Blue Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 7
+
+> Door to Chozo Hint A; Heals? False
+  * Layers: default
+  * Power Beam Door to Chozo Hint A/Door to Blue Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 10
+
+> Door to Long Beam Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Long Beam Access/Door to Blue Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 11
+
+> Door to Vestibule; Heals? False
+  * Layers: default
+  * Power Beam Door to Vestibule/Door to Blue Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 12
+
+> Door to Save Station C; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station C/Door to Blue Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 76
+
+> Tunnel to Sloped Alcove; Heals? False
+  * Layers: default
+  * Tunnel to Sloped Alcove/Tunnel to Blue Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 83
+
+> Tunnel to Speedbooster Passage; Heals? False
+  * Layers: default
+  * Tunnel to Speedbooster Passage/Tunnel to Blue Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 91
+
+> Tunnel to Hidden Tank Shaft; Heals? False
+  * Layers: default
+  * Tunnel to Hidden Tank Shaft/Tunnel to Blue Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 92
+
+> Tunnel to Hidden Tank Shaft (95); Heals? False
+  * Layers: default
+  * Tunnel to Hidden Tank Shaft/Tunnel to Blue Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 95
+
+----------------
+Long Beam Access
+Extra - map_name: Brinstar4
+Extra - room_id: 4
+> Door to Blue Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Blue Shaft/Door to Long Beam Access
+  * Generated from ROM.
+  * Extra - door_idx: 13
+
+> Door to Long Beam Chamber; Heals? False
+  * Layers: default
+  * Power Beam Door to Long Beam Chamber/Door to Long Beam Access
+  * Generated from ROM.
+  * Extra - door_idx: 14
+
+> Tunnel to Cave Shaft; Heals? False
+  * Layers: default
+  * Tunnel to Cave Shaft/Tunnel to Long Beam Access
+  * Generated from ROM.
+  * Extra - door_idx: 63
+
+----------------
+Long Beam Chamber
+Extra - map_name: Brinstar5
+Extra - room_id: 5
+> Door to Long Beam Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Long Beam Access/Door to Long Beam Chamber
+  * Generated from ROM.
+  * Extra - door_idx: 15
+
+----------------
+Vestibule
+Extra - map_name: Brinstar6
+Extra - room_id: 6
+> Door to Blue Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Blue Shaft/Door to Vestibule
+  * Generated from ROM.
+  * Extra - door_idx: 16
+
+> Door to Gold Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Gold Shaft/Door to Vestibule
+  * Generated from ROM.
+  * Extra - door_idx: 17
+
+----------------
+Gold Shaft
+Extra - map_name: Brinstar7
+Extra - room_id: 7
+> Door to Four Pipes Corridor; Heals? False
+  * Layers: default
+  * Power Beam Door to Four Pipes Corridor/Door to Gold Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 18
+
+> Door to Vestibule; Heals? False
+  * Layers: default
+  * Power Beam Door to Vestibule/Door to Gold Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 19
+
+> Door to Mero Corridor; Heals? False
+  * Layers: default
+  * Missile Door to Mero Corridor/Door to Gold Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 20
+
+> Door to Norfair Access Corridor; Heals? False
+  * Layers: default
+  * Power Beam Door to Norfair Access Corridor/Door to Gold Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 21
+
+> Door to Save Station B; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station B/Door to Gold Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 72
+
+> Tunnel to Sloped Alcove; Heals? False
+  * Layers: default
+  * Tunnel to Sloped Alcove/Tunnel to Gold Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 80
+
+> Tunnel to Speedbooster Passage; Heals? False
+  * Layers: default
+  * Tunnel to Speedbooster Passage/Tunnel to Gold Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 88
+
+----------------
+Elevator to Kraid
+Extra - map_name: Brinstar8
+Extra - room_id: 8
+> Door to Fake Block Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Fake Block Shaft/Door to Elevator to Kraid
+  * Generated from ROM.
+  * Extra - door_idx: 8
+
+> Dock to Elevator to Brinstar; Heals? False
+  * Layers: default
+  * Access Open to Elevator to Brinstar/Dock to Elevator to Kraid
+  * Generated from ROM.
+  * Extra - door_idx: 9
+
+> Door to Guide Chamber A; Heals? False
+  * Layers: default
+  * Missile Door to Guide Chamber A/Door to Elevator to Kraid
+  * Generated from ROM.
+  * Extra - door_idx: 79
+
+----------------
+Tourian Gate Access
+Extra - map_name: Brinstar9
+Extra - room_id: 9
+> Door to Tourian Gate; Heals? False
+  * Layers: default
+  * Power Beam Door to Tourian Gate/Door to Tourian Gate Access
+  * Generated from ROM.
+  * Extra - door_idx: 22
+
+> Door to Chozo Hint A; Heals? False
+  * Layers: default
+  * Power Beam Door to Chozo Hint A/Door to Tourian Gate Access
+  * Generated from ROM.
+  * Extra - door_idx: 23
+
+> Dock to Cave Shaft; Heals? False
+  * Layers: default
+  * Access Open to Cave Shaft/Dock to Tourian Gate Access
+  * Generated from ROM.
+  * Extra - door_idx: 62
+
+----------------
+Tourian Gate
+Extra - map_name: Brinstar10
+Extra - room_id: 10
+> Door to Elevator to Tourian; Heals? False
+  * Layers: default
+  * Power Beam Door to Elevator to Tourian/Door to Tourian Gate
+  * Generated from ROM.
+  * Extra - door_idx: 24
+
+> Door to Tourian Gate Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Tourian Gate Access/Door to Tourian Gate
+  * Generated from ROM.
+  * Extra - door_idx: 25
+
+----------------
+Elevator to Tourian
+Extra - map_name: Brinstar11
+Extra - room_id: 11
+> Door to Tourian Gate; Heals? False
+  * Layers: default
+  * Power Beam Door to Tourian Gate/Door to Elevator to Tourian
+  * Generated from ROM.
+  * Extra - door_idx: 26
+
+> Dock to Elevator to Brinstar (Upper); Heals? False
+  * Layers: default
+  * Access Open to Elevator to Brinstar (Upper)/Dock to Elevator to Tourian
+  * Generated from ROM.
+  * Extra - door_idx: 61
+
+----------------
+Norfair Access Corridor
+Extra - map_name: Brinstar12
+Extra - room_id: 12
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 2; Category? Minor
+  * Generated from ROM.
+
+> Door to Gold Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Gold Shaft/Door to Norfair Access Corridor
+  * Generated from ROM.
+  * Extra - door_idx: 27
+
+> Door to Elevator to Norfair; Heals? False
+  * Layers: default
+  * Power Beam Door to Elevator to Norfair/Door to Norfair Access Corridor
+  * Generated from ROM.
+  * Extra - door_idx: 28
+
+----------------
+Mero Corridor
+Extra - map_name: Brinstar13
+Extra - room_id: 13
+> Door to Gold Shaft; Heals? False
+  * Layers: default
+  * Missile Door to Gold Shaft/Door to Mero Corridor
+  * Generated from ROM.
+  * Extra - door_idx: 29
+
+> Door to Mero Abyss; Heals? False
+  * Layers: default
+  * Power Beam Door to Mero Abyss/Door to Mero Corridor
+  * Generated from ROM.
+  * Extra - door_idx: 30
+
+----------------
+Mero Abyss
+Extra - map_name: Brinstar14
+Extra - room_id: 14
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 3; Category? Minor
+  * Generated from ROM.
+
+> Door to Mero Corridor; Heals? False
+  * Layers: default
+  * Power Beam Door to Mero Corridor/Door to Mero Abyss
+  * Generated from ROM.
+  * Extra - door_idx: 31
+
+> Door to Mero Hive Chamber; Heals? False
+  * Layers: default
+  * Power Beam Door to Mero Hive Chamber/Door to Mero Abyss
+  * Generated from ROM.
+  * Extra - door_idx: 32
+
+----------------
+Mero Hive Chamber
+Extra - map_name: Brinstar15
+Extra - room_id: 15
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 4; Category? Minor
+  * Generated from ROM.
+
+> Door to Mero Abyss; Heals? False
+  * Layers: default
+  * Power Beam Door to Mero Abyss/Door to Mero Hive Chamber
+  * Generated from ROM.
+  * Extra - door_idx: 33
+
+> Door to Cavernous Hall Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Cavernous Hall Access/Door to Mero Hive Chamber
+  * Generated from ROM.
+  * Extra - door_idx: 34
+
+----------------
+Cavernous Hall Access
+Extra - map_name: Brinstar16
+Extra - room_id: 16
+> Door to Mero Hive Chamber; Heals? False
+  * Layers: default
+  * Power Beam Door to Mero Hive Chamber/Door to Cavernous Hall Access
+  * Generated from ROM.
+  * Extra - door_idx: 35
+
+> Door to Alternate Charge Worm; Heals? False
+  * Layers: default
+  * Power Beam Door to Alternate Charge Worm/Door to Cavernous Hall Access
+  * Generated from ROM.
+  * Extra - door_idx: 36
+
+> Door to Cavernous Hall; Heals? False
+  * Layers: default
+  * Power Beam Door to Cavernous Hall/Door to Cavernous Hall Access
+  * Generated from ROM.
+  * Extra - door_idx: 37
+
+----------------
+Cavernous Hall
+Extra - map_name: Brinstar17
+Extra - room_id: 17
+> Door to Guide Chamber B; Heals? False
+  * Layers: default
+  * Missile Door to Guide Chamber B/Door to Cavernous Hall
+  * Generated from ROM.
+  * Extra - door_idx: 38
+
+> Door to Cavernous Hall Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Cavernous Hall Access/Door to Cavernous Hall
+  * Generated from ROM.
+  * Extra - door_idx: 39
+
+----------------
+Guide Chamber B
+Extra - map_name: Brinstar18
+Extra - room_id: 18
+> Door to Cavernous Hall; Heals? False
+  * Layers: default
+  * Missile Door to Cavernous Hall/Door to Guide Chamber B
+  * Generated from ROM.
+  * Extra - door_idx: 40
+
+----------------
+Alternate Charge Worm
+Extra - map_name: Brinstar19
+Extra - room_id: 19
+> Pickup (Energy Tank); Heals? False
+  * Layers: default
+  * Pickup 5; Category? Minor
+  * Generated from ROM.
+
+> Pickup (Missile Tank (Hidden)); Heals? False
+  * Layers: default
+  * Pickup 6; Category? Minor
+  * Generated from ROM.
+
+> Door to Cavernous Hall Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Cavernous Hall Access/Door to Alternate Charge Worm
+  * Generated from ROM.
+  * Extra - door_idx: 41
+
+> Door to Eastern Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Eastern Shaft/Door to Alternate Charge Worm
+  * Generated from ROM.
+  * Extra - door_idx: 42
+
+----------------
+Eastern Shaft
+Extra - map_name: Brinstar20
+Extra - room_id: 20
+> Door to Chozo Statue Northeast; Heals? False
+  * Layers: default
+  * Power Beam Door to Chozo Statue Northeast/Door to Eastern Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 43
+
+> Door to Short Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Short Shaft/Door to Eastern Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 44
+
+> Door to Alternate Charge Worm; Heals? False
+  * Layers: default
+  * Power Beam Door to Alternate Charge Worm/Door to Eastern Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 45
+
+> Door to Map Station; Heals? False
+  * Layers: default
+  * Missile Door to Map Station/Door to Eastern Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 66
+
+----------------
+Acid Vine Puzzle
+Extra - map_name: Brinstar21
+Extra - room_id: 21
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 7; Category? Minor
+  * Generated from ROM.
+
+> Door to Save Station D; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station D/Door to Acid Vine Puzzle
+  * Generated from ROM.
+  * Extra - door_idx: 46
+
+> Tunnel to Chozo Statue Northeast; Heals? False
+  * Layers: default
+  * Tunnel to Chozo Statue Northeast/Tunnel to Acid Vine Puzzle
+  * Generated from ROM.
+  * Extra - door_idx: 64
+
+> Tunnel to Chozo Statue Northeast (86); Heals? False
+  * Layers: default
+  * Tunnel to Chozo Statue Northeast/Tunnel to Acid Vine Puzzle
+  * Generated from ROM.
+  * Extra - door_idx: 86
+
+----------------
+Varia Ascent
+Extra - map_name: Brinstar22
+Extra - room_id: 22
+> Door to Varia Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Varia Access/Door to Varia Ascent
+  * Generated from ROM.
+  * Extra - door_idx: 48
+
+> Door to Four Pipes Corridor; Heals? False
+  * Layers: default
+  * Power Beam Door to Four Pipes Corridor/Door to Varia Ascent
+  * Generated from ROM.
+  * Extra - door_idx: 49
+
+> Door to Save Station D; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station D/Door to Varia Ascent
+  * Generated from ROM.
+  * Extra - door_idx: 50
+
+----------------
+Varia Access
+Extra - map_name: Brinstar23
+Extra - room_id: 23
+> Pickup (Energy Tank); Heals? False
+  * Layers: default
+  * Pickup 8; Category? Minor
+  * Generated from ROM.
+
+> Door to Varia Chamber; Heals? False
+  * Layers: default
+  * Missile Door to Varia Chamber/Door to Varia Access
+  * Generated from ROM.
+  * Extra - door_idx: 51
+
+> Door to Varia Ascent; Heals? False
+  * Layers: default
+  * Power Beam Door to Varia Ascent/Door to Varia Access
+  * Generated from ROM.
+  * Extra - door_idx: 52
+
+----------------
+Bomb Access
+Extra - map_name: Brinstar24
+Extra - room_id: 24
+> Door to Bomb Chamber; Heals? False
+  * Layers: default
+  * Missile Door to Bomb Chamber/Door to Bomb Access
+  * Generated from ROM.
+  * Extra - door_idx: 53
+
+> Door to Short Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Short Shaft/Door to Bomb Access
+  * Generated from ROM.
+  * Extra - door_idx: 54
+
+----------------
+Bomb Chamber
+Extra - map_name: Brinstar25
+Extra - room_id: 25
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 9; Category? Minor
+  * Generated from ROM.
+
+> Door to Bomb Access; Heals? False
+  * Layers: default
+  * Missile Door to Bomb Access/Door to Bomb Chamber
+  * Generated from ROM.
+  * Extra - door_idx: 55
+
+----------------
+Elevator to Norfair
+Extra - map_name: Brinstar26
+Extra - room_id: 26
+> Door to Norfair Access Corridor; Heals? False
+  * Layers: default
+  * Power Beam Door to Norfair Access Corridor/Door to Elevator to Norfair
+  * Generated from ROM.
+  * Extra - door_idx: 56
+
+> Dock to Elevator to Brinstar; Heals? False
+  * Layers: default
+  * Access Open to Elevator to Brinstar/Dock to Elevator to Norfair
+  * Generated from ROM.
+  * Extra - door_idx: 57
+
+----------------
+Varia Chamber
+Extra - map_name: Brinstar27
+Extra - room_id: 27
+> Door to Varia Access; Heals? False
+  * Layers: default
+  * Missile Door to Varia Access/Door to Varia Chamber
+  * Generated from ROM.
+  * Extra - door_idx: 59
+
+----------------
+Four Pipes Corridor
+Extra - map_name: Brinstar28
+Extra - room_id: 28
+> Door to Varia Ascent; Heals? False
+  * Layers: default
+  * Power Beam Door to Varia Ascent/Door to Four Pipes Corridor
+  * Generated from ROM.
+  * Extra - door_idx: 58
+
+> Door to Gold Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Gold Shaft/Door to Four Pipes Corridor
+  * Generated from ROM.
+  * Extra - door_idx: 60
+
+----------------
+Sloped Alcove
+Extra - map_name: Brinstar29
+Extra - room_id: 29
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 10; Category? Minor
+  * Generated from ROM.
+
+> Tunnel to Gold Shaft; Heals? False
+  * Layers: default
+  * Tunnel to Gold Shaft/Tunnel to Sloped Alcove
+  * Generated from ROM.
+  * Extra - door_idx: 81
+
+> Tunnel to Blue Shaft; Heals? False
+  * Layers: default
+  * Tunnel to Blue Shaft/Tunnel to Sloped Alcove
+  * Generated from ROM.
+  * Extra - door_idx: 82
+
+----------------
+Chozo Hint A
+Extra - map_name: Brinstar30
+Extra - room_id: 30
+> Door to Tourian Gate Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Tourian Gate Access/Door to Chozo Hint A
+  * Generated from ROM.
+  * Extra - door_idx: 96
+
+> Door to Blue Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Blue Shaft/Door to Chozo Hint A
+  * Generated from ROM.
+  * Extra - door_idx: 97
+
+----------------
+Short Shaft
+Extra - map_name: Brinstar31
+Extra - room_id: 31
+> Door to Bomb Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Bomb Access/Door to Short Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 67
+
+> Door to Save Station A; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station A/Door to Short Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 68
+
+> Door to Eastern Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Eastern Shaft/Door to Short Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 69
+
+----------------
+Map Station
+Extra - map_name: Brinstar32
+Extra - room_id: 32
+> Door to Eastern Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Eastern Shaft/Door to Map Station
+  * Generated from ROM.
+  * Extra - door_idx: 70
+
+----------------
+Save Station A
+Extra - map_name: Brinstar33
+Extra - room_id: 33
+> Door to Short Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Short Shaft/Door to Save Station A
+  * Generated from ROM.
+  * Extra - door_idx: 71
+
+----------------
+Save Station B
+Extra - map_name: Brinstar34
+Extra - room_id: 34
+> Door to Gold Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Gold Shaft/Door to Save Station B
+  * Generated from ROM.
+  * Extra - door_idx: 73
+
+----------------
+Cave Shaft
+Extra - map_name: Brinstar35
+Extra - room_id: 35
+> Tunnel to Long Beam Access; Heals? False
+  * Layers: default
+  * Tunnel to Long Beam Access/Tunnel to Cave Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 74
+
+> Dock to Tourian Gate Access; Heals? False
+  * Layers: default
+  * Access Open to Tourian Gate Access/Dock to Cave Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 75
+
+----------------
+Save Station C
+Extra - map_name: Brinstar36
+Extra - room_id: 36
+> Door to Blue Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Blue Shaft/Door to Save Station C
+  * Generated from ROM.
+  * Extra - door_idx: 77
+
+----------------
+Guide Chamber A
+Extra - map_name: Brinstar37
+Extra - room_id: 37
+> Door to Elevator to Kraid; Heals? False
+  * Layers: default
+  * Missile Door to Elevator to Kraid/Door to Guide Chamber A
+  * Generated from ROM.
+  * Extra - door_idx: 78
+
+----------------
+Chozo Statue Northeast
+Extra - map_name: Brinstar38
+Extra - room_id: 38
+> Door to Eastern Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Eastern Shaft/Door to Chozo Statue Northeast
+  * Generated from ROM.
+  * Extra - door_idx: 47
+
+> Tunnel to Acid Vine Puzzle; Heals? False
+  * Layers: default
+  * Tunnel to Acid Vine Puzzle/Tunnel to Chozo Statue Northeast
+  * Generated from ROM.
+  * Extra - door_idx: 65
+
+> Tunnel to Acid Vine Puzzle (87); Heals? False
+  * Layers: default
+  * Tunnel to Acid Vine Puzzle/Tunnel to Chozo Statue Northeast
+  * Generated from ROM.
+  * Extra - door_idx: 87
+
+----------------
+Save Station D
+Extra - map_name: Brinstar39
+Extra - room_id: 39
+> Door to Acid Vine Puzzle; Heals? False
+  * Layers: default
+  * Power Beam Door to Acid Vine Puzzle/Door to Save Station D
+  * Generated from ROM.
+  * Extra - door_idx: 84
+
+> Door to Varia Ascent; Heals? False
+  * Layers: default
+  * Power Beam Door to Varia Ascent/Door to Save Station D
+  * Generated from ROM.
+  * Extra - door_idx: 85
+
+----------------
+Speedbooster Passage
+Extra - map_name: Brinstar40
+Extra - room_id: 40
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 11; Category? Minor
+  * Generated from ROM.
+
+> Tunnel to Gold Shaft; Heals? False
+  * Layers: default
+  * Tunnel to Gold Shaft/Tunnel to Speedbooster Passage
+  * Generated from ROM.
+  * Extra - door_idx: 89
+
+> Tunnel to Blue Shaft; Heals? False
+  * Layers: default
+  * Tunnel to Blue Shaft/Tunnel to Speedbooster Passage
+  * Generated from ROM.
+  * Extra - door_idx: 90
+
+----------------
+Hidden Tank Shaft
+Extra - map_name: Brinstar41
+Extra - room_id: 41
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 12; Category? Minor
+  * Generated from ROM.
+
+> Pickup (Super Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 13; Category? Minor
+  * Generated from ROM.
+
+> Tunnel to Blue Shaft; Heals? False
+  * Layers: default
+  * Tunnel to Blue Shaft/Tunnel to Hidden Tank Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 93
+
+> Tunnel to Blue Shaft (94); Heals? False
+  * Layers: default
+  * Tunnel to Blue Shaft/Tunnel to Hidden Tank Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 94
+

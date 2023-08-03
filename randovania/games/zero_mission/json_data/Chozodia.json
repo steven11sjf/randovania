@@ -2468,16 +2468,16 @@
         "Save Station D": {
             "default_node": null,
             "extra": {
-                "map_name": "Chozodia74",
-                "room_id": 74
+                "map_name": "Chozodia27",
+                "room_id": 27
             },
             "nodes": {
-                "Door to Probe-Filled Shaft": {
+                "Dock to Dark-Blue Alcove": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 40.0,
-                        "y": 112.0,
+                        "x": 264.0,
+                        "y": 96.0,
                         "z": 0.0
                     },
                     "description": "Generated from ROM.",
@@ -2485,16 +2485,45 @@
                         "default"
                     ],
                     "extra": {
-                        "door_idx": 162
+                        "door_idx": 59
                     },
                     "valid_starting_location": false,
-                    "dock_type": "door",
+                    "dock_type": "dock",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Probe-Filled Shaft",
-                        "node": "Door to Save Station D"
+                        "area": "Dark-Blue Alcove",
+                        "node": "Dock to Save Station D"
                     },
-                    "default_dock_weakness": "Power Beam Door",
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Dock to Checkpoint": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 80.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 60
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Chozodia",
+                        "area": "Checkpoint",
+                        "node": "Dock to Save Station D"
+                    },
+                    "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -3502,11 +3531,40 @@
         "Save Station E": {
             "default_node": null,
             "extra": {
-                "map_name": "Chozodia75",
-                "room_id": 75
+                "map_name": "Chozodia40",
+                "room_id": 40
             },
             "nodes": {
-                "Dock to Chacmool Access": {
+                "Dock to Chozo Inner Temple (INITIAL)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 152.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 85
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Chozodia",
+                        "area": "Chozo Inner Temple (INITIAL)",
+                        "node": "Dock to Save Station E"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Dock to Flooded Chamber (INITIAL)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3519,13 +3577,13 @@
                         "default"
                     ],
                     "extra": {
-                        "door_idx": 164
+                        "door_idx": 86
                     },
                     "valid_starting_location": false,
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Chacmool Access",
+                        "area": "Flooded Chamber (INITIAL)",
                         "node": "Dock to Save Station E"
                     },
                     "default_dock_weakness": "Access Open",
@@ -5250,7 +5308,7 @@
                 }
             }
         },
-        "Save Station F (Ship Bridge)": {
+        "Save Station F": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia61",
@@ -5277,7 +5335,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Upper Antechamber",
-                        "node": "Door to Save Station F (Ship Bridge)"
+                        "node": "Door to Save Station F"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -5353,7 +5411,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station D": {
+                "Door to Save Station G": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -5372,7 +5430,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Save Station D",
+                        "area": "Save Station G",
                         "node": "Door to Probe-Filled Shaft"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -6164,6 +6222,82 @@
                 }
             }
         },
+        "Save Station G": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia74",
+                "room_id": 74
+            },
+            "nodes": {
+                "Door to Probe-Filled Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 162
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Chozodia",
+                        "area": "Probe-Filled Shaft",
+                        "node": "Door to Save Station G"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
+        },
+        "Save Station H": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Chozodia75",
+                "room_id": 75
+            },
+            "nodes": {
+                "Dock to Chacmool Access": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 164
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Chozodia",
+                        "area": "Chacmool Access",
+                        "node": "Dock to Save Station H"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
+        },
         "Checkpoint": {
             "default_node": null,
             "extra": {
@@ -6870,7 +7004,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Dock to Save Station E": {
+                "Dock to Save Station H": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -6889,7 +7023,7 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Save Station E",
+                        "area": "Save Station H",
                         "node": "Dock to Chacmool Access"
                     },
                     "default_dock_weakness": "Access Open",
@@ -8092,7 +8226,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station F (Ship Bridge)": {
+                "Door to Save Station F": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -8111,7 +8245,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Save Station F (Ship Bridge)",
+                        "area": "Save Station F",
                         "node": "Door to Upper Antechamber"
                     },
                     "default_dock_weakness": "Power Beam Door",

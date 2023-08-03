@@ -393,7 +393,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station South": {
+                "Door to Save Station C": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -412,7 +412,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Save Station South",
+                        "area": "Save Station C",
                         "node": "Door to Blue Shaft"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -864,7 +864,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station Central": {
+                "Door to Save Station B": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -883,7 +883,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Save Station Central",
+                        "area": "Save Station B",
                         "node": "Door to Gold Shaft"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2055,7 +2055,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Save Station North": {
+                "Door to Save Station D": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2074,7 +2074,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Save Station North",
+                        "area": "Save Station D",
                         "node": "Door to Acid Vine Puzzle"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2209,7 +2209,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station North": {
+                "Door to Save Station D": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2228,7 +2228,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Save Station North",
+                        "area": "Save Station D",
                         "node": "Door to Varia Ascent"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2808,7 +2808,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station East": {
+                "Door to Save Station A": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2827,7 +2827,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Save Station East",
+                        "area": "Save Station A",
                         "node": "Door to Short Shaft"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2906,7 +2906,7 @@
                 }
             }
         },
-        "Save Station East": {
+        "Save Station A": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar33",
@@ -2933,7 +2933,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Short Shaft",
-                        "node": "Door to Save Station East"
+                        "node": "Door to Save Station A"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2944,7 +2944,7 @@
                 }
             }
         },
-        "Save Station Central": {
+        "Save Station B": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar34",
@@ -2971,7 +2971,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Gold Shaft",
-                        "node": "Door to Save Station Central"
+                        "node": "Door to Save Station B"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3049,7 +3049,7 @@
                 }
             }
         },
-        "Save Station South": {
+        "Save Station C": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar36",
@@ -3076,7 +3076,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Blue Shaft",
-                        "node": "Door to Save Station South"
+                        "node": "Door to Save Station C"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3221,7 +3221,7 @@
                 }
             }
         },
-        "Save Station North": {
+        "Save Station D": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar39",
@@ -3248,7 +3248,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Acid Vine Puzzle",
-                        "node": "Door to Save Station North"
+                        "node": "Door to Save Station D"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3277,7 +3277,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Varia Ascent",
-                        "node": "Door to Save Station North"
+                        "node": "Door to Save Station D"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,

@@ -1,0 +1,673 @@
+----------------
+Elevator to Norfair
+Extra - map_name: Ridley0
+Extra - room_id: 0
+> Dock to Elevator to Ridley; Heals? False
+  * Layers: default
+  * Access Open to Elevator to Ridley/Dock to Elevator to Norfair
+  * Generated from ROM.
+  * Extra - door_idx: 0
+
+> Door to Save Station A; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station A/Door to Elevator to Norfair
+  * Generated from ROM.
+  * Extra - door_idx: 1
+
+> Door to Ridley's Shortcut; Heals? False
+  * Layers: default
+  * Power Beam Door to Ridley's Shortcut/Door to Elevator to Norfair
+  * Generated from ROM.
+  * Extra - door_idx: 2
+
+----------------
+Save Station A
+Extra - map_name: Ridley1
+Extra - room_id: 1
+> Door to Elevator to Norfair; Heals? False
+  * Layers: default
+  * Power Beam Door to Elevator to Norfair/Door to Save Station A
+  * Generated from ROM.
+  * Extra - door_idx: 3
+
+> Door to Cocoon Cavern (Lower); Heals? False
+  * Layers: default
+  * Power Beam Door to Cocoon Cavern (Lower)/Door to Save Station A
+  * Generated from ROM.
+  * Extra - door_idx: 4
+
+----------------
+Cocoon Cave (Upper)
+Extra - map_name: Ridley2
+Extra - room_id: 2
+> Door to Imago's Hideout; Heals? False
+  * Layers: default
+  * Power Beam Door to Imago's Hideout/Door to Cocoon Cave (Upper)
+  * Generated from ROM.
+  * Extra - door_idx: 43
+
+> Dock to Kiru-Giru Chamber (FINAL); Heals? False
+  * Layers: default
+  * Access Open to Kiru-Giru Chamber (FINAL)/Dock to Cocoon Cave (Upper)
+  * Generated from ROM.
+  * Extra - door_idx: 60
+
+> Dock to Imago's Hideout; Heals? False
+  * Layers: default
+  * Access Open to Imago's Hideout/Dock to Cocoon Cave (Upper)
+  * Generated from ROM.
+  * Extra - door_idx: 63
+
+> Tunnel to Cocoon Cavern (Lower); Heals? False
+  * Layers: default
+  * Tunnel to Cocoon Cavern (Lower)/Tunnel to Cocoon Cavern (Upper, INITIAL)
+  * Generated from ROM.
+  * Extra - door_idx: 66
+
+----------------
+Hall of Pillars
+Extra - map_name: Ridley3
+Extra - room_id: 3
+> Door to Cocoon Cavern (Lower); Heals? False
+  * Layers: default
+  * Super Missile Door to Cocoon Cavern (Lower)/Door to Hall of Pillars
+  * Generated from ROM.
+  * Extra - door_idx: 7
+
+> Door to Artificial Passage; Heals? False
+  * Layers: default
+  * Missile Door to Artificial Passage/Door to Hall of Pillars
+  * Generated from ROM.
+  * Extra - door_idx: 8
+
+----------------
+Artificial Passage
+Extra - map_name: Ridley4
+Extra - room_id: 4
+> Pickup (Energy Tank); Heals? False
+  * Layers: default
+  * Pickup 43; Category? Minor
+  * Generated from ROM.
+
+> Door to Hall of Pillars; Heals? False
+  * Layers: default
+  * Missile Door to Hall of Pillars/Door to Artificial Passage
+  * Generated from ROM.
+  * Extra - door_idx: 9
+
+> Door to Pronged Hall; Heals? False
+  * Layers: default
+  * Power Beam Door to Pronged Hall/Door to Artificial Passage
+  * Generated from ROM.
+  * Extra - door_idx: 10
+
+> Door to Path over Lava; Heals? False
+  * Layers: default
+  * Power Beam Door to Path over Lava/Door to Artificial Passage
+  * Generated from ROM.
+  * Extra - door_idx: 11
+
+----------------
+Pronged Hall
+Extra - map_name: Ridley5
+Extra - room_id: 5
+> Door to Artificial Passage; Heals? False
+  * Layers: default
+  * Power Beam Door to Artificial Passage/Door to Pronged Hall
+  * Generated from ROM.
+  * Extra - door_idx: 13
+
+> Door to Shaft of Doom; Heals? False
+  * Layers: default
+  * Power Beam Door to Shaft of Doom/Door to Pronged Hall
+  * Generated from ROM.
+  * Extra - door_idx: 14
+
+----------------
+Shaft of Doom
+Extra - map_name: Ridley6
+Extra - room_id: 6
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 44; Category? Minor
+  * Generated from ROM.
+
+> Door to Pronged Hall; Heals? False
+  * Layers: default
+  * Power Beam Door to Pronged Hall/Door to Shaft of Doom
+  * Generated from ROM.
+  * Extra - door_idx: 15
+
+> Door to Path over Lava; Heals? False
+  * Layers: default
+  * Power Beam Door to Path over Lava/Door to Shaft of Doom
+  * Generated from ROM.
+  * Extra - door_idx: 16
+
+> Door to Map Station; Heals? False
+  * Layers: default
+  * Missile Door to Map Station/Door to Shaft of Doom
+  * Generated from ROM.
+  * Extra - door_idx: 17
+
+> Door to Save Station B; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station B/Door to Shaft of Doom
+  * Generated from ROM.
+  * Extra - door_idx: 53
+
+> Door to Ridley's Maze; Heals? False
+  * Layers: default
+  * Power Beam Door to Ridley's Maze/Door to Shaft of Doom
+  * Generated from ROM.
+  * Extra - door_idx: 68
+
+----------------
+Path over Lava
+Extra - map_name: Ridley7
+Extra - room_id: 7
+> Door to Shaft of Doom; Heals? False
+  * Layers: default
+  * Power Beam Door to Shaft of Doom/Door to Path over Lava
+  * Generated from ROM.
+  * Extra - door_idx: 18
+
+> Door to Artificial Passage; Heals? False
+  * Layers: default
+  * Power Beam Door to Artificial Passage/Door to Path over Lava
+  * Generated from ROM.
+  * Extra - door_idx: 19
+
+----------------
+Cache Access
+Extra - map_name: Ridley8
+Extra - room_id: 8
+> Door to Cache 2; Heals? False
+  * Layers: default
+  * Power Beam Door to Cache 2/Door to Cache Access
+  * Generated from ROM.
+  * Extra - door_idx: 20
+
+> Door to Gambit Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Gambit Shaft/Door to Cache Access
+  * Generated from ROM.
+  * Extra - door_idx: 21
+
+----------------
+Gambit Shaft
+Extra - map_name: Ridley9
+Extra - room_id: 9
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 45; Category? Minor
+  * Generated from ROM.
+
+> Door to Cache Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Cache Access/Door to Gambit Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 22
+
+> Door to Cache 1; Heals? False
+  * Layers: default
+  * Power Beam Door to Cache 1/Door to Gambit Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 23
+
+> Door to Save Station D; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station D/Door to Gambit Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 24
+
+> Door to Sloped Passage; Heals? False
+  * Layers: default
+  * Power Beam Door to Sloped Passage/Door to Gambit Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 25
+
+----------------
+Cache 1
+Extra - map_name: Ridley10
+Extra - room_id: 10
+> Pickup (Super Missile Tank (Hidden)); Heals? False
+  * Layers: default
+  * Pickup 46; Category? Minor
+  * Generated from ROM.
+
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 47; Category? Minor
+  * Generated from ROM.
+
+> Door to Middle Corridor; Heals? False
+  * Layers: default
+  * Power Beam Door to Middle Corridor/Door to Cache 1
+  * Generated from ROM.
+  * Extra - door_idx: 12
+
+> Door to Gambit Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Gambit Shaft/Door to Cache 1
+  * Generated from ROM.
+  * Extra - door_idx: 26
+
+----------------
+Ridley's Chamber Access
+Extra - map_name: Ridley11
+Extra - room_id: 11
+> Door to Save Station D; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station D/Door to Ridley's Chamber Access
+  * Generated from ROM.
+  * Extra - door_idx: 27
+
+> Door to Ridley's Chamber; Heals? False
+  * Layers: default
+  * Power Beam Door to Ridley's Chamber/Door to Ridley's Chamber Access
+  * Generated from ROM.
+  * Extra - door_idx: 28
+
+----------------
+Ridley's Chamber
+Extra - map_name: Ridley12
+Extra - room_id: 12
+> Door to Ridley's Chamber Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Ridley's Chamber Access/Door to Ridley's Chamber
+  * Generated from ROM.
+  * Extra - door_idx: 29
+
+> Door to Ridley's Reliquary; Heals? False
+  * Layers: default
+  * Power Beam Door to Ridley's Reliquary/Door to Ridley's Chamber
+  * Generated from ROM.
+  * Extra - door_idx: 30
+
+----------------
+Ridley's Reliquary
+Extra - map_name: Ridley13
+Extra - room_id: 13
+> Pickup (Energy Tank); Heals? False
+  * Layers: default
+  * Pickup 48; Category? Minor
+  * Generated from ROM.
+
+> Door to Ridley's Chamber; Heals? False
+  * Layers: default
+  * Power Beam Door to Ridley's Chamber/Door to Ridley's Reliquary
+  * Generated from ROM.
+  * Extra - door_idx: 31
+
+----------------
+Multiviola Nest
+Extra - map_name: Ridley14
+Extra - room_id: 14
+> Pickup (Energy Tank); Heals? False
+  * Layers: default
+  * Pickup 49; Category? Minor
+  * Generated from ROM.
+
+> Door to Rightmost Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Rightmost Shaft/Door to Multiviola Nest
+  * Generated from ROM.
+  * Extra - door_idx: 33
+
+> Door to Sloped Passage; Heals? False
+  * Layers: default
+  * Power Beam Door to Sloped Passage/Door to Multiviola Nest
+  * Generated from ROM.
+  * Extra - door_idx: 58
+
+> Dock to Middle Corridor; Heals? False
+  * Layers: default
+  * Access Open to Middle Corridor/Dock to Multiviola Nest
+  * Generated from ROM.
+  * Extra - door_idx: 62
+
+----------------
+Rightmost Shaft
+Extra - map_name: Ridley15
+Extra - room_id: 15
+> Door to Ridley's Shortcut; Heals? False
+  * Layers: default
+  * Power Beam Door to Ridley's Shortcut/Door to Rightmost Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 34
+
+> Door to Middle Corridor; Heals? False
+  * Layers: default
+  * Power Beam Door to Middle Corridor/Door to Rightmost Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 35
+
+> Door to Multiviola Nest; Heals? False
+  * Layers: default
+  * Power Beam Door to Multiviola Nest/Door to Rightmost Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 36
+
+> Door to Save Station C; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station C/Door to Rightmost Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 37
+
+> Door to Chain Reaction Chamber; Heals? False
+  * Layers: default
+  * Power Beam Door to Chain Reaction Chamber/Door to Rightmost Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 70
+
+> Door to Ridley's Runway; Heals? False
+  * Layers: default
+  * Power Beam Door to Ridley's Runway/Door to Rightmost Shaft
+  * Generated from ROM.
+  * Extra - door_idx: 72
+
+----------------
+Ridley's Shortcut
+Extra - map_name: Ridley16
+Extra - room_id: 16
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 50; Category? Minor
+  * Generated from ROM.
+
+> Door to Rightmost Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Rightmost Shaft/Door to Ridley's Shortcut
+  * Generated from ROM.
+  * Extra - door_idx: 38
+
+> Door to Elevator to Norfair; Heals? False
+  * Layers: default
+  * Power Beam Door to Elevator to Norfair/Door to Ridley's Shortcut
+  * Generated from ROM.
+  * Extra - door_idx: 39
+
+----------------
+Middle Corridor
+Extra - map_name: Ridley17
+Extra - room_id: 17
+> Pickup (Missile Tank (Hidden)); Heals? False
+  * Layers: default
+  * Pickup 51; Category? Minor
+  * Generated from ROM.
+
+> Door to Rightmost Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Rightmost Shaft/Door to Middle Corridor
+  * Generated from ROM.
+  * Extra - door_idx: 40
+
+> Door to Cache 1; Heals? False
+  * Layers: default
+  * Power Beam Door to Cache 1/Door to Middle Corridor
+  * Generated from ROM.
+  * Extra - door_idx: 49
+
+> Dock to Multiviola Nest; Heals? False
+  * Layers: default
+  * Access Open to Multiviola Nest/Dock to Middle Corridor
+  * Generated from ROM.
+  * Extra - door_idx: 61
+
+----------------
+Zebbo Nest
+Extra - map_name: Ridley18
+Extra - room_id: 18
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 52; Category? Minor
+  * Generated from ROM.
+
+> Door to Save Station C; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station C/Door to Zebbo Nest
+  * Generated from ROM.
+  * Extra - door_idx: 41
+
+> Door to Map Station; Heals? False
+  * Layers: default
+  * Power Beam Door to Map Station/Door to Zebbo Nest
+  * Generated from ROM.
+  * Extra - door_idx: 42
+
+----------------
+Imago's Hideout
+Extra - map_name: Ridley19
+Extra - room_id: 19
+> Pickup (Super Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 53; Category? Minor
+  * Generated from ROM.
+
+> Door to Cocoon Cave (Upper); Heals? False
+  * Layers: default
+  * Power Beam Door to Cocoon Cave (Upper)/Door to Imago's Hideout
+  * Generated from ROM.
+  * Extra - door_idx: 44
+
+> Dock to Cocoon Cave (Upper); Heals? False
+  * Layers: default
+  * Access Open to Cocoon Cave (Upper)/Dock to Imago's Hideout
+  * Generated from ROM.
+  * Extra - door_idx: 64
+
+----------------
+Save Station D
+Extra - map_name: Ridley20
+Extra - room_id: 20
+> Door to Ridley's Chamber Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Ridley's Chamber Access/Door to Save Station D
+  * Generated from ROM.
+  * Extra - door_idx: 45
+
+> Door to Gambit Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Gambit Shaft/Door to Save Station D
+  * Generated from ROM.
+  * Extra - door_idx: 46
+
+----------------
+Map Station
+Extra - map_name: Ridley21
+Extra - room_id: 21
+> Door to Shaft of Doom; Heals? False
+  * Layers: default
+  * Missile Door to Shaft of Doom/Door to Map Station
+  * Generated from ROM.
+  * Extra - door_idx: 47
+
+> Door to Zebbo Nest; Heals? False
+  * Layers: default
+  * Power Beam Door to Zebbo Nest/Door to Map Station
+  * Generated from ROM.
+  * Extra - door_idx: 48
+
+----------------
+Cache 2
+Extra - map_name: Ridley22
+Extra - room_id: 22
+> Pickup (Missile Tank (Hidden)); Heals? False
+  * Layers: default
+  * Pickup 54; Category? Minor
+  * Generated from ROM.
+
+> Pickup (Super Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 55; Category? Minor
+  * Generated from ROM.
+
+> Door to Cache Access; Heals? False
+  * Layers: default
+  * Power Beam Door to Cache Access/Door to Cache 2
+  * Generated from ROM.
+  * Extra - door_idx: 50
+
+> Door to Cache 3; Heals? False
+  * Layers: default
+  * Power Beam Door to Cache 3/Door to Cache 2
+  * Generated from ROM.
+  * Extra - door_idx: 51
+
+----------------
+Cache 3
+Extra - map_name: Ridley23
+Extra - room_id: 23
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 57; Category? Minor
+  * Generated from ROM.
+
+> Door to Cache 2; Heals? False
+  * Layers: default
+  * Power Beam Door to Cache 2/Door to Cache 3
+  * Generated from ROM.
+  * Extra - door_idx: 52
+
+----------------
+Save Station B
+Extra - map_name: Ridley24
+Extra - room_id: 24
+> Door to Shaft of Doom; Heals? False
+  * Layers: default
+  * Power Beam Door to Shaft of Doom/Door to Save Station B
+  * Generated from ROM.
+  * Extra - door_idx: 54
+
+----------------
+Save Station C
+Extra - map_name: Ridley25
+Extra - room_id: 25
+> Door to Rightmost Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Rightmost Shaft/Door to Save Station C
+  * Generated from ROM.
+  * Extra - door_idx: 55
+
+> Door to Zebbo Nest; Heals? False
+  * Layers: default
+  * Power Beam Door to Zebbo Nest/Door to Save Station C
+  * Generated from ROM.
+  * Extra - door_idx: 56
+
+----------------
+Sloped Passage
+Extra - map_name: Ridley26
+Extra - room_id: 26
+> Door to Gambit Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Gambit Shaft/Door to Sloped Passage
+  * Generated from ROM.
+  * Extra - door_idx: 32
+
+> Door to Multiviola Nest; Heals? False
+  * Layers: default
+  * Power Beam Door to Multiviola Nest/Door to Sloped Passage
+  * Generated from ROM.
+  * Extra - door_idx: 57
+
+----------------
+Imago's Hideout (AFTER)
+Extra - map_name: Ridley27
+Extra - room_id: 27
+> Door to Cocoon Cave (Upper); Heals? False
+  * Layers: default
+  * Power Beam Door to Cocoon Cave (Upper)/Door to Imago's Hideout
+  * Generated from ROM.
+  * Extra - door_idx: 59
+
+> Dock to Cocoon Cave (Upper); Heals? False
+  * Layers: default
+  * Access Open to Cocoon Cave (Upper)/Dock to Imago's Hideout
+  * Generated from ROM.
+  * Extra - door_idx: 65
+
+----------------
+Cocoon Cavern (Upper, INITIAL)
+Extra - map_name: Ridley28
+Extra - room_id: 28
+> Tunnel to Cocoon Cavern (Lower); Heals? False
+  * Layers: default
+  * Tunnel to Cocoon Cavern (Lower)/Tunnel to Cocoon Cavern (Upper, INITIAL)
+  * Generated from ROM.
+  * Extra - door_idx: 67
+
+> Door to Cocoon Cavern (Upper, INITIAL); Heals? False
+  * Layers: default
+  * Power Beam Door to Cocoon Cavern (Upper, INITIAL)/Door to Cocoon Cavern (Upper, INITIAL)
+  * Generated from ROM.
+  * Extra - door_idx: 75
+
+----------------
+Ridley's Maze
+Extra - map_name: Ridley29
+Extra - room_id: 29
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 59; Category? Minor
+  * Generated from ROM.
+
+> Door to Shaft of Doom; Heals? False
+  * Layers: default
+  * Power Beam Door to Shaft of Doom/Door to Ridley's Maze
+  * Generated from ROM.
+  * Extra - door_idx: 69
+
+----------------
+Chain Reaction Chamber
+Extra - map_name: Ridley30
+Extra - room_id: 30
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 60; Category? Minor
+  * Generated from ROM.
+
+> Door to Rightmost Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Rightmost Shaft/Door to Chain Reaction Chamber
+  * Generated from ROM.
+  * Extra - door_idx: 71
+
+----------------
+Ridley's Runway
+Extra - map_name: Ridley31
+Extra - room_id: 31
+> Pickup (Missile Tank); Heals? False
+  * Layers: default
+  * Pickup 61; Category? Minor
+  * Generated from ROM.
+
+> Door to Rightmost Shaft; Heals? False
+  * Layers: default
+  * Power Beam Door to Rightmost Shaft/Door to Ridley's Runway
+  * Generated from ROM.
+  * Extra - door_idx: 73
+
+----------------
+Cocoon Cavern (Lower)
+Extra - map_name: Ridley32
+Extra - room_id: 32
+> Door to Save Station A; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station A/Door to Cocoon Cavern (Lower)
+  * Generated from ROM.
+  * Extra - door_idx: 5
+
+> Door to Hall of Pillars; Heals? False
+  * Layers: default
+  * Super Missile Door to Hall of Pillars/Door to Cocoon Cavern (Lower)
+  * Generated from ROM.
+  * Extra - door_idx: 6
+
+> Tunnel to Cocoon Cavern (Upper, INITIAL); Heals? False
+  * Layers: default
+  * Tunnel to Cocoon Cavern (Upper, INITIAL)/Tunnel to Cocoon Cavern (Lower)
+  * Generated from ROM.
+  * Extra - door_idx: 74
+
