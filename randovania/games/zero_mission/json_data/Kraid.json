@@ -4,341 +4,3655 @@
         "area_id": 1
     },
     "areas": {
-        "Kraid_0": {
+        "Elevator to Brinstar": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid0",
                 "room_id": 0
             },
-            "nodes": {}
+            "nodes": {
+                "Dock to Elevator to Kraid": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 152.0,
+                        "y": 1304.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 0
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Elevator to Kraid",
+                        "node": "Dock to Elevator to Brinstar"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Save Station A": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 912.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 1
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Save Station A",
+                        "node": "Door to Elevator to Brinstar"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Caged Sidehopper Hall": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 912.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 2
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Caged Sidehopper Hall",
+                        "node": "Door to Elevator to Brinstar"
+                    },
+                    "default_dock_weakness": "Missile Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Acidic Concourse": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 752.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 3
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Acidic Concourse",
+                        "node": "Door to Elevator to Brinstar"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Runway": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 752.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 4
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Runway",
+                        "node": "Door to Elevator to Brinstar"
+                    },
+                    "default_dock_weakness": "Missile Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Gauntlet": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 448.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 5
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Gauntlet",
+                        "node": "Door to Elevator to Brinstar"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Corrosive Pool": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 448.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 6
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Corrosive Pool",
+                        "node": "Door to Elevator to Brinstar"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Sidehopper Hall": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 7
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Sidehopper Hall",
+                        "node": "Door to Elevator to Brinstar"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Divided Alcove": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 8
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Divided Alcove",
+                        "node": "Door to Elevator to Brinstar"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_1": {
+        "Caged Sidehopper Hall": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid1",
                 "room_id": 1
             },
-            "nodes": {}
+            "nodes": {
+                "Pickup (Missile Tank)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 392.0,
+                        "y": 152.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 14,
+                    "location_category": "minor",
+                    "connections": {}
+                },
+                "Door to Elevator to Brinstar": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 9
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Elevator to Brinstar",
+                        "node": "Door to Caged Sidehopper Hall"
+                    },
+                    "default_dock_weakness": "Missile Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Apex Launcher Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 1224.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 10
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Apex Launcher Shaft",
+                        "node": "Door to Caged Sidehopper Hall"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_2": {
+        "Apex Launcher Shaft": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid2",
                 "room_id": 2
             },
-            "nodes": {}
+            "nodes": {
+                "Pickup (Missile Tank)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 152.0,
+                        "y": 648.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 15,
+                    "location_category": "minor",
+                    "connections": {}
+                },
+                "Door to Upper Corridor": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 1072.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 11
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Upper Corridor",
+                        "node": "Door to Apex Launcher Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Save Station B": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 912.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 12
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Save Station B",
+                        "node": "Door to Apex Launcher Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Acid Worm Access": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 752.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 13
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Acid Worm Access",
+                        "node": "Door to Apex Launcher Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Caged Sidehopper Hall": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 256.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 14
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Caged Sidehopper Hall",
+                        "node": "Door to Apex Launcher Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_3": {
+        "Upper Corridor": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid3",
                 "room_id": 3
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Zeela-Infested Room": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 128.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 15
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Zeela-Infested Room",
+                        "node": "Door to Upper Corridor"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Apex Launcher Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 744.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 16
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Apex Launcher Shaft",
+                        "node": "Door to Upper Corridor"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_4": {
+        "Zipline Activation Chamber": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid4",
                 "room_id": 4
             },
-            "nodes": {}
+            "nodes": {
+                "Pickup (Energy Tank)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 360.0,
+                        "y": 120.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 16,
+                    "location_category": "minor",
+                    "connections": {}
+                },
+                "Door to Zeela-Infested Room": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 17
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Zeela-Infested Room",
+                        "node": "Door to Zipline Activation Chamber"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Save Station B": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 504.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 18
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Save Station B",
+                        "node": "Door to Zipline Activation Chamber"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_5": {
+        "Acid Worm Battle": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid5",
                 "room_id": 5
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Zeela-Infested Room": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 256.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 19
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Zeela-Infested Room",
+                        "node": "Door to Acid Worm Battle"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Acid Worm Access": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 504.0,
+                        "y": 272.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 20
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Acid Worm Access",
+                        "node": "Door to Acid Worm Battle"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Tunnel to Cache": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 104.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 91
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Cache",
+                        "node": "Tunnel to Acid Worm Battle"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_6": {
+        "Zeela-Infested Room": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid6",
                 "room_id": 6
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Upper Corridor": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 448.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 21
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Upper Corridor",
+                        "node": "Door to Zeela-Infested Room"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Zipline Activation Chamber": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 272.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 22
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Zipline Activation Chamber",
+                        "node": "Door to Zeela-Infested Room"
+                    },
+                    "default_dock_weakness": "Missile Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Acid Worm Battle": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 23
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Acid Worm Battle",
+                        "node": "Door to Zeela-Infested Room"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_7": {
+        "Barisute Pit": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid7",
                 "room_id": 7
             },
-            "nodes": {}
+            "nodes": {
+                "Pickup (Missile Tank)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 616.0,
+                        "y": 152.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 17,
+                    "location_category": "minor",
+                    "connections": {}
+                },
+                "Door to Illusionary Acid Pool": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 24
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Illusionary Acid Pool",
+                        "node": "Door to Barisute Pit"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Tunnel to Save Station A": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 984.0,
+                        "y": 88.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 76
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Save Station A",
+                        "node": "Tunnel to Barisute Pit"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Illusionary Acid Pool (104)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 288.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 104
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Illusionary Acid Pool",
+                        "node": "Door to Barisute Pit"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_8": {
+        "Acidic Concourse": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid8",
                 "room_id": 8
             },
-            "nodes": {}
+            "nodes": {
+                "Pickup (Missile Tank)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 1192.0,
+                        "y": 56.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 18,
+                    "location_category": "minor",
+                    "connections": {}
+                },
+                "Door to Illusionary Acid Pool": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 256.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 26
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Illusionary Acid Pool",
+                        "node": "Door to Acidic Concourse"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Elevator to Brinstar": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 1224.0,
+                        "y": 272.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 27
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Elevator to Brinstar",
+                        "node": "Door to Acidic Concourse"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_9": {
+        "Runway": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid9",
                 "room_id": 9
             },
-            "nodes": {}
+            "nodes": {
+                "Pickup (Energy Tank)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 968.0,
+                        "y": 72.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 19,
+                    "location_category": "minor",
+                    "connections": {}
+                },
+                "Door to Elevator to Brinstar": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 28
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Elevator to Brinstar",
+                        "node": "Door to Runway"
+                    },
+                    "default_dock_weakness": "Missile Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_10": {
+        "Gauntlet": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid10",
                 "room_id": 10
             },
-            "nodes": {}
+            "nodes": {
+                "Pickup (Missile Tank)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 152.0,
+                        "y": 232.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 20,
+                    "location_category": "minor",
+                    "connections": {}
+                },
+                "Door to Pipe Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 272.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 29
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Pipe Shaft",
+                        "node": "Door to Gauntlet"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Elevator to Brinstar": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 504.0,
+                        "y": 288.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 30
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Elevator to Brinstar",
+                        "node": "Door to Gauntlet"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_11": {
+        "Sidehopper Hall": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid11",
                 "room_id": 11
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Pipe Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 31
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Pipe Shaft",
+                        "node": "Door to Sidehopper Hall"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Elevator to Brinstar": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 504.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 32
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Elevator to Brinstar",
+                        "node": "Door to Sidehopper Hall"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_12": {
+        "Corrosive Pool": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid12",
                 "room_id": 12
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Elevator to Brinstar": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 128.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 33
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Elevator to Brinstar",
+                        "node": "Door to Corrosive Pool"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Block Column Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 1464.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 34
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Block Column Shaft",
+                        "node": "Door to Corrosive Pool"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Dock to Acid Fall": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 880.0,
+                        "y": 40.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 85
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Acid Fall",
+                        "node": "Tunnel to Acid Fall"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_13": {
+        "Pipe Shaft": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid13",
                 "room_id": 13
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Gauntlet": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 432.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 35
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Gauntlet",
+                        "node": "Door to Pipe Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Sidehopper Hall": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 36
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Sidehopper Hall",
+                        "node": "Door to Pipe Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Map Station": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 83
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Map Station",
+                        "node": "Door to Pipe Shaft"
+                    },
+                    "default_dock_weakness": "Missile Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_14": {
+        "Divided Alcove": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid14",
                 "room_id": 14
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Elevator to Brinstar": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 37
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Elevator to Brinstar",
+                        "node": "Door to Divided Alcove"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Pit Block Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 38
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Pit Block Shaft",
+                        "node": "Door to Divided Alcove"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_15": {
+        "Pit Block Shaft": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid15",
                 "room_id": 15
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Divided Alcove": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 256.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 39
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Divided Alcove",
+                        "node": "Door to Pit Block Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Ball Launcher Speedway": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 40
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Ball Launcher Speedway",
+                        "node": "Door to Pit Block Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Ramp": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 41
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Ramp",
+                        "node": "Door to Pit Block Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_16": {
+        "Ramp": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid16",
                 "room_id": 16
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Pit Block Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 42
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Pit Block Shaft",
+                        "node": "Door to Ramp"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Replenishment Station": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 128.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 43
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Replenishment Station",
+                        "node": "Door to Ramp"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_17": {
+        "Acid Fall": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid17",
                 "room_id": 17
             },
-            "nodes": {}
+            "nodes": {
+                "Pickup (Missile Tank (Hidden))": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 152.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 21,
+                    "location_category": "minor",
+                    "connections": {}
+                },
+                "Door to Block Column Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 984.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 44
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Block Column Shaft",
+                        "node": "Door to Acid Fall"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Tunnel to Acid Fall": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 184.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 86
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Acid Fall",
+                        "node": "Tunnel to Acid Fall"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_18": {
+        "Replenishment Station": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid18",
                 "room_id": 18
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Ramp": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 288.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 45
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Ramp",
+                        "node": "Door to Replenishment Station"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Hidden Drop": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 128.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 46
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Hidden Drop",
+                        "node": "Door to Replenishment Station"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_19": {
+        "Hidden Drop": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid19",
                 "room_id": 19
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Save Station D": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 128.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 47
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Save Station D",
+                        "node": "Door to Hidden Drop"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Replenishment Station": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 128.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 48
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Replenishment Station",
+                        "node": "Door to Hidden Drop"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Tunnel to Kraid's Slope": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 184.0,
+                        "y": 40.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 54
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Kraid's Slope",
+                        "node": "Tunnel to Hidden Drop"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_20": {
+        "Save Station D": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid20",
                 "room_id": 20
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Sidehopper Path": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 128.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 49
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Sidehopper Path",
+                        "node": "Door to Save Station D"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Hidden Drop": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 128.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 50
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Hidden Drop",
+                        "node": "Door to Save Station D"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_21": {
+        "Ball Launcher Speedway": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid21",
                 "room_id": 21
             },
-            "nodes": {}
+            "nodes": {
+                "Pickup (Missile Tank)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 328.0,
+                        "y": 168.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 22,
+                    "location_category": "minor",
+                    "connections": {}
+                },
+                "Door to Drain": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 128.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 51
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Drain",
+                        "node": "Door to Ball Launcher Speedway"
+                    },
+                    "default_dock_weakness": "Missile Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Pit Block Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 1224.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 73
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Pit Block Shaft",
+                        "node": "Door to Ball Launcher Speedway"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_22": {
+        "Sidehopper Path": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid22",
                 "room_id": 22
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Space Jump Access": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 52
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Space Jump Access",
+                        "node": "Door to Sidehopper Path"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Save Station D": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 1224.0,
+                        "y": 128.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 53
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Save Station D",
+                        "node": "Door to Sidehopper Path"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_23": {
+        "Drain": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid23",
                 "room_id": 23
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Antechamber": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 128.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 55
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Antechamber",
+                        "node": "Door to Drain"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Ball Launcher Speedway": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 128.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 56
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Ball Launcher Speedway",
+                        "node": "Door to Drain"
+                    },
+                    "default_dock_weakness": "Missile Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Tunnel to Space Jump Access": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 72.0,
+                        "y": 40.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 57
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Space Jump Access",
+                        "node": "Tunnel to Drain"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_24": {
+        "Antechamber": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid24",
                 "room_id": 24
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Illusionary Acid Pool": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 128.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 58
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Illusionary Acid Pool",
+                        "node": "Door to Antechamber"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Drain": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 128.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 59
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Drain",
+                        "node": "Door to Antechamber"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_25": {
+        "Space Jump Access": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid25",
                 "room_id": 25
             },
-            "nodes": {}
+            "nodes": {
+                "Tunnel to Drain": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 72.0,
+                        "y": 344.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 60
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Drain",
+                        "node": "Tunnel to Space Jump Access"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Sidehopper Path": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 256.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 61
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Sidehopper Path",
+                        "node": "Door to Space Jump Access"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Save Station C": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 77
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Save Station C",
+                        "node": "Door to Space Jump Access"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Tunnel to Space Jump Chamber": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 504.0,
+                        "y": 168.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 97
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Space Jump Chamber",
+                        "node": "Tunnel to Space Jump Access"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Space Jump Chamber": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 504.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 98
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Space Jump Chamber",
+                        "node": "Door to Space Jump Access"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_26": {
+        "Illusionary Acid Pool": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid26",
                 "room_id": 26
             },
-            "nodes": {}
+            "nodes": {
+                "Pickup (Missile Tank)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 120.0,
+                        "y": 1176.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 23,
+                    "location_category": "minor",
+                    "connections": {}
+                },
+                "Door to Barisute Pit": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 1072.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 62
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Barisute Pit",
+                        "node": "Door to Illusionary Acid Pool"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Acidic Concourse": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 896.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 63
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Acidic Concourse",
+                        "node": "Door to Illusionary Acid Pool"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Antechamber": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 128.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 64
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Antechamber",
+                        "node": "Door to Illusionary Acid Pool"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Barisute Pit (105)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 1248.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 105
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Barisute Pit",
+                        "node": "Door to Illusionary Acid Pool"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_27": {
+        "Block Column Shaft": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid27",
                 "room_id": 27
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Corrosive Pool": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 912.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 65
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Corrosive Pool",
+                        "node": "Door to Block Column Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Acid Fall": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 736.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 66
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Acid Fall",
+                        "node": "Door to Block Column Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Kraid's Slope": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 144.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 67
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Kraid's Slope",
+                        "node": "Door to Block Column Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Save Station E": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 912.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 87
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Save Station E",
+                        "node": "Door to Block Column Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_28": {
+        "Kraid's Slope": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid28",
                 "room_id": 28
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Kraid's Chamber Access": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 256.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 68
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Kraid's Chamber Access",
+                        "node": "Door to Kraid's Slope"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Block Column Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 984.0,
+                        "y": 304.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 69
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Block Column Shaft",
+                        "node": "Door to Kraid's Slope"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Tunnel to Hidden Drop": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 184.0,
+                        "y": 344.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 74
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Hidden Drop",
+                        "node": "Tunnel to Kraid's Slope"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Dock to Kraid's Chamber (FINAL)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 80.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 96
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Kraid's Chamber (FINAL)",
+                        "node": "Dock to Kraid's Slope"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_29": {
+        "Kraid's Chamber Access": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid29",
                 "room_id": 29
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Kraid's Chamber": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 240.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 70
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Kraid's Chamber",
+                        "node": "Dock to Kraid's Chamber Access"
+                    },
+                    "default_dock_weakness": "Missile Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Kraid's Slope": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 256.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 71
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Kraid's Slope",
+                        "node": "Door to Kraid's Chamber Access"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_30": {
+        "Kraid's Chamber": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid30",
                 "room_id": 30
             },
-            "nodes": {}
+            "nodes": {
+                "Dock to Kraid's Chamber Access": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 504.0,
+                        "y": 240.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 72
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Kraid's Chamber Access",
+                        "node": "Door to Kraid's Chamber"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Dock to Kraid's Reliquary": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 80.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 81
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Kraid's Reliquary",
+                        "node": "Dock to Kraid's Chamber (FINAL)"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_31": {
+        "Save Station A": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid31",
                 "room_id": 31
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Elevator to Brinstar": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 25
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Elevator to Brinstar",
+                        "node": "Door to Save Station A"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Tunnel to Barisute Pit": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 88.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 75
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Barisute Pit",
+                        "node": "Tunnel to Save Station A"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_32": {
+        "Save Station C": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid32",
                 "room_id": 32
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Space Jump Access": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 79
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Space Jump Access",
+                        "node": "Door to Save Station C"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_33": {
+        "Space Jump Chamber": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid33",
                 "room_id": 33
             },
-            "nodes": {}
+            "nodes": {
+                "Tunnel to Space Jump Access": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 168.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 78
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Space Jump Access",
+                        "node": "Tunnel to Space Jump Chamber"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Space Jump Access": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 80
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Space Jump Access",
+                        "node": "Door to Space Jump Chamber"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_34": {
+        "Kraid's Reliquary": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid34",
                 "room_id": 34
             },
-            "nodes": {}
+            "nodes": {
+                "Dock to Kraid's Chamber (FINAL)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 80.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 82
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Kraid's Chamber (FINAL)",
+                        "node": "Dock to Kraid's Reliquary"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_35": {
+        "Map Station": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid35",
                 "room_id": 35
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Pipe Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 84
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Pipe Shaft",
+                        "node": "Door to Map Station"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_36": {
+        "Save Station E": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid36",
                 "room_id": 36
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Block Column Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 88
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Block Column Shaft",
+                        "node": "Door to Save Station E"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Dock to Norfair Tunnel": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 101
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Norfair Tunnel",
+                        "node": "Dock to Save Station E"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_37": {
+        "Kraid's Chamber (FINAL)": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid37",
                 "room_id": 37
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Kraid's Chamber Access": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 504.0,
+                        "y": 240.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 89
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Kraid's Chamber Access",
+                        "node": "Door to Kraid's Chamber"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Dock to Kraid's Reliquary": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 80.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 90
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Kraid's Reliquary",
+                        "node": "Dock to Kraid's Chamber (FINAL)"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Dock to Kraid's Slope": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 744.0,
+                        "y": 80.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 95
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Kraid's Slope",
+                        "node": "Dock to Kraid's Chamber (FINAL)"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_38": {
+        "Cache": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid38",
                 "room_id": 38
             },
-            "nodes": {}
+            "nodes": {
+                "Pickup (Missile Tank)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 88.0,
+                        "y": 152.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 24,
+                    "location_category": "minor",
+                    "connections": {}
+                },
+                "Tunnel to Acid Worm Battle": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 104.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 92
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Acid Worm Battle",
+                        "node": "Tunnel to Cache"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_39": {
+        "Save Station B": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid39",
                 "room_id": 39
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Apex Launcher Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 93
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Apex Launcher Shaft",
+                        "node": "Door to Save Station B"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Zipline Activation Chamber": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 94
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Zipline Activation Chamber",
+                        "node": "Door to Save Station B"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_40": {
+        "Acid Worm Access": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid40",
                 "room_id": 40
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Acid Worm Battle": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 99
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Acid Worm Battle",
+                        "node": "Door to Acid Worm Access"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Apex Launcher Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 100
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Apex Launcher Shaft",
+                        "node": "Door to Acid Worm Access"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Kraid_41": {
+        "Norfair Tunnel": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid41",
                 "room_id": 41
             },
-            "nodes": {}
+            "nodes": {
+                "Dock to Save Station E": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 102
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Kraid",
+                        "area": "Save Station E",
+                        "node": "Dock to Norfair Tunnel"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Dock to Secret Tunnel": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 504.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 103
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Norfair",
+                        "area": "Secret Tunnel",
+                        "node": "Dock to Norfair Tunnel"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         }
     }
 }

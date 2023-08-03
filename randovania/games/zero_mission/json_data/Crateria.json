@@ -4,21 +4,226 @@
         "area_id": 5
     },
     "areas": {
-        "Landing Site": {
+        "Landing Site (ESCAPE)": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria0",
                 "room_id": 0
             },
-            "nodes": {}
+            "nodes": {
+                "Tunnel to Landing Site (ESCAPE)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 632.0,
+                        "y": 184.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 0
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Landing Site (ESCAPE)",
+                        "node": "Tunnel to Landing Site (ESCAPE)"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Crateria Chozo Ruins Entrance": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 1224.0,
+                        "y": 592.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 1
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Crateria Chozo Ruins Entrance",
+                        "node": "Door to Landing Site (ESCAPE)"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Rocky Cave (ESCAPE)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 80.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 3
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Rocky Cave (ESCAPE)",
+                        "node": "Door to Landing Site (ESCAPE)"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Crateria Tube": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 1224.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 26
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Crateria Tube",
+                        "node": "Door to Landing Site (ESCAPE)"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Rocky Cave": {
+        "Rocky Cave (ESCAPE)": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria1",
                 "room_id": 1
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Landing Site (ESCAPE)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 984.0,
+                        "y": 880.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 5
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Landing Site (ESCAPE)",
+                        "node": "Door to Rocky Cave (ESCAPE)"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Weed-Filled Hall": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 744.0,
+                        "y": 416.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 6
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Weed-Filled Hall",
+                        "node": "Door to Rocky Cave"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Elevator to Tourian (ESCAPE)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 7
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Elevator to Tourian (ESCAPE)",
+                        "node": "Door to Rocky Cave (ESCAPE)"
+                    },
+                    "default_dock_weakness": "Super Missile Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
         "Weed-Filled Hall": {
             "default_node": null,
@@ -27,24 +232,55 @@
                 "room_id": 2
             },
             "nodes": {
-                "Door to Transport to Brinstar": {
+                "Door to Rocky Cave": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 483.47,
-                        "y": 96.3,
+                        "x": 40.0,
+                        "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 8
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Crateria",
-                        "area": "Transport to Brinstar",
+                        "area": "Rocky Cave",
+                        "node": "Door to Weed-Filled Hall"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Broken Elevator to Brinstar": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 504.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 9
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Broken Elevator to Brinstar",
                         "node": "Door to Weed-Filled Hall"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -56,174 +292,346 @@
                 }
             }
         },
-        "Transport to Brinstar": {
-            "default_node": "Shaft to Brinstar",
+        "Broken Elevator to Brinstar": {
+            "default_node": null,
             "extra": {
                 "map_name": "Crateria3",
                 "room_id": 3
             },
             "nodes": {
-                "Shaft to Brinstar": {
-                    "node_type": "teleporter",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 152.23,
-                        "y": 223.06,
-                        "z": 0.0
-                    },
-                    "description": "",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "destination": {
-                        "region": "Brinstar",
-                        "area": "Corridor No. 1"
-                    },
-                    "keep_name_when_vanilla": false,
-                    "editable": false,
-                    "connections": {
-                        "Door to Weed-Filled Hall": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
-                },
                 "Door to Weed-Filled Hall": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 58.82,
-                        "y": 256.61,
+                        "x": 40.0,
+                        "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 10
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Crateria",
                         "area": "Weed-Filled Hall",
-                        "node": "Door to Transport to Brinstar"
+                        "node": "Door to Broken Elevator to Brinstar"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Shaft to Brinstar": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
+                    "connections": {}
+                },
+                "Dock to Starting Room": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 152.0,
+                        "y": 40.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 11
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Starting Room",
+                        "node": "Dock to Broken Elevator to Brinstar"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
                 }
             }
         },
-        "Transport to Tourian": {
-            "default_node": "Transport to Tourian (Destroyed)",
+        "Elevator to Tourian (ESCAPE)": {
+            "default_node": null,
             "extra": {
                 "map_name": "Crateria4",
                 "room_id": 4
             },
             "nodes": {
-                "Transport to Tourian (Destroyed)": {
-                    "node_type": "teleporter",
+                "Door to Rocky Cave (ESCAPE)": {
+                    "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 151.21,
-                        "y": 254.1,
+                        "x": 264.0,
+                        "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "destination": {
-                        "region": "Tourian",
-                        "area": "Destroyed Escape Shaft"
+                    "extra": {
+                        "door_idx": 12
                     },
-                    "keep_name_when_vanilla": false,
-                    "editable": false,
-                    "connections": {
-                        "Door to Rocky Cave": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Rocky Cave (ESCAPE)",
+                        "node": "Door to Elevator to Tourian (ESCAPE)"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
                 },
-                "Door to Rocky Cave": {
-                    "node_type": "generic",
+                "Dock to Escape Shaft (INITIAL)": {
+                    "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 243.47222350567543,
-                        "y": 255.28143048560736,
+                        "x": 152.0,
+                        "y": 40.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 13
+                    },
                     "valid_starting_location": false,
-                    "connections": {
-                        "Transport to Tourian (Destroyed)": {
-                            "type": "resource",
-                            "data": {
-                                "type": "events",
-                                "name": "MotherBrainDefeated",
-                                "amount": 1,
-                                "negate": false
-                            }
-                        }
-                    }
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Tourian",
+                        "area": "Escape Shaft (INITIAL)",
+                        "node": "Tunnel to Elevator to Tourian (ESCAPE)"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
                 }
             }
         },
-        "Landing Site (Post Escape)": {
+        "Landing Site": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria5",
                 "room_id": 5
             },
-            "nodes": {}
-        },
-        "Crateria's Undershaft": {
-            "default_node": "Transport to Norfair",
-            "extra": {
-                "map_name": "Crateria6",
-                "room_id": 6
-            },
             "nodes": {
-                "Transport to Norfair": {
-                    "node_type": "generic",
+                "Pickup (Power Bomb Tank)": {
+                    "node_type": "pickup",
                     "heal": false,
                     "coordinates": {
-                        "x": 149.72,
-                        "y": 227.36,
+                        "x": 328.0,
+                        "y": 584.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
                     "extra": {},
                     "valid_starting_location": false,
+                    "pickup_index": 64,
+                    "location_category": "minor",
+                    "connections": {}
+                },
+                "Door to Crateria Tube": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 1224.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 14
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Crateria Tube",
+                        "node": "Door to Landing Site (ESCAPE)"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Rocky Cave": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 80.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 42
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Rocky Cave",
+                        "node": "Door to Landing Site"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Crateria Chozo Ruins Entrance": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 1224.0,
+                        "y": 592.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 46
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Crateria Chozo Ruins Entrance",
+                        "node": "Door to Landing Site (ESCAPE)"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
+        },
+        "Crateria's Undershaft": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Crateria6",
+                "room_id": 6
+            },
+            "nodes": {
+                "Door to Flooded Cavern": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 504.0,
+                        "y": 256.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 16
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Flooded Cavern",
+                        "node": "Door to Crateria's Undershaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Dock to Transport to Crateria": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 152.0,
+                        "y": 40.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 17
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Norfair",
+                        "area": "Transport to Crateria",
+                        "node": "Dock to Crateria's Undershaft"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Crateria Tube": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 256.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 31
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Crateria Tube",
+                        "node": "Door to Crateria's Undershaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
                     "connections": {}
                 }
             }
@@ -234,15 +642,209 @@
                 "map_name": "Crateria7",
                 "room_id": 7
             },
-            "nodes": {}
+            "nodes": {
+                "Pickup (Missile Tank (Hidden))": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 56.0,
+                        "y": 104.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 65,
+                    "location_category": "minor",
+                    "connections": {}
+                },
+                "Door to Crateria's Undershaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 256.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 18
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Crateria's Undershaft",
+                        "node": "Door to Flooded Cavern"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Tunnel to Chozo Ruins Main Cavern": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 104.0,
+                        "y": 504.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 20
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Chozo Ruins Main Cavern",
+                        "node": "Tunnel to Flooded Cavern"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Wrecked Ship Entrance": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 1464.0,
+                        "y": 272.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 21
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Wrecked Ship Entrance",
+                        "node": "Door to Flooded Cavern"
+                    },
+                    "default_dock_weakness": "Power Bomb Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Dock to Chozo Ruins Main Cavern": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 1088.0,
+                        "y": 504.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 41
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Chozo Ruins Main Cavern",
+                        "node": "Dock to Flooded Cavern"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Statuary Shaft (Initial)": {
+        "Statuary Shaft (INITIAL)": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria8",
                 "room_id": 8
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Chozo Ruins Main Cavern": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 504.0,
+                        "y": 560.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 15
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Chozo Ruins Main Cavern",
+                        "node": "Door to Statuary Shaft (INITIAL)"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Tunnel to Chozo Reliquary": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 120.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 39
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Chozo Reliquary",
+                        "node": "Tunnel to Statuary Shaft (INITIAL)"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
         "Chozo Ruins Main Cavern": {
             "default_node": null,
@@ -250,15 +852,256 @@
                 "map_name": "Crateria9",
                 "room_id": 9
             },
-            "nodes": {}
+            "nodes": {
+                "Pickup (Super Missile Tank)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 1448.0,
+                        "y": 552.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 66,
+                    "location_category": "minor",
+                    "connections": {}
+                },
+                "Pickup (Missile Tank)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 1032.0,
+                        "y": 152.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 67,
+                    "location_category": "minor",
+                    "connections": {}
+                },
+                "Door to Statuary Shaft (INITIAL)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 400.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 19
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Statuary Shaft (INITIAL)",
+                        "node": "Door to Chozo Ruins Main Cavern"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Tunnel to Flooded Cavern": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 104.0,
+                        "y": 40.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 22
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Flooded Cavern",
+                        "node": "Tunnel to Chozo Ruins Main Cavern"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Chozodia Access Hall (eastbound)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 1464.0,
+                        "y": 400.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 25
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Chozodia Access Hall (eastbound)",
+                        "node": "Door to Chozo Ruins Main Cavern"
+                    },
+                    "default_dock_weakness": "Power Bomb Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Water-Filled Hole": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 504.0,
+                        "y": 128.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 37
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Water-Filled Hole",
+                        "node": "Door to Chozo Ruins Main Cavern"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Dock to Flooded Cavern": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 1088.0,
+                        "y": 40.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 40
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Flooded Cavern",
+                        "node": "Dock to Chozo Ruins Main Cavern"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Chozodia Access Hall (From Chozodia)": {
+        "Chozodia Access Hall (westbound)": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria10",
                 "room_id": 10
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Chozo Ruins Main Cavern": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 80.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 23
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Chozo Ruins Main Cavern",
+                        "node": "Door to Chozodia Access Hall (eastbound)"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Dock to Chozodia's Fork": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 504.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 24
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Chozodia",
+                        "area": "Chozodia's Fork",
+                        "node": "Dock to Chozodia Access Hall (westbound)"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
         "Crateria Tube": {
             "default_node": null,
@@ -266,7 +1109,66 @@
                 "map_name": "Crateria11",
                 "room_id": 11
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Landing Site (ESCAPE)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 27
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Landing Site (ESCAPE)",
+                        "node": "Door to Crateria Tube"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Crateria's Undershaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 504.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 28
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Crateria's Undershaft",
+                        "node": "Door to Crateria Tube"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
         "Chozo Reliquary": {
             "default_node": null,
@@ -274,7 +1176,37 @@
                 "map_name": "Crateria12",
                 "room_id": 12
             },
-            "nodes": {}
+            "nodes": {
+                "Tunnel to Statuary Shaft (INITIAL)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 120.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 30
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Statuary Shaft (INITIAL)",
+                        "node": "Tunnel to Chozo Reliquary"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
         "Wrecked Ship Entrance": {
             "default_node": null,
@@ -282,7 +1214,66 @@
                 "map_name": "Crateria13",
                 "room_id": 13
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Flooded Cavern": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 32
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Flooded Cavern",
+                        "node": "Door to Wrecked Ship Entrance"
+                    },
+                    "default_dock_weakness": "Power Bomb Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Dock to Wrecked Ship Entrance": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 504.0,
+                        "y": 104.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 33
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Chozodia",
+                        "area": "Wrecked Ship Entrance",
+                        "node": "Dock to Wrecked Ship Entrance"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
         "Water-Filled Hole": {
             "default_node": null,
@@ -290,23 +1281,218 @@
                 "map_name": "Crateria14",
                 "room_id": 14
             },
-            "nodes": {}
+            "nodes": {
+                "Pickup (Missile Tank)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 136.0,
+                        "y": 56.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 68,
+                    "location_category": "minor",
+                    "connections": {}
+                },
+                "Door to Chozo Ruins Main Cavern": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 128.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 35
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Chozo Ruins Main Cavern",
+                        "node": "Door to Water-Filled Hole"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Chozo Ruins Entrance": {
+        "Crateria Chozo Ruins Entrance": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria15",
                 "room_id": 15
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Landing Site (ESCAPE)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 4
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Landing Site (ESCAPE)",
+                        "node": "Door to Crateria Chozo Ruins Entrance"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Statuary Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 504.0,
+                        "y": 240.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 38
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Statuary Shaft",
+                        "node": "Door to Crateria Chozo Ruins Entrance"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Statuary Shaft (Unknown)": {
+        "Statuary Shaft (RISING)": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria16",
                 "room_id": 16
             },
-            "nodes": {}
+            "nodes": {
+                "Tunnel to Chozo Reliquary": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 600.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 29
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Chozo Reliquary",
+                        "node": "Tunnel to Statuary Shaft (INITIAL)"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Crateria Chozo Ruins Entrance": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 1040.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 34
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Crateria Chozo Ruins Entrance",
+                        "node": "Door to Statuary Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Dock to Chozo Ruins Main Cavern": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 504.0,
+                        "y": 1040.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 36
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Chozo Ruins Main Cavern",
+                        "node": "Door to Statuary Shaft (INITIAL)"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
         "Statuary Shaft": {
             "default_node": null,
@@ -314,17 +1500,135 @@
                 "map_name": "Crateria17",
                 "room_id": 17
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Crateria Chozo Ruins Entrance": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 560.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 45
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Crateria Chozo Ruins Entrance",
+                        "node": "Door to Statuary Shaft"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Chozo Ruins Main Cavern": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 504.0,
+                        "y": 560.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 47
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Chozo Ruins Main Cavern",
+                        "node": "Door to Statuary Shaft (INITIAL)"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Transport to Tourian (a)": {
+        "Elevator to Tourian": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria18",
                 "room_id": 18
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Rocky Cave": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 256.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 50
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Rocky Cave",
+                        "node": "Door to Elevator to Tourian"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Dock to Escape Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 152.0,
+                        "y": 40.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 51
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Tourian",
+                        "area": "Escape Shaft",
+                        "node": "Tunnel to Elevator to Tourian"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Crateria_19": {
+        "Unused Crateria Room": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria19",
@@ -332,21 +1636,168 @@
             },
             "nodes": {}
         },
-        "Chozodia Access Hall (From Crateria)": {
+        "Chozodia Access Hall (eastbound)": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria20",
                 "room_id": 20
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Chozo Ruins Main Cavern": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 80.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 48
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Chozo Ruins Main Cavern",
+                        "node": "Door to Chozodia Access Hall (eastbound)"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Dock to Chozodia's Fork": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 504.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 49
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Chozodia",
+                        "area": "Chozodia's Fork",
+                        "node": "Dock to Chozodia Access Hall (westbound)"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         },
-        "Rocky Cave (Escape)": {
+        "Rocky Cave": {
             "default_node": null,
             "extra": {
                 "map_name": "Crateria21",
                 "room_id": 21
             },
-            "nodes": {}
+            "nodes": {
+                "Door to Landing Site": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 984.0,
+                        "y": 880.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 2
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Landing Site",
+                        "node": "Door to Rocky Cave"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Weed-Filled Hall": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 744.0,
+                        "y": 416.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 43
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Weed-Filled Hall",
+                        "node": "Door to Rocky Cave"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Elevator to Tourian": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 44
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Elevator to Tourian",
+                        "node": "Door to Rocky Cave"
+                    },
+                    "default_dock_weakness": "Super Missile Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
         }
     }
 }

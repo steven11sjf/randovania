@@ -4,190 +4,195 @@
         "area_id": 4
     },
     "areas": {
-        "Transport to Brinstar": {
-            "default_node": "Transport to Brinstar",
+        "Elevator to Brinstar (Upper)": {
+            "default_node": null,
             "extra": {
                 "map_name": "Tourian0",
                 "room_id": 0
             },
             "nodes": {
-                "Transport to Brinstar": {
-                    "node_type": "teleporter",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 151.68,
-                        "y": 291.59,
-                        "z": 0.0
-                    },
-                    "description": "",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": true,
-                    "destination": {
-                        "region": "Brinstar",
-                        "area": "Transport to Tourian"
-                    },
-                    "keep_name_when_vanilla": false,
-                    "editable": false,
-                    "connections": {
-                        "Door to Save Room 1": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
-                },
-                "Door to Save Room 1": {
+                "Dock to Elevator to Tourian": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 244.5,
-                        "y": 238.92,
+                        "x": 152.0,
+                        "y": 504.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 0
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Brinstar",
+                        "area": "Elevator to Tourian",
+                        "node": "Dock to Elevator to Brinstar (Upper)"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Save Station A": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 240.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 1
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
-                        "area": "Save Room 1",
-                        "node": "Door to Transport to Brinstar"
+                        "area": "Save Station A",
+                        "node": "Door to Elevator to Brinstar (Upper)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Transport to Brinstar": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
+                    "connections": {}
+                },
+                "Tunnel to Elevator to Brinstar (Upper)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 504.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 14
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Tourian",
+                        "area": "Elevator to Brinstar (Upper)",
+                        "node": "Tunnel to Elevator to Brinstar (Upper)"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Elevator to Brinstar (Upper)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 144.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 35
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Tourian",
+                        "area": "Elevator to Brinstar (Upper)",
+                        "node": "Door to Elevator to Brinstar (Upper)"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
                 }
             }
         },
-        "Tourian Lava Passage": {
+        "Lava Passage": {
             "default_node": null,
             "extra": {
                 "map_name": "Tourian1",
                 "room_id": 1
             },
             "nodes": {
-                "Door to Entrance Shaft": {
+                "Door to Elevator to Brinstar": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 59.34,
-                        "y": 126.9,
+                        "x": 40.0,
+                        "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 2
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
-                        "area": "Entrance Shaft",
-                        "node": "Door to Tourian Lava Passage"
+                        "area": "Elevator to Brinstar",
+                        "node": "Door to Lava Passage"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to Metroid Pit": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "template",
-                                        "data": "Defeat Metroid"
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Defeat Metroid"
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Defeat Metroid"
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Defeat Metroid"
-                                    }
-                                ]
-                            }
-                        }
-                    }
+                    "connections": {}
                 },
                 "Door to Metroid Pit": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 1202.56,
-                        "y": 124.8,
+                        "x": 1224.0,
+                        "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 3
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
                         "area": "Metroid Pit",
-                        "node": "Door to Tourian Lava Passage"
+                        "node": "Door to Lava Passage"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to Entrance Shaft": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "template",
-                                        "data": "Defeat Metroid"
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Defeat Metroid"
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Defeat Metroid"
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Defeat Metroid"
-                                    }
-                                ]
-                            }
-                        }
-                    }
+                    "connections": {}
                 }
             }
         },
@@ -198,24 +203,26 @@
                 "room_id": 2
             },
             "nodes": {
-                "Door to I-Shaped Room": {
+                "Door to I Shaped Room": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 57.12,
-                        "y": 767.13,
+                        "x": 40.0,
+                        "y": 768.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 4
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
-                        "area": "I-Shaped Room",
+                        "area": "I Shaped Room",
                         "node": "Door to Ledged Shaft"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -223,26 +230,23 @@
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to Triple-Tiered Room": {
-                            "type": "template",
-                            "data": "Defeat Metroid"
-                        }
-                    }
+                    "connections": {}
                 },
                 "Door to Triple-Tiered Room": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 62.22,
-                        "y": 112.17,
+                        "x": 40.0,
+                        "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 5
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
@@ -255,366 +259,326 @@
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to I-Shaped Room": {
-                            "type": "template",
-                            "data": "Defeat Metroid"
-                        }
-                    }
+                    "connections": {}
                 }
             }
         },
-        "Rinka Hall": {
+        "Rinka Hall (INITIAL)": {
             "default_node": null,
             "extra": {
                 "map_name": "Tourian3",
                 "room_id": 3
             },
             "nodes": {
-                "Door to Save Room 3": {
+                "Door to Save Station C": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 723.2,
-                        "y": 112.38,
+                        "x": 744.0,
+                        "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 6
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
-                        "area": "Save Room 3",
-                        "node": "Door to Rinka Hall"
+                        "area": "Save Station C",
+                        "node": "Door to Rinka Hall (INITIAL)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to Zebesian Command Center": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
+                    "connections": {}
                 },
-                "Door to Zebesian Command Center": {
+                "Door to Command Center (INITIAL)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 57.77,
-                        "y": 127.5,
+                        "x": 40.0,
+                        "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 7
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
-                        "area": "Zebesian Command Center",
-                        "node": "Door to Rinka Hall"
+                        "area": "Command Center (INITIAL)",
+                        "node": "Door to Rinka Hall (INITIAL)"
                     },
                     "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to Save Room 3": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
+                    "connections": {}
                 }
             }
         },
-        "Zebesian Command Center": {
+        "Command Center (INITIAL)": {
             "default_node": null,
             "extra": {
                 "map_name": "Tourian4",
                 "room_id": 4
             },
             "nodes": {
-                "Door to Rinka Hall": {
+                "Door to Rinka Hall (INITIAL)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 964.35,
-                        "y": 127.31,
+                        "x": 984.0,
+                        "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 8
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
-                        "area": "Rinka Hall",
-                        "node": "Door to Zebesian Command Center"
+                        "area": "Rinka Hall (INITIAL)",
+                        "node": "Door to Command Center (INITIAL)"
                     },
                     "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Mother Brain Battle": {
-                            "type": "or",
-                            "data": {
-                                "comment": "combat difficulties",
-                                "items": [
-                                    {
-                                        "type": "and",
-                                        "data": {
-                                            "comment": "combat disabled",
-                                            "items": [
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Long Beam",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Charge Beam",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Missiles",
-                                                        "amount": 60,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Super Missiles",
-                                                        "amount": 10,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Varia Suit",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Energy Tank",
-                                                        "amount": 200,
-                                                        "negate": false
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "type": "and",
-                                        "data": {
-                                            "comment": "combat intermediate",
-                                            "items": [
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Long Beam",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Charge Beam",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Missiles",
-                                                        "amount": 40,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Super Missiles",
-                                                        "amount": 10,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Varia Suit",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Energy Tank",
-                                                        "amount": 200,
-                                                        "negate": false
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    }
+                    "connections": {}
                 },
-                "Mother Brain Battle": {
-                    "node_type": "generic",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 227.56,
-                        "y": 147.06,
-                        "z": 0.0
-                    },
-                    "description": "",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "connections": {
-                        "Door to Rinka Hall": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        },
-                        "Event - Mother Brain Defeated": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "Energy Tank",
-                                            "amount": 400,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "Missiles",
-                                            "amount": 60,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "Super Missiles",
-                                            "amount": 10,
-                                            "negate": false
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                },
-                "Event - Mother Brain Defeated": {
-                    "node_type": "event",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 131.75,
-                        "y": 126.32,
-                        "z": 0.0
-                    },
-                    "description": "",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "event_name": "MotherBrainDefeated",
-                    "connections": {
-                        "Door to Escape Shaft": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
-                },
-                "Door to Escape Shaft": {
+                "Door to Escape Shaft (INITIAL)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 55.7,
-                        "y": 128.3,
+                        "x": 40.0,
+                        "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 9
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
-                        "area": "Escape Shaft",
-                        "node": "Door to Zebesian Command Center"
+                        "area": "Escape Shaft (INITIAL)",
+                        "node": "Dock to Command Center (INITIAL)"
                     },
                     "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
+        },
+        "Escape Shaft (INITIAL)": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian5",
+                "room_id": 5
+            },
+            "nodes": {
+                "Dock to Command Center (INITIAL)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 128.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 10
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Tourian",
+                        "area": "Command Center (INITIAL)",
+                        "node": "Door to Escape Shaft (INITIAL)"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Tunnel to Elevator to Tourian (ESCAPE)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 152.0,
+                        "y": 1784.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 11
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Crateria",
+                        "area": "Elevator to Tourian (ESCAPE)",
+                        "node": "Dock to Escape Shaft (INITIAL)"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
+        },
+        "Save Station C": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian6",
+                "room_id": 6
+            },
+            "nodes": {
+                "Door to Triple-Tiered Room": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 12
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Tourian",
+                        "area": "Triple-Tiered Room",
+                        "node": "Door to Save Station C"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Rinka Hall (INITIAL)": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 13
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Tourian",
+                        "area": "Rinka Hall (INITIAL)",
+                        "node": "Door to Save Station C"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
+        },
+        "Reliquary": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian7",
+                "room_id": 7
+            },
+            "nodes": {
+                "Pickup (Power Bomb Tank)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 232.0,
+                        "y": 88.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 62,
+                    "location_category": "minor",
+                    "connections": {}
+                },
+                "Tunnel to Command Center": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 120.0,
+                        "y": 184.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 15
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Tourian",
+                        "area": "Command Center",
+                        "node": "Tunnel to Reliquary"
+                    },
+                    "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -626,783 +590,315 @@
         "Escape Shaft": {
             "default_node": null,
             "extra": {
-                "map_name": "Tourian5",
-                "room_id": 5
-            },
-            "nodes": {
-                "Door to Zebesian Command Center": {
-                    "node_type": "dock",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 245.64,
-                        "y": 130.1,
-                        "z": 0.0
-                    },
-                    "description": "",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "dock_type": "door",
-                    "default_connection": {
-                        "region": "Tourian",
-                        "area": "Zebesian Command Center",
-                        "node": "Door to Escape Shaft"
-                    },
-                    "default_dock_weakness": "Power Beam Door",
-                    "exclude_from_dock_rando": false,
-                    "incompatible_dock_weaknesses": [],
-                    "override_default_open_requirement": null,
-                    "override_default_lock_requirement": null,
-                    "connections": {
-                        "Transport to Crateria": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
-                },
-                "Transport to Crateria": {
-                    "node_type": "generic",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 148.25437015817278,
-                        "y": 1574.0400745429624,
-                        "z": 0.0
-                    },
-                    "description": "",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "connections": {}
-                }
-            }
-        },
-        "Save Room 3": {
-            "default_node": null,
-            "extra": {
-                "map_name": "Tourian6",
-                "room_id": 6
-            },
-            "nodes": {
-                "Door to Triple-Tiered Room": {
-                    "node_type": "dock",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 244.07,
-                        "y": 111.27,
-                        "z": 0.0
-                    },
-                    "description": "",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "dock_type": "door",
-                    "default_connection": {
-                        "region": "Tourian",
-                        "area": "Triple-Tiered Room",
-                        "node": "Door to Save Room 3"
-                    },
-                    "default_dock_weakness": "Power Beam Door",
-                    "exclude_from_dock_rando": false,
-                    "incompatible_dock_weaknesses": [],
-                    "override_default_open_requirement": null,
-                    "override_default_lock_requirement": null,
-                    "connections": {
-                        "Save Station": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
-                },
-                "Save Station": {
-                    "node_type": "generic",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 149.0679012345679,
-                        "y": 64.64660493827162,
-                        "z": 0.0
-                    },
-                    "description": "",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "connections": {
-                        "Door to Triple-Tiered Room": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        },
-                        "Door to Rinka Hall": {
-                            "type": "resource",
-                            "data": {
-                                "type": "events",
-                                "name": "MotherBrainDefeated",
-                                "amount": 1,
-                                "negate": true
-                            }
-                        },
-                        "Door to Destroyed Rinka Hall": {
-                            "type": "resource",
-                            "data": {
-                                "type": "events",
-                                "name": "MotherBrainDefeated",
-                                "amount": 1,
-                                "negate": false
-                            }
-                        }
-                    }
-                },
-                "Door to Rinka Hall": {
-                    "node_type": "dock",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 59.70263016639828,
-                        "y": 129.46511003757382,
-                        "z": 0.0
-                    },
-                    "description": "",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "dock_type": "door",
-                    "default_connection": {
-                        "region": "Tourian",
-                        "area": "Rinka Hall",
-                        "node": "Door to Save Room 3"
-                    },
-                    "default_dock_weakness": "Power Beam Door",
-                    "exclude_from_dock_rando": false,
-                    "incompatible_dock_weaknesses": [],
-                    "override_default_open_requirement": null,
-                    "override_default_lock_requirement": null,
-                    "connections": {
-                        "Save Station": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
-                },
-                "Door to Destroyed Rinka Hall": {
-                    "node_type": "dock",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 57.92,
-                        "y": 99.12,
-                        "z": 0.0
-                    },
-                    "description": "",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "dock_type": "door",
-                    "default_connection": {
-                        "region": "Tourian",
-                        "area": "Destroyed Rinka Hall",
-                        "node": "Door to Save Room 3"
-                    },
-                    "default_dock_weakness": "Power Beam Door",
-                    "exclude_from_dock_rando": false,
-                    "incompatible_dock_weaknesses": [],
-                    "override_default_open_requirement": null,
-                    "override_default_lock_requirement": null,
-                    "connections": {
-                        "Save Station": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "Mother Brain's Reliquary": {
-            "default_node": null,
-            "extra": {
-                "map_name": "Tourian7",
-                "room_id": 7
-            },
-            "nodes": {
-                "Dock to Destroyed Command Center": {
-                    "node_type": "dock",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 118.85,
-                        "y": 180.97,
-                        "z": 0.0
-                    },
-                    "description": "",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "dock_type": "dock",
-                    "default_connection": {
-                        "region": "Tourian",
-                        "area": "Destroyed Command Center",
-                        "node": "Dock to Destroyed Rinka Hall"
-                    },
-                    "default_dock_weakness": "Access Open",
-                    "exclude_from_dock_rando": false,
-                    "incompatible_dock_weaknesses": [],
-                    "override_default_open_requirement": null,
-                    "override_default_lock_requirement": null,
-                    "connections": {
-                        "Pickup (Power Bomb)": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "Morph Ball",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                },
-                "Pickup (Power Bomb)": {
-                    "node_type": "pickup",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 231.8,
-                        "y": 87.91,
-                        "z": 0.0
-                    },
-                    "description": "",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "pickup_index": 19,
-                    "location_category": "minor",
-                    "connections": {
-                        "Dock to Destroyed Command Center": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "Morph Ball",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "or",
-                                        "data": {
-                                            "comment": null,
-                                            "items": [
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Bombs",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Power Grip",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "Destroyed Escape Shaft": {
-            "default_node": "Transport to Crateria",
-            "extra": {
                 "map_name": "Tourian8",
                 "room_id": 8
             },
             "nodes": {
-                "Dock to Destroyed Command Center": {
-                    "node_type": "dock",
+                "Pickup (Missile Tank (Hidden))": {
+                    "node_type": "pickup",
                     "heal": false,
                     "coordinates": {
-                        "x": 502.36,
-                        "y": 122.61,
+                        "x": 184.0,
+                        "y": 72.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
                     "extra": {},
                     "valid_starting_location": false,
-                    "dock_type": "dock",
-                    "default_connection": {
-                        "region": "Tourian",
-                        "area": "Destroyed Command Center",
-                        "node": "Dock to Destroyed Escape Shaft"
-                    },
-                    "default_dock_weakness": "Access Open",
-                    "exclude_from_dock_rando": false,
-                    "incompatible_dock_weaknesses": [],
-                    "override_default_open_requirement": null,
-                    "override_default_lock_requirement": null,
-                    "connections": {
-                        "Transport to Crateria": {
-                            "type": "or",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "and",
-                                        "data": {
-                                            "comment": null,
-                                            "items": [
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Hi-Jump",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Power Grip",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Use Space Jump"
-                                    },
-                                    {
-                                        "type": "and",
-                                        "data": {
-                                            "comment": null,
-                                            "items": [
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Power Grip",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "tricks",
-                                                        "name": "WallJump",
-                                                        "amount": 3,
-                                                        "negate": false
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    }
+                    "pickup_index": 63,
+                    "location_category": "minor",
+                    "connections": {}
                 },
-                "Transport to Crateria": {
-                    "node_type": "teleporter",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 393.73,
-                        "y": 1574.04,
-                        "z": 0.0
-                    },
-                    "description": "",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "destination": {
-                        "region": "Crateria",
-                        "area": "Transport to Tourian"
-                    },
-                    "keep_name_when_vanilla": false,
-                    "editable": false,
-                    "connections": {
-                        "Dock to Destroyed Command Center": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "Destroyed Command Center": {
-            "default_node": null,
-            "extra": {
-                "map_name": "Tourian9",
-                "room_id": 9
-            },
-            "nodes": {
-                "Dock to Destroyed Rinka Hall": {
+                "Tunnel to Elevator to Tourian": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 975.77,
-                        "y": 122.86,
+                        "x": 392.0,
+                        "y": 1784.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 21
+                    },
                     "valid_starting_location": false,
                     "dock_type": "tunnel",
                     "default_connection": {
-                        "region": "Tourian",
-                        "area": "Destroyed Rinka Hall",
-                        "node": "Dock to Destroyed Command Center"
+                        "region": "Crateria",
+                        "area": "Elevator to Tourian",
+                        "node": "Dock to Escape Shaft"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Dock to Mother Brain's Reliquary": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "Super Missiles",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        "Dock to Destroyed Escape Shaft": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
+                    "connections": {}
                 },
-                "Dock to Mother Brain's Reliquary": {
+                "Dock to Command Center": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 119.51,
-                        "y": 57.59,
+                        "x": 504.0,
+                        "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 22
+                    },
                     "valid_starting_location": false,
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Tourian",
-                        "area": "Mother Brain's Reliquary",
-                        "node": "Dock to Destroyed Command Center"
+                        "area": "Command Center",
+                        "node": "Dock to Escape Shaft"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Dock to Destroyed Rinka Hall": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
-                },
-                "Dock to Destroyed Escape Shaft": {
-                    "node_type": "dock",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 44.8,
-                        "y": 131.45,
-                        "z": 0.0
-                    },
-                    "description": "",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "dock_type": "dock",
-                    "default_connection": {
-                        "region": "Tourian",
-                        "area": "Destroyed Escape Shaft",
-                        "node": "Dock to Destroyed Command Center"
-                    },
-                    "default_dock_weakness": "Access Open",
-                    "exclude_from_dock_rando": false,
-                    "incompatible_dock_weaknesses": [],
-                    "override_default_open_requirement": null,
-                    "override_default_lock_requirement": null,
-                    "connections": {
-                        "Dock to Destroyed Rinka Hall": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
+                    "connections": {}
                 }
             }
         },
-        "Destroyed Rinka Hall": {
+        "Command Center": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Tourian9",
+                "room_id": 9
+            },
+            "nodes": {
+                "Tunnel to Reliquary": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 120.0,
+                        "y": 40.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 16
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "tunnel",
+                    "default_connection": {
+                        "region": "Tourian",
+                        "area": "Reliquary",
+                        "node": "Tunnel to Command Center"
+                    },
+                    "default_dock_weakness": "Tunnel",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Dock to Escape Shaft": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 144.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 17
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Tourian",
+                        "area": "Escape Shaft",
+                        "node": "Dock to Command Center"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Dock to Rinka Hall": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 984.0,
+                        "y": 144.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 18
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "dock",
+                    "default_connection": {
+                        "region": "Tourian",
+                        "area": "Rinka Hall",
+                        "node": "Dock to Command Center"
+                    },
+                    "default_dock_weakness": "Access Open",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
+        },
+        "Rinka Hall": {
             "default_node": null,
             "extra": {
                 "map_name": "Tourian10",
                 "room_id": 10
             },
             "nodes": {
-                "Dock to Destroyed Command Center": {
+                "Dock to Command Center": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 47.45,
-                        "y": 127.45,
+                        "x": 40.0,
+                        "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 19
+                    },
                     "valid_starting_location": false,
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Tourian",
-                        "area": "Destroyed Command Center",
-                        "node": "Dock to Destroyed Rinka Hall"
+                        "area": "Command Center",
+                        "node": "Dock to Rinka Hall"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to Save Room 3": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
+                    "connections": {}
                 },
-                "Door to Save Room 3": {
+                "Door to Save Station C": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 722.09,
-                        "y": 109.7,
+                        "x": 744.0,
+                        "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 20
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
-                        "area": "Save Room 3",
-                        "node": "Door to Destroyed Rinka Hall"
+                        "area": "Save Station C",
+                        "node": "Door to Rinka Hall (INITIAL)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Dock to Destroyed Command Center": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
+                    "connections": {}
                 }
             }
         },
-        "Save Room 1": {
+        "Save Station A": {
             "default_node": null,
             "extra": {
                 "map_name": "Tourian11",
                 "room_id": 11
             },
             "nodes": {
-                "Door to Transport to Brinstar": {
+                "Door to Elevator to Brinstar (Upper)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 59.14,
-                        "y": 80.06,
+                        "x": 40.0,
+                        "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 24
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
-                        "area": "Transport to Brinstar",
-                        "node": "Door to Save Room 1"
+                        "area": "Elevator to Brinstar (Upper)",
+                        "node": "Door to Save Station A"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Save Station": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
-                },
-                "Save Station": {
-                    "node_type": "generic",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 150.4419844198442,
-                        "y": 66.03854038540385,
-                        "z": 0.0
-                    },
-                    "description": "",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "connections": {
-                        "Door to Transport to Brinstar": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        },
-                        "Door to Antechamber": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
+                    "connections": {}
                 },
                 "Door to Antechamber": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 246.1,
-                        "y": 110.29,
+                        "x": 264.0,
+                        "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 25
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
                         "area": "Antechamber",
-                        "node": "Door to Save Room 1"
+                        "node": "Door to Save Station A"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Save Station": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
+                    "connections": {}
                 }
             }
         },
@@ -1413,24 +909,26 @@
                 "room_id": 12
             },
             "nodes": {
-                "Door to Save Room 1": {
+                "Door to Save Station A": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 57.9,
-                        "y": 113.4,
+                        "x": 40.0,
+                        "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 26
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
-                        "area": "Save Room 1",
+                        "area": "Save Station A",
                         "node": "Door to Antechamber"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1438,29 +936,23 @@
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to First Shaft": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
+                    "connections": {}
                 },
                 "Door to First Shaft": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 245.79,
-                        "y": 110.91,
+                        "x": 264.0,
+                        "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 27
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
@@ -1473,15 +965,7 @@
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to Save Room 1": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
+                    "connections": {}
                 }
             }
         },
@@ -1496,15 +980,17 @@
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 57.69,
-                        "y": 272.03,
+                        "x": 40.0,
+                        "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 28
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
@@ -1517,29 +1003,23 @@
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to Entrance Shaft Access": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
+                    "connections": {}
                 },
                 "Door to Entrance Shaft Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 59.05,
-                        "y": 111.97,
+                        "x": 40.0,
+                        "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 29
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
@@ -1552,15 +1032,7 @@
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to Antechamber": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
+                    "connections": {}
                 }
             }
         },
@@ -1575,15 +1047,17 @@
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 483.89,
-                        "y": 112.28,
+                        "x": 504.0,
+                        "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 30
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
@@ -1596,31 +1070,28 @@
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to Entrance Shaft": {
-                            "type": "template",
-                            "data": "Defeat Metroid"
-                        }
-                    }
+                    "connections": {}
                 },
-                "Door to Entrance Shaft": {
+                "Door to Elevator to Brinstar": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 57.88,
-                        "y": 143.5,
+                        "x": 40.0,
+                        "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 31
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
-                        "area": "Entrance Shaft",
+                        "area": "Elevator to Brinstar",
                         "node": "Door to Entrance Shaft Access"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1628,109 +1099,103 @@
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to First Shaft": {
-                            "type": "template",
-                            "data": "Defeat Metroid"
-                        }
-                    }
+                    "connections": {}
                 }
             }
         },
-        "Entrance Shaft": {
+        "Elevator to Brinstar": {
             "default_node": null,
             "extra": {
                 "map_name": "Tourian15",
                 "room_id": 15
             },
             "nodes": {
+                "Door to Lava Passage": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 128.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 23
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Tourian",
+                        "area": "Lava Passage",
+                        "node": "Door to Elevator to Brinstar"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
                 "Door to Entrance Shaft Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 245.93,
-                        "y": 462.14,
+                        "x": 264.0,
+                        "y": 464.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 32
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
                         "area": "Entrance Shaft Access",
-                        "node": "Door to Entrance Shaft"
+                        "node": "Door to Elevator to Brinstar"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to Tourian Lava Passage": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "template",
-                                        "data": "Defeat Metroid"
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Defeat Metroid"
-                                    }
-                                ]
-                            }
-                        }
-                    }
+                    "connections": {}
                 },
-                "Door to Tourian Lava Passage": {
+                "Door to Elevator to Brinstar": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 240.95,
-                        "y": 125.48,
+                        "x": 264.0,
+                        "y": 560.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 36
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
-                        "area": "Tourian Lava Passage",
-                        "node": "Door to Entrance Shaft"
+                        "area": "Elevator to Brinstar",
+                        "node": "Door to Elevator to Brinstar"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to Entrance Shaft Access": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "template",
-                                        "data": "Defeat Metroid"
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Defeat Metroid"
-                                    }
-                                ]
-                            }
-                        }
-                    }
+                    "connections": {}
                 }
             }
         },
@@ -1745,15 +1210,17 @@
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 483.97,
-                        "y": 430.34,
+                        "x": 504.0,
+                        "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 33
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
@@ -1766,43 +1233,28 @@
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to Save Room 3": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "template",
-                                        "data": "Destroy Bomb Blocks"
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Defeat Metroid"
-                                    }
-                                ]
-                            }
-                        }
-                    }
+                    "connections": {}
                 },
-                "Door to Save Room 3": {
+                "Door to Save Station C": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 59.38,
-                        "y": 430.34,
+                        "x": 40.0,
+                        "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 34
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
-                        "area": "Save Room 3",
+                        "area": "Save Station C",
                         "node": "Door to Triple-Tiered Room"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1810,96 +1262,49 @@
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to Ledged Shaft": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "template",
-                                        "data": "Destroy Bomb Blocks"
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Defeat Metroid"
-                                    }
-                                ]
-                            }
-                        }
-                    }
+                    "connections": {}
                 }
             }
         },
-        "Save Room 2": {
+        "Save Station B": {
             "default_node": null,
             "extra": {
                 "map_name": "Tourian17",
                 "room_id": 17
             },
             "nodes": {
-                "Save Station": {
-                    "node_type": "generic",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 149.94753086419752,
-                        "y": 64.64660493827162,
-                        "z": 0.0
-                    },
-                    "description": "",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "connections": {
-                        "Door to I-Shaped Room": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
-                },
-                "Door to I-Shaped Room": {
+                "Door to I Shaped Room": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 58.17,
-                        "y": 111.85,
+                        "x": 40.0,
+                        "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 42
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
-                        "area": "I-Shaped Room",
-                        "node": "Door to Save Room 2"
+                        "area": "I Shaped Room",
+                        "node": "Door to Save Station B"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Save Station": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
+                    "connections": {}
                 }
             }
         },
-        "I-Shaped Room": {
+        "I Shaped Room": {
             "default_node": null,
             "extra": {
                 "map_name": "Tourian18",
@@ -1910,149 +1315,88 @@
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 58.14,
-                        "y": 288.35,
+                        "x": 40.0,
+                        "y": 288.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 37
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
                         "area": "Metroid Pit",
-                        "node": "Door to I-Shaped Room"
+                        "node": "Door to I Shaped Room"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to Save Room 2": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        },
-                        "Door to Ledged Shaft": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
-                },
-                "Door to Save Room 2": {
-                    "node_type": "dock",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 245.86,
-                        "y": 271.12,
-                        "z": 0.0
-                    },
-                    "description": "",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "dock_type": "door",
-                    "default_connection": {
-                        "region": "Tourian",
-                        "area": "Save Room 2",
-                        "node": "Door to I-Shaped Room"
-                    },
-                    "default_dock_weakness": "Power Beam Door",
-                    "exclude_from_dock_rando": false,
-                    "incompatible_dock_weaknesses": [],
-                    "override_default_open_requirement": null,
-                    "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to Metroid Pit": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
+                    "connections": {}
                 },
                 "Door to Ledged Shaft": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 245.86,
-                        "y": 126.48,
+                        "x": 264.0,
+                        "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 38
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
                         "area": "Ledged Shaft",
-                        "node": "Door to I-Shaped Room"
+                        "node": "Door to I Shaped Room"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to Metroid Pit": {
-                            "type": "or",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "Hi-Jump",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Lay Bomb"
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Use Space Jump"
-                                    },
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "tricks",
-                                            "name": "WallJump",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "tricks",
-                                            "name": "IBA",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    }
+                    "connections": {}
+                },
+                "Door to Save Station B": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 264.0,
+                        "y": 272.0,
+                        "z": 0.0
+                    },
+                    "description": "Generated from ROM.",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 41
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Tourian",
+                        "area": "Save Station B",
+                        "node": "Door to I Shaped Room"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
                 }
             }
         },
@@ -2063,24 +1407,26 @@
                 "room_id": 19
             },
             "nodes": {
-                "Door to Tourian Lava Passage": {
+                "Door to Lava Passage": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 58.45,
-                        "y": 287.76,
+                        "x": 40.0,
+                        "y": 288.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 39
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
-                        "area": "Tourian Lava Passage",
+                        "area": "Lava Passage",
                         "node": "Door to Metroid Pit"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2088,73 +1434,28 @@
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to I-Shaped Room": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "template",
-                                        "data": "Defeat Metroid"
-                                    },
-                                    {
-                                        "type": "or",
-                                        "data": {
-                                            "comment": null,
-                                            "items": [
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Hi-Jump",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "template",
-                                                    "data": "Use Space Jump"
-                                                },
-                                                {
-                                                    "type": "template",
-                                                    "data": "Lay Bomb"
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "tricks",
-                                                        "name": "IBA",
-                                                        "amount": 2,
-                                                        "negate": false
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    }
+                    "connections": {}
                 },
-                "Door to I-Shaped Room": {
+                "Door to I Shaped Room": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 483.98,
-                        "y": 286.71,
+                        "x": 504.0,
+                        "y": 288.0,
                         "z": 0.0
                     },
-                    "description": "",
+                    "description": "Generated from ROM.",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
+                    "extra": {
+                        "door_idx": 40
+                    },
                     "valid_starting_location": false,
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Tourian",
-                        "area": "I-Shaped Room",
+                        "area": "I Shaped Room",
                         "node": "Door to Metroid Pit"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2162,54 +1463,7 @@
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
-                    "connections": {
-                        "Door to Tourian Lava Passage": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "template",
-                                        "data": "Defeat Metroid"
-                                    },
-                                    {
-                                        "type": "or",
-                                        "data": {
-                                            "comment": null,
-                                            "items": [
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Hi-Jump",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "template",
-                                                    "data": "Lay Bomb"
-                                                },
-                                                {
-                                                    "type": "template",
-                                                    "data": "Use Space Jump"
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "tricks",
-                                                        "name": "IBA",
-                                                        "amount": 2,
-                                                        "negate": false
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    }
+                    "connections": {}
                 }
             }
         }
