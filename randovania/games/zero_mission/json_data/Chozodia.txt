@@ -5,19 +5,16 @@ Extra - room_id: 0
 > Tunnel to Crash Landing Site (initial); Heals? False
   * Layers: default
   * Tunnel to Crash Landing Site (initial)/Tunnel to Crash Landing Site (initial)
-  * Generated from ROM.
   * Extra - door_idx: 0
 
 > Tunnel to Crash Landing Site (initial) (1); Heals? False
   * Layers: default
   * Tunnel to Crash Landing Site (initial)/Tunnel to Crash Landing Site (initial)
-  * Generated from ROM.
   * Extra - door_idx: 1
 
 > Dock to Mother Ship Approach (initial); Heals? False
   * Layers: default
   * Access Open to Mother Ship Approach (initial)/Dock to Crash Landing Site (initial)
-  * Generated from ROM.
   * Extra - door_idx: 2
 
 ----------------
@@ -27,13 +24,11 @@ Extra - room_id: 1
 > Dock to Crash Landing Site (initial); Heals? False
   * Layers: default
   * Access Open to Crash Landing Site (initial)/Dock to Mother Ship Approach (initial)
-  * Generated from ROM.
   * Extra - door_idx: 3
 
 > Dock to Mother Ship Entrance East; Heals? False
   * Layers: default
   * Access Open to Mother Ship Entrance East/Dock to Mother Ship Approach (initial)
-  * Generated from ROM.
   * Extra - door_idx: 4
 
 ----------------
@@ -43,13 +38,11 @@ Extra - room_id: 2
 > Dock to Mother Ship Approach (initial); Heals? False
   * Layers: default
   * Access Open to Mother Ship Approach (initial)/Dock to Mother Ship Entrance East
-  * Generated from ROM.
   * Extra - door_idx: 5
 
 > Tunnel to Mother Ship Exit East; Heals? False
   * Layers: default
   * Tunnel to Mother Ship Exit East/Tunnel to Mother Ship Entrance East
-  * Generated from ROM.
   * Extra - door_idx: 175
 
 ----------------
@@ -59,69 +52,59 @@ Extra - room_id: 3
 > Door to Mother Ship East Upper Entrance; Heals? False
   * Layers: default
   * Power Beam Door to Mother Ship East Upper Entrance/Door to Tripwire Corridor
-  * Generated from ROM.
   * Extra - door_idx: 7
 
 > Door to Hiding Place A; Heals? False
   * Layers: default
   * Power Beam Door to Hiding Place A/Door to Tripwire Corridor
-  * Generated from ROM.
   * Extra - door_idx: 8
 
 > Door to Alcove Shaft; Heals? False
   * Layers: default
   * Power Beam Door to Alcove Shaft/Door to Tripwire Corridor
-  * Generated from ROM.
   * Extra - door_idx: 16
 
 > Door to Small Compartment; Heals? False
   * Layers: default
   * Power Beam Door to Small Compartment/Door to Tripwire Corridor
-  * Generated from ROM.
   * Extra - door_idx: 182
 
 ----------------
-Save Station A
+Save Station (Ship South)
 Extra - map_name: Chozodia4
 Extra - room_id: 4
 > Door to Map Station; Heals? False
   * Layers: default
-  * Power Beam Door to Map Station/Door to Save Station A
-  * Generated from ROM.
+  * Power Beam Door to Map Station/Door to Save Station (Ship South)
   * Extra - door_idx: 9
 
 > Door to First Stealth Chamber; Heals? False
   * Layers: default
-  * Missile Door to First Stealth Chamber/Door to Save Station A
-  * Generated from ROM.
+  * Missile Door to First Stealth Chamber/Door to Save Station (Ship South)
   * Extra - door_idx: 10
 
 > Tunnel to First Stealth Chamber; Heals? False
   * Layers: default
-  * Tunnel to First Stealth Chamber/Tunnel to Save Station A
-  * Generated from ROM.
+  * Tunnel to First Stealth Chamber/Tunnel to Save Station (Ship South)
   * Extra - door_idx: 179
 
 ----------------
 First Stealth Chamber
 Extra - map_name: Chozodia5
 Extra - room_id: 5
-> Door to Save Station A; Heals? False
+> Door to Save Station (Ship South); Heals? False
   * Layers: default
-  * Missile Door to Save Station A/Door to First Stealth Chamber
-  * Generated from ROM.
+  * Missile Door to Save Station (Ship South)/Door to First Stealth Chamber
   * Extra - door_idx: 11
 
 > Door to Hiding Place A; Heals? False
   * Layers: default
   * Power Beam Door to Hiding Place A/Door to First Stealth Chamber
-  * Generated from ROM.
   * Extra - door_idx: 12
 
-> Tunnel to Save Station A; Heals? False
+> Tunnel to Save Station (Ship South); Heals? False
   * Layers: default
-  * Tunnel to Save Station A/Tunnel to First Stealth Chamber
-  * Generated from ROM.
+  * Tunnel to Save Station (Ship South)/Tunnel to First Stealth Chamber
   * Extra - door_idx: 180
 
 ----------------
@@ -131,13 +114,11 @@ Extra - room_id: 6
 > Door to First Stealth Chamber; Heals? False
   * Layers: default
   * Power Beam Door to First Stealth Chamber/Door to Hiding Place A
-  * Generated from ROM.
   * Extra - door_idx: 13
 
 > Door to Tripwire Corridor; Heals? False
   * Layers: default
   * Power Beam Door to Tripwire Corridor/Door to Hiding Place A
-  * Generated from ROM.
   * Extra - door_idx: 14
 
 ----------------
@@ -147,13 +128,11 @@ Extra - room_id: 7
 > Dock to Obstructed Hall; Heals? False
   * Layers: default
   * Access Open to Obstructed Hall/Dock to Dark-Blue Alcove
-  * Generated from ROM.
   * Extra - door_idx: 15
 
-> Dock to Save Station D; Heals? False
+> Dock to Save Station (Ruins Southwest); Heals? False
   * Layers: default
-  * Access Open to Save Station D/Dock to Dark-Blue Alcove
-  * Generated from ROM.
+  * Access Open to Save Station (Ruins Southwest)/Dock to Dark-Blue Alcove
   * Extra - door_idx: 116
 
 ----------------
@@ -163,84 +142,72 @@ Extra - room_id: 8
 > Door to Tripwire Corridor; Heals? False
   * Layers: default
   * Power Beam Door to Tripwire Corridor/Door to Alcove Shaft
-  * Generated from ROM.
   * Extra - door_idx: 17
 
 > Door to Multi-Platform Shaft; Heals? False
   * Layers: default
   * Power Beam Door to Multi-Platform Shaft/Door to Alcove Shaft
-  * Generated from ROM.
   * Extra - door_idx: 24
 
 ----------------
-Outer Drop Shaft (REMOVE_FROM_LOGIC)
+Outer Drop (REMOVE_FROM_LOGIC)
 Extra - map_name: Chozodia9
 Extra - room_id: 9
-> Dock to Drop Shafts Access; Heals? False
+> Dock to Hidden Zebesian; Heals? False
   * Layers: default
-  * Access Open to Drop Shafts Access/Dock to Outer Drop Shaft
-  * Generated from ROM.
+  * Access Open to Hidden Zebesian/Dock to Outer Drop
   * Extra - door_idx: 242
 
 > Dock to Large Glass Tube; Heals? False
   * Layers: default
-  * Access Open to Large Glass Tube/Tunnel to Outer Drop Shaft (REMOVE_FROM_LOGIC)
-  * Generated from ROM.
+  * Access Open to Large Glass Tube/Tunnel to Outer Drop (REMOVE_FROM_LOGIC)
   * Extra - door_idx: 243
 
 ----------------
 Mother Ship Exit East
 Extra - map_name: Chozodia10
 Extra - room_id: 10
-> Pickup (Super Missile Tank (Hidden)); Heals? False
+> Pickup (Super Missile Tank); Heals? False
   * Layers: default
   * Pickup 69; Category? Minor
-  * Generated from ROM.
 
 > Door to Mother Ship Entrance East (final); Heals? False
   * Layers: default
   * Super Missile Door to Mother Ship Entrance East (final)/Door to Mother Ship Exit East
-  * Generated from ROM.
   * Extra - door_idx: 21
 
 > Door to Map Station; Heals? False
   * Layers: default
   * Missile Door to Map Station/Door to Mother Ship Exit East
-  * Generated from ROM.
   * Extra - door_idx: 22
 
 > Tunnel to Mother Ship Entrance East; Heals? False
   * Layers: default
   * Tunnel to Mother Ship Entrance East/Tunnel to Mother Ship Exit East
-  * Generated from ROM.
   * Extra - door_idx: 176
 
 > Tunnel to Map Station; Heals? False
   * Layers: default
   * Tunnel to Map Station/Tunnel to Mother Ship Exit East
-  * Generated from ROM.
   * Extra - door_idx: 177
 
 ----------------
 Map Station
 Extra - map_name: Chozodia11
 Extra - room_id: 11
-> Door to Save Station A; Heals? False
+> Door to Save Station (Ship South); Heals? False
   * Layers: default
-  * Power Beam Door to Save Station A/Door to Map Station
-  * Generated from ROM.
+  * Power Beam Door to Save Station (Ship South)/Door to Map Station
   * Extra - door_idx: 20
 
 > Door to Mother Ship Exit East; Heals? False
   * Layers: default
   * Missile Door to Mother Ship Exit East/Door to Map Station
-  * Generated from ROM.
   * Extra - door_idx: 23
 
 > Tunnel to Mother Ship Exit East; Heals? False
   * Layers: default
   * Tunnel to Mother Ship Exit East/Tunnel to Map Station
-  * Generated from ROM.
   * Extra - door_idx: 178
 
 ----------------
@@ -250,65 +217,55 @@ Extra - room_id: 12
 > Door to Alcove Shaft; Heals? False
   * Layers: default
   * Power Beam Door to Alcove Shaft/Door to Multi-Platform Shaft
-  * Generated from ROM.
   * Extra - door_idx: 25
 
 > Door to Escape-Ship Bay Access; Heals? False
   * Layers: default
   * Power Beam Door to Escape-Ship Bay Access/Door to Multi-Platform Shaft
-  * Generated from ROM.
   * Extra - door_idx: 26
 
 ----------------
 Mother Ship Hangar
 Extra - map_name: Chozodia13
 Extra - room_id: 13
-> Door to Save Station B; Heals? False
+> Door to Save Station (Ship East); Heals? False
   * Layers: default
-  * Power Beam Door to Save Station B/Door to Mother Ship Hangar
-  * Generated from ROM.
+  * Power Beam Door to Save Station (Ship East)/Door to Mother Ship Hangar
   * Extra - door_idx: 27
 
 > Door to Cracked Surface Shaft; Heals? False
   * Layers: default
   * Power Beam Door to Cracked Surface Shaft/Door to Mother Ship Hangar
-  * Generated from ROM.
   * Extra - door_idx: 28
 
 > Tunnel to Cracked Surface Shaft; Heals? False
   * Layers: default
   * Tunnel to Cracked Surface Shaft/Tunnel to Mother Ship Hangar
-  * Generated from ROM.
   * Extra - door_idx: 30
 
 > Tunnel to Escape-Ship Bay; Heals? False
   * Layers: default
   * Tunnel to Escape-Ship Bay/Tunnel to Mother Ship Hangar
-  * Generated from ROM.
   * Extra - door_idx: 96
 
 > Door to Escape-Ship Bay; Heals? False
   * Layers: default
   * Missile Door to Escape-Ship Bay/Door to Mother Ship Hangar
-  * Generated from ROM.
   * Extra - door_idx: 100
 
 > Tunnel to Escape-Ship Bay (104); Heals? False
   * Layers: default
   * Tunnel to Escape-Ship Bay/Tunnel to Mother Ship Hangar
-  * Generated from ROM.
   * Extra - door_idx: 104
 
 > Door to Mother Ship Concourse; Heals? False
   * Layers: default
   * Power Beam Door to Mother Ship Concourse/Door to Mother Ship Hangar
-  * Generated from ROM.
   * Extra - door_idx: 106
 
 > Door to Small Compartment; Heals? False
   * Layers: default
   * Power Beam Door to Small Compartment/Door to Mother Ship Hangar
-  * Generated from ROM.
   * Extra - door_idx: 166
 
 ----------------
@@ -318,46 +275,39 @@ Extra - room_id: 14
 > Pickup (Super Missile Tank); Heals? False
   * Layers: default
   * Pickup 70; Category? Minor
-  * Generated from ROM.
 
 > Door to Mother Ship Hangar; Heals? False
   * Layers: default
   * Power Beam Door to Mother Ship Hangar/Door to Cracked Surface Shaft
-  * Generated from ROM.
   * Extra - door_idx: 29
 
 > Tunnel to Mother Ship Hangar; Heals? False
   * Layers: default
   * Tunnel to Mother Ship Hangar/Tunnel to Cracked Surface Shaft
-  * Generated from ROM.
   * Extra - door_idx: 31
 
 > Door to Gate Chamber; Heals? False
   * Layers: default
   * Power Beam Door to Gate Chamber/Door to Cracked Surface Shaft
-  * Generated from ROM.
   * Extra - door_idx: 36
 
 > Door to Pit Access; Heals? False
   * Layers: default
   * Missile Door to Pit Access/Door to Cracked Surface Shaft
-  * Generated from ROM.
   * Extra - door_idx: 90
 
 > Door to Searchlight Shaft; Heals? False
   * Layers: default
   * Power Beam Door to Searchlight Shaft/Door to Cracked Surface Shaft
-  * Generated from ROM.
   * Extra - door_idx: 168
 
 ----------------
-Save Station B
+Save Station (Ship East)
 Extra - map_name: Chozodia15
 Extra - room_id: 15
 > Door to Mother Ship Hangar; Heals? False
   * Layers: default
-  * Power Beam Door to Mother Ship Hangar/Door to Save Station B
-  * Generated from ROM.
+  * Power Beam Door to Mother Ship Hangar/Door to Save Station (Ship East)
   * Extra - door_idx: 35
 
 ----------------
@@ -367,19 +317,16 @@ Extra - room_id: 16
 > Door to Small Compartment; Heals? False
   * Layers: default
   * Power Beam Door to Small Compartment/Door to Searchlight Shaft
-  * Generated from ROM.
   * Extra - door_idx: 34
 
 > Door to Small Compartment (37); Heals? False
   * Layers: default
   * Power Beam Door to Small Compartment/Door to Searchlight Shaft
-  * Generated from ROM.
   * Extra - door_idx: 37
 
 > Door to Cracked Surface Shaft; Heals? False
   * Layers: default
   * Power Beam Door to Cracked Surface Shaft/Door to Searchlight Shaft
-  * Generated from ROM.
   * Extra - door_idx: 167
 
 ----------------
@@ -389,83 +336,72 @@ Extra - room_id: 17
 > Door to Cracked Surface Shaft; Heals? False
   * Layers: default
   * Power Beam Door to Cracked Surface Shaft/Door to Gate Chamber
-  * Generated from ROM.
   * Extra - door_idx: 39
 
-> Door to Save Station C; Heals? False
+> Door to Save Station (Ship Central); Heals? False
   * Layers: default
-  * Power Beam Door to Save Station C/Door to Gate Chamber
-  * Generated from ROM.
+  * Power Beam Door to Save Station (Ship Central)/Door to Gate Chamber
   * Extra - door_idx: 40
 
 ----------------
 Tripwire Maze
 Extra - map_name: Chozodia18
 Extra - room_id: 18
-> Door to Save Station C; Heals? False
+> Door to Save Station (Ship Central); Heals? False
   * Layers: default
-  * Power Beam Door to Save Station C/Door to Tripwire Maze
-  * Generated from ROM.
+  * Power Beam Door to Save Station (Ship Central)/Door to Tripwire Maze
   * Extra - door_idx: 41
 
 > Door to Hiding Place B; Heals? False
   * Layers: default
   * Power Beam Door to Hiding Place B/Door to Tripwire Maze
-  * Generated from ROM.
   * Extra - door_idx: 42
 
 ----------------
-Drop Shafts Access
+Hidden Zebesian
 Extra - map_name: Chozodia19
 Extra - room_id: 19
 > Door to Hiding Place B; Heals? False
   * Layers: default
-  * Power Beam Door to Hiding Place B/Door to Drop Shafts Access
-  * Generated from ROM.
+  * Power Beam Door to Hiding Place B/Door to Hidden Zebesian
   * Extra - door_idx: 43
 
-> Tunnel to Inner Drop Shaft (INITIAL); Heals? False
+> Tunnel to Inner Drop (INITIAL); Heals? False
   * Layers: default
-  * Tunnel to Inner Drop Shaft (INITIAL)/Tunnel to Drop Shafts Access
-  * Generated from ROM.
+  * Tunnel to Inner Drop (INITIAL)/Tunnel to Hidden Zebesian
   * Extra - door_idx: 46
 
-> Dock to Outer Drop Shaft; Heals? False
+> Dock to Outer Drop; Heals? False
   * Layers: default
-  * Access Open to Outer Drop Shaft/Dock to Drop Shafts Access
-  * Generated from ROM.
+  * Access Open to Outer Drop/Dock to Hidden Zebesian
   * Extra - door_idx: 238
 
 ----------------
-Inner Drop Shaft (INITIAL)
+Inner Drop (INITIAL)
 Extra - map_name: Chozodia20
 Extra - room_id: 20
-> Tunnel to Drop Shafts Access; Heals? False
+> Tunnel to Hidden Zebesian; Heals? False
   * Layers: default
-  * Tunnel to Drop Shafts Access/Tunnel to Inner Drop Shaft (INITIAL)
-  * Generated from ROM.
+  * Tunnel to Hidden Zebesian/Tunnel to Inner Drop (INITIAL)
   * Extra - door_idx: 45
 
 > Door to Large Glass Tube (INITIAL); Heals? False
   * Layers: default
-  * Power Beam Door to Large Glass Tube (INITIAL)/Door to Inner Drop Shaft (INITIAL)
-  * Generated from ROM.
+  * Power Beam Door to Large Glass Tube (INITIAL)/Door to Inner Drop (INITIAL)
   * Extra - door_idx: 48
 
 ----------------
-Save Station C
+Save Station (Ship Central)
 Extra - map_name: Chozodia21
 Extra - room_id: 21
 > Door to Tripwire Maze; Heals? False
   * Layers: default
-  * Power Beam Door to Tripwire Maze/Door to Save Station C
-  * Generated from ROM.
+  * Power Beam Door to Tripwire Maze/Door to Save Station (Ship Central)
   * Extra - door_idx: 47
 
 > Door to Gate Chamber; Heals? False
   * Layers: default
-  * Power Beam Door to Gate Chamber/Door to Save Station C
-  * Generated from ROM.
+  * Power Beam Door to Gate Chamber/Door to Save Station (Ship Central)
   * Extra - door_idx: 132
 
 ----------------
@@ -475,35 +411,30 @@ Extra - room_id: 22
 > Door to Tripwire Maze; Heals? False
   * Layers: default
   * Power Beam Door to Tripwire Maze/Door to Hiding Place B
-  * Generated from ROM.
   * Extra - door_idx: 49
 
-> Door to Drop Shafts Access; Heals? False
+> Door to Hidden Zebesian; Heals? False
   * Layers: default
-  * Power Beam Door to Drop Shafts Access/Door to Hiding Place B
-  * Generated from ROM.
+  * Power Beam Door to Hidden Zebesian/Door to Hiding Place B
   * Extra - door_idx: 50
 
 ----------------
 Large Glass Tube (INITIAL)
 Extra - map_name: Chozodia23
 Extra - room_id: 23
-> Door to Inner Drop Shaft (INITIAL); Heals? False
+> Door to Inner Drop (INITIAL); Heals? False
   * Layers: default
-  * Power Beam Door to Inner Drop Shaft (INITIAL)/Door to Large Glass Tube (INITIAL)
-  * Generated from ROM.
+  * Power Beam Door to Inner Drop (INITIAL)/Door to Large Glass Tube (INITIAL)
   * Extra - door_idx: 51
 
 > Dock to Wrecked Antechamber; Heals? False
   * Layers: default
   * Access Open to Wrecked Antechamber/Dock to Large Glass Tube (INITIAL)
-  * Generated from ROM.
   * Extra - door_idx: 52
 
-> Tunnel to Outer Drop Shaft; Heals? False
+> Tunnel to Outer Drop; Heals? False
   * Layers: default
-  * Tunnel to Outer Drop Shaft/Dock to Large Glass Tube (INITIAL)
-  * Generated from ROM.
+  * Tunnel to Outer Drop/Dock to Large Glass Tube (INITIAL)
   * Extra - door_idx: 241
 
 ----------------
@@ -513,40 +444,34 @@ Extra - room_id: 24
 > Pickup (Energy Tank); Heals? False
   * Layers: default
   * Pickup 71; Category? Minor
-  * Generated from ROM.
 
 > Dock to Large Glass Tube (INITIAL); Heals? False
   * Layers: default
   * Access Open to Large Glass Tube (INITIAL)/Dock to Wrecked Antechamber
-  * Generated from ROM.
   * Extra - door_idx: 53
 
-> Door to Illuminated Shaft (INITIAL); Heals? False
+> Door to Ruins Foyer (INITIAL); Heals? False
   * Layers: default
-  * Power Beam Door to Illuminated Shaft (INITIAL)/Door to Wrecked Antechamber
-  * Generated from ROM.
+  * Power Beam Door to Ruins Foyer (INITIAL)/Door to Wrecked Antechamber
   * Extra - door_idx: 54
 
 > Dock to Large Glass Tube; Heals? False
   * Layers: default
   * Access Open to Large Glass Tube/Dock to Wrecked Antechamber
-  * Generated from ROM.
   * Extra - door_idx: 139
 
 ----------------
-Illuminated Shaft (INITIAL)
+Ruins Foyer (INITIAL)
 Extra - map_name: Chozodia25
 Extra - room_id: 25
 > Door to Wrecked Antechamber; Heals? False
   * Layers: default
-  * Power Beam Door to Wrecked Antechamber/Door to Illuminated Shaft (INITIAL)
-  * Generated from ROM.
+  * Power Beam Door to Wrecked Antechamber/Door to Ruins Foyer (INITIAL)
   * Extra - door_idx: 55
 
 > Tunnel to Obstructed Hall; Heals? False
   * Layers: default
-  * Tunnel to Obstructed Hall/Tunnel to Illuminated Shaft (INITIAL)
-  * Generated from ROM.
+  * Tunnel to Obstructed Hall/Tunnel to Ruins Foyer (INITIAL)
   * Extra - door_idx: 56
 
 ----------------
@@ -556,34 +481,29 @@ Extra - room_id: 26
 > Pickup (Power Bomb Tank); Heals? False
   * Layers: default
   * Pickup 72; Category? Minor
-  * Generated from ROM.
 
-> Tunnel to Chozo Shaft East (INITIAL); Heals? False
+> Tunnel to Western Ruins Hub (INITIAL); Heals? False
   * Layers: default
-  * Tunnel to Chozo Shaft East (INITIAL)/Tunnel to Crawlspace
-  * Generated from ROM.
+  * Tunnel to Western Ruins Hub (INITIAL)/Tunnel to Crawlspace
   * Extra - door_idx: 57
 
 > Dock to Tri-Pillar Shaft; Heals? False
   * Layers: default
   * Access Open to Tri-Pillar Shaft/Dock to Crawlspace
-  * Generated from ROM.
   * Extra - door_idx: 58
 
 ----------------
-Save Station D
+Save Station (Ruins Southwest)
 Extra - map_name: Chozodia27
 Extra - room_id: 27
 > Dock to Dark-Blue Alcove; Heals? False
   * Layers: default
-  * Access Open to Dark-Blue Alcove/Dock to Save Station D
-  * Generated from ROM.
+  * Access Open to Dark-Blue Alcove/Dock to Save Station (Ruins Southwest)
   * Extra - door_idx: 59
 
 > Dock to Checkpoint; Heals? False
   * Layers: default
-  * Access Open to Checkpoint/Dock to Save Station D
-  * Generated from ROM.
+  * Access Open to Checkpoint/Dock to Save Station (Ruins Southwest)
   * Extra - door_idx: 60
 
 ----------------
@@ -593,13 +513,11 @@ Extra - room_id: 28
 > Dock to Checkpoint; Heals? False
   * Layers: default
   * Access Open to Checkpoint/Dock to Hall of Lights
-  * Generated from ROM.
   * Extra - door_idx: 61
 
 > Dock to Chozodia's Fork; Heals? False
   * Layers: default
   * Access Open to Chozodia's Fork/Dock to Hall of Lights
-  * Generated from ROM.
   * Extra - door_idx: 62
 
 ----------------
@@ -609,31 +527,26 @@ Extra - room_id: 29
 > Dock to Chozodia's Fork; Heals? False
   * Layers: default
   * Access Open to Chozodia's Fork/Dock to Hanging Barrier Hall
-  * Generated from ROM.
   * Extra - door_idx: 63
 
 > Dock to Eye Ascension (INITIAL); Heals? False
   * Layers: default
   * Access Open to Eye Ascension (INITIAL)/Dock to Hanging Barrier Hall
-  * Generated from ROM.
   * Extra - door_idx: 64
 
 > Dock to Pitfall; Heals? False
   * Layers: default
   * Access Open to Pitfall/Dock to Hanging Barrier Hall
-  * Generated from ROM.
   * Extra - door_idx: 205
 
 > Tunnel to Pitfall; Heals? False
   * Layers: default
   * Tunnel to Pitfall/Tunnel to Hanging Barrier Hall
-  * Generated from ROM.
   * Extra - door_idx: 210
 
 > Dock to Pitfall (221); Heals? False
   * Layers: default
   * Access Open to Pitfall/Dock to Hanging Barrier Hall
-  * Generated from ROM.
   * Extra - door_idx: 221
 
 ----------------
@@ -643,13 +556,11 @@ Extra - room_id: 30
 > Dock to Hanging Barrier Hall; Heals? False
   * Layers: default
   * Access Open to Hanging Barrier Hall/Dock to Eye Ascension (INITIAL)
-  * Generated from ROM.
   * Extra - door_idx: 65
 
 > Dock to Zebesian Pit; Heals? False
   * Layers: default
   * Access Open to Zebesian Pit/Dock to Eye Ascension (INITIAL)
-  * Generated from ROM.
   * Extra - door_idx: 66
 
 ----------------
@@ -659,13 +570,11 @@ Extra - room_id: 31
 > Dock to Eye Ascension (INITIAL); Heals? False
   * Layers: default
   * Access Open to Eye Ascension (INITIAL)/Dock to Zebesian Pit
-  * Generated from ROM.
   * Extra - door_idx: 67
 
 > Dock to Hiding Place C; Heals? False
   * Layers: default
   * Access Open to Hiding Place C/Dock to Zebesian Pit
-  * Generated from ROM.
   * Extra - door_idx: 68
 
 ----------------
@@ -675,25 +584,21 @@ Extra - room_id: 32
 > Tunnel to Hiding Place D; Heals? False
   * Layers: default
   * Tunnel to Hiding Place D/Tunnel to Chacmool Room
-  * Generated from ROM.
   * Extra - door_idx: 69
 
 > Dock to Chacmool Access; Heals? False
   * Layers: default
   * Access Open to Chacmool Access/Dock to Chacmool Room
-  * Generated from ROM.
   * Extra - door_idx: 195
 
 > Dock to Chacmool Access (198); Heals? False
   * Layers: default
   * Access Open to Chacmool Access/Dock to Chacmool Room
-  * Generated from ROM.
   * Extra - door_idx: 198
 
 > Dock to Eye Pit; Heals? False
   * Layers: default
   * Access Open to Eye Pit/Dock to Chacmool Room
-  * Generated from ROM.
   * Extra - door_idx: 199
 
 ----------------
@@ -703,40 +608,34 @@ Extra - room_id: 33
 > Dock to Curved Shaft; Heals? False
   * Layers: default
   * Access Open to Curved Shaft/Dock to Hiding Place D
-  * Generated from ROM.
   * Extra - door_idx: 71
 
 > Tunnel to Chacmool Room; Heals? False
   * Layers: default
   * Tunnel to Chacmool Room/Tunnel to Hiding Place D
-  * Generated from ROM.
   * Extra - door_idx: 72
 
 ----------------
 Chozodia's Fork
 Extra - map_name: Chozodia34
 Extra - room_id: 34
-> Pickup (Power Bomb Tank (Hidden)); Heals? False
+> Pickup (Power Bomb Tank); Heals? False
   * Layers: default
   * Pickup 73; Category? Minor
-  * Generated from ROM.
 
 > Dock to Hall of Lights; Heals? False
   * Layers: default
   * Access Open to Hall of Lights/Dock to Chozodia's Fork
-  * Generated from ROM.
   * Extra - door_idx: 73
 
 > Dock to Hanging Barrier Hall; Heals? False
   * Layers: default
   * Access Open to Hanging Barrier Hall/Dock to Chozodia's Fork
-  * Generated from ROM.
   * Extra - door_idx: 74
 
 > Dock to Chozodia Access Hall (westbound); Heals? False
   * Layers: default
   * Access Open to Chozodia Access Hall (westbound)/Dock to Chozodia's Fork
-  * Generated from ROM.
   * Extra - door_idx: 220
 
 ----------------
@@ -746,45 +645,39 @@ Extra - room_id: 35
 > Dock to Eye Pit; Heals? False
   * Layers: default
   * Access Open to Eye Pit/Dock to Patrolled Path
-  * Generated from ROM.
   * Extra - door_idx: 75
 
-> Dock to Chozo Shaft East (INITIAL); Heals? False
+> Dock to Western Ruins Hub (INITIAL); Heals? False
   * Layers: default
-  * Access Open to Chozo Shaft East (INITIAL)/Dock to Patrolled Path
-  * Generated from ROM.
+  * Access Open to Western Ruins Hub (INITIAL)/Dock to Patrolled Path
   * Extra - door_idx: 76
 
 ----------------
-Chozo Shaft East (INITIAL)
+Western Ruins Hub (INITIAL)
 Extra - map_name: Chozodia36
 Extra - room_id: 36
 > Dock to Patrolled Path; Heals? False
   * Layers: default
-  * Access Open to Patrolled Path/Dock to Chozo Shaft East (INITIAL)
-  * Generated from ROM.
+  * Access Open to Patrolled Path/Dock to Western Ruins Hub (INITIAL)
   * Extra - door_idx: 77
 
 > Tunnel to Crawlspace; Heals? False
   * Layers: default
-  * Tunnel to Crawlspace/Tunnel to Chozo Shaft East (INITIAL)
-  * Generated from ROM.
+  * Tunnel to Crawlspace/Tunnel to Western Ruins Hub (INITIAL)
   * Extra - door_idx: 78
 
 ----------------
 Obstructed Hall
 Extra - map_name: Chozodia37
 Extra - room_id: 37
-> Tunnel to Illuminated Shaft (INITIAL); Heals? False
+> Tunnel to Ruins Foyer (INITIAL); Heals? False
   * Layers: default
-  * Tunnel to Illuminated Shaft (INITIAL)/Tunnel to Obstructed Hall
-  * Generated from ROM.
+  * Tunnel to Ruins Foyer (INITIAL)/Tunnel to Obstructed Hall
   * Extra - door_idx: 79
 
 > Dock to Dark-Blue Alcove; Heals? False
   * Layers: default
   * Access Open to Dark-Blue Alcove/Dock to Obstructed Hall
-  * Generated from ROM.
   * Extra - door_idx: 80
 
 ----------------
@@ -794,13 +687,11 @@ Extra - room_id: 38
 > Dock to Crawlspace; Heals? False
   * Layers: default
   * Access Open to Crawlspace/Dock to Tri-Pillar Shaft
-  * Generated from ROM.
   * Extra - door_idx: 81
 
 > Dock to Chozo Inner Temple (INITIAL); Heals? False
   * Layers: default
   * Access Open to Chozo Inner Temple (INITIAL)/Dock to Tri-Pillar Shaft
-  * Generated from ROM.
   * Extra - door_idx: 82
 
 ----------------
@@ -810,45 +701,39 @@ Extra - room_id: 39
 > Dock to Tri-Pillar Shaft; Heals? False
   * Layers: default
   * Access Open to Tri-Pillar Shaft/Dock to Chozo Inner Temple (INITIAL)
-  * Generated from ROM.
   * Extra - door_idx: 83
 
-> Dock to Save Station E; Heals? False
+> Dock to Save Station (Ruins North); Heals? False
   * Layers: default
-  * Access Open to Save Station E/Dock to Chozo Inner Temple (INITIAL)
-  * Generated from ROM.
+  * Access Open to Save Station (Ruins North)/Dock to Chozo Inner Temple (INITIAL)
   * Extra - door_idx: 84
 
 ----------------
-Save Station E
+Save Station (Ruins North)
 Extra - map_name: Chozodia40
 Extra - room_id: 40
 > Dock to Chozo Inner Temple (INITIAL); Heals? False
   * Layers: default
-  * Access Open to Chozo Inner Temple (INITIAL)/Dock to Save Station E
-  * Generated from ROM.
+  * Access Open to Chozo Inner Temple (INITIAL)/Dock to Save Station (Ruins North)
   * Extra - door_idx: 85
 
 > Dock to Flooded Chamber (INITIAL); Heals? False
   * Layers: default
-  * Access Open to Flooded Chamber (INITIAL)/Dock to Save Station E
-  * Generated from ROM.
+  * Access Open to Flooded Chamber (INITIAL)/Dock to Save Station (Ruins North)
   * Extra - door_idx: 86
 
 ----------------
 Flooded Chamber (INITIAL)
 Extra - map_name: Chozodia41
 Extra - room_id: 41
-> Dock to Save Station E; Heals? False
+> Dock to Save Station (Ruins North); Heals? False
   * Layers: default
-  * Access Open to Save Station E/Dock to Flooded Chamber (INITIAL)
-  * Generated from ROM.
+  * Access Open to Save Station (Ruins North)/Dock to Flooded Chamber (INITIAL)
   * Extra - door_idx: 87
 
 > Dock to Top of the Ruins; Heals? False
   * Layers: default
   * Access Open to Top of the Ruins/Dock to Flooded Chamber (INITIAL)
-  * Generated from ROM.
   * Extra - door_idx: 88
 
 ----------------
@@ -858,13 +743,11 @@ Extra - room_id: 42
 > Dock to Flooded Chamber (INITIAL); Heals? False
   * Layers: default
   * Access Open to Flooded Chamber (INITIAL)/Dock to Top of the Ruins
-  * Generated from ROM.
   * Extra - door_idx: 89
 
 > Tunnel to Flooded Chamber; Heals? False
   * Layers: default
   * Tunnel to Flooded Chamber/Tunnel to Top of the Ruins
-  * Generated from ROM.
   * Extra - door_idx: 207
 
 ----------------
@@ -874,13 +757,11 @@ Extra - room_id: 43
 > Door to Cracked Surface Shaft; Heals? False
   * Layers: default
   * Missile Door to Cracked Surface Shaft/Door to Pit Access
-  * Generated from ROM.
   * Extra - door_idx: 91
 
 > Door to Missile Pit; Heals? False
   * Layers: default
   * Super Missile Door to Missile Pit/Door to Pit Access
-  * Generated from ROM.
   * Extra - door_idx: 159
 
 ----------------
@@ -890,45 +771,39 @@ Extra - room_id: 44
 > Door to Robot-Patrolled Hall; Heals? False
   * Layers: default
   * Power Beam Door to Robot-Patrolled Hall/Door to Stairwell
-  * Generated from ROM.
   * Extra - door_idx: 123
 
-> Door to Probe-Packed Corridor; Heals? False
+> Door to Atomic Corridor; Heals? False
   * Layers: default
-  * Power Beam Door to Probe-Packed Corridor/Door to Stairwell
-  * Generated from ROM.
+  * Power Beam Door to Atomic Corridor/Door to Stairwell
   * Extra - door_idx: 124
 
 ----------------
-Ventilation Shaft
+Ventilation Tunnel
 Extra - map_name: Chozodia45
 Extra - room_id: 45
 > Tunnel to Mother Ship Bridge; Heals? False
   * Layers: default
-  * Tunnel to Mother Ship Bridge/Tunnel to Ventilation Shaft
-  * Generated from ROM.
+  * Tunnel to Mother Ship Bridge/Tunnel to Ventilation Tunnel
   * Extra - door_idx: 95
 
 > Tunnel to Armory Access; Heals? False
   * Layers: default
-  * Tunnel to Armory Access/Tunnel to Ventilation Shaft
-  * Generated from ROM.
+  * Tunnel to Armory Access/Tunnel to Ventilation Tunnel
   * Extra - door_idx: 98
 
 ----------------
 Armory Access
 Extra - map_name: Chozodia46
 Extra - room_id: 46
-> Tunnel to Ventilation Shaft; Heals? False
+> Tunnel to Ventilation Tunnel; Heals? False
   * Layers: default
-  * Tunnel to Ventilation Shaft/Tunnel to Armory Access
-  * Generated from ROM.
+  * Tunnel to Ventilation Tunnel/Tunnel to Armory Access
   * Extra - door_idx: 93
 
 > Dock to Armory Chamber; Heals? False
   * Layers: default
   * Access Open to Armory Chamber/Door to Armory Access
-  * Generated from ROM.
   * Extra - door_idx: 99
 
 ----------------
@@ -938,24 +813,20 @@ Extra - room_id: 47
 > Pickup (Power Bomb Tank); Heals? False
   * Layers: default
   * Pickup 74; Category? Minor
-  * Generated from ROM.
 
 > Door to Armory Access; Heals? False
   * Layers: default
   * Power Beam Door to Armory Access/Dock to Armory Chamber
-  * Generated from ROM.
   * Extra - door_idx: 102
 
 > Door to Armory Reliquary; Heals? False
   * Layers: default
   * Power Bomb Door to Armory Reliquary/Door to Armory Chamber
-  * Generated from ROM.
   * Extra - door_idx: 163
 
 > Dock to Armory Reliquary; Heals? False
   * Layers: default
   * Access Open to Armory Reliquary/Dock to Armory Chamber
-  * Generated from ROM.
   * Extra - door_idx: 213
 
 ----------------
@@ -965,25 +836,21 @@ Extra - room_id: 48
 > Tunnel to Mother Ship Hangar; Heals? False
   * Layers: default
   * Tunnel to Mother Ship Hangar/Tunnel to Escape-Ship Bay
-  * Generated from ROM.
   * Extra - door_idx: 97
 
 > Door to Mother Ship Hangar; Heals? False
   * Layers: default
   * Missile Door to Mother Ship Hangar/Door to Escape-Ship Bay
-  * Generated from ROM.
   * Extra - door_idx: 101
 
 > Tunnel to Mother Ship Hangar (105); Heals? False
   * Layers: default
   * Tunnel to Mother Ship Hangar/Tunnel to Escape-Ship Bay
-  * Generated from ROM.
   * Extra - door_idx: 105
 
 > Tunnel to Escape-Ship Bay Access; Heals? False
   * Layers: default
   * Tunnel to Escape-Ship Bay Access/Tunnel to Escape-Ship Bay
-  * Generated from ROM.
   * Extra - door_idx: 171
 
 ----------------
@@ -993,18 +860,15 @@ Extra - room_id: 49
 > Pickup (Power Bomb Tank); Heals? False
   * Layers: default
   * Pickup 75; Category? Minor
-  * Generated from ROM.
 
 > Door to Armory Chamber; Heals? False
   * Layers: default
   * Power Bomb Door to Armory Chamber/Door to Armory Reliquary
-  * Generated from ROM.
   * Extra - door_idx: 103
 
 > Dock to Armory Chamber; Heals? False
   * Layers: default
   * Access Open to Armory Chamber/Dock to Armory Reliquary
-  * Generated from ROM.
   * Extra - door_idx: 214
 
 ----------------
@@ -1014,13 +878,11 @@ Extra - room_id: 50
 > Door to Tripwire Corridor; Heals? False
   * Layers: default
   * Power Beam Door to Tripwire Corridor/Door to Mother Ship East Upper Entrance
-  * Generated from ROM.
   * Extra - door_idx: 94
 
 > Tunnel to Mother Ship Approach (final); Heals? False
   * Layers: default
   * Tunnel to Mother Ship Approach (final)/Tunnel to Mother Ship East Upper Entrance
-  * Generated from ROM.
   * Extra - door_idx: 232
 
 ----------------
@@ -1030,13 +892,11 @@ Extra - room_id: 51
 > Door to Mother Ship Hangar; Heals? False
   * Layers: default
   * Power Beam Door to Mother Ship Hangar/Door to Mother Ship Concourse
-  * Generated from ROM.
   * Extra - door_idx: 107
 
 > Door to Sloped Shaft; Heals? False
   * Layers: default
   * Power Beam Door to Sloped Shaft/Door to Mother Ship Concourse
-  * Generated from ROM.
   * Extra - door_idx: 108
 
 ----------------
@@ -1046,19 +906,16 @@ Extra - room_id: 52
 > Door to Missile Pit; Heals? False
   * Layers: default
   * Power Bomb Door to Missile Pit/Door to Sloped Shaft
-  * Generated from ROM.
   * Extra - door_idx: 18
 
 > Door to Mother Ship Concourse; Heals? False
   * Layers: default
   * Power Beam Door to Mother Ship Concourse/Door to Sloped Shaft
-  * Generated from ROM.
   * Extra - door_idx: 109
 
 > Door to Robot-Patrolled Hall; Heals? False
   * Layers: default
   * Power Beam Door to Robot-Patrolled Hall/Door to Sloped Shaft
-  * Generated from ROM.
   * Extra - door_idx: 110
 
 ----------------
@@ -1068,13 +925,11 @@ Extra - room_id: 53
 > Door to Sloped Shaft; Heals? False
   * Layers: default
   * Power Beam Door to Sloped Shaft/Door to Robot-Patrolled Hall
-  * Generated from ROM.
   * Extra - door_idx: 111
 
 > Door to Stairwell; Heals? False
   * Layers: default
   * Power Beam Door to Stairwell/Door to Robot-Patrolled Hall
-  * Generated from ROM.
   * Extra - door_idx: 122
 
 ----------------
@@ -1084,18 +939,15 @@ Extra - room_id: 54
 > Pickup (Super Missile Tank); Heals? False
   * Layers: default
   * Pickup 76; Category? Minor
-  * Generated from ROM.
 
-> Dock to Chozo Shaft East; Heals? False
+> Dock to Western Ruins Hub; Heals? False
   * Layers: default
-  * Access Open to Chozo Shaft East/Dock to Chozodian Lava Pool
-  * Generated from ROM.
+  * Access Open to Western Ruins Hub/Dock to Chozodian Lava Pool
   * Extra - door_idx: 113
 
 > Tunnel to Eye Ascension; Heals? False
   * Layers: default
   * Tunnel to Eye Ascension/Tunnel to Chozodian Lava Pool
-  * Generated from ROM.
   * Extra - door_idx: 115
 
 ----------------
@@ -1105,13 +957,11 @@ Extra - room_id: 55
 > Door to Multi-Platform Shaft; Heals? False
   * Layers: default
   * Power Beam Door to Multi-Platform Shaft/Door to Escape-Ship Bay Access
-  * Generated from ROM.
   * Extra - door_idx: 117
 
 > Tunnel to Escape-Ship Bay; Heals? False
   * Layers: default
   * Tunnel to Escape-Ship Bay/Tunnel to Escape-Ship Bay Access
-  * Generated from ROM.
   * Extra - door_idx: 172
 
 ----------------
@@ -1121,167 +971,144 @@ Extra - room_id: 56
 > Tunnel to Chozodian Lava Pool; Heals? False
   * Layers: default
   * Tunnel to Chozodian Lava Pool/Tunnel to Eye Ascension
-  * Generated from ROM.
   * Extra - door_idx: 114
 
 > Dock to Zebesian Pit; Heals? False
   * Layers: default
   * Access Open to Zebesian Pit/Dock to Eye Ascension (INITIAL)
-  * Generated from ROM.
   * Extra - door_idx: 119
 
 > Dock to Hanging Barrier Hall; Heals? False
   * Layers: default
   * Access Open to Hanging Barrier Hall/Dock to Eye Ascension (INITIAL)
-  * Generated from ROM.
   * Extra - door_idx: 120
 
 ----------------
-Chozo Shaft East
+Western Ruins Hub
 Extra - map_name: Chozodia57
 Extra - room_id: 57
 > Dock to Chozodian Lava Pool; Heals? False
   * Layers: default
-  * Access Open to Chozodian Lava Pool/Dock to Chozo Shaft East
-  * Generated from ROM.
+  * Access Open to Chozodian Lava Pool/Dock to Western Ruins Hub
   * Extra - door_idx: 112
 
 > Tunnel to Crawlspace; Heals? False
   * Layers: default
-  * Tunnel to Crawlspace/Tunnel to Chozo Shaft East (INITIAL)
-  * Generated from ROM.
+  * Tunnel to Crawlspace/Tunnel to Western Ruins Hub (INITIAL)
   * Extra - door_idx: 118
 
 > Dock to Patrolled Path; Heals? False
   * Layers: default
-  * Access Open to Patrolled Path/Dock to Chozo Shaft East (INITIAL)
-  * Generated from ROM.
+  * Access Open to Patrolled Path/Dock to Western Ruins Hub (INITIAL)
   * Extra - door_idx: 121
 
 > Dock to Flooded Chamber; Heals? False
   * Layers: default
-  * Access Open to Flooded Chamber/Dock to Chozo Shaft East
-  * Generated from ROM.
+  * Access Open to Flooded Chamber/Dock to Western Ruins Hub
   * Extra - door_idx: 194
 
 > Dock to Exterior; Heals? False
   * Layers: default
-  * Access Open to Exterior/Dock to Chozo Shaft East
-  * Generated from ROM.
+  * Access Open to Exterior/Dock to Western Ruins Hub
   * Extra - door_idx: 225
 
 > Tunnel to Flooded Chamber; Heals? False
   * Layers: default
-  * Tunnel to Flooded Chamber/Tunnel to Chozo Shaft East
-  * Generated from ROM.
+  * Tunnel to Flooded Chamber/Tunnel to Western Ruins Hub
   * Extra - door_idx: 228
 
 ----------------
-Probe-Packed Corridor
+Atomic Corridor
 Extra - map_name: Chozodia58
 Extra - room_id: 58
 > Door to Stairwell; Heals? False
   * Layers: default
-  * Power Beam Door to Stairwell/Door to Probe-Packed Corridor
-  * Generated from ROM.
+  * Power Beam Door to Stairwell/Door to Atomic Corridor
   * Extra - door_idx: 125
 
-> Door to Bridge Access Shaft; Heals? False
+> Door to Bridge Access; Heals? False
   * Layers: default
-  * Power Beam Door to Bridge Access Shaft/Door to Probe-Packed Corridor
-  * Generated from ROM.
+  * Power Beam Door to Bridge Access/Door to Atomic Corridor
   * Extra - door_idx: 126
 
 ----------------
-Bridge Access Shaft
+Bridge Access
 Extra - map_name: Chozodia59
 Extra - room_id: 59
-> Door to Probe-Packed Corridor; Heals? False
+> Door to Atomic Corridor; Heals? False
   * Layers: default
-  * Power Beam Door to Probe-Packed Corridor/Door to Bridge Access Shaft
-  * Generated from ROM.
+  * Power Beam Door to Atomic Corridor/Door to Bridge Access
   * Extra - door_idx: 127
 
 > Door to Mother Ship Bridge; Heals? False
   * Layers: default
-  * Power Beam Door to Mother Ship Bridge/Door to Bridge Access Shaft
-  * Generated from ROM.
+  * Power Beam Door to Mother Ship Bridge/Door to Bridge Access
   * Extra - door_idx: 128
 
 ----------------
 Mother Ship Bridge
 Extra - map_name: Chozodia60
 Extra - room_id: 60
-> Tunnel to Ventilation Shaft; Heals? False
+> Tunnel to Ventilation Tunnel; Heals? False
   * Layers: default
-  * Tunnel to Ventilation Shaft/Tunnel to Mother Ship Bridge
-  * Generated from ROM.
+  * Tunnel to Ventilation Tunnel/Tunnel to Mother Ship Bridge
   * Extra - door_idx: 92
 
-> Door to Bridge Access Shaft; Heals? False
+> Door to Bridge Access; Heals? False
   * Layers: default
-  * Power Beam Door to Bridge Access Shaft/Door to Mother Ship Bridge
-  * Generated from ROM.
+  * Power Beam Door to Bridge Access/Door to Mother Ship Bridge
   * Extra - door_idx: 129
 
 > Door to Upper Antechamber; Heals? False
   * Layers: default
   * Power Beam Door to Upper Antechamber/Door to Mother Ship Bridge
-  * Generated from ROM.
   * Extra - door_idx: 130
 
 > Door to Wall Tunnel; Heals? False
   * Layers: default
   * Power Beam Door to Wall Tunnel/Door to Mother Ship Bridge
-  * Generated from ROM.
   * Extra - door_idx: 151
 
 ----------------
-Save Station F
+Save Station (Ship North)
 Extra - map_name: Chozodia61
 Extra - room_id: 61
 > Door to Upper Antechamber; Heals? False
   * Layers: default
-  * Power Beam Door to Upper Antechamber/Door to Save Station F
-  * Generated from ROM.
+  * Power Beam Door to Upper Antechamber/Door to Save Station (Ship North)
   * Extra - door_idx: 131
 
 ----------------
-Probe-Filled Shaft
+Atomic Shaft
 Extra - map_name: Chozodia62
 Extra - room_id: 62
 > Dock to Large Glass Tube; Heals? False
   * Layers: default
-  * Access Open to Large Glass Tube/Dock to Probe-Filled Shaft
-  * Generated from ROM.
+  * Access Open to Large Glass Tube/Dock to Atomic Shaft
   * Extra - door_idx: 135
 
 > Door to Infested Slope; Heals? False
   * Layers: default
-  * Power Beam Door to Infested Slope/Door to Probe-Filled Shaft
-  * Generated from ROM.
+  * Power Beam Door to Infested Slope/Door to Atomic Shaft
   * Extra - door_idx: 136
 
-> Door to Save Station G; Heals? False
+> Door to Save Station (Ruins Southeast); Heals? False
   * Layers: default
-  * Power Beam Door to Save Station G/Door to Probe-Filled Shaft
-  * Generated from ROM.
+  * Power Beam Door to Save Station (Ruins Southeast)/Door to Atomic Shaft
   * Extra - door_idx: 161
 
 ----------------
 Infested Slope
 Extra - map_name: Chozodia63
 Extra - room_id: 63
-> Door to Probe-Filled Shaft; Heals? False
+> Door to Atomic Shaft; Heals? False
   * Layers: default
-  * Power Beam Door to Probe-Filled Shaft/Door to Infested Slope
-  * Generated from ROM.
+  * Power Beam Door to Atomic Shaft/Door to Infested Slope
   * Extra - door_idx: 137
 
 > Door to Platform Shaft; Heals? False
   * Layers: default
   * Power Beam Door to Platform Shaft/Door to Infested Slope
-  * Generated from ROM.
   * Extra - door_idx: 140
 
 ----------------
@@ -1291,71 +1118,61 @@ Extra - room_id: 64
 > Door to Infested Slope; Heals? False
   * Layers: default
   * Power Beam Door to Infested Slope/Door to Platform Shaft
-  * Generated from ROM.
   * Extra - door_idx: 141
 
 > Door to Super Missile Maze A; Heals? False
   * Layers: default
   * Power Beam Door to Super Missile Maze A/Door to Platform Shaft
-  * Generated from ROM.
   * Extra - door_idx: 142
 
 ----------------
 Super Missile Maze A
 Extra - map_name: Chozodia65
 Extra - room_id: 65
-> Pickup (Super Missile Tank (Hidden)); Heals? False
+> Pickup (Super Missile Tank); Heals? False
   * Layers: default
   * Pickup 77; Category? Minor
-  * Generated from ROM.
 
 > Door to Platform Shaft; Heals? False
   * Layers: default
   * Power Beam Door to Platform Shaft/Door to Super Missile Maze A
-  * Generated from ROM.
   * Extra - door_idx: 143
 
 > Door to Super Missile Maze B; Heals? False
   * Layers: default
   * Power Beam Door to Super Missile Maze B/Door to Super Missile Maze A
-  * Generated from ROM.
   * Extra - door_idx: 144
 
 ----------------
 Super Missile Maze B
 Extra - map_name: Chozodia66
 Extra - room_id: 66
-> Pickup (Super Missile Tank (Hidden)); Heals? False
+> Pickup (Super Missile Tank); Heals? False
   * Layers: default
   * Pickup 78; Category? Minor
-  * Generated from ROM.
 
 > Door to Super Missile Maze A; Heals? False
   * Layers: default
   * Power Beam Door to Super Missile Maze A/Door to Super Missile Maze B
-  * Generated from ROM.
   * Extra - door_idx: 145
 
 > Door to Wrecked Ship Entrance; Heals? False
   * Layers: default
   * Power Beam Door to Wrecked Ship Entrance/Door to Super Missile Maze B
-  * Generated from ROM.
   * Extra - door_idx: 146
 
 ----------------
-Illuminated Shaft
+Ruins Foyer
 Extra - map_name: Chozodia67
 Extra - room_id: 67
 > Tunnel to Obstructed Hall; Heals? False
   * Layers: default
-  * Tunnel to Obstructed Hall/Tunnel to Illuminated Shaft (INITIAL)
-  * Generated from ROM.
+  * Tunnel to Obstructed Hall/Tunnel to Ruins Foyer (INITIAL)
   * Extra - door_idx: 147
 
 > Door to Wrecked Antechamber; Heals? False
   * Layers: default
-  * Power Beam Door to Wrecked Antechamber/Door to Illuminated Shaft (INITIAL)
-  * Generated from ROM.
+  * Power Beam Door to Wrecked Antechamber/Door to Ruins Foyer (INITIAL)
   * Extra - door_idx: 148
 
 ----------------
@@ -1365,13 +1182,11 @@ Extra - room_id: 68
 > Door to Super Missile Maze B; Heals? False
   * Layers: default
   * Power Beam Door to Super Missile Maze B/Door to Wrecked Ship Entrance
-  * Generated from ROM.
   * Extra - door_idx: 149
 
 > Dock to Wrecked Ship Entrance; Heals? False
   * Layers: default
   * Access Open to Wrecked Ship Entrance/Dock to Wrecked Ship Entrance
-  * Generated from ROM.
   * Extra - door_idx: 150
 
 ----------------
@@ -1381,13 +1196,11 @@ Extra - room_id: 69
 > Door to Mother Ship Bridge; Heals? False
   * Layers: default
   * Power Beam Door to Mother Ship Bridge/Door to Wall Tunnel
-  * Generated from ROM.
   * Extra - door_idx: 152
 
 > Door to Energy Vault Hall; Heals? False
   * Layers: default
   * Power Beam Door to Energy Vault Hall/Door to Wall Tunnel
-  * Generated from ROM.
   * Extra - door_idx: 153
 
 ----------------
@@ -1397,13 +1210,11 @@ Extra - room_id: 70
 > Door to Energy Vault Hall; Heals? False
   * Layers: default
   * Power Beam Door to Energy Vault Hall/Door to Last Barrier
-  * Generated from ROM.
   * Extra - door_idx: 154
 
 > Door to Mecha Ridley Chamber; Heals? False
   * Layers: default
   * Missile Door to Mecha Ridley Chamber/Door to Last Barrier
-  * Generated from ROM.
   * Extra - door_idx: 155
 
 ----------------
@@ -1413,18 +1224,15 @@ Extra - room_id: 71
 > Pickup (Energy Tank); Heals? False
   * Layers: default
   * Pickup 79; Category? Minor
-  * Generated from ROM.
 
 > Door to Wall Tunnel; Heals? False
   * Layers: default
   * Power Beam Door to Wall Tunnel/Door to Energy Vault Hall
-  * Generated from ROM.
   * Extra - door_idx: 156
 
 > Door to Last Barrier; Heals? False
   * Layers: default
   * Power Beam Door to Last Barrier/Door to Energy Vault Hall
-  * Generated from ROM.
   * Extra - door_idx: 157
 
 ----------------
@@ -1434,64 +1242,56 @@ Extra - room_id: 72
 > Door to Last Barrier; Heals? False
   * Layers: default
   * Missile Door to Last Barrier/Door to Mecha Ridley Chamber
-  * Generated from ROM.
   * Extra - door_idx: 158
 
 ----------------
 Missile Pit
 Extra - map_name: Chozodia73
 Extra - room_id: 73
-> Pickup (Super Missile Tank (Hidden)); Heals? False
+> Pickup (Super Missile Tank); Heals? False
   * Layers: default
   * Pickup 80; Category? Minor
-  * Generated from ROM.
 
 > Door to Sloped Shaft; Heals? False
   * Layers: default
   * Power Bomb Door to Sloped Shaft/Door to Missile Pit
-  * Generated from ROM.
   * Extra - door_idx: 19
 
 > Door to Pit Access; Heals? False
   * Layers: default
   * Super Missile Door to Pit Access/Door to Missile Pit
-  * Generated from ROM.
   * Extra - door_idx: 160
 
 ----------------
-Save Station G
+Save Station (Ruins Southeast)
 Extra - map_name: Chozodia74
 Extra - room_id: 74
-> Door to Probe-Filled Shaft; Heals? False
+> Door to Atomic Shaft; Heals? False
   * Layers: default
-  * Power Beam Door to Probe-Filled Shaft/Door to Save Station G
-  * Generated from ROM.
+  * Power Beam Door to Atomic Shaft/Door to Save Station (Ruins Southeast)
   * Extra - door_idx: 162
 
 ----------------
-Save Station H
+Save Station (Ruins West)
 Extra - map_name: Chozodia75
 Extra - room_id: 75
 > Dock to Chacmool Access; Heals? False
   * Layers: default
-  * Access Open to Chacmool Access/Dock to Save Station H
-  * Generated from ROM.
+  * Access Open to Chacmool Access/Dock to Save Station (Ruins West)
   * Extra - door_idx: 164
 
 ----------------
 Checkpoint
 Extra - map_name: Chozodia76
 Extra - room_id: 76
-> Dock to Save Station D; Heals? False
+> Dock to Save Station (Ruins Southwest); Heals? False
   * Layers: default
-  * Access Open to Save Station D/Dock to Checkpoint
-  * Generated from ROM.
+  * Access Open to Save Station (Ruins Southwest)/Dock to Checkpoint
   * Extra - door_idx: 183
 
 > Dock to Hall of Lights; Heals? False
   * Layers: default
   * Access Open to Hall of Lights/Dock to Checkpoint
-  * Generated from ROM.
   * Extra - door_idx: 184
 
 ----------------
@@ -1501,25 +1301,21 @@ Extra - room_id: 77
 > Door to Tripwire Corridor; Heals? False
   * Layers: default
   * Power Beam Door to Tripwire Corridor/Door to Small Compartment
-  * Generated from ROM.
   * Extra - door_idx: 32
 
 > Door to Searchlight Shaft; Heals? False
   * Layers: default
   * Power Beam Door to Searchlight Shaft/Door to Small Compartment
-  * Generated from ROM.
   * Extra - door_idx: 33
 
 > Door to Searchlight Shaft (38); Heals? False
   * Layers: default
   * Power Beam Door to Searchlight Shaft/Door to Small Compartment
-  * Generated from ROM.
   * Extra - door_idx: 38
 
 > Door to Mother Ship Hangar; Heals? False
   * Layers: default
   * Power Beam Door to Mother Ship Hangar/Door to Small Compartment
-  * Generated from ROM.
   * Extra - door_idx: 170
 
 ----------------
@@ -1529,12 +1325,10 @@ Extra - room_id: 78
 > Pickup (Energy Tank); Heals? False
   * Layers: default
   * Pickup 81; Category? Minor
-  * Generated from ROM.
 
 > Dock to Exterior; Heals? False
   * Layers: default
   * Access Open to Exterior/Dock to Energy Runway
-  * Generated from ROM.
   * Extra - door_idx: 174
 
 ----------------
@@ -1544,13 +1338,11 @@ Extra - room_id: 79
 > Dock to Chacmool Room; Heals? False
   * Layers: default
   * Access Open to Chacmool Room/Dock to Eye Pit
-  * Generated from ROM.
   * Extra - door_idx: 185
 
 > Dock to Patrolled Path; Heals? False
   * Layers: default
   * Access Open to Patrolled Path/Dock to Eye Pit
-  * Generated from ROM.
   * Extra - door_idx: 186
 
 ----------------
@@ -1560,19 +1352,16 @@ Extra - room_id: 80
 > Dock to Zebesian Pit; Heals? False
   * Layers: default
   * Access Open to Zebesian Pit/Dock to Hiding Place C
-  * Generated from ROM.
   * Extra - door_idx: 133
 
 > Dock to Upper Ledge Chamber; Heals? False
   * Layers: default
   * Access Open to Upper Ledge Chamber/Dock to Hiding Place C
-  * Generated from ROM.
   * Extra - door_idx: 181
 
 > Tunnel to Upper Ledge Chamber; Heals? False
   * Layers: default
   * Tunnel to Upper Ledge Chamber/Tunnel to Hiding Place C
-  * Generated from ROM.
   * Extra - door_idx: 187
 
 ----------------
@@ -1582,19 +1371,16 @@ Extra - room_id: 81
 > Dock to Hiding Place C; Heals? False
   * Layers: default
   * Access Open to Hiding Place C/Dock to Upper Ledge Chamber
-  * Generated from ROM.
   * Extra - door_idx: 44
 
 > Tunnel to Hiding Place C; Heals? False
   * Layers: default
   * Tunnel to Hiding Place C/Tunnel to Upper Ledge Chamber
-  * Generated from ROM.
   * Extra - door_idx: 188
 
 > Dock to Curved Shaft; Heals? False
   * Layers: default
   * Access Open to Curved Shaft/Dock to Upper Ledge Chamber
-  * Generated from ROM.
   * Extra - door_idx: 189
 
 ----------------
@@ -1604,29 +1390,25 @@ Extra - room_id: 82
 > Dock to Hiding Place D; Heals? False
   * Layers: default
   * Access Open to Hiding Place D/Dock to Curved Shaft
-  * Generated from ROM.
   * Extra - door_idx: 70
 
 > Dock to Upper Ledge Chamber; Heals? False
   * Layers: default
   * Access Open to Upper Ledge Chamber/Dock to Curved Shaft
-  * Generated from ROM.
   * Extra - door_idx: 190
 
 ----------------
 Chozo Inner Temple
 Extra - map_name: Chozodia83
 Extra - room_id: 83
-> Dock to Save Station E; Heals? False
+> Dock to Save Station (Ruins North); Heals? False
   * Layers: default
-  * Access Open to Save Station E/Dock to Chozo Inner Temple (INITIAL)
-  * Generated from ROM.
+  * Access Open to Save Station (Ruins North)/Dock to Chozo Inner Temple (INITIAL)
   * Extra - door_idx: 191
 
 > Dock to Tri-Pillar Shaft; Heals? False
   * Layers: default
   * Access Open to Tri-Pillar Shaft/Dock to Chozo Inner Temple (INITIAL)
-  * Generated from ROM.
   * Extra - door_idx: 192
 
 ----------------
@@ -1636,59 +1418,50 @@ Extra - room_id: 84
 > Dock to Chacmool Room; Heals? False
   * Layers: default
   * Access Open to Chacmool Room/Dock to Chacmool Access
-  * Generated from ROM.
   * Extra - door_idx: 196
 
 > Dock to Chacmool Room (197); Heals? False
   * Layers: default
   * Access Open to Chacmool Room/Dock to Chacmool Access
-  * Generated from ROM.
   * Extra - door_idx: 197
 
-> Dock to Save Station H; Heals? False
+> Dock to Save Station (Ruins West); Heals? False
   * Layers: default
-  * Access Open to Save Station H/Dock to Chacmool Access
-  * Generated from ROM.
+  * Access Open to Save Station (Ruins West)/Dock to Chacmool Access
   * Extra - door_idx: 219
 
 ----------------
 Large Glass Tube
 Extra - map_name: Chozodia85
 Extra - room_id: 85
-> Dock to Probe-Filled Shaft; Heals? False
+> Dock to Atomic Shaft; Heals? False
   * Layers: default
-  * Access Open to Probe-Filled Shaft/Dock to Large Glass Tube
-  * Generated from ROM.
+  * Access Open to Atomic Shaft/Dock to Large Glass Tube
   * Extra - door_idx: 134
 
 > Dock to Wrecked Antechamber; Heals? False
   * Layers: default
   * Access Open to Wrecked Antechamber/Dock to Large Glass Tube
-  * Generated from ROM.
   * Extra - door_idx: 138
 
-> Door to Inner Drop Shaft; Heals? False
+> Door to Inner Drop; Heals? False
   * Layers: default
-  * Power Beam Door to Inner Drop Shaft/Door to Large Glass Tube
-  * Generated from ROM.
+  * Power Beam Door to Inner Drop/Door to Large Glass Tube
   * Extra - door_idx: 165
 
 > Dock to Wrecked Antechamber (169); Heals? False
   * Layers: default
   * Access Open to Wrecked Antechamber/Dock to Large Glass Tube (INITIAL)
-  * Generated from ROM.
   * Extra - door_idx: 169
 
 > Dock to Launchpad; Heals? False
   * Layers: default
   * Access Open to Launchpad/Dock to Large Glass Tube
-  * Generated from ROM.
   * Extra - door_idx: 229
 
-> Tunnel to Outer Drop Shaft (REMOVE_FROM_LOGIC); Heals? False
+> Tunnel to Outer Drop (REMOVE_FROM_LOGIC); Heals? False
   * Layers: default
-  * Tunnel to Outer Drop Shaft (REMOVE_FROM_LOGIC)/Dock to Large Glass Tube
-  * Generated from ROM.
+  * Tunnel to Outer Drop (REMOVE_FROM_LOGIC)/Dock to Large Glass Tube
   * Extra - door_idx: 244
 
 ----------------
@@ -1698,46 +1471,39 @@ Extra - room_id: 86
 > Door to Mother Ship Exit East; Heals? False
   * Layers: default
   * Super Missile Door to Mother Ship Exit East/Door to Mother Ship Entrance East (final)
-  * Generated from ROM.
   * Extra - door_idx: 6
 
 > Dock to Mother Ship Approach (final); Heals? False
   * Layers: default
   * Access Open to Mother Ship Approach (final)/Dock to Mother Ship Entrance East (final)
-  * Generated from ROM.
   * Extra - door_idx: 200
 
 > Tunnel to Mother Ship Exit East; Heals? False
   * Layers: default
   * Tunnel to Mother Ship Exit East/Tunnel to Mother Ship Entrance East
-  * Generated from ROM.
   * Extra - door_idx: 201
 
 ----------------
 Mother Ship Approach (final)
 Extra - map_name: Chozodia87
 Extra - room_id: 87
-> Pickup (Power Bomb Tank (Hidden)); Heals? False
+> Pickup (Power Bomb Tank); Heals? False
   * Layers: default
   * Pickup 82; Category? Minor
-  * Generated from ROM.
 
 > Dock to Mother Ship Entrance East (final); Heals? False
   * Layers: default
   * Access Open to Mother Ship Entrance East (final)/Dock to Mother Ship Approach (final)
-  * Generated from ROM.
   * Extra - door_idx: 202
 
 > Dock to Crash Landing Site (final); Heals? False
   * Layers: default
   * Access Open to Crash Landing Site (final)/Dock to Mother Ship Approach (final)
-  * Generated from ROM.
   * Extra - door_idx: 203
 
 > Tunnel to Mother Ship East Upper Entrance; Heals? False
   * Layers: default
   * Tunnel to Mother Ship East Upper Entrance/Tunnel to Mother Ship Approach (final)
-  * Generated from ROM.
   * Extra - door_idx: 231
 
 ----------------
@@ -1747,34 +1513,29 @@ Extra - room_id: 88
 > Dock to Mother Ship Approach (final); Heals? False
   * Layers: default
   * Access Open to Mother Ship Approach (final)/Dock to Crash Landing Site (final)
-  * Generated from ROM.
   * Extra - door_idx: 204
 
 ----------------
 Pitfall
 Extra - map_name: Chozodia89
 Extra - room_id: 89
-> Pickup (Super Missile Tank (Hidden)); Heals? False
+> Pickup (Super Missile Tank); Heals? False
   * Layers: default
   * Pickup 83; Category? Minor
-  * Generated from ROM.
 
 > Dock to Hanging Barrier Hall; Heals? False
   * Layers: default
   * Access Open to Hanging Barrier Hall/Dock to Pitfall
-  * Generated from ROM.
   * Extra - door_idx: 206
 
 > Tunnel to Hanging Barrier Hall; Heals? False
   * Layers: default
   * Tunnel to Hanging Barrier Hall/Tunnel to Pitfall
-  * Generated from ROM.
   * Extra - door_idx: 211
 
 > Dock to Hanging Barrier Hall (222); Heals? False
   * Layers: default
   * Access Open to Hanging Barrier Hall/Dock to Pitfall
-  * Generated from ROM.
   * Extra - door_idx: 222
 
 ----------------
@@ -1784,35 +1545,29 @@ Extra - room_id: 90
 > Pickup (Missile Tank); Heals? False
   * Layers: default
   * Pickup 84; Category? Minor
-  * Generated from ROM.
 
 > Pickup (Super Missile Tank); Heals? False
   * Layers: default
   * Pickup 85; Category? Minor
-  * Generated from ROM.
 
-> Dock to Chozo Shaft East; Heals? False
+> Dock to Western Ruins Hub; Heals? False
   * Layers: default
-  * Access Open to Chozo Shaft East/Dock to Flooded Chamber
-  * Generated from ROM.
+  * Access Open to Western Ruins Hub/Dock to Flooded Chamber
   * Extra - door_idx: 193
 
 > Tunnel to Top of the Ruins; Heals? False
   * Layers: default
   * Tunnel to Top of the Ruins/Tunnel to Flooded Chamber
-  * Generated from ROM.
   * Extra - door_idx: 208
 
-> Dock to Save Station E; Heals? False
+> Dock to Save Station (Ruins North); Heals? False
   * Layers: default
-  * Access Open to Save Station E/Dock to Flooded Chamber (INITIAL)
-  * Generated from ROM.
+  * Access Open to Save Station (Ruins North)/Dock to Flooded Chamber (INITIAL)
   * Extra - door_idx: 209
 
-> Tunnel to Chozo Shaft East; Heals? False
+> Tunnel to Western Ruins Hub; Heals? False
   * Layers: default
-  * Tunnel to Chozo Shaft East/Tunnel to Flooded Chamber
-  * Generated from ROM.
+  * Tunnel to Western Ruins Hub/Tunnel to Flooded Chamber
   * Extra - door_idx: 227
 
 ----------------
@@ -1822,13 +1577,11 @@ Extra - room_id: 91
 > Dock to Chacmool Room; Heals? False
   * Layers: default
   * Access Open to Chacmool Room/Dock to Chacmool Access
-  * Generated from ROM.
   * Extra - door_idx: 212
 
 > Dock to Chacmool Room (235); Heals? False
   * Layers: default
   * Access Open to Chacmool Room/Dock to Chacmool Access
-  * Generated from ROM.
   * Extra - door_idx: 235
 
 ----------------
@@ -1838,41 +1591,35 @@ Extra - room_id: 92
 > Tunnel to Escape-Ship Bay Access; Heals? False
   * Layers: default
   * Tunnel to Escape-Ship Bay Access/Tunnel to Escape-Ship Bay
-  * Generated from ROM.
   * Extra - door_idx: 215
 
 > Tunnel to Mother Ship Hangar; Heals? False
   * Layers: default
   * Tunnel to Mother Ship Hangar/Tunnel to Escape-Ship Bay
-  * Generated from ROM.
   * Extra - door_idx: 216
 
 > Door to Mother Ship Hangar; Heals? False
   * Layers: default
   * Missile Door to Mother Ship Hangar/Door to Escape-Ship Bay
-  * Generated from ROM.
   * Extra - door_idx: 217
 
 > Tunnel to Mother Ship Hangar (218); Heals? False
   * Layers: default
   * Tunnel to Mother Ship Hangar/Tunnel to Escape-Ship Bay
-  * Generated from ROM.
   * Extra - door_idx: 218
 
 ----------------
-Inner Drop Shaft
+Inner Drop
 Extra - map_name: Chozodia93
 Extra - room_id: 93
 > Door to Large Glass Tube; Heals? False
   * Layers: default
-  * Power Beam Door to Large Glass Tube/Door to Inner Drop Shaft
-  * Generated from ROM.
+  * Power Beam Door to Large Glass Tube/Door to Inner Drop
   * Extra - door_idx: 223
 
-> Tunnel to Drop Shafts Access; Heals? False
+> Tunnel to Hidden Zebesian; Heals? False
   * Layers: default
-  * Tunnel to Drop Shafts Access/Tunnel to Inner Drop Shaft (INITIAL)
-  * Generated from ROM.
+  * Tunnel to Hidden Zebesian/Tunnel to Inner Drop (INITIAL)
   * Extra - door_idx: 224
 
 ----------------
@@ -1882,13 +1629,11 @@ Extra - room_id: 94
 > Dock to Energy Runway; Heals? False
   * Layers: default
   * Access Open to Energy Runway/Dock to Exterior
-  * Generated from ROM.
   * Extra - door_idx: 173
 
-> Dock to Chozo Shaft East; Heals? False
+> Dock to Western Ruins Hub; Heals? False
   * Layers: default
-  * Access Open to Chozo Shaft East/Dock to Exterior
-  * Generated from ROM.
+  * Access Open to Western Ruins Hub/Dock to Exterior
   * Extra - door_idx: 226
 
 ----------------
@@ -1898,28 +1643,24 @@ Extra - room_id: 95
 > Pickup (Power Bomb Tank); Heals? False
   * Layers: default
   * Pickup 86; Category? Minor
-  * Generated from ROM.
 
 > Dock to Large Glass Tube; Heals? False
   * Layers: default
   * Access Open to Large Glass Tube/Dock to Launchpad
-  * Generated from ROM.
   * Extra - door_idx: 230
 
 ----------------
 Bridge?
 Extra - map_name: Chozodia96
 Extra - room_id: 96
-> Door to Bridge Access Shaft; Heals? False
+> Door to Bridge Access; Heals? False
   * Layers: default
-  * Power Beam Door to Bridge Access Shaft/Door to Mother Ship Bridge
-  * Generated from ROM.
+  * Power Beam Door to Bridge Access/Door to Mother Ship Bridge
   * Extra - door_idx: 233
 
 > Door to Wall Tunnel; Heals? False
   * Layers: default
   * Power Beam Door to Wall Tunnel/Door to Mother Ship Bridge
-  * Generated from ROM.
   * Extra - door_idx: 234
 
 ----------------
@@ -1929,28 +1670,24 @@ Extra - room_id: 97
 > Door to Mother Ship Bridge; Heals? False
   * Layers: default
   * Power Beam Door to Mother Ship Bridge/Door to Upper Antechamber
-  * Generated from ROM.
   * Extra - door_idx: 236
 
-> Door to Save Station F; Heals? False
+> Door to Save Station (Ship North); Heals? False
   * Layers: default
-  * Power Beam Door to Save Station F/Door to Upper Antechamber
-  * Generated from ROM.
+  * Power Beam Door to Save Station (Ship North)/Door to Upper Antechamber
   * Extra - door_idx: 237
 
 ----------------
-Outer Drop Shaft
+Outer Drop
 Extra - map_name: Chozodia98
 Extra - room_id: 98
-> Dock to Drop Shafts Access; Heals? False
+> Dock to Hidden Zebesian; Heals? False
   * Layers: default
-  * Access Open to Drop Shafts Access/Dock to Outer Drop Shaft
-  * Generated from ROM.
+  * Access Open to Hidden Zebesian/Dock to Outer Drop
   * Extra - door_idx: 239
 
 > Dock to Large Glass Tube (INITIAL); Heals? False
   * Layers: default
-  * Access Open to Large Glass Tube (INITIAL)/Tunnel to Outer Drop Shaft
-  * Generated from ROM.
+  * Access Open to Large Glass Tube (INITIAL)/Tunnel to Outer Drop
   * Extra - door_idx: 240
 

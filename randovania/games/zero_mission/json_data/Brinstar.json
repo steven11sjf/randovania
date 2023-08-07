@@ -19,7 +19,7 @@
                         "y": 664.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -40,7 +40,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Fake Block Shaft": {
+                "Door to Fake Block Fork": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -48,7 +48,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -59,7 +59,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Fake Block Shaft",
+                        "area": "Fake Block Fork",
                         "node": "Door to Starting Room"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -71,7 +71,7 @@
                 }
             }
         },
-        "Fake Block Shaft": {
+        "Fake Block Fork": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar1",
@@ -86,7 +86,7 @@
                         "y": 744.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -104,7 +104,7 @@
                         "y": 592.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -116,7 +116,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Starting Room",
-                        "node": "Door to Fake Block Shaft"
+                        "node": "Door to Fake Block Fork"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -125,7 +125,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Underhang Corridor": {
+                "Door to Guide Statue (Long Beam)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -133,7 +133,7 @@
                         "y": 592.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -144,8 +144,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Underhang Corridor",
-                        "node": "Door to Fake Block Shaft"
+                        "area": "Guide Statue (Long Beam)",
+                        "node": "Door to Fake Block Fork"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -162,7 +162,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -174,7 +174,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Elevator to Kraid",
-                        "node": "Door to Fake Block Shaft"
+                        "node": "Door to Fake Block Fork"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -185,14 +185,14 @@
                 }
             }
         },
-        "Underhang Corridor": {
+        "Guide Statue (Long Beam)": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar2",
                 "room_id": 2
             },
             "nodes": {
-                "Pickup (Energy Tank (Hidden))": {
+                "Pickup (Energy Tank)": {
                     "node_type": "pickup",
                     "heal": false,
                     "coordinates": {
@@ -200,7 +200,7 @@
                         "y": 184.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -210,7 +210,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Fake Block Shaft": {
+                "Door to Fake Block Fork": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -218,7 +218,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -229,8 +229,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Fake Block Shaft",
-                        "node": "Door to Underhang Corridor"
+                        "area": "Fake Block Fork",
+                        "node": "Door to Guide Statue (Long Beam)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -239,7 +239,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Blue Shaft": {
+                "Door to Blue-Tinted Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -247,7 +247,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -258,8 +258,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Blue Shaft",
-                        "node": "Door to Underhang Corridor"
+                        "area": "Blue-Tinted Hub",
+                        "node": "Door to Guide Statue (Long Beam)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -270,14 +270,14 @@
                 }
             }
         },
-        "Blue Shaft": {
+        "Blue-Tinted Hub": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar3",
                 "room_id": 3
             },
             "nodes": {
-                "Door to Underhang Corridor": {
+                "Door to Guide Statue (Long Beam)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -285,7 +285,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -296,8 +296,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Underhang Corridor",
-                        "node": "Door to Blue Shaft"
+                        "area": "Guide Statue (Long Beam)",
+                        "node": "Door to Blue-Tinted Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -306,7 +306,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Chozo Hint A": {
+                "Door to Guide Statue (Bombs)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -314,7 +314,7 @@
                         "y": 2032.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -325,8 +325,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Chozo Hint A",
-                        "node": "Door to Blue Shaft"
+                        "area": "Guide Statue (Bombs)",
+                        "node": "Door to Blue-Tinted Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -335,7 +335,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Long Beam Access": {
+                "Door to Long Beam Chamber Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -343,7 +343,7 @@
                         "y": 1552.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -354,8 +354,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Long Beam Access",
-                        "node": "Door to Blue Shaft"
+                        "area": "Long Beam Chamber Access",
+                        "node": "Door to Blue-Tinted Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -372,7 +372,7 @@
                         "y": 1232.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -384,7 +384,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Vestibule",
-                        "node": "Door to Blue Shaft"
+                        "node": "Door to Blue-Tinted Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -393,7 +393,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station C": {
+                "Door to Save Station (South)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -401,7 +401,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -412,8 +412,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Save Station C",
-                        "node": "Door to Blue Shaft"
+                        "area": "Save Station (South)",
+                        "node": "Door to Blue-Tinted Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -430,7 +430,7 @@
                         "y": 1816.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -442,7 +442,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Sloped Alcove",
-                        "node": "Tunnel to Blue Shaft"
+                        "node": "Tunnel to Blue-Tinted Hub"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -459,7 +459,7 @@
                         "y": 568.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -471,7 +471,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Speedbooster Passage",
-                        "node": "Tunnel to Blue Shaft"
+                        "node": "Tunnel to Blue-Tinted Hub"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -488,7 +488,7 @@
                         "y": 568.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -500,7 +500,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Hidden Tank Shaft",
-                        "node": "Tunnel to Blue Shaft"
+                        "node": "Tunnel to Blue-Tinted Hub"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -517,7 +517,7 @@
                         "y": 952.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -529,7 +529,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Hidden Tank Shaft",
-                        "node": "Tunnel to Blue Shaft"
+                        "node": "Tunnel to Blue-Tinted Hub"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -540,14 +540,14 @@
                 }
             }
         },
-        "Long Beam Access": {
+        "Long Beam Chamber Access": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar4",
                 "room_id": 4
             },
             "nodes": {
-                "Door to Blue Shaft": {
+                "Door to Blue-Tinted Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -555,7 +555,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -566,8 +566,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Blue Shaft",
-                        "node": "Door to Long Beam Access"
+                        "area": "Blue-Tinted Hub",
+                        "node": "Door to Long Beam Chamber Access"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -584,7 +584,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -596,7 +596,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Long Beam Chamber",
-                        "node": "Door to Long Beam Access"
+                        "node": "Door to Long Beam Chamber Access"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -605,7 +605,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Tunnel to Cave Shaft": {
+                "Tunnel to Small Cave": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -613,7 +613,7 @@
                         "y": 184.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -624,8 +624,8 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Cave Shaft",
-                        "node": "Tunnel to Long Beam Access"
+                        "area": "Small Cave",
+                        "node": "Tunnel to Long Beam Chamber Access"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -643,7 +643,7 @@
                 "room_id": 5
             },
             "nodes": {
-                "Door to Long Beam Access": {
+                "Door to Long Beam Chamber Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -651,7 +651,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -662,7 +662,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Long Beam Access",
+                        "area": "Long Beam Chamber Access",
                         "node": "Door to Long Beam Chamber"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -681,7 +681,7 @@
                 "room_id": 6
             },
             "nodes": {
-                "Door to Blue Shaft": {
+                "Door to Blue-Tinted Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -689,7 +689,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -700,7 +700,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Blue Shaft",
+                        "area": "Blue-Tinted Hub",
                         "node": "Door to Vestibule"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -710,7 +710,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Gold Shaft": {
+                "Door to Gold-Tinted Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -718,7 +718,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -729,7 +729,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Gold Shaft",
+                        "area": "Gold-Tinted Hub",
                         "node": "Door to Vestibule"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -741,7 +741,7 @@
                 }
             }
         },
-        "Gold Shaft": {
+        "Gold-Tinted Hub": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar7",
@@ -756,7 +756,7 @@
                         "y": 1408.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -768,7 +768,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Four Pipes Corridor",
-                        "node": "Door to Gold Shaft"
+                        "node": "Door to Gold-Tinted Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -785,7 +785,7 @@
                         "y": 752.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -797,7 +797,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Vestibule",
-                        "node": "Door to Gold Shaft"
+                        "node": "Door to Gold-Tinted Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -814,7 +814,7 @@
                         "y": 752.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -826,7 +826,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Mero Corridor",
-                        "node": "Door to Gold Shaft"
+                        "node": "Door to Gold-Tinted Hub"
                     },
                     "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
@@ -843,7 +843,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -855,7 +855,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Norfair Access Corridor",
-                        "node": "Door to Gold Shaft"
+                        "node": "Door to Gold-Tinted Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -864,7 +864,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station B": {
+                "Door to Save Station (Central)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -872,7 +872,7 @@
                         "y": 576.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -883,8 +883,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Save Station B",
-                        "node": "Door to Gold Shaft"
+                        "area": "Save Station (Central)",
+                        "node": "Door to Gold-Tinted Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -901,7 +901,7 @@
                         "y": 1608.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -913,7 +913,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Sloped Alcove",
-                        "node": "Tunnel to Gold Shaft"
+                        "node": "Tunnel to Gold-Tinted Hub"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -930,7 +930,7 @@
                         "y": 72.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -942,7 +942,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Speedbooster Passage",
-                        "node": "Tunnel to Gold Shaft"
+                        "node": "Tunnel to Gold-Tinted Hub"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -960,7 +960,7 @@
                 "room_id": 8
             },
             "nodes": {
-                "Door to Fake Block Shaft": {
+                "Door to Fake Block Fork": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -968,7 +968,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -979,7 +979,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Fake Block Shaft",
+                        "area": "Fake Block Fork",
                         "node": "Door to Elevator to Kraid"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -997,7 +997,7 @@
                         "y": 40.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1018,7 +1018,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Guide Chamber A": {
+                "Door to Guide Statue (Hi-Jump)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1026,7 +1026,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1037,7 +1037,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Guide Chamber A",
+                        "area": "Guide Statue (Hi-Jump)",
                         "node": "Door to Elevator to Kraid"
                     },
                     "default_dock_weakness": "Missile Door",
@@ -1064,7 +1064,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1085,7 +1085,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Chozo Hint A": {
+                "Door to Guide Statue (Bombs)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1093,7 +1093,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1104,7 +1104,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Chozo Hint A",
+                        "area": "Guide Statue (Bombs)",
                         "node": "Door to Tourian Gate Access"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1114,7 +1114,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Dock to Cave Shaft": {
+                "Dock to Small Cave": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1122,7 +1122,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1133,7 +1133,7 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Cave Shaft",
+                        "area": "Small Cave",
                         "node": "Dock to Tourian Gate Access"
                     },
                     "default_dock_weakness": "Access Open",
@@ -1160,7 +1160,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1189,7 +1189,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1227,7 +1227,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1256,7 +1256,7 @@
                         "y": 40.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1294,7 +1294,7 @@
                         "y": 120.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1304,7 +1304,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Gold Shaft": {
+                "Door to Gold-Tinted Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1312,7 +1312,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1323,7 +1323,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Gold Shaft",
+                        "area": "Gold-Tinted Hub",
                         "node": "Door to Norfair Access Corridor"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1341,7 +1341,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1371,7 +1371,7 @@
                 "room_id": 13
             },
             "nodes": {
-                "Door to Gold Shaft": {
+                "Door to Gold-Tinted Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1379,7 +1379,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1390,7 +1390,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Gold Shaft",
+                        "area": "Gold-Tinted Hub",
                         "node": "Door to Mero Corridor"
                     },
                     "default_dock_weakness": "Missile Door",
@@ -1408,7 +1408,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1446,7 +1446,7 @@
                         "y": 168.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1464,7 +1464,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1493,7 +1493,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1531,7 +1531,7 @@
                         "y": 280.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1549,7 +1549,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1570,7 +1570,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Cavernous Hall Access": {
+                "Door to Central Fork": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1578,7 +1578,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1589,7 +1589,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Cavernous Hall Access",
+                        "area": "Central Fork",
                         "node": "Door to Mero Hive Chamber"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1601,7 +1601,7 @@
                 }
             }
         },
-        "Cavernous Hall Access": {
+        "Central Fork": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar16",
@@ -1616,7 +1616,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1628,7 +1628,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Mero Hive Chamber",
-                        "node": "Door to Cavernous Hall Access"
+                        "node": "Door to Central Fork"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1637,7 +1637,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Alternate Charge Worm": {
+                "Door to Alternate Charge Beast Arena": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1645,7 +1645,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1656,8 +1656,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Alternate Charge Worm",
-                        "node": "Door to Cavernous Hall Access"
+                        "area": "Alternate Charge Beast Arena",
+                        "node": "Door to Central Fork"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1666,7 +1666,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Cavernous Hall": {
+                "Door to Waver Cavern": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1674,7 +1674,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1685,8 +1685,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Cavernous Hall",
-                        "node": "Door to Cavernous Hall Access"
+                        "area": "Waver Cavern",
+                        "node": "Door to Central Fork"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1697,14 +1697,14 @@
                 }
             }
         },
-        "Cavernous Hall": {
+        "Waver Cavern": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar17",
                 "room_id": 17
             },
             "nodes": {
-                "Door to Guide Chamber B": {
+                "Door to Guide Statue (Ice Beam)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1712,7 +1712,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1723,8 +1723,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Guide Chamber B",
-                        "node": "Door to Cavernous Hall"
+                        "area": "Guide Statue (Ice Beam)",
+                        "node": "Door to Waver Cavern"
                     },
                     "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
@@ -1733,7 +1733,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Cavernous Hall Access": {
+                "Door to Central Fork": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1741,7 +1741,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1752,8 +1752,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Cavernous Hall Access",
-                        "node": "Door to Cavernous Hall"
+                        "area": "Central Fork",
+                        "node": "Door to Waver Cavern"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1764,14 +1764,14 @@
                 }
             }
         },
-        "Guide Chamber B": {
+        "Guide Statue (Ice Beam)": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar18",
                 "room_id": 18
             },
             "nodes": {
-                "Door to Cavernous Hall": {
+                "Door to Waver Cavern": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1779,7 +1779,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1790,8 +1790,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Cavernous Hall",
-                        "node": "Door to Guide Chamber B"
+                        "area": "Waver Cavern",
+                        "node": "Door to Guide Statue (Ice Beam)"
                     },
                     "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
@@ -1802,7 +1802,7 @@
                 }
             }
         },
-        "Alternate Charge Worm": {
+        "Alternate Charge Beast Arena": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar19",
@@ -1817,7 +1817,7 @@
                         "y": 120.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1827,7 +1827,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Pickup (Missile Tank (Hidden))": {
+                "Pickup (Missile Tank)": {
                     "node_type": "pickup",
                     "heal": false,
                     "coordinates": {
@@ -1835,7 +1835,7 @@
                         "y": 56.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1845,7 +1845,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Cavernous Hall Access": {
+                "Door to Central Fork": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1853,7 +1853,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1864,8 +1864,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Cavernous Hall Access",
-                        "node": "Door to Alternate Charge Worm"
+                        "area": "Central Fork",
+                        "node": "Door to Alternate Charge Beast Arena"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1874,7 +1874,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Eastern Shaft": {
+                "Door to Eastern Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1882,7 +1882,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1893,8 +1893,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Eastern Shaft",
-                        "node": "Door to Alternate Charge Worm"
+                        "area": "Eastern Hub",
+                        "node": "Door to Alternate Charge Beast Arena"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1905,14 +1905,14 @@
                 }
             }
         },
-        "Eastern Shaft": {
+        "Eastern Hub": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar20",
                 "room_id": 20
             },
             "nodes": {
-                "Door to Chozo Statue Northeast": {
+                "Door to Guide Statue (Wave Beam)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1920,7 +1920,7 @@
                         "y": 912.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1931,8 +1931,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Chozo Statue Northeast",
-                        "node": "Door to Eastern Shaft"
+                        "area": "Guide Statue (Wave Beam)",
+                        "node": "Door to Eastern Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1949,7 +1949,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1961,7 +1961,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Short Shaft",
-                        "node": "Door to Eastern Shaft"
+                        "node": "Door to Eastern Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1970,7 +1970,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Alternate Charge Worm": {
+                "Door to Alternate Charge Beast Arena": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1978,7 +1978,7 @@
                         "y": 240.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1989,8 +1989,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Alternate Charge Worm",
-                        "node": "Door to Eastern Shaft"
+                        "area": "Alternate Charge Beast Arena",
+                        "node": "Door to Eastern Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2007,7 +2007,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2019,7 +2019,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Map Station",
-                        "node": "Door to Eastern Shaft"
+                        "node": "Door to Eastern Hub"
                     },
                     "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
@@ -2045,7 +2045,7 @@
                         "y": 296.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2055,7 +2055,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Save Station D": {
+                "Door to Save Station (North)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2063,7 +2063,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2074,7 +2074,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Save Station D",
+                        "area": "Save Station (North)",
                         "node": "Door to Acid Vine Puzzle"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2084,7 +2084,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Tunnel to Chozo Statue Northeast": {
+                "Tunnel to Guide Statue (Wave Beam)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2092,7 +2092,7 @@
                         "y": 88.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2103,7 +2103,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Chozo Statue Northeast",
+                        "area": "Guide Statue (Wave Beam)",
                         "node": "Tunnel to Acid Vine Puzzle"
                     },
                     "default_dock_weakness": "Tunnel",
@@ -2113,7 +2113,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Tunnel to Chozo Statue Northeast (86)": {
+                "Tunnel to Guide Statue (Wave Beam) (86)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2121,7 +2121,7 @@
                         "y": 296.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2132,7 +2132,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Chozo Statue Northeast",
+                        "area": "Guide Statue (Wave Beam)",
                         "node": "Tunnel to Acid Vine Puzzle"
                     },
                     "default_dock_weakness": "Tunnel",
@@ -2144,14 +2144,14 @@
                 }
             }
         },
-        "Varia Ascent": {
+        "Varia Chamber Ascent": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar22",
                 "room_id": 22
             },
             "nodes": {
-                "Door to Varia Access": {
+                "Door to Varia Chamber Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2159,7 +2159,7 @@
                         "y": 464.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2170,8 +2170,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Varia Access",
-                        "node": "Door to Varia Ascent"
+                        "area": "Varia Chamber Access",
+                        "node": "Door to Varia Chamber Ascent"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2188,7 +2188,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2200,7 +2200,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Four Pipes Corridor",
-                        "node": "Door to Varia Ascent"
+                        "node": "Door to Varia Chamber Ascent"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2209,7 +2209,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station D": {
+                "Door to Save Station (North)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2217,7 +2217,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2228,8 +2228,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Save Station D",
-                        "node": "Door to Varia Ascent"
+                        "area": "Save Station (North)",
+                        "node": "Door to Varia Chamber Ascent"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2240,7 +2240,7 @@
                 }
             }
         },
-        "Varia Access": {
+        "Varia Chamber Access": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar23",
@@ -2255,7 +2255,7 @@
                         "y": 120.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2273,7 +2273,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2285,7 +2285,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Varia Chamber",
-                        "node": "Door to Varia Access"
+                        "node": "Door to Varia Chamber Access"
                     },
                     "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
@@ -2294,7 +2294,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Varia Ascent": {
+                "Door to Varia Chamber Ascent": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2302,7 +2302,7 @@
                         "y": 304.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2313,8 +2313,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Varia Ascent",
-                        "node": "Door to Varia Access"
+                        "area": "Varia Chamber Ascent",
+                        "node": "Door to Varia Chamber Access"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2325,7 +2325,7 @@
                 }
             }
         },
-        "Bomb Access": {
+        "Bomb Chamber Access": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar24",
@@ -2340,7 +2340,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2352,7 +2352,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Bomb Chamber",
-                        "node": "Door to Bomb Access"
+                        "node": "Door to Bomb Chamber Access"
                     },
                     "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
@@ -2369,7 +2369,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2381,7 +2381,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Short Shaft",
-                        "node": "Door to Bomb Access"
+                        "node": "Door to Bomb Chamber Access"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2407,7 +2407,7 @@
                         "y": 136.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2417,7 +2417,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Bomb Access": {
+                "Door to Bomb Chamber Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2425,7 +2425,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2436,7 +2436,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Bomb Access",
+                        "area": "Bomb Chamber Access",
                         "node": "Door to Bomb Chamber"
                     },
                     "default_dock_weakness": "Missile Door",
@@ -2463,7 +2463,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2492,7 +2492,7 @@
                         "y": 40.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2522,7 +2522,7 @@
                 "room_id": 27
             },
             "nodes": {
-                "Door to Varia Access": {
+                "Door to Varia Chamber Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2530,7 +2530,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2541,7 +2541,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Varia Access",
+                        "area": "Varia Chamber Access",
                         "node": "Door to Varia Chamber"
                     },
                     "default_dock_weakness": "Missile Door",
@@ -2560,7 +2560,7 @@
                 "room_id": 28
             },
             "nodes": {
-                "Door to Varia Ascent": {
+                "Door to Varia Chamber Ascent": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2568,7 +2568,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2579,7 +2579,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Varia Ascent",
+                        "area": "Varia Chamber Ascent",
                         "node": "Door to Four Pipes Corridor"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2589,7 +2589,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Gold Shaft": {
+                "Door to Gold-Tinted Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2597,7 +2597,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2608,7 +2608,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Gold Shaft",
+                        "area": "Gold-Tinted Hub",
                         "node": "Door to Four Pipes Corridor"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2635,7 +2635,7 @@
                         "y": 216.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2645,7 +2645,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Tunnel to Gold Shaft": {
+                "Tunnel to Gold-Tinted Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2653,7 +2653,7 @@
                         "y": 328.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2664,7 +2664,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Gold Shaft",
+                        "area": "Gold-Tinted Hub",
                         "node": "Tunnel to Sloped Alcove"
                     },
                     "default_dock_weakness": "Tunnel",
@@ -2674,7 +2674,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Tunnel to Blue Shaft": {
+                "Tunnel to Blue-Tinted Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2682,7 +2682,7 @@
                         "y": 56.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2693,7 +2693,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Blue Shaft",
+                        "area": "Blue-Tinted Hub",
                         "node": "Tunnel to Sloped Alcove"
                     },
                     "default_dock_weakness": "Tunnel",
@@ -2705,7 +2705,7 @@
                 }
             }
         },
-        "Chozo Hint A": {
+        "Guide Statue (Bombs)": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar30",
@@ -2720,7 +2720,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2732,7 +2732,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Tourian Gate Access",
-                        "node": "Door to Chozo Hint A"
+                        "node": "Door to Guide Statue (Bombs)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2741,7 +2741,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Blue Shaft": {
+                "Door to Blue-Tinted Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2749,7 +2749,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2760,8 +2760,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Blue Shaft",
-                        "node": "Door to Chozo Hint A"
+                        "area": "Blue-Tinted Hub",
+                        "node": "Door to Guide Statue (Bombs)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2779,7 +2779,7 @@
                 "room_id": 31
             },
             "nodes": {
-                "Door to Bomb Access": {
+                "Door to Bomb Chamber Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2787,7 +2787,7 @@
                         "y": 288.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2798,7 +2798,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Bomb Access",
+                        "area": "Bomb Chamber Access",
                         "node": "Door to Short Shaft"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2808,7 +2808,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station A": {
+                "Door to Save Station (East)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2816,7 +2816,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2827,7 +2827,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Save Station A",
+                        "area": "Save Station (East)",
                         "node": "Door to Short Shaft"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2837,7 +2837,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Eastern Shaft": {
+                "Door to Eastern Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2845,7 +2845,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2856,7 +2856,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Eastern Shaft",
+                        "area": "Eastern Hub",
                         "node": "Door to Short Shaft"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2875,7 +2875,7 @@
                 "room_id": 32
             },
             "nodes": {
-                "Door to Eastern Shaft": {
+                "Door to Eastern Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2883,7 +2883,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2894,7 +2894,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Eastern Shaft",
+                        "area": "Eastern Hub",
                         "node": "Door to Map Station"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2906,7 +2906,7 @@
                 }
             }
         },
-        "Save Station A": {
+        "Save Station (East)": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar33",
@@ -2921,7 +2921,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2933,7 +2933,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Short Shaft",
-                        "node": "Door to Save Station A"
+                        "node": "Door to Save Station (East)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2944,14 +2944,14 @@
                 }
             }
         },
-        "Save Station B": {
+        "Save Station (Central)": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar34",
                 "room_id": 34
             },
             "nodes": {
-                "Door to Gold Shaft": {
+                "Door to Gold-Tinted Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2959,7 +2959,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2970,8 +2970,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Gold Shaft",
-                        "node": "Door to Save Station B"
+                        "area": "Gold-Tinted Hub",
+                        "node": "Door to Save Station (Central)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2982,14 +2982,14 @@
                 }
             }
         },
-        "Cave Shaft": {
+        "Small Cave": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar35",
                 "room_id": 35
             },
             "nodes": {
-                "Tunnel to Long Beam Access": {
+                "Tunnel to Long Beam Chamber Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2997,7 +2997,7 @@
                         "y": 40.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3008,8 +3008,8 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Long Beam Access",
-                        "node": "Tunnel to Cave Shaft"
+                        "area": "Long Beam Chamber Access",
+                        "node": "Tunnel to Small Cave"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -3026,7 +3026,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3038,7 +3038,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Tourian Gate Access",
-                        "node": "Dock to Cave Shaft"
+                        "node": "Dock to Small Cave"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -3049,14 +3049,14 @@
                 }
             }
         },
-        "Save Station C": {
+        "Save Station (South)": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar36",
                 "room_id": 36
             },
             "nodes": {
-                "Door to Blue Shaft": {
+                "Door to Blue-Tinted Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3064,7 +3064,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3075,8 +3075,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Blue Shaft",
-                        "node": "Door to Save Station C"
+                        "area": "Blue-Tinted Hub",
+                        "node": "Door to Save Station (South)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3087,7 +3087,7 @@
                 }
             }
         },
-        "Guide Chamber A": {
+        "Guide Statue (Hi-Jump)": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar37",
@@ -3102,7 +3102,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3114,7 +3114,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Elevator to Kraid",
-                        "node": "Door to Guide Chamber A"
+                        "node": "Door to Guide Statue (Hi-Jump)"
                     },
                     "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
@@ -3125,14 +3125,14 @@
                 }
             }
         },
-        "Chozo Statue Northeast": {
+        "Guide Statue (Wave Beam)": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar38",
                 "room_id": 38
             },
             "nodes": {
-                "Door to Eastern Shaft": {
+                "Door to Eastern Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3140,7 +3140,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3151,8 +3151,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Eastern Shaft",
-                        "node": "Door to Chozo Statue Northeast"
+                        "area": "Eastern Hub",
+                        "node": "Door to Guide Statue (Wave Beam)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3169,7 +3169,7 @@
                         "y": 88.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3181,7 +3181,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Acid Vine Puzzle",
-                        "node": "Tunnel to Chozo Statue Northeast"
+                        "node": "Tunnel to Guide Statue (Wave Beam)"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -3198,7 +3198,7 @@
                         "y": 296.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3210,7 +3210,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Acid Vine Puzzle",
-                        "node": "Tunnel to Chozo Statue Northeast"
+                        "node": "Tunnel to Guide Statue (Wave Beam)"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -3221,7 +3221,7 @@
                 }
             }
         },
-        "Save Station D": {
+        "Save Station (North)": {
             "default_node": null,
             "extra": {
                 "map_name": "Brinstar39",
@@ -3236,7 +3236,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3248,7 +3248,7 @@
                     "default_connection": {
                         "region": "Brinstar",
                         "area": "Acid Vine Puzzle",
-                        "node": "Door to Save Station D"
+                        "node": "Door to Save Station (North)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3257,7 +3257,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Varia Ascent": {
+                "Door to Varia Chamber Ascent": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3265,7 +3265,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3276,8 +3276,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Varia Ascent",
-                        "node": "Door to Save Station D"
+                        "area": "Varia Chamber Ascent",
+                        "node": "Door to Save Station (North)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3303,7 +3303,7 @@
                         "y": 152.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3313,7 +3313,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Tunnel to Gold Shaft": {
+                "Tunnel to Gold-Tinted Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3321,7 +3321,7 @@
                         "y": 72.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3332,7 +3332,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Gold Shaft",
+                        "area": "Gold-Tinted Hub",
                         "node": "Tunnel to Speedbooster Passage"
                     },
                     "default_dock_weakness": "Tunnel",
@@ -3342,7 +3342,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Tunnel to Blue Shaft": {
+                "Tunnel to Blue-Tinted Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3350,7 +3350,7 @@
                         "y": 88.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3361,7 +3361,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Blue Shaft",
+                        "area": "Blue-Tinted Hub",
                         "node": "Tunnel to Speedbooster Passage"
                     },
                     "default_dock_weakness": "Tunnel",
@@ -3388,7 +3388,7 @@
                         "y": 248.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3406,7 +3406,7 @@
                         "y": 136.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3416,7 +3416,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Tunnel to Blue Shaft": {
+                "Tunnel to Blue-Tinted Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3424,7 +3424,7 @@
                         "y": 88.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3435,7 +3435,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Blue Shaft",
+                        "area": "Blue-Tinted Hub",
                         "node": "Tunnel to Hidden Tank Shaft"
                     },
                     "default_dock_weakness": "Tunnel",
@@ -3445,7 +3445,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Tunnel to Blue Shaft (94)": {
+                "Tunnel to Blue-Tinted Hub (94)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3453,7 +3453,7 @@
                         "y": 472.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3464,7 +3464,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Brinstar",
-                        "area": "Blue Shaft",
+                        "area": "Blue-Tinted Hub",
                         "node": "Tunnel to Hidden Tank Shaft"
                     },
                     "default_dock_weakness": "Tunnel",

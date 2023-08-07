@@ -19,7 +19,7 @@
                         "y": 248.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -48,7 +48,7 @@
                         "y": 248.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -77,7 +77,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -115,7 +115,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -144,7 +144,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -182,7 +182,7 @@
                         "y": 240.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -211,7 +211,7 @@
                         "y": 72.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -249,7 +249,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -278,7 +278,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -307,7 +307,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -336,7 +336,7 @@
                         "y": 304.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -359,7 +359,7 @@
                 }
             }
         },
-        "Save Station A": {
+        "Save Station (Ship South)": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia4",
@@ -374,7 +374,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -386,7 +386,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Map Station",
-                        "node": "Door to Save Station A"
+                        "node": "Door to Save Station (Ship South)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -403,7 +403,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -415,7 +415,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "First Stealth Chamber",
-                        "node": "Door to Save Station A"
+                        "node": "Door to Save Station (Ship South)"
                     },
                     "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
@@ -432,7 +432,7 @@
                         "y": 136.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -444,7 +444,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "First Stealth Chamber",
-                        "node": "Tunnel to Save Station A"
+                        "node": "Tunnel to Save Station (Ship South)"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -462,7 +462,7 @@
                 "room_id": 5
             },
             "nodes": {
-                "Door to Save Station A": {
+                "Door to Save Station (Ship South)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -470,7 +470,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -481,7 +481,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Save Station A",
+                        "area": "Save Station (Ship South)",
                         "node": "Door to First Stealth Chamber"
                     },
                     "default_dock_weakness": "Missile Door",
@@ -499,7 +499,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -520,7 +520,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Tunnel to Save Station A": {
+                "Tunnel to Save Station (Ship South)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -528,7 +528,7 @@
                         "y": 136.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -539,7 +539,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Save Station A",
+                        "area": "Save Station (Ship South)",
                         "node": "Tunnel to First Stealth Chamber"
                     },
                     "default_dock_weakness": "Tunnel",
@@ -566,7 +566,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -595,7 +595,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -633,7 +633,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -654,7 +654,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Dock to Save Station D": {
+                "Dock to Save Station (Ruins Southwest)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -662,7 +662,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -673,7 +673,7 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Save Station D",
+                        "area": "Save Station (Ruins Southwest)",
                         "node": "Dock to Dark-Blue Alcove"
                     },
                     "default_dock_weakness": "Access Open",
@@ -700,7 +700,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -729,7 +729,7 @@
                         "y": 400.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -752,14 +752,14 @@
                 }
             }
         },
-        "Outer Drop Shaft (REMOVE_FROM_LOGIC)": {
+        "Outer Drop (REMOVE_FROM_LOGIC)": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia9",
                 "room_id": 9
             },
             "nodes": {
-                "Dock to Drop Shafts Access": {
+                "Dock to Hidden Zebesian": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -767,7 +767,7 @@
                         "y": 1304.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -778,8 +778,8 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Drop Shafts Access",
-                        "node": "Dock to Outer Drop Shaft"
+                        "area": "Hidden Zebesian",
+                        "node": "Dock to Outer Drop"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -796,7 +796,7 @@
                         "y": 520.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -808,7 +808,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Large Glass Tube",
-                        "node": "Tunnel to Outer Drop Shaft (REMOVE_FROM_LOGIC)"
+                        "node": "Tunnel to Outer Drop (REMOVE_FROM_LOGIC)"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -826,7 +826,7 @@
                 "room_id": 10
             },
             "nodes": {
-                "Pickup (Super Missile Tank (Hidden))": {
+                "Pickup (Super Missile Tank)": {
                     "node_type": "pickup",
                     "heal": false,
                     "coordinates": {
@@ -834,7 +834,7 @@
                         "y": 472.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -852,7 +852,7 @@
                         "y": 416.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -881,7 +881,7 @@
                         "y": 416.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -910,7 +910,7 @@
                         "y": 232.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -939,7 +939,7 @@
                         "y": 328.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -969,7 +969,7 @@
                 "room_id": 11
             },
             "nodes": {
-                "Door to Save Station A": {
+                "Door to Save Station (Ship South)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -977,7 +977,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -988,7 +988,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Save Station A",
+                        "area": "Save Station (Ship South)",
                         "node": "Door to Map Station"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1006,7 +1006,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1035,7 +1035,7 @@
                         "y": 168.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1073,7 +1073,7 @@
                         "y": 240.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1102,7 +1102,7 @@
                         "y": 736.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1132,7 +1132,7 @@
                 "room_id": 13
             },
             "nodes": {
-                "Door to Save Station B": {
+                "Door to Save Station (Ship East)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1140,7 +1140,7 @@
                         "y": 592.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1151,7 +1151,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Save Station B",
+                        "area": "Save Station (Ship East)",
                         "node": "Door to Mother Ship Hangar"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1169,7 +1169,7 @@
                         "y": 624.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1198,7 +1198,7 @@
                         "y": 520.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1227,7 +1227,7 @@
                         "y": 696.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1256,7 +1256,7 @@
                         "y": 784.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1285,7 +1285,7 @@
                         "y": 1064.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1314,7 +1314,7 @@
                         "y": 1040.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1343,7 +1343,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1381,7 +1381,7 @@
                         "y": 616.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1399,7 +1399,7 @@
                         "y": 464.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1428,7 +1428,7 @@
                         "y": 360.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1457,7 +1457,7 @@
                         "y": 304.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1486,7 +1486,7 @@
                         "y": 464.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1515,7 +1515,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1538,7 +1538,7 @@
                 }
             }
         },
-        "Save Station B": {
+        "Save Station (Ship East)": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia15",
@@ -1553,7 +1553,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1565,7 +1565,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Mother Ship Hangar",
-                        "node": "Door to Save Station B"
+                        "node": "Door to Save Station (Ship East)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1591,7 +1591,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1620,7 +1620,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1649,7 +1649,7 @@
                         "y": 416.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1687,7 +1687,7 @@
                         "y": 304.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1708,7 +1708,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station C": {
+                "Door to Save Station (Ship Central)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1716,7 +1716,7 @@
                         "y": 240.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1727,7 +1727,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Save Station C",
+                        "area": "Save Station (Ship Central)",
                         "node": "Door to Gate Chamber"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1746,7 +1746,7 @@
                 "room_id": 18
             },
             "nodes": {
-                "Door to Save Station C": {
+                "Door to Save Station (Ship Central)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1754,7 +1754,7 @@
                         "y": 400.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1765,7 +1765,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Save Station C",
+                        "area": "Save Station (Ship Central)",
                         "node": "Door to Tripwire Maze"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1783,7 +1783,7 @@
                         "y": 384.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1806,7 +1806,7 @@
                 }
             }
         },
-        "Drop Shafts Access": {
+        "Hidden Zebesian": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia19",
@@ -1821,7 +1821,7 @@
                         "y": 304.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1833,7 +1833,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Hiding Place B",
-                        "node": "Door to Drop Shafts Access"
+                        "node": "Door to Hidden Zebesian"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1842,7 +1842,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Tunnel to Inner Drop Shaft (INITIAL)": {
+                "Tunnel to Inner Drop (INITIAL)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1850,7 +1850,7 @@
                         "y": 120.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1861,8 +1861,8 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Inner Drop Shaft (INITIAL)",
-                        "node": "Tunnel to Drop Shafts Access"
+                        "area": "Inner Drop (INITIAL)",
+                        "node": "Tunnel to Hidden Zebesian"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -1871,7 +1871,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Dock to Outer Drop Shaft": {
+                "Dock to Outer Drop": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1879,7 +1879,7 @@
                         "y": 40.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1890,8 +1890,8 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Outer Drop Shaft",
-                        "node": "Dock to Drop Shafts Access"
+                        "area": "Outer Drop",
+                        "node": "Dock to Hidden Zebesian"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -1902,14 +1902,14 @@
                 }
             }
         },
-        "Inner Drop Shaft (INITIAL)": {
+        "Inner Drop (INITIAL)": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia20",
                 "room_id": 20
             },
             "nodes": {
-                "Tunnel to Drop Shafts Access": {
+                "Tunnel to Hidden Zebesian": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1917,7 +1917,7 @@
                         "y": 1240.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1928,8 +1928,8 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Drop Shafts Access",
-                        "node": "Tunnel to Inner Drop Shaft (INITIAL)"
+                        "area": "Hidden Zebesian",
+                        "node": "Tunnel to Inner Drop (INITIAL)"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -1946,7 +1946,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1958,7 +1958,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Large Glass Tube (INITIAL)",
-                        "node": "Door to Inner Drop Shaft (INITIAL)"
+                        "node": "Door to Inner Drop (INITIAL)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1969,7 +1969,7 @@
                 }
             }
         },
-        "Save Station C": {
+        "Save Station (Ship Central)": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia21",
@@ -1984,7 +1984,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1996,7 +1996,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Tripwire Maze",
-                        "node": "Door to Save Station C"
+                        "node": "Door to Save Station (Ship Central)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2013,7 +2013,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2025,7 +2025,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Gate Chamber",
-                        "node": "Door to Save Station C"
+                        "node": "Door to Save Station (Ship Central)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2051,7 +2051,7 @@
                         "y": 224.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2072,7 +2072,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Drop Shafts Access": {
+                "Door to Hidden Zebesian": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2080,7 +2080,7 @@
                         "y": 304.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2091,7 +2091,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Drop Shafts Access",
+                        "area": "Hidden Zebesian",
                         "node": "Door to Hiding Place B"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2110,7 +2110,7 @@
                 "room_id": 23
             },
             "nodes": {
-                "Door to Inner Drop Shaft (INITIAL)": {
+                "Door to Inner Drop (INITIAL)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2118,7 +2118,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2129,7 +2129,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Inner Drop Shaft (INITIAL)",
+                        "area": "Inner Drop (INITIAL)",
                         "node": "Door to Large Glass Tube (INITIAL)"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2147,7 +2147,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2168,7 +2168,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Tunnel to Outer Drop Shaft": {
+                "Tunnel to Outer Drop": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2176,7 +2176,7 @@
                         "y": 664.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2187,7 +2187,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Outer Drop Shaft",
+                        "area": "Outer Drop",
                         "node": "Dock to Large Glass Tube (INITIAL)"
                     },
                     "default_dock_weakness": "Tunnel",
@@ -2214,7 +2214,7 @@
                         "y": 168.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2232,7 +2232,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2253,7 +2253,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Illuminated Shaft (INITIAL)": {
+                "Door to Ruins Foyer (INITIAL)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2261,7 +2261,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2272,7 +2272,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Illuminated Shaft (INITIAL)",
+                        "area": "Ruins Foyer (INITIAL)",
                         "node": "Door to Wrecked Antechamber"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2290,7 +2290,7 @@
                         "y": 40.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2313,7 +2313,7 @@
                 }
             }
         },
-        "Illuminated Shaft (INITIAL)": {
+        "Ruins Foyer (INITIAL)": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia25",
@@ -2328,7 +2328,7 @@
                         "y": 592.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2340,7 +2340,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Wrecked Antechamber",
-                        "node": "Door to Illuminated Shaft (INITIAL)"
+                        "node": "Door to Ruins Foyer (INITIAL)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2357,7 +2357,7 @@
                         "y": 56.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2369,7 +2369,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Obstructed Hall",
-                        "node": "Tunnel to Illuminated Shaft (INITIAL)"
+                        "node": "Tunnel to Ruins Foyer (INITIAL)"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -2395,7 +2395,7 @@
                         "y": 248.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2405,7 +2405,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Tunnel to Chozo Shaft East (INITIAL)": {
+                "Tunnel to Western Ruins Hub (INITIAL)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2413,7 +2413,7 @@
                         "y": 56.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2424,7 +2424,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Chozo Shaft East (INITIAL)",
+                        "area": "Western Ruins Hub (INITIAL)",
                         "node": "Tunnel to Crawlspace"
                     },
                     "default_dock_weakness": "Tunnel",
@@ -2442,7 +2442,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2465,7 +2465,7 @@
                 }
             }
         },
-        "Save Station D": {
+        "Save Station (Ruins Southwest)": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia27",
@@ -2480,7 +2480,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2492,7 +2492,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Dark-Blue Alcove",
-                        "node": "Dock to Save Station D"
+                        "node": "Dock to Save Station (Ruins Southwest)"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -2509,7 +2509,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2521,7 +2521,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Checkpoint",
-                        "node": "Dock to Save Station D"
+                        "node": "Dock to Save Station (Ruins Southwest)"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -2547,7 +2547,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2576,7 +2576,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2614,7 +2614,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2643,7 +2643,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2672,7 +2672,7 @@
                         "y": 232.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2701,7 +2701,7 @@
                         "y": 56.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2730,7 +2730,7 @@
                         "y": 312.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2768,7 +2768,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2797,7 +2797,7 @@
                         "y": 624.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2835,7 +2835,7 @@
                         "y": 464.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2864,7 +2864,7 @@
                         "y": 88.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2902,7 +2902,7 @@
                         "y": 72.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2931,7 +2931,7 @@
                         "y": 328.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2960,7 +2960,7 @@
                         "y": 416.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2989,7 +2989,7 @@
                         "y": 624.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3027,7 +3027,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3056,7 +3056,7 @@
                         "y": 72.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3086,7 +3086,7 @@
                 "room_id": 34
             },
             "nodes": {
-                "Pickup (Power Bomb Tank (Hidden))": {
+                "Pickup (Power Bomb Tank)": {
                     "node_type": "pickup",
                     "heal": false,
                     "coordinates": {
@@ -3094,7 +3094,7 @@
                         "y": 312.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3112,7 +3112,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3141,7 +3141,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3170,7 +3170,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3208,7 +3208,7 @@
                         "y": 152.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3229,7 +3229,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Dock to Chozo Shaft East (INITIAL)": {
+                "Dock to Western Ruins Hub (INITIAL)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3237,7 +3237,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3248,7 +3248,7 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Chozo Shaft East (INITIAL)",
+                        "area": "Western Ruins Hub (INITIAL)",
                         "node": "Dock to Patrolled Path"
                     },
                     "default_dock_weakness": "Access Open",
@@ -3260,7 +3260,7 @@
                 }
             }
         },
-        "Chozo Shaft East (INITIAL)": {
+        "Western Ruins Hub (INITIAL)": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia36",
@@ -3275,7 +3275,7 @@
                         "y": 240.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3287,7 +3287,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Patrolled Path",
-                        "node": "Dock to Chozo Shaft East (INITIAL)"
+                        "node": "Dock to Western Ruins Hub (INITIAL)"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -3304,7 +3304,7 @@
                         "y": 376.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3316,7 +3316,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Crawlspace",
-                        "node": "Tunnel to Chozo Shaft East (INITIAL)"
+                        "node": "Tunnel to Western Ruins Hub (INITIAL)"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -3334,7 +3334,7 @@
                 "room_id": 37
             },
             "nodes": {
-                "Tunnel to Illuminated Shaft (INITIAL)": {
+                "Tunnel to Ruins Foyer (INITIAL)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3342,7 +3342,7 @@
                         "y": 56.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3353,7 +3353,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Illuminated Shaft (INITIAL)",
+                        "area": "Ruins Foyer (INITIAL)",
                         "node": "Tunnel to Obstructed Hall"
                     },
                     "default_dock_weakness": "Tunnel",
@@ -3371,7 +3371,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3409,7 +3409,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3438,7 +3438,7 @@
                         "y": 304.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3476,7 +3476,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3497,7 +3497,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Dock to Save Station E": {
+                "Dock to Save Station (Ruins North)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3505,7 +3505,7 @@
                         "y": 472.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3516,7 +3516,7 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Save Station E",
+                        "area": "Save Station (Ruins North)",
                         "node": "Dock to Chozo Inner Temple (INITIAL)"
                     },
                     "default_dock_weakness": "Access Open",
@@ -3528,7 +3528,7 @@
                 }
             }
         },
-        "Save Station E": {
+        "Save Station (Ruins North)": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia40",
@@ -3543,7 +3543,7 @@
                         "y": 152.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3555,7 +3555,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Chozo Inner Temple (INITIAL)",
-                        "node": "Dock to Save Station E"
+                        "node": "Dock to Save Station (Ruins North)"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -3572,7 +3572,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3584,7 +3584,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Flooded Chamber (INITIAL)",
-                        "node": "Dock to Save Station E"
+                        "node": "Dock to Save Station (Ruins North)"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -3602,7 +3602,7 @@
                 "room_id": 41
             },
             "nodes": {
-                "Dock to Save Station E": {
+                "Dock to Save Station (Ruins North)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3610,7 +3610,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3621,7 +3621,7 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Save Station E",
+                        "area": "Save Station (Ruins North)",
                         "node": "Dock to Flooded Chamber (INITIAL)"
                     },
                     "default_dock_weakness": "Access Open",
@@ -3639,7 +3639,7 @@
                         "y": 560.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3677,7 +3677,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3706,7 +3706,7 @@
                         "y": 200.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3744,7 +3744,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3773,7 +3773,7 @@
                         "y": 304.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3811,7 +3811,7 @@
                         "y": 224.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3832,7 +3832,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Probe-Packed Corridor": {
+                "Door to Atomic Corridor": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3840,7 +3840,7 @@
                         "y": 464.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3851,7 +3851,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Probe-Packed Corridor",
+                        "area": "Atomic Corridor",
                         "node": "Door to Stairwell"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -3863,7 +3863,7 @@
                 }
             }
         },
-        "Ventilation Shaft": {
+        "Ventilation Tunnel": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia45",
@@ -3878,7 +3878,7 @@
                         "y": 184.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3890,7 +3890,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Mother Ship Bridge",
-                        "node": "Tunnel to Ventilation Shaft"
+                        "node": "Tunnel to Ventilation Tunnel"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -3907,7 +3907,7 @@
                         "y": 40.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3919,7 +3919,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Armory Access",
-                        "node": "Tunnel to Ventilation Shaft"
+                        "node": "Tunnel to Ventilation Tunnel"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -3937,7 +3937,7 @@
                 "room_id": 46
             },
             "nodes": {
-                "Tunnel to Ventilation Shaft": {
+                "Tunnel to Ventilation Tunnel": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3945,7 +3945,7 @@
                         "y": 184.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3956,7 +3956,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Ventilation Shaft",
+                        "area": "Ventilation Tunnel",
                         "node": "Tunnel to Armory Access"
                     },
                     "default_dock_weakness": "Tunnel",
@@ -3974,7 +3974,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4012,7 +4012,7 @@
                         "y": 104.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4030,7 +4030,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4059,7 +4059,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4088,7 +4088,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4126,7 +4126,7 @@
                         "y": 216.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4155,7 +4155,7 @@
                         "y": 304.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4184,7 +4184,7 @@
                         "y": 584.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4213,7 +4213,7 @@
                         "y": 168.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4251,7 +4251,7 @@
                         "y": 264.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4269,7 +4269,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4298,7 +4298,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4336,7 +4336,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4365,7 +4365,7 @@
                         "y": 88.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4403,7 +4403,7 @@
                         "y": 240.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4432,7 +4432,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4470,7 +4470,7 @@
                         "y": 304.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4499,7 +4499,7 @@
                         "y": 592.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4528,7 +4528,7 @@
                         "y": 224.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4566,7 +4566,7 @@
                         "y": 224.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4595,7 +4595,7 @@
                         "y": 224.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4633,7 +4633,7 @@
                         "y": 216.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4643,7 +4643,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Dock to Chozo Shaft East": {
+                "Dock to Western Ruins Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -4651,7 +4651,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4662,7 +4662,7 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Chozo Shaft East",
+                        "area": "Western Ruins Hub",
                         "node": "Dock to Chozodian Lava Pool"
                     },
                     "default_dock_weakness": "Access Open",
@@ -4680,7 +4680,7 @@
                         "y": 168.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4718,7 +4718,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4747,7 +4747,7 @@
                         "y": 184.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4785,7 +4785,7 @@
                         "y": 648.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4814,7 +4814,7 @@
                         "y": 624.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4843,7 +4843,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4866,7 +4866,7 @@
                 }
             }
         },
-        "Chozo Shaft East": {
+        "Western Ruins Hub": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia57",
@@ -4881,7 +4881,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4893,7 +4893,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Chozodian Lava Pool",
-                        "node": "Dock to Chozo Shaft East"
+                        "node": "Dock to Western Ruins Hub"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -4910,7 +4910,7 @@
                         "y": 376.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4922,7 +4922,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Crawlspace",
-                        "node": "Tunnel to Chozo Shaft East (INITIAL)"
+                        "node": "Tunnel to Western Ruins Hub (INITIAL)"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -4939,7 +4939,7 @@
                         "y": 240.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4951,7 +4951,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Patrolled Path",
-                        "node": "Dock to Chozo Shaft East (INITIAL)"
+                        "node": "Dock to Western Ruins Hub (INITIAL)"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -4968,7 +4968,7 @@
                         "y": 1232.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4980,7 +4980,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Flooded Chamber",
-                        "node": "Dock to Chozo Shaft East"
+                        "node": "Dock to Western Ruins Hub"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -4997,7 +4997,7 @@
                         "y": 744.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5009,7 +5009,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Exterior",
-                        "node": "Dock to Chozo Shaft East"
+                        "node": "Dock to Western Ruins Hub"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -5026,7 +5026,7 @@
                         "y": 952.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5038,7 +5038,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Flooded Chamber",
-                        "node": "Tunnel to Chozo Shaft East"
+                        "node": "Tunnel to Western Ruins Hub"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -5049,7 +5049,7 @@
                 }
             }
         },
-        "Probe-Packed Corridor": {
+        "Atomic Corridor": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia58",
@@ -5064,7 +5064,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5076,7 +5076,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Stairwell",
-                        "node": "Door to Probe-Packed Corridor"
+                        "node": "Door to Atomic Corridor"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -5085,7 +5085,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Bridge Access Shaft": {
+                "Door to Bridge Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -5093,7 +5093,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5104,8 +5104,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Bridge Access Shaft",
-                        "node": "Door to Probe-Packed Corridor"
+                        "area": "Bridge Access",
+                        "node": "Door to Atomic Corridor"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -5116,14 +5116,14 @@
                 }
             }
         },
-        "Bridge Access Shaft": {
+        "Bridge Access": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia59",
                 "room_id": 59
             },
             "nodes": {
-                "Door to Probe-Packed Corridor": {
+                "Door to Atomic Corridor": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -5131,7 +5131,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5142,8 +5142,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Probe-Packed Corridor",
-                        "node": "Door to Bridge Access Shaft"
+                        "area": "Atomic Corridor",
+                        "node": "Door to Bridge Access"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -5160,7 +5160,7 @@
                         "y": 560.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5172,7 +5172,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Mother Ship Bridge",
-                        "node": "Door to Bridge Access Shaft"
+                        "node": "Door to Bridge Access"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -5190,7 +5190,7 @@
                 "room_id": 60
             },
             "nodes": {
-                "Tunnel to Ventilation Shaft": {
+                "Tunnel to Ventilation Tunnel": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -5198,7 +5198,7 @@
                         "y": 40.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5209,7 +5209,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Ventilation Shaft",
+                        "area": "Ventilation Tunnel",
                         "node": "Tunnel to Mother Ship Bridge"
                     },
                     "default_dock_weakness": "Tunnel",
@@ -5219,7 +5219,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Bridge Access Shaft": {
+                "Door to Bridge Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -5227,7 +5227,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5238,7 +5238,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Bridge Access Shaft",
+                        "area": "Bridge Access",
                         "node": "Door to Mother Ship Bridge"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -5256,7 +5256,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5285,7 +5285,7 @@
                         "y": 448.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5308,7 +5308,7 @@
                 }
             }
         },
-        "Save Station F": {
+        "Save Station (Ship North)": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia61",
@@ -5323,7 +5323,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5335,7 +5335,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Upper Antechamber",
-                        "node": "Door to Save Station F"
+                        "node": "Door to Save Station (Ship North)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -5346,7 +5346,7 @@
                 }
             }
         },
-        "Probe-Filled Shaft": {
+        "Atomic Shaft": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia62",
@@ -5361,7 +5361,7 @@
                         "y": 504.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5373,7 +5373,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Large Glass Tube",
-                        "node": "Dock to Probe-Filled Shaft"
+                        "node": "Dock to Atomic Shaft"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -5390,7 +5390,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5402,7 +5402,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Infested Slope",
-                        "node": "Door to Probe-Filled Shaft"
+                        "node": "Door to Atomic Shaft"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -5411,7 +5411,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station G": {
+                "Door to Save Station (Ruins Southeast)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -5419,7 +5419,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5430,8 +5430,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Save Station G",
-                        "node": "Door to Probe-Filled Shaft"
+                        "area": "Save Station (Ruins Southeast)",
+                        "node": "Door to Atomic Shaft"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -5449,7 +5449,7 @@
                 "room_id": 63
             },
             "nodes": {
-                "Door to Probe-Filled Shaft": {
+                "Door to Atomic Shaft": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -5457,7 +5457,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5468,7 +5468,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Probe-Filled Shaft",
+                        "area": "Atomic Shaft",
                         "node": "Door to Infested Slope"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -5486,7 +5486,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5524,7 +5524,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5553,7 +5553,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5583,7 +5583,7 @@
                 "room_id": 65
             },
             "nodes": {
-                "Pickup (Super Missile Tank (Hidden))": {
+                "Pickup (Super Missile Tank)": {
                     "node_type": "pickup",
                     "heal": false,
                     "coordinates": {
@@ -5591,7 +5591,7 @@
                         "y": 328.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5609,7 +5609,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5638,7 +5638,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5668,7 +5668,7 @@
                 "room_id": 66
             },
             "nodes": {
-                "Pickup (Super Missile Tank (Hidden))": {
+                "Pickup (Super Missile Tank)": {
                     "node_type": "pickup",
                     "heal": false,
                     "coordinates": {
@@ -5676,7 +5676,7 @@
                         "y": 328.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5694,7 +5694,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5723,7 +5723,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5746,7 +5746,7 @@
                 }
             }
         },
-        "Illuminated Shaft": {
+        "Ruins Foyer": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia67",
@@ -5761,7 +5761,7 @@
                         "y": 56.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5773,7 +5773,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Obstructed Hall",
-                        "node": "Tunnel to Illuminated Shaft (INITIAL)"
+                        "node": "Tunnel to Ruins Foyer (INITIAL)"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -5790,7 +5790,7 @@
                         "y": 592.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5802,7 +5802,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Wrecked Antechamber",
-                        "node": "Door to Illuminated Shaft (INITIAL)"
+                        "node": "Door to Ruins Foyer (INITIAL)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -5828,7 +5828,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5857,7 +5857,7 @@
                         "y": 104.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5895,7 +5895,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5924,7 +5924,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5962,7 +5962,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -5991,7 +5991,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6029,7 +6029,7 @@
                         "y": 72.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6047,7 +6047,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6076,7 +6076,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6114,7 +6114,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6144,7 +6144,7 @@
                 "room_id": 73
             },
             "nodes": {
-                "Pickup (Super Missile Tank (Hidden))": {
+                "Pickup (Super Missile Tank)": {
                     "node_type": "pickup",
                     "heal": false,
                     "coordinates": {
@@ -6152,7 +6152,7 @@
                         "y": 280.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6170,7 +6170,7 @@
                         "y": 304.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6199,7 +6199,7 @@
                         "y": 304.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6222,14 +6222,14 @@
                 }
             }
         },
-        "Save Station G": {
+        "Save Station (Ruins Southeast)": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia74",
                 "room_id": 74
             },
             "nodes": {
-                "Door to Probe-Filled Shaft": {
+                "Door to Atomic Shaft": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -6237,7 +6237,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6248,8 +6248,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Probe-Filled Shaft",
-                        "node": "Door to Save Station G"
+                        "area": "Atomic Shaft",
+                        "node": "Door to Save Station (Ruins Southeast)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -6260,7 +6260,7 @@
                 }
             }
         },
-        "Save Station H": {
+        "Save Station (Ruins West)": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia75",
@@ -6275,7 +6275,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6287,7 +6287,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Chacmool Access",
-                        "node": "Dock to Save Station H"
+                        "node": "Dock to Save Station (Ruins West)"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -6305,7 +6305,7 @@
                 "room_id": 76
             },
             "nodes": {
-                "Dock to Save Station D": {
+                "Dock to Save Station (Ruins Southwest)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -6313,7 +6313,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6324,7 +6324,7 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Save Station D",
+                        "area": "Save Station (Ruins Southwest)",
                         "node": "Dock to Checkpoint"
                     },
                     "default_dock_weakness": "Access Open",
@@ -6342,7 +6342,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6380,7 +6380,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6409,7 +6409,7 @@
                         "y": 240.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6438,7 +6438,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6467,7 +6467,7 @@
                         "y": 400.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6505,7 +6505,7 @@
                         "y": 88.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6523,7 +6523,7 @@
                         "y": 104.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6561,7 +6561,7 @@
                         "y": 456.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6590,7 +6590,7 @@
                         "y": 472.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6628,7 +6628,7 @@
                         "y": 248.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6657,7 +6657,7 @@
                         "y": 216.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6686,7 +6686,7 @@
                         "y": 296.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6724,7 +6724,7 @@
                         "y": 216.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6753,7 +6753,7 @@
                         "y": 296.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6782,7 +6782,7 @@
                         "y": 240.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6820,7 +6820,7 @@
                         "y": 560.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6849,7 +6849,7 @@
                         "y": 240.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6879,7 +6879,7 @@
                 "room_id": 83
             },
             "nodes": {
-                "Dock to Save Station E": {
+                "Dock to Save Station (Ruins North)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -6887,7 +6887,7 @@
                         "y": 472.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6898,7 +6898,7 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Save Station E",
+                        "area": "Save Station (Ruins North)",
                         "node": "Dock to Chozo Inner Temple (INITIAL)"
                     },
                     "default_dock_weakness": "Access Open",
@@ -6916,7 +6916,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6954,7 +6954,7 @@
                         "y": 328.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -6983,7 +6983,7 @@
                         "y": 416.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7004,7 +7004,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Dock to Save Station H": {
+                "Dock to Save Station (Ruins West)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -7012,7 +7012,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7023,7 +7023,7 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Save Station H",
+                        "area": "Save Station (Ruins West)",
                         "node": "Dock to Chacmool Access"
                     },
                     "default_dock_weakness": "Access Open",
@@ -7042,7 +7042,7 @@
                 "room_id": 85
             },
             "nodes": {
-                "Dock to Probe-Filled Shaft": {
+                "Dock to Atomic Shaft": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -7050,7 +7050,7 @@
                         "y": 40.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7061,7 +7061,7 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Probe-Filled Shaft",
+                        "area": "Atomic Shaft",
                         "node": "Dock to Large Glass Tube"
                     },
                     "default_dock_weakness": "Access Open",
@@ -7079,7 +7079,7 @@
                         "y": 184.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7100,7 +7100,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Inner Drop Shaft": {
+                "Door to Inner Drop": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -7108,7 +7108,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7119,7 +7119,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Inner Drop Shaft",
+                        "area": "Inner Drop",
                         "node": "Door to Large Glass Tube"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -7137,7 +7137,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7166,7 +7166,7 @@
                         "y": 120.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7187,7 +7187,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Tunnel to Outer Drop Shaft (REMOVE_FROM_LOGIC)": {
+                "Tunnel to Outer Drop (REMOVE_FROM_LOGIC)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -7195,7 +7195,7 @@
                         "y": 664.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7206,7 +7206,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Outer Drop Shaft (REMOVE_FROM_LOGIC)",
+                        "area": "Outer Drop (REMOVE_FROM_LOGIC)",
                         "node": "Dock to Large Glass Tube"
                     },
                     "default_dock_weakness": "Tunnel",
@@ -7233,7 +7233,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7262,7 +7262,7 @@
                         "y": 240.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7291,7 +7291,7 @@
                         "y": 72.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7321,7 +7321,7 @@
                 "room_id": 87
             },
             "nodes": {
-                "Pickup (Power Bomb Tank (Hidden))": {
+                "Pickup (Power Bomb Tank)": {
                     "node_type": "pickup",
                     "heal": false,
                     "coordinates": {
@@ -7329,7 +7329,7 @@
                         "y": 248.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7347,7 +7347,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7376,7 +7376,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7405,7 +7405,7 @@
                         "y": 248.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7443,7 +7443,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7473,7 +7473,7 @@
                 "room_id": 89
             },
             "nodes": {
-                "Pickup (Super Missile Tank (Hidden))": {
+                "Pickup (Super Missile Tank)": {
                     "node_type": "pickup",
                     "heal": false,
                     "coordinates": {
@@ -7481,7 +7481,7 @@
                         "y": 104.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7499,7 +7499,7 @@
                         "y": 232.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7528,7 +7528,7 @@
                         "y": 56.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7557,7 +7557,7 @@
                         "y": 312.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7595,7 +7595,7 @@
                         "y": 312.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7613,7 +7613,7 @@
                         "y": 56.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7623,7 +7623,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Dock to Chozo Shaft East": {
+                "Dock to Western Ruins Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -7631,7 +7631,7 @@
                         "y": 592.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7642,7 +7642,7 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Chozo Shaft East",
+                        "area": "Western Ruins Hub",
                         "node": "Dock to Flooded Chamber"
                     },
                     "default_dock_weakness": "Access Open",
@@ -7660,7 +7660,7 @@
                         "y": 664.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7681,7 +7681,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Dock to Save Station E": {
+                "Dock to Save Station (Ruins North)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -7689,7 +7689,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7700,7 +7700,7 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Save Station E",
+                        "area": "Save Station (Ruins North)",
                         "node": "Dock to Flooded Chamber (INITIAL)"
                     },
                     "default_dock_weakness": "Access Open",
@@ -7710,7 +7710,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Tunnel to Chozo Shaft East": {
+                "Tunnel to Western Ruins Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -7718,7 +7718,7 @@
                         "y": 312.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7729,7 +7729,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Chozo Shaft East",
+                        "area": "Western Ruins Hub",
                         "node": "Tunnel to Flooded Chamber"
                     },
                     "default_dock_weakness": "Tunnel",
@@ -7756,7 +7756,7 @@
                         "y": 416.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7785,7 +7785,7 @@
                         "y": 328.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7823,7 +7823,7 @@
                         "y": 168.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7852,7 +7852,7 @@
                         "y": 216.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7881,7 +7881,7 @@
                         "y": 304.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7910,7 +7910,7 @@
                         "y": 584.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7933,7 +7933,7 @@
                 }
             }
         },
-        "Inner Drop Shaft": {
+        "Inner Drop": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia93",
@@ -7948,7 +7948,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7960,7 +7960,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Large Glass Tube",
-                        "node": "Door to Inner Drop Shaft"
+                        "node": "Door to Inner Drop"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -7969,7 +7969,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Tunnel to Drop Shafts Access": {
+                "Tunnel to Hidden Zebesian": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -7977,7 +7977,7 @@
                         "y": 1240.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -7988,8 +7988,8 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Drop Shafts Access",
-                        "node": "Tunnel to Inner Drop Shaft (INITIAL)"
+                        "area": "Hidden Zebesian",
+                        "node": "Tunnel to Inner Drop (INITIAL)"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -8015,7 +8015,7 @@
                         "y": 104.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -8036,7 +8036,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Dock to Chozo Shaft East": {
+                "Dock to Western Ruins Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -8044,7 +8044,7 @@
                         "y": 104.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -8055,7 +8055,7 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Chozo Shaft East",
+                        "area": "Western Ruins Hub",
                         "node": "Dock to Exterior"
                     },
                     "default_dock_weakness": "Access Open",
@@ -8082,7 +8082,7 @@
                         "y": 1080.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -8100,7 +8100,7 @@
                         "y": 120.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -8130,7 +8130,7 @@
                 "room_id": 96
             },
             "nodes": {
-                "Door to Bridge Access Shaft": {
+                "Door to Bridge Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -8138,7 +8138,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -8149,7 +8149,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Bridge Access Shaft",
+                        "area": "Bridge Access",
                         "node": "Door to Mother Ship Bridge"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -8167,7 +8167,7 @@
                         "y": 448.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -8205,7 +8205,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -8226,7 +8226,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station F": {
+                "Door to Save Station (Ship North)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -8234,7 +8234,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -8245,7 +8245,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Save Station F",
+                        "area": "Save Station (Ship North)",
                         "node": "Door to Upper Antechamber"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -8257,14 +8257,14 @@
                 }
             }
         },
-        "Outer Drop Shaft": {
+        "Outer Drop": {
             "default_node": null,
             "extra": {
                 "map_name": "Chozodia98",
                 "room_id": 98
             },
             "nodes": {
-                "Dock to Drop Shafts Access": {
+                "Dock to Hidden Zebesian": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -8272,7 +8272,7 @@
                         "y": 1304.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -8283,8 +8283,8 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Chozodia",
-                        "area": "Drop Shafts Access",
-                        "node": "Dock to Outer Drop Shaft"
+                        "area": "Hidden Zebesian",
+                        "node": "Dock to Outer Drop"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -8301,7 +8301,7 @@
                         "y": 520.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -8313,7 +8313,7 @@
                     "default_connection": {
                         "region": "Chozodia",
                         "area": "Large Glass Tube (INITIAL)",
-                        "node": "Tunnel to Outer Drop Shaft"
+                        "node": "Tunnel to Outer Drop"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,

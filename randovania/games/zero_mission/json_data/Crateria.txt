@@ -5,95 +5,82 @@ Extra - room_id: 0
 > Tunnel to Landing Site (ESCAPE); Heals? False
   * Layers: default
   * Tunnel to Landing Site (ESCAPE)/Tunnel to Landing Site (ESCAPE)
-  * Generated from ROM.
   * Extra - door_idx: 0
 
 > Door to Crateria Chozo Ruins Entrance; Heals? False
   * Layers: default
   * Power Beam Door to Crateria Chozo Ruins Entrance/Door to Landing Site (ESCAPE)
-  * Generated from ROM.
   * Extra - door_idx: 1
 
-> Door to Rocky Cave (ESCAPE); Heals? False
+> Door to Parlor and Alcatraz (ESCAPE); Heals? False
   * Layers: default
-  * Power Beam Door to Rocky Cave (ESCAPE)/Door to Landing Site (ESCAPE)
-  * Generated from ROM.
+  * Power Beam Door to Parlor and Alcatraz (ESCAPE)/Door to Landing Site (ESCAPE)
   * Extra - door_idx: 3
 
-> Door to Crateria Tube; Heals? False
+> Door to Flooded Tunnel; Heals? False
   * Layers: default
-  * Power Beam Door to Crateria Tube/Door to Landing Site (ESCAPE)
-  * Generated from ROM.
+  * Power Beam Door to Flooded Tunnel/Door to Landing Site (ESCAPE)
   * Extra - door_idx: 26
 
 ----------------
-Rocky Cave (ESCAPE)
+Parlor and Alcatraz (ESCAPE)
 Extra - map_name: Crateria1
 Extra - room_id: 1
 > Door to Landing Site (ESCAPE); Heals? False
   * Layers: default
-  * Power Beam Door to Landing Site (ESCAPE)/Door to Rocky Cave (ESCAPE)
-  * Generated from ROM.
+  * Power Beam Door to Landing Site (ESCAPE)/Door to Parlor and Alcatraz (ESCAPE)
   * Extra - door_idx: 5
 
-> Door to Weed-Filled Hall; Heals? False
+> Door to Weedway; Heals? False
   * Layers: default
-  * Power Beam Door to Weed-Filled Hall/Door to Rocky Cave
-  * Generated from ROM.
+  * Power Beam Door to Weedway/Door to Parlor and Alcatraz
   * Extra - door_idx: 6
 
 > Door to Elevator to Tourian (ESCAPE); Heals? False
   * Layers: default
-  * Super Missile Door to Elevator to Tourian (ESCAPE)/Door to Rocky Cave (ESCAPE)
-  * Generated from ROM.
+  * Super Missile Door to Elevator to Tourian (ESCAPE)/Door to Parlor and Alcatraz (ESCAPE)
   * Extra - door_idx: 7
 
 ----------------
-Weed-Filled Hall
+Weedway
 Extra - map_name: Crateria2
 Extra - room_id: 2
-> Door to Rocky Cave; Heals? False
+> Door to Parlor and Alcatraz; Heals? False
   * Layers: default
-  * Power Beam Door to Rocky Cave/Door to Weed-Filled Hall
-  * Generated from ROM.
+  * Power Beam Door to Parlor and Alcatraz/Door to Weedway
   * Extra - door_idx: 8
 
 > Door to Broken Elevator to Brinstar; Heals? False
   * Layers: default
-  * Power Beam Door to Broken Elevator to Brinstar/Door to Weed-Filled Hall
-  * Generated from ROM.
+  * Power Beam Door to Broken Elevator to Brinstar/Door to Weedway
   * Extra - door_idx: 9
 
 ----------------
 Broken Elevator to Brinstar
 Extra - map_name: Crateria3
 Extra - room_id: 3
-> Door to Weed-Filled Hall; Heals? False
+> Door to Weedway; Heals? False
   * Layers: default
-  * Power Beam Door to Weed-Filled Hall/Door to Broken Elevator to Brinstar
-  * Generated from ROM.
+  * Power Beam Door to Weedway/Door to Broken Elevator to Brinstar
   * Extra - door_idx: 10
 
 > Dock to Starting Room; Heals? False
   * Layers: default
   * Access Open to Starting Room/Dock to Broken Elevator to Brinstar
-  * Generated from ROM.
   * Extra - door_idx: 11
 
 ----------------
 Elevator to Tourian (ESCAPE)
 Extra - map_name: Crateria4
 Extra - room_id: 4
-> Door to Rocky Cave (ESCAPE); Heals? False
+> Door to Parlor and Alcatraz (ESCAPE); Heals? False
   * Layers: default
-  * Power Beam Door to Rocky Cave (ESCAPE)/Door to Elevator to Tourian (ESCAPE)
-  * Generated from ROM.
+  * Power Beam Door to Parlor and Alcatraz (ESCAPE)/Door to Elevator to Tourian (ESCAPE)
   * Extra - door_idx: 12
 
 > Dock to Escape Shaft (INITIAL); Heals? False
   * Layers: default
   * Access Open to Escape Shaft (INITIAL)/Tunnel to Elevator to Tourian (ESCAPE)
-  * Generated from ROM.
   * Extra - door_idx: 13
 
 ----------------
@@ -103,171 +90,146 @@ Extra - room_id: 5
 > Pickup (Power Bomb Tank); Heals? False
   * Layers: default
   * Pickup 64; Category? Minor
-  * Generated from ROM.
 
-> Door to Crateria Tube; Heals? False
+> Door to Flooded Tunnel; Heals? False
   * Layers: default
-  * Power Beam Door to Crateria Tube/Door to Landing Site (ESCAPE)
-  * Generated from ROM.
+  * Power Beam Door to Flooded Tunnel/Door to Landing Site (ESCAPE)
   * Extra - door_idx: 14
 
-> Door to Rocky Cave; Heals? False
+> Door to Parlor and Alcatraz; Heals? False
   * Layers: default
-  * Power Beam Door to Rocky Cave/Door to Landing Site
-  * Generated from ROM.
+  * Power Beam Door to Parlor and Alcatraz/Door to Landing Site
   * Extra - door_idx: 42
 
 > Door to Crateria Chozo Ruins Entrance; Heals? False
   * Layers: default
   * Power Beam Door to Crateria Chozo Ruins Entrance/Door to Landing Site (ESCAPE)
-  * Generated from ROM.
   * Extra - door_idx: 46
 
 ----------------
-Crateria's Undershaft
+Elevator to Norfair
 Extra - map_name: Crateria6
 Extra - room_id: 6
 > Door to Flooded Cavern; Heals? False
   * Layers: default
-  * Power Beam Door to Flooded Cavern/Door to Crateria's Undershaft
-  * Generated from ROM.
+  * Power Beam Door to Flooded Cavern/Door to Elevator to Norfair
   * Extra - door_idx: 16
 
 > Dock to Transport to Crateria; Heals? False
   * Layers: default
-  * Access Open to Transport to Crateria/Dock to Crateria's Undershaft
-  * Generated from ROM.
+  * Access Open to Transport to Crateria/Dock to Elevator to Norfair
   * Extra - door_idx: 17
 
-> Door to Crateria Tube; Heals? False
+> Door to Flooded Tunnel; Heals? False
   * Layers: default
-  * Power Beam Door to Crateria Tube/Door to Crateria's Undershaft
-  * Generated from ROM.
+  * Power Beam Door to Flooded Tunnel/Door to Elevator to Norfair
   * Extra - door_idx: 31
 
 ----------------
 Flooded Cavern
 Extra - map_name: Crateria7
 Extra - room_id: 7
-> Pickup (Missile Tank (Hidden)); Heals? False
+> Pickup (Missile Tank); Heals? False
   * Layers: default
   * Pickup 65; Category? Minor
-  * Generated from ROM.
 
-> Door to Crateria's Undershaft; Heals? False
+> Door to Elevator to Norfair; Heals? False
   * Layers: default
-  * Power Beam Door to Crateria's Undershaft/Door to Flooded Cavern
-  * Generated from ROM.
+  * Power Beam Door to Elevator to Norfair/Door to Flooded Cavern
   * Extra - door_idx: 18
 
-> Tunnel to Chozo Ruins Main Cavern; Heals? False
+> Tunnel to Chozo Ruins Valley; Heals? False
   * Layers: default
-  * Tunnel to Chozo Ruins Main Cavern/Tunnel to Flooded Cavern
-  * Generated from ROM.
+  * Tunnel to Chozo Ruins Valley/Tunnel to Flooded Cavern
   * Extra - door_idx: 20
 
 > Door to Wrecked Ship Entrance; Heals? False
   * Layers: default
   * Power Bomb Door to Wrecked Ship Entrance/Door to Flooded Cavern
-  * Generated from ROM.
   * Extra - door_idx: 21
 
-> Dock to Chozo Ruins Main Cavern; Heals? False
+> Dock to Chozo Ruins Valley; Heals? False
   * Layers: default
-  * Access Open to Chozo Ruins Main Cavern/Dock to Flooded Cavern
-  * Generated from ROM.
+  * Access Open to Chozo Ruins Valley/Dock to Flooded Cavern
   * Extra - door_idx: 41
 
 ----------------
 Statuary Shaft (INITIAL)
 Extra - map_name: Crateria8
 Extra - room_id: 8
-> Door to Chozo Ruins Main Cavern; Heals? False
+> Door to Chozo Ruins Valley; Heals? False
   * Layers: default
-  * Power Beam Door to Chozo Ruins Main Cavern/Door to Statuary Shaft (INITIAL)
-  * Generated from ROM.
+  * Power Beam Door to Chozo Ruins Valley/Door to Statuary Shaft (INITIAL)
   * Extra - door_idx: 15
 
 > Tunnel to Chozo Reliquary; Heals? False
   * Layers: default
   * Tunnel to Chozo Reliquary/Tunnel to Statuary Shaft (INITIAL)
-  * Generated from ROM.
   * Extra - door_idx: 39
 
 ----------------
-Chozo Ruins Main Cavern
+Chozo Ruins Valley
 Extra - map_name: Crateria9
 Extra - room_id: 9
 > Pickup (Super Missile Tank); Heals? False
   * Layers: default
   * Pickup 66; Category? Minor
-  * Generated from ROM.
 
 > Pickup (Missile Tank); Heals? False
   * Layers: default
   * Pickup 67; Category? Minor
-  * Generated from ROM.
 
 > Door to Statuary Shaft (INITIAL); Heals? False
   * Layers: default
-  * Power Beam Door to Statuary Shaft (INITIAL)/Door to Chozo Ruins Main Cavern
-  * Generated from ROM.
+  * Power Beam Door to Statuary Shaft (INITIAL)/Door to Chozo Ruins Valley
   * Extra - door_idx: 19
 
 > Tunnel to Flooded Cavern; Heals? False
   * Layers: default
-  * Tunnel to Flooded Cavern/Tunnel to Chozo Ruins Main Cavern
-  * Generated from ROM.
+  * Tunnel to Flooded Cavern/Tunnel to Chozo Ruins Valley
   * Extra - door_idx: 22
 
 > Door to Chozodia Access Hall (eastbound); Heals? False
   * Layers: default
-  * Power Bomb Door to Chozodia Access Hall (eastbound)/Door to Chozo Ruins Main Cavern
-  * Generated from ROM.
+  * Power Bomb Door to Chozodia Access Hall (eastbound)/Door to Chozo Ruins Valley
   * Extra - door_idx: 25
 
-> Door to Water-Filled Hole; Heals? False
+> Door to Plasma Beam Chamber; Heals? False
   * Layers: default
-  * Power Beam Door to Water-Filled Hole/Door to Chozo Ruins Main Cavern
-  * Generated from ROM.
+  * Power Beam Door to Plasma Beam Chamber/Door to Chozo Ruins Valley
   * Extra - door_idx: 37
 
 > Dock to Flooded Cavern; Heals? False
   * Layers: default
-  * Access Open to Flooded Cavern/Dock to Chozo Ruins Main Cavern
-  * Generated from ROM.
+  * Access Open to Flooded Cavern/Dock to Chozo Ruins Valley
   * Extra - door_idx: 40
 
 ----------------
 Chozodia Access Hall (westbound)
 Extra - map_name: Crateria10
 Extra - room_id: 10
-> Door to Chozo Ruins Main Cavern; Heals? False
+> Door to Chozo Ruins Valley; Heals? False
   * Layers: default
-  * Power Beam Door to Chozo Ruins Main Cavern/Door to Chozodia Access Hall (eastbound)
-  * Generated from ROM.
+  * Power Beam Door to Chozo Ruins Valley/Door to Chozodia Access Hall (eastbound)
   * Extra - door_idx: 23
 
 > Dock to Chozodia's Fork; Heals? False
   * Layers: default
   * Access Open to Chozodia's Fork/Dock to Chozodia Access Hall (westbound)
-  * Generated from ROM.
   * Extra - door_idx: 24
 
 ----------------
-Crateria Tube
+Flooded Tunnel
 Extra - map_name: Crateria11
 Extra - room_id: 11
 > Door to Landing Site (ESCAPE); Heals? False
   * Layers: default
-  * Power Beam Door to Landing Site (ESCAPE)/Door to Crateria Tube
-  * Generated from ROM.
+  * Power Beam Door to Landing Site (ESCAPE)/Door to Flooded Tunnel
   * Extra - door_idx: 27
 
-> Door to Crateria's Undershaft; Heals? False
+> Door to Elevator to Norfair; Heals? False
   * Layers: default
-  * Power Beam Door to Crateria's Undershaft/Door to Crateria Tube
-  * Generated from ROM.
+  * Power Beam Door to Elevator to Norfair/Door to Flooded Tunnel
   * Extra - door_idx: 28
 
 ----------------
@@ -277,7 +239,6 @@ Extra - room_id: 12
 > Tunnel to Statuary Shaft (INITIAL); Heals? False
   * Layers: default
   * Tunnel to Statuary Shaft (INITIAL)/Tunnel to Chozo Reliquary
-  * Generated from ROM.
   * Extra - door_idx: 30
 
 ----------------
@@ -287,28 +248,24 @@ Extra - room_id: 13
 > Door to Flooded Cavern; Heals? False
   * Layers: default
   * Power Bomb Door to Flooded Cavern/Door to Wrecked Ship Entrance
-  * Generated from ROM.
   * Extra - door_idx: 32
 
 > Dock to Wrecked Ship Entrance; Heals? False
   * Layers: default
   * Access Open to Wrecked Ship Entrance/Dock to Wrecked Ship Entrance
-  * Generated from ROM.
   * Extra - door_idx: 33
 
 ----------------
-Water-Filled Hole
+Plasma Beam Chamber
 Extra - map_name: Crateria14
 Extra - room_id: 14
 > Pickup (Missile Tank); Heals? False
   * Layers: default
   * Pickup 68; Category? Minor
-  * Generated from ROM.
 
-> Door to Chozo Ruins Main Cavern; Heals? False
+> Door to Chozo Ruins Valley; Heals? False
   * Layers: default
-  * Power Beam Door to Chozo Ruins Main Cavern/Door to Water-Filled Hole
-  * Generated from ROM.
+  * Power Beam Door to Chozo Ruins Valley/Door to Plasma Beam Chamber
   * Extra - door_idx: 35
 
 ----------------
@@ -318,13 +275,11 @@ Extra - room_id: 15
 > Door to Landing Site (ESCAPE); Heals? False
   * Layers: default
   * Power Beam Door to Landing Site (ESCAPE)/Door to Crateria Chozo Ruins Entrance
-  * Generated from ROM.
   * Extra - door_idx: 4
 
 > Door to Statuary Shaft; Heals? False
   * Layers: default
   * Power Beam Door to Statuary Shaft/Door to Crateria Chozo Ruins Entrance
-  * Generated from ROM.
   * Extra - door_idx: 38
 
 ----------------
@@ -334,19 +289,16 @@ Extra - room_id: 16
 > Tunnel to Chozo Reliquary; Heals? False
   * Layers: default
   * Tunnel to Chozo Reliquary/Tunnel to Statuary Shaft (INITIAL)
-  * Generated from ROM.
   * Extra - door_idx: 29
 
 > Door to Crateria Chozo Ruins Entrance; Heals? False
   * Layers: default
   * Power Beam Door to Crateria Chozo Ruins Entrance/Door to Statuary Shaft
-  * Generated from ROM.
   * Extra - door_idx: 34
 
-> Dock to Chozo Ruins Main Cavern; Heals? False
+> Dock to Chozo Ruins Valley; Heals? False
   * Layers: default
-  * Access Open to Chozo Ruins Main Cavern/Door to Statuary Shaft (INITIAL)
-  * Generated from ROM.
+  * Access Open to Chozo Ruins Valley/Door to Statuary Shaft (INITIAL)
   * Extra - door_idx: 36
 
 ----------------
@@ -356,29 +308,25 @@ Extra - room_id: 17
 > Door to Crateria Chozo Ruins Entrance; Heals? False
   * Layers: default
   * Power Beam Door to Crateria Chozo Ruins Entrance/Door to Statuary Shaft
-  * Generated from ROM.
   * Extra - door_idx: 45
 
-> Door to Chozo Ruins Main Cavern; Heals? False
+> Door to Chozo Ruins Valley; Heals? False
   * Layers: default
-  * Power Beam Door to Chozo Ruins Main Cavern/Door to Statuary Shaft (INITIAL)
-  * Generated from ROM.
+  * Power Beam Door to Chozo Ruins Valley/Door to Statuary Shaft (INITIAL)
   * Extra - door_idx: 47
 
 ----------------
 Elevator to Tourian
 Extra - map_name: Crateria18
 Extra - room_id: 18
-> Door to Rocky Cave; Heals? False
+> Door to Parlor and Alcatraz; Heals? False
   * Layers: default
-  * Power Beam Door to Rocky Cave/Door to Elevator to Tourian
-  * Generated from ROM.
+  * Power Beam Door to Parlor and Alcatraz/Door to Elevator to Tourian
   * Extra - door_idx: 50
 
 > Dock to Escape Shaft; Heals? False
   * Layers: default
   * Access Open to Escape Shaft/Tunnel to Elevator to Tourian
-  * Generated from ROM.
   * Extra - door_idx: 51
 
 ----------------
@@ -389,37 +337,32 @@ Extra - room_id: 19
 Chozodia Access Hall (eastbound)
 Extra - map_name: Crateria20
 Extra - room_id: 20
-> Door to Chozo Ruins Main Cavern; Heals? False
+> Door to Chozo Ruins Valley; Heals? False
   * Layers: default
-  * Power Beam Door to Chozo Ruins Main Cavern/Door to Chozodia Access Hall (eastbound)
-  * Generated from ROM.
+  * Power Beam Door to Chozo Ruins Valley/Door to Chozodia Access Hall (eastbound)
   * Extra - door_idx: 48
 
 > Dock to Chozodia's Fork; Heals? False
   * Layers: default
   * Access Open to Chozodia's Fork/Dock to Chozodia Access Hall (westbound)
-  * Generated from ROM.
   * Extra - door_idx: 49
 
 ----------------
-Rocky Cave
+Parlor and Alcatraz
 Extra - map_name: Crateria21
 Extra - room_id: 21
 > Door to Landing Site; Heals? False
   * Layers: default
-  * Power Beam Door to Landing Site/Door to Rocky Cave
-  * Generated from ROM.
+  * Power Beam Door to Landing Site/Door to Parlor and Alcatraz
   * Extra - door_idx: 2
 
-> Door to Weed-Filled Hall; Heals? False
+> Door to Weedway; Heals? False
   * Layers: default
-  * Power Beam Door to Weed-Filled Hall/Door to Rocky Cave
-  * Generated from ROM.
+  * Power Beam Door to Weedway/Door to Parlor and Alcatraz
   * Extra - door_idx: 43
 
 > Door to Elevator to Tourian; Heals? False
   * Layers: default
-  * Super Missile Door to Elevator to Tourian/Door to Rocky Cave
-  * Generated from ROM.
+  * Super Missile Door to Elevator to Tourian/Door to Parlor and Alcatraz
   * Extra - door_idx: 44
 

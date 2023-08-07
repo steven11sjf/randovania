@@ -5,25 +5,21 @@ Extra - room_id: 0
 > Dock to Elevator to Tourian; Heals? False
   * Layers: default
   * Access Open to Elevator to Tourian/Dock to Elevator to Brinstar (Upper)
-  * Generated from ROM.
   * Extra - door_idx: 0
 
-> Door to Save Station A; Heals? False
+> Door to Save Station (North); Heals? False
   * Layers: default
-  * Power Beam Door to Save Station A/Door to Elevator to Brinstar (Upper)
-  * Generated from ROM.
+  * Power Beam Door to Save Station (North)/Door to Elevator to Brinstar (Upper)
   * Extra - door_idx: 1
 
 > Tunnel to Elevator to Brinstar (Upper); Heals? False
   * Layers: default
   * Tunnel to Elevator to Brinstar (Upper)/Tunnel to Elevator to Brinstar (Upper)
-  * Generated from ROM.
   * Extra - door_idx: 14
 
 > Door to Elevator to Brinstar (Upper); Heals? False
   * Layers: default
   * Power Beam Door to Elevator to Brinstar (Upper)/Door to Elevator to Brinstar (Upper)
-  * Generated from ROM.
   * Extra - door_idx: 35
 
 ----------------
@@ -33,13 +29,11 @@ Extra - room_id: 1
 > Door to Elevator to Brinstar; Heals? False
   * Layers: default
   * Power Beam Door to Elevator to Brinstar/Door to Lava Passage
-  * Generated from ROM.
   * Extra - door_idx: 2
 
 > Door to Metroid Pit; Heals? False
   * Layers: default
   * Power Beam Door to Metroid Pit/Door to Lava Passage
-  * Generated from ROM.
   * Extra - door_idx: 3
 
 ----------------
@@ -49,29 +43,25 @@ Extra - room_id: 2
 > Door to I Shaped Room; Heals? False
   * Layers: default
   * Power Beam Door to I Shaped Room/Door to Ledged Shaft
-  * Generated from ROM.
   * Extra - door_idx: 4
 
 > Door to Triple-Tiered Room; Heals? False
   * Layers: default
   * Power Beam Door to Triple-Tiered Room/Door to Ledged Shaft
-  * Generated from ROM.
   * Extra - door_idx: 5
 
 ----------------
 Rinka Hall (INITIAL)
 Extra - map_name: Tourian3
 Extra - room_id: 3
-> Door to Save Station C; Heals? False
+> Door to Save Station (South); Heals? False
   * Layers: default
-  * Power Beam Door to Save Station C/Door to Rinka Hall (INITIAL)
-  * Generated from ROM.
+  * Power Beam Door to Save Station (South)/Door to Rinka Hall (INITIAL)
   * Extra - door_idx: 6
 
 > Door to Command Center (INITIAL); Heals? False
   * Layers: default
   * Missile Door to Command Center (INITIAL)/Door to Rinka Hall (INITIAL)
-  * Generated from ROM.
   * Extra - door_idx: 7
 
 ----------------
@@ -81,13 +71,11 @@ Extra - room_id: 4
 > Door to Rinka Hall (INITIAL); Heals? False
   * Layers: default
   * Missile Door to Rinka Hall (INITIAL)/Door to Command Center (INITIAL)
-  * Generated from ROM.
   * Extra - door_idx: 8
 
 > Door to Escape Shaft (INITIAL); Heals? False
   * Layers: default
   * Power Beam Door to Escape Shaft (INITIAL)/Dock to Command Center (INITIAL)
-  * Generated from ROM.
   * Extra - door_idx: 9
 
 ----------------
@@ -97,29 +85,25 @@ Extra - room_id: 5
 > Dock to Command Center (INITIAL); Heals? False
   * Layers: default
   * Access Open to Command Center (INITIAL)/Door to Escape Shaft (INITIAL)
-  * Generated from ROM.
   * Extra - door_idx: 10
 
 > Tunnel to Elevator to Tourian (ESCAPE); Heals? False
   * Layers: default
   * Tunnel to Elevator to Tourian (ESCAPE)/Dock to Escape Shaft (INITIAL)
-  * Generated from ROM.
   * Extra - door_idx: 11
 
 ----------------
-Save Station C
+Save Station (South)
 Extra - map_name: Tourian6
 Extra - room_id: 6
 > Door to Triple-Tiered Room; Heals? False
   * Layers: default
-  * Power Beam Door to Triple-Tiered Room/Door to Save Station C
-  * Generated from ROM.
+  * Power Beam Door to Triple-Tiered Room/Door to Save Station (South)
   * Extra - door_idx: 12
 
 > Door to Rinka Hall (INITIAL); Heals? False
   * Layers: default
-  * Power Beam Door to Rinka Hall (INITIAL)/Door to Save Station C
-  * Generated from ROM.
+  * Power Beam Door to Rinka Hall (INITIAL)/Door to Save Station (South)
   * Extra - door_idx: 13
 
 ----------------
@@ -129,33 +113,28 @@ Extra - room_id: 7
 > Pickup (Power Bomb Tank); Heals? False
   * Layers: default
   * Pickup 62; Category? Minor
-  * Generated from ROM.
 
 > Tunnel to Command Center; Heals? False
   * Layers: default
   * Tunnel to Command Center/Tunnel to Reliquary
-  * Generated from ROM.
   * Extra - door_idx: 15
 
 ----------------
 Escape Shaft
 Extra - map_name: Tourian8
 Extra - room_id: 8
-> Pickup (Missile Tank (Hidden)); Heals? False
+> Pickup (Missile Tank); Heals? False
   * Layers: default
   * Pickup 63; Category? Minor
-  * Generated from ROM.
 
 > Tunnel to Elevator to Tourian; Heals? False
   * Layers: default
   * Tunnel to Elevator to Tourian/Dock to Escape Shaft
-  * Generated from ROM.
   * Extra - door_idx: 21
 
 > Dock to Command Center; Heals? False
   * Layers: default
   * Access Open to Command Center/Dock to Escape Shaft
-  * Generated from ROM.
   * Extra - door_idx: 22
 
 ----------------
@@ -165,19 +144,16 @@ Extra - room_id: 9
 > Tunnel to Reliquary; Heals? False
   * Layers: default
   * Tunnel to Reliquary/Tunnel to Command Center
-  * Generated from ROM.
   * Extra - door_idx: 16
 
 > Dock to Escape Shaft; Heals? False
   * Layers: default
   * Access Open to Escape Shaft/Dock to Command Center
-  * Generated from ROM.
   * Extra - door_idx: 17
 
 > Dock to Rinka Hall; Heals? False
   * Layers: default
   * Access Open to Rinka Hall/Dock to Command Center
-  * Generated from ROM.
   * Extra - door_idx: 18
 
 ----------------
@@ -187,45 +163,39 @@ Extra - room_id: 10
 > Dock to Command Center; Heals? False
   * Layers: default
   * Access Open to Command Center/Dock to Rinka Hall
-  * Generated from ROM.
   * Extra - door_idx: 19
 
-> Door to Save Station C; Heals? False
+> Door to Save Station (South); Heals? False
   * Layers: default
-  * Power Beam Door to Save Station C/Door to Rinka Hall (INITIAL)
-  * Generated from ROM.
+  * Power Beam Door to Save Station (South)/Door to Rinka Hall (INITIAL)
   * Extra - door_idx: 20
 
 ----------------
-Save Station A
+Save Station (North)
 Extra - map_name: Tourian11
 Extra - room_id: 11
 > Door to Elevator to Brinstar (Upper); Heals? False
   * Layers: default
-  * Power Beam Door to Elevator to Brinstar (Upper)/Door to Save Station A
-  * Generated from ROM.
+  * Power Beam Door to Elevator to Brinstar (Upper)/Door to Save Station (North)
   * Extra - door_idx: 24
 
 > Door to Antechamber; Heals? False
   * Layers: default
-  * Power Beam Door to Antechamber/Door to Save Station A
-  * Generated from ROM.
+  * Power Beam Door to Antechamber/Door to Save Station (North)
   * Extra - door_idx: 25
 
 ----------------
 Antechamber
 Extra - map_name: Tourian12
 Extra - room_id: 12
-> Door to Save Station A; Heals? False
+> Door to Save Station (North); Heals? False
   * Layers: default
-  * Power Beam Door to Save Station A/Door to Antechamber
-  * Generated from ROM.
+  * Power Beam Door to Save Station (North)/Door to Antechamber
   * Extra - door_idx: 26
 
 > Door to First Shaft; Heals? False
   * Layers: default
   * Power Beam Door to First Shaft/Door to Antechamber
-  * Generated from ROM.
   * Extra - door_idx: 27
 
 ----------------
@@ -235,29 +205,25 @@ Extra - room_id: 13
 > Door to Antechamber; Heals? False
   * Layers: default
   * Power Beam Door to Antechamber/Door to First Shaft
-  * Generated from ROM.
   * Extra - door_idx: 28
 
-> Door to Entrance Shaft Access; Heals? False
+> Door to Entrance; Heals? False
   * Layers: default
-  * Power Beam Door to Entrance Shaft Access/Door to First Shaft
-  * Generated from ROM.
+  * Power Beam Door to Entrance/Door to First Shaft
   * Extra - door_idx: 29
 
 ----------------
-Entrance Shaft Access
+Entrance
 Extra - map_name: Tourian14
 Extra - room_id: 14
 > Door to First Shaft; Heals? False
   * Layers: default
-  * Power Beam Door to First Shaft/Door to Entrance Shaft Access
-  * Generated from ROM.
+  * Power Beam Door to First Shaft/Door to Entrance
   * Extra - door_idx: 30
 
 > Door to Elevator to Brinstar; Heals? False
   * Layers: default
-  * Power Beam Door to Elevator to Brinstar/Door to Entrance Shaft Access
-  * Generated from ROM.
+  * Power Beam Door to Elevator to Brinstar/Door to Entrance
   * Extra - door_idx: 31
 
 ----------------
@@ -267,19 +233,16 @@ Extra - room_id: 15
 > Door to Lava Passage; Heals? False
   * Layers: default
   * Power Beam Door to Lava Passage/Door to Elevator to Brinstar
-  * Generated from ROM.
   * Extra - door_idx: 23
 
-> Door to Entrance Shaft Access; Heals? False
+> Door to Entrance; Heals? False
   * Layers: default
-  * Power Beam Door to Entrance Shaft Access/Door to Elevator to Brinstar
-  * Generated from ROM.
+  * Power Beam Door to Entrance/Door to Elevator to Brinstar
   * Extra - door_idx: 32
 
 > Door to Elevator to Brinstar; Heals? False
   * Layers: default
   * Power Beam Door to Elevator to Brinstar/Door to Elevator to Brinstar
-  * Generated from ROM.
   * Extra - door_idx: 36
 
 ----------------
@@ -289,23 +252,20 @@ Extra - room_id: 16
 > Door to Ledged Shaft; Heals? False
   * Layers: default
   * Power Beam Door to Ledged Shaft/Door to Triple-Tiered Room
-  * Generated from ROM.
   * Extra - door_idx: 33
 
-> Door to Save Station C; Heals? False
+> Door to Save Station (South); Heals? False
   * Layers: default
-  * Power Beam Door to Save Station C/Door to Triple-Tiered Room
-  * Generated from ROM.
+  * Power Beam Door to Save Station (South)/Door to Triple-Tiered Room
   * Extra - door_idx: 34
 
 ----------------
-Save Station B
+Save Station (East)
 Extra - map_name: Tourian17
 Extra - room_id: 17
 > Door to I Shaped Room; Heals? False
   * Layers: default
-  * Power Beam Door to I Shaped Room/Door to Save Station B
-  * Generated from ROM.
+  * Power Beam Door to I Shaped Room/Door to Save Station (East)
   * Extra - door_idx: 42
 
 ----------------
@@ -315,19 +275,16 @@ Extra - room_id: 18
 > Door to Metroid Pit; Heals? False
   * Layers: default
   * Power Beam Door to Metroid Pit/Door to I Shaped Room
-  * Generated from ROM.
   * Extra - door_idx: 37
 
 > Door to Ledged Shaft; Heals? False
   * Layers: default
   * Power Beam Door to Ledged Shaft/Door to I Shaped Room
-  * Generated from ROM.
   * Extra - door_idx: 38
 
-> Door to Save Station B; Heals? False
+> Door to Save Station (East); Heals? False
   * Layers: default
-  * Power Beam Door to Save Station B/Door to I Shaped Room
-  * Generated from ROM.
+  * Power Beam Door to Save Station (East)/Door to I Shaped Room
   * Extra - door_idx: 41
 
 ----------------
@@ -337,12 +294,10 @@ Extra - room_id: 19
 > Door to Lava Passage; Heals? False
   * Layers: default
   * Power Beam Door to Lava Passage/Door to Metroid Pit
-  * Generated from ROM.
   * Extra - door_idx: 39
 
 > Door to I Shaped Room; Heals? False
   * Layers: default
   * Power Beam Door to I Shaped Room/Door to Metroid Pit
-  * Generated from ROM.
   * Extra - door_idx: 40
 

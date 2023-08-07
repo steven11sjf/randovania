@@ -19,7 +19,7 @@
                         "y": 504.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -48,7 +48,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -69,7 +69,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station A": {
+                "Door to Save Station (North)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -77,7 +77,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -88,7 +88,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Save Station A",
+                        "area": "Save Station (North)",
                         "node": "Door to Elevator to Brinstar"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -115,7 +115,7 @@
                         "y": 152.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -133,7 +133,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -162,7 +162,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -200,7 +200,7 @@
                         "y": 288.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -229,7 +229,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -250,7 +250,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Dock to Crateria's Undershaft": {
+                "Dock to Elevator to Norfair": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -258,7 +258,7 @@
                         "y": 664.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -269,7 +269,7 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Crateria",
-                        "area": "Crateria's Undershaft",
+                        "area": "Elevator to Norfair",
                         "node": "Dock to Transport to Crateria"
                     },
                     "default_dock_weakness": "Access Open",
@@ -296,7 +296,7 @@
                         "y": 152.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -314,7 +314,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -352,7 +352,7 @@
                         "y": 232.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -362,7 +362,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Save Station A": {
+                "Door to Save Station (North)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -370,7 +370,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -381,7 +381,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Save Station A",
+                        "area": "Save Station (North)",
                         "node": "Door to Main Corridor"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -391,7 +391,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Blue-Bubble Shaft": {
+                "Door to Blue-Bubble Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -399,7 +399,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -410,7 +410,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Blue-Bubble Shaft",
+                        "area": "Blue-Bubble Hub",
                         "node": "Door to Main Corridor"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -422,7 +422,7 @@
                 }
             }
         },
-        "Blue-Bubble Shaft": {
+        "Blue-Bubble Hub": {
             "default_node": null,
             "extra": {
                 "map_name": "Norfair5",
@@ -437,7 +437,7 @@
                         "y": 200.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -447,7 +447,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Ice Beam Tutorial B": {
+                "Door to Ice Beam Tutorial C": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -455,7 +455,7 @@
                         "y": 1872.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -466,8 +466,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Ice Beam Tutorial B",
-                        "node": "Door to Blue-Bubble Shaft"
+                        "area": "Ice Beam Tutorial C",
+                        "node": "Door to Blue-Bubble Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -484,7 +484,7 @@
                         "y": 1712.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -496,7 +496,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Heated Missile Room",
-                        "node": "Door to Blue-Bubble Shaft"
+                        "node": "Door to Blue-Bubble Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -505,7 +505,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Ice Beam Access": {
+                "Door to Ice Beam Chamber Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -513,7 +513,7 @@
                         "y": 1552.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -524,8 +524,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Ice Beam Access",
-                        "node": "Door to Blue-Bubble Shaft"
+                        "area": "Ice Beam Chamber Access",
+                        "node": "Door to Blue-Bubble Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -542,7 +542,7 @@
                         "y": 1232.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -554,7 +554,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Main Corridor",
-                        "node": "Door to Blue-Bubble Shaft"
+                        "node": "Door to Blue-Bubble Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -571,7 +571,7 @@
                         "y": 1056.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -583,7 +583,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Gauntlet A",
-                        "node": "Door to Blue-Bubble Shaft"
+                        "node": "Door to Blue-Bubble Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -592,7 +592,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Hi-Jump Access": {
+                "Door to Hi-Jump Chamber Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -600,7 +600,7 @@
                         "y": 752.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -611,8 +611,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Hi-Jump Access",
-                        "node": "Door to Blue-Bubble Shaft"
+                        "area": "Hi-Jump Chamber Access",
+                        "node": "Door to Blue-Bubble Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -621,7 +621,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station E": {
+                "Door to Save Station (Southeast)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -629,7 +629,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -640,8 +640,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Save Station E",
-                        "node": "Door to Blue-Bubble Shaft"
+                        "area": "Save Station (Southeast)",
+                        "node": "Door to Blue-Bubble Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -658,7 +658,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -670,7 +670,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Kiru-Giru Larval Hall (IGNORE)",
-                        "node": "Door to Blue-Bubble Shaft"
+                        "node": "Door to Blue-Bubble Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -679,7 +679,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Guide Chamber (Varia)": {
+                "Door to Guide Statue (Varia)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -687,7 +687,7 @@
                         "y": 464.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -698,8 +698,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Guide Chamber (Varia)",
-                        "node": "Door to Blue-Bubble Shaft"
+                        "area": "Guide Statue (Varia)",
+                        "node": "Door to Blue-Bubble Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -708,7 +708,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Guide Chamber (Varia) (122)": {
+                "Door to Guide Statue (Varia) (122)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -716,7 +716,7 @@
                         "y": 560.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -727,8 +727,75 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Guide Chamber (Varia)",
-                        "node": "Door to Blue-Bubble Shaft"
+                        "area": "Guide Statue (Varia)",
+                        "node": "Door to Blue-Bubble Hub"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                }
+            }
+        },
+        "Guide Statue (Speed Booster)": {
+            "default_node": null,
+            "extra": {
+                "map_name": "Norfair6",
+                "room_id": 6
+            },
+            "nodes": {
+                "Door to Ice Beam Tutorial C": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 744.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 17
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Norfair",
+                        "area": "Ice Beam Tutorial C",
+                        "node": "Door to Guide Statue (Speed Booster)"
+                    },
+                    "default_dock_weakness": "Power Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "connections": {}
+                },
+                "Door to Ice Beam Tutorial A": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 40.0,
+                        "y": 112.0,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {
+                        "door_idx": 18
+                    },
+                    "valid_starting_location": false,
+                    "dock_type": "door",
+                    "default_connection": {
+                        "region": "Norfair",
+                        "area": "Ice Beam Tutorial A",
+                        "node": "Door to Guide Statue (Speed Booster)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -742,78 +809,11 @@
         "Ice Beam Tutorial A": {
             "default_node": null,
             "extra": {
-                "map_name": "Norfair6",
-                "room_id": 6
-            },
-            "nodes": {
-                "Door to Ice Beam Tutorial B": {
-                    "node_type": "dock",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 744.0,
-                        "y": 112.0,
-                        "z": 0.0
-                    },
-                    "description": "Generated from ROM.",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {
-                        "door_idx": 17
-                    },
-                    "valid_starting_location": false,
-                    "dock_type": "door",
-                    "default_connection": {
-                        "region": "Norfair",
-                        "area": "Ice Beam Tutorial B",
-                        "node": "Door to Ice Beam Tutorial A"
-                    },
-                    "default_dock_weakness": "Power Beam Door",
-                    "exclude_from_dock_rando": false,
-                    "incompatible_dock_weaknesses": [],
-                    "override_default_open_requirement": null,
-                    "override_default_lock_requirement": null,
-                    "connections": {}
-                },
-                "Door to Dark Green Bubble Shaft": {
-                    "node_type": "dock",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 40.0,
-                        "y": 112.0,
-                        "z": 0.0
-                    },
-                    "description": "Generated from ROM.",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {
-                        "door_idx": 18
-                    },
-                    "valid_starting_location": false,
-                    "dock_type": "door",
-                    "default_connection": {
-                        "region": "Norfair",
-                        "area": "Dark Green Bubble Shaft",
-                        "node": "Door to Ice Beam Tutorial A"
-                    },
-                    "default_dock_weakness": "Power Beam Door",
-                    "exclude_from_dock_rando": false,
-                    "incompatible_dock_weaknesses": [],
-                    "override_default_open_requirement": null,
-                    "override_default_lock_requirement": null,
-                    "connections": {}
-                }
-            }
-        },
-        "Dark Green Bubble Shaft": {
-            "default_node": null,
-            "extra": {
                 "map_name": "Norfair7",
                 "room_id": 7
             },
             "nodes": {
-                "Door to Ice Beam Tutorial A": {
+                "Door to Guide Statue (Speed Booster)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -821,7 +821,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -832,8 +832,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Ice Beam Tutorial A",
-                        "node": "Door to Dark Green Bubble Shaft"
+                        "area": "Guide Statue (Speed Booster)",
+                        "node": "Door to Ice Beam Tutorial A"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -850,7 +850,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -862,7 +862,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Ice Beam Chamber",
-                        "node": "Door to Dark Green Bubble Shaft"
+                        "node": "Door to Ice Beam Tutorial A"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -871,7 +871,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station B": {
+                "Door to Save Station (Far North)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -879,7 +879,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -890,8 +890,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Save Station B",
-                        "node": "Door to Dark Green Bubble Shaft"
+                        "area": "Save Station (Far North)",
+                        "node": "Door to Ice Beam Tutorial A"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -909,7 +909,7 @@
                 "room_id": 8
             },
             "nodes": {
-                "Door to Dark Green Bubble Shaft": {
+                "Door to Ice Beam Tutorial A": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -917,7 +917,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -928,7 +928,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Dark Green Bubble Shaft",
+                        "area": "Ice Beam Tutorial A",
                         "node": "Door to Ice Beam Chamber"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -938,7 +938,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Ice Beam Access": {
+                "Door to Ice Beam Chamber Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -946,7 +946,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -957,7 +957,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Ice Beam Access",
+                        "area": "Ice Beam Chamber Access",
                         "node": "Door to Ice Beam Chamber"
                     },
                     "default_dock_weakness": "Super Missile Door",
@@ -969,7 +969,7 @@
                 }
             }
         },
-        "Ice Beam Access": {
+        "Ice Beam Chamber Access": {
             "default_node": null,
             "extra": {
                 "map_name": "Norfair9",
@@ -984,7 +984,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -996,7 +996,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Ice Beam Chamber",
-                        "node": "Door to Ice Beam Access"
+                        "node": "Door to Ice Beam Chamber Access"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1005,7 +1005,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Blue-Bubble Shaft": {
+                "Door to Blue-Bubble Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1013,7 +1013,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1024,8 +1024,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Blue-Bubble Shaft",
-                        "node": "Door to Ice Beam Access"
+                        "area": "Blue-Bubble Hub",
+                        "node": "Door to Ice Beam Chamber Access"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1051,7 +1051,7 @@
                         "y": 152.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1061,7 +1061,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Blue-Bubble Shaft": {
+                "Door to Blue-Bubble Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1069,7 +1069,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1080,7 +1080,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Blue-Bubble Shaft",
+                        "area": "Blue-Bubble Hub",
                         "node": "Door to Heated Missile Room"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1099,7 +1099,7 @@
                 "room_id": 11
             },
             "nodes": {
-                "Door to Blue-Bubble Shaft": {
+                "Door to Blue-Bubble Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1107,7 +1107,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1118,7 +1118,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Blue-Bubble Shaft",
+                        "area": "Blue-Bubble Hub",
                         "node": "Door to Gauntlet A"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1136,7 +1136,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1159,14 +1159,14 @@
                 }
             }
         },
-        "Hi-Jump Access": {
+        "Hi-Jump Chamber Access": {
             "default_node": null,
             "extra": {
                 "map_name": "Norfair12",
                 "room_id": 12
             },
             "nodes": {
-                "Door to Blue-Bubble Shaft": {
+                "Door to Blue-Bubble Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1174,7 +1174,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1185,8 +1185,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Blue-Bubble Shaft",
-                        "node": "Door to Hi-Jump Access"
+                        "area": "Blue-Bubble Hub",
+                        "node": "Door to Hi-Jump Chamber Access"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1203,7 +1203,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1215,7 +1215,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Hi-Jump Chamber",
-                        "node": "Door to Hi-Jump Access"
+                        "node": "Door to Hi-Jump Chamber Access"
                     },
                     "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
@@ -1233,7 +1233,7 @@
                 "room_id": 13
             },
             "nodes": {
-                "Door to Hi-Jump Access": {
+                "Door to Hi-Jump Chamber Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1241,7 +1241,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1252,7 +1252,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Hi-Jump Access",
+                        "area": "Hi-Jump Chamber Access",
                         "node": "Door to Hi-Jump Chamber"
                     },
                     "default_dock_weakness": "Missile Door",
@@ -1270,7 +1270,7 @@
                         "y": 72.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1308,7 +1308,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1337,7 +1337,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1375,7 +1375,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1396,7 +1396,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station C": {
+                "Door to Save Station (West)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1404,7 +1404,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1415,7 +1415,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Save Station C",
+                        "area": "Save Station (West)",
                         "node": "Door to Barisute Chamber"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1427,14 +1427,14 @@
                 }
             }
         },
-        "East Green Bubble Shaft (Upper)": {
+        "East Green Bubble Hub (Upper)": {
             "default_node": null,
             "extra": {
                 "map_name": "Norfair16",
                 "room_id": 16
             },
             "nodes": {
-                "Door to Screw Attack Access": {
+                "Door to Screw Attack Chamber Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1442,7 +1442,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1453,8 +1453,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Screw Attack Access",
-                        "node": "Door to East Green Bubble Shaft (Upper)"
+                        "area": "Screw Attack Chamber Access",
+                        "node": "Door to East Green Bubble Hub (Upper)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1471,7 +1471,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1483,7 +1483,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Three Rock Corridor",
-                        "node": "Door to East Green Bubble Shaft (Upper)"
+                        "node": "Door to East Green Bubble Hub (Upper)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1492,7 +1492,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station C": {
+                "Door to Save Station (West)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1500,7 +1500,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1511,8 +1511,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Save Station C",
-                        "node": "Door to East Green Bubble Shaft (Upper)"
+                        "area": "Save Station (West)",
+                        "node": "Door to East Green Bubble Hub (Upper)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1529,7 +1529,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1541,7 +1541,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Twin Hill Room",
-                        "node": "Door to East Green Bubble Shaft (Upper)"
+                        "node": "Door to East Green Bubble Hub (Upper)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1558,7 +1558,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1570,7 +1570,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Precarious Path",
-                        "node": "Door to East Green Bubble Shaft (Upper)"
+                        "node": "Door to East Green Bubble Hub (Upper)"
                     },
                     "default_dock_weakness": "Super Missile Door",
                     "exclude_from_dock_rando": false,
@@ -1579,7 +1579,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Tunnel to East Green Bubble Shaft (Lower)": {
+                "Tunnel to East Green Bubble Hub (Lower)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1587,7 +1587,7 @@
                         "y": 24.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1598,8 +1598,8 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "East Green Bubble Shaft (Lower)",
-                        "node": "Tunnel to East Green Bubble Shaft (Upper)"
+                        "area": "East Green Bubble Hub (Lower)",
+                        "node": "Tunnel to East Green Bubble Hub (Upper)"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -1610,7 +1610,7 @@
                 }
             }
         },
-        "Screw Attack Access": {
+        "Screw Attack Chamber Access": {
             "default_node": null,
             "extra": {
                 "map_name": "Norfair17",
@@ -1625,7 +1625,7 @@
                         "y": 152.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1635,7 +1635,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to East Green Bubble Shaft (Upper)": {
+                "Door to East Green Bubble Hub (Upper)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1643,7 +1643,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1654,8 +1654,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "East Green Bubble Shaft (Upper)",
-                        "node": "Door to Screw Attack Access"
+                        "area": "East Green Bubble Hub (Upper)",
+                        "node": "Door to Screw Attack Chamber Access"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1672,7 +1672,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1684,7 +1684,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Screw Attack Chamber",
-                        "node": "Door to Screw Attack Access"
+                        "node": "Door to Screw Attack Chamber Access"
                     },
                     "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
@@ -1702,7 +1702,7 @@
                 "room_id": 18
             },
             "nodes": {
-                "Door to Screw Attack Access": {
+                "Door to Screw Attack Chamber Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1710,7 +1710,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1721,7 +1721,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Screw Attack Access",
+                        "area": "Screw Attack Chamber Access",
                         "node": "Door to Screw Attack Chamber"
                     },
                     "default_dock_weakness": "Missile Door",
@@ -1740,7 +1740,7 @@
                 "room_id": 19
             },
             "nodes": {
-                "Door to East Green Bubble Shaft (Upper)": {
+                "Door to East Green Bubble Hub (Upper)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1748,7 +1748,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1759,7 +1759,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "East Green Bubble Shaft (Upper)",
+                        "area": "East Green Bubble Hub (Upper)",
                         "node": "Door to Three Rock Corridor"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1769,7 +1769,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to West Green Bubble Shaft": {
+                "Door to West Green Bubble Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1777,7 +1777,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1788,7 +1788,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "West Green Bubble Shaft",
+                        "area": "West Green Bubble Hub",
                         "node": "Door to Three Rock Corridor"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1800,7 +1800,7 @@
                 }
             }
         },
-        "West Green Bubble Shaft": {
+        "West Green Bubble Hub": {
             "default_node": null,
             "extra": {
                 "map_name": "Norfair20",
@@ -1815,7 +1815,7 @@
                         "y": 912.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1827,7 +1827,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Three Rock Corridor",
-                        "node": "Door to West Green Bubble Shaft"
+                        "node": "Door to West Green Bubble Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1844,7 +1844,7 @@
                         "y": 752.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1856,7 +1856,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Twin Hill Room",
-                        "node": "Door to West Green Bubble Shaft"
+                        "node": "Door to West Green Bubble Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1873,7 +1873,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1885,7 +1885,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Hopping-Mad Corridor",
-                        "node": "Door to West Green Bubble Shaft"
+                        "node": "Door to West Green Bubble Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1902,7 +1902,7 @@
                         "y": 752.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1914,7 +1914,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Map Station",
-                        "node": "Door to West Green Bubble Shaft"
+                        "node": "Door to West Green Bubble Hub"
                     },
                     "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
@@ -1931,7 +1931,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1943,7 +1943,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Lava-Filled Passage",
-                        "node": "Door to West Green Bubble Shaft"
+                        "node": "Door to West Green Bubble Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1960,7 +1960,7 @@
                         "y": 616.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1972,7 +1972,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Lava-Filled Passage",
-                        "node": "Tunnel to West Green Bubble Shaft"
+                        "node": "Tunnel to West Green Bubble Hub"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -1989,7 +1989,7 @@
                         "y": 944.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2001,7 +2001,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Secret Tunnel",
-                        "node": "Dock to West Green Bubble Shaft"
+                        "node": "Dock to West Green Bubble Hub"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -2019,7 +2019,7 @@
                 "room_id": 21
             },
             "nodes": {
-                "Door to West Green Bubble Shaft": {
+                "Door to West Green Bubble Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2027,7 +2027,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2038,7 +2038,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "West Green Bubble Shaft",
+                        "area": "West Green Bubble Hub",
                         "node": "Door to Twin Hill Room"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2048,7 +2048,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to East Green Bubble Shaft (Upper)": {
+                "Door to East Green Bubble Hub (Upper)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2056,7 +2056,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2067,7 +2067,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "East Green Bubble Shaft (Upper)",
+                        "area": "East Green Bubble Hub (Upper)",
                         "node": "Door to Twin Hill Room"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2086,7 +2086,7 @@
                 "room_id": 22
             },
             "nodes": {
-                "Door to West Green Bubble Shaft": {
+                "Door to West Green Bubble Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2094,7 +2094,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2105,7 +2105,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "West Green Bubble Shaft",
+                        "area": "West Green Bubble Hub",
                         "node": "Door to Hopping-Mad Corridor"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2115,7 +2115,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to East Green Bubble Shaft (Lower)": {
+                "Door to East Green Bubble Hub (Lower)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2123,7 +2123,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2134,7 +2134,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "East Green Bubble Shaft (Lower)",
+                        "area": "East Green Bubble Hub (Lower)",
                         "node": "Door to Hopping-Mad Corridor"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2146,7 +2146,7 @@
                 }
             }
         },
-        "East Green Bubble Shaft (Lower)": {
+        "East Green Bubble Hub (Lower)": {
             "default_node": null,
             "extra": {
                 "map_name": "Norfair23",
@@ -2161,7 +2161,7 @@
                         "y": 416.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2173,7 +2173,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Hopping-Mad Corridor",
-                        "node": "Door to East Green Bubble Shaft (Lower)"
+                        "node": "Door to East Green Bubble Hub (Lower)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2190,7 +2190,7 @@
                         "y": 416.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2202,7 +2202,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Vine-Infested Passage",
-                        "node": "Door to East Green Bubble Shaft (Lower)"
+                        "node": "Door to East Green Bubble Hub (Lower)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2219,7 +2219,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2231,7 +2231,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Dual Tank Chamber",
-                        "node": "Door to East Green Bubble Shaft (Lower)"
+                        "node": "Door to East Green Bubble Hub (Lower)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2248,7 +2248,7 @@
                         "y": 40.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2260,7 +2260,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Speed Transporter C",
-                        "node": "Tunnel to East Green Bubble Shaft (Lower)"
+                        "node": "Tunnel to East Green Bubble Hub (Lower)"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -2269,7 +2269,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Tunnel to East Green Bubble Shaft (Upper)": {
+                "Tunnel to East Green Bubble Hub (Upper)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2277,7 +2277,7 @@
                         "y": 664.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2288,8 +2288,8 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "East Green Bubble Shaft (Upper)",
-                        "node": "Tunnel to East Green Bubble Shaft (Lower)"
+                        "area": "East Green Bubble Hub (Upper)",
+                        "node": "Tunnel to East Green Bubble Hub (Lower)"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -2307,7 +2307,7 @@
                 "room_id": 24
             },
             "nodes": {
-                "Door to East Green Bubble Shaft (Lower)": {
+                "Door to East Green Bubble Hub (Lower)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2315,7 +2315,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2326,7 +2326,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "East Green Bubble Shaft (Lower)",
+                        "area": "East Green Bubble Hub (Lower)",
                         "node": "Door to Vine-Infested Passage"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2344,7 +2344,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2382,7 +2382,7 @@
                         "y": 304.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2403,7 +2403,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station D": {
+                "Door to Save Station (South)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2411,7 +2411,7 @@
                         "y": 304.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2422,7 +2422,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Save Station D",
+                        "area": "Save Station (South)",
                         "node": "Door to Illusionary Lava Pool"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2432,7 +2432,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Wave Beam Access": {
+                "Door to Wave Beam Chamber Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2440,7 +2440,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2451,7 +2451,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Wave Beam Access",
+                        "area": "Wave Beam Chamber Access",
                         "node": "Door to Illusionary Lava Pool"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2463,7 +2463,7 @@
                 }
             }
         },
-        "Wave Beam Access": {
+        "Wave Beam Chamber Access": {
             "default_node": null,
             "extra": {
                 "map_name": "Norfair26",
@@ -2478,7 +2478,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2490,7 +2490,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Illusionary Lava Pool",
-                        "node": "Door to Wave Beam Access"
+                        "node": "Door to Wave Beam Chamber Access"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2507,7 +2507,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2519,7 +2519,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Wave Beam Chamber",
-                        "node": "Door to Wave Beam Access"
+                        "node": "Door to Wave Beam Chamber Access"
                     },
                     "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
@@ -2537,7 +2537,7 @@
                 "room_id": 27
             },
             "nodes": {
-                "Door to Wave Beam Access": {
+                "Door to Wave Beam Chamber Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2545,7 +2545,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2556,7 +2556,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Wave Beam Access",
+                        "area": "Wave Beam Chamber Access",
                         "node": "Door to Wave Beam Chamber"
                     },
                     "default_dock_weakness": "Missile Door",
@@ -2575,24 +2575,6 @@
                 "room_id": 28
             },
             "nodes": {
-                "Pickup (Missile Tank (Hidden))": {
-                    "node_type": "pickup",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 456.0,
-                        "y": 168.0,
-                        "z": 0.0
-                    },
-                    "description": "Generated from ROM.",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "pickup_index": 32,
-                    "location_category": "minor",
-                    "connections": {}
-                },
                 "Pickup (Missile Tank)": {
                     "node_type": "pickup",
                     "heal": false,
@@ -2601,7 +2583,7 @@
                         "y": 152.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2611,7 +2593,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to East Green Bubble Shaft (Lower)": {
+                "Door to East Green Bubble Hub (Lower)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2619,7 +2601,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2630,7 +2612,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "East Green Bubble Shaft (Lower)",
+                        "area": "East Green Bubble Hub (Lower)",
                         "node": "Door to Dual Tank Chamber"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2649,7 +2631,7 @@
                 "room_id": 29
             },
             "nodes": {
-                "Door to Save Station D": {
+                "Door to Save Station (South)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2657,7 +2639,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2668,7 +2650,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Save Station D",
+                        "area": "Save Station (South)",
                         "node": "Door to Path of Destruction"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2686,7 +2668,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2716,7 +2698,7 @@
                 "room_id": 30
             },
             "nodes": {
-                "Door to East Green Bubble Shaft (Upper)": {
+                "Door to East Green Bubble Hub (Upper)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2724,7 +2706,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2735,7 +2717,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "East Green Bubble Shaft (Upper)",
+                        "area": "East Green Bubble Hub (Upper)",
                         "node": "Door to Precarious Path"
                     },
                     "default_dock_weakness": "Super Missile Door",
@@ -2753,7 +2735,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2791,7 +2773,7 @@
                         "y": 304.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2820,7 +2802,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2858,7 +2840,7 @@
                         "y": 168.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2876,7 +2858,7 @@
                         "y": 136.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2894,7 +2876,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2924,7 +2906,7 @@
                 "room_id": 33
             },
             "nodes": {
-                "Door to Save Station E": {
+                "Door to Save Station (Southeast)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2932,7 +2914,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2943,7 +2925,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Save Station E",
+                        "area": "Save Station (Southeast)",
                         "node": "Door to Path of Vines"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2953,7 +2935,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Kiru-Giru Chamber (INITIAL WITH PIPE)": {
+                "Door to Kiru-Giru Arena (INITIAL WITH PIPE)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2961,7 +2943,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2972,7 +2954,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Kiru-Giru Chamber (INITIAL WITH PIPE)",
+                        "area": "Kiru-Giru Arena (INITIAL WITH PIPE)",
                         "node": "Door to Path of Vines"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2990,7 +2972,7 @@
                         "y": 24.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3013,7 +2995,7 @@
                 }
             }
         },
-        "Kiru-Giru Chamber (INITIAL WITH PIPE)": {
+        "Kiru-Giru Arena (INITIAL WITH PIPE)": {
             "default_node": null,
             "extra": {
                 "map_name": "Norfair34",
@@ -3028,7 +3010,7 @@
                         "y": 288.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3040,7 +3022,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Path of Vines",
-                        "node": "Door to Kiru-Giru Chamber (INITIAL WITH PIPE)"
+                        "node": "Door to Kiru-Giru Arena (INITIAL WITH PIPE)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3057,7 +3039,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3069,7 +3051,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Elevator to Ridley",
-                        "node": "Door to Kiru-Giru Chamber (INITIAL)"
+                        "node": "Door to Kiru-Giru Arena (INITIAL)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3087,7 +3069,7 @@
                 "room_id": 35
             },
             "nodes": {
-                "Door to Kiru-Giru Chamber (INITIAL)": {
+                "Door to Kiru-Giru Arena (INITIAL)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3095,7 +3077,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3106,7 +3088,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Kiru-Giru Chamber (INITIAL)",
+                        "area": "Kiru-Giru Arena (INITIAL)",
                         "node": "Door to Elevator to Ridley"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -3124,7 +3106,7 @@
                         "y": 40.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3153,7 +3135,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3176,7 +3158,7 @@
                 }
             }
         },
-        "Save Station C": {
+        "Save Station (West)": {
             "default_node": null,
             "extra": {
                 "map_name": "Norfair36",
@@ -3191,7 +3173,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3203,7 +3185,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Barisute Chamber",
-                        "node": "Door to Save Station C"
+                        "node": "Door to Save Station (West)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3212,7 +3194,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to East Green Bubble Shaft (Upper)": {
+                "Door to East Green Bubble Hub (Upper)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3220,7 +3202,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3231,8 +3213,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "East Green Bubble Shaft (Upper)",
-                        "node": "Door to Save Station C"
+                        "area": "East Green Bubble Hub (Upper)",
+                        "node": "Door to Save Station (West)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3250,7 +3232,7 @@
                 "room_id": 37
             },
             "nodes": {
-                "Pickup (Missile Tank (Hidden))": {
+                "Pickup (Missile Tank)": {
                     "node_type": "pickup",
                     "heal": false,
                     "coordinates": {
@@ -3258,7 +3240,7 @@
                         "y": 168.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3276,7 +3258,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3305,7 +3287,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3343,7 +3325,7 @@
                         "y": 280.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3361,7 +3343,7 @@
                         "y": 288.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3384,7 +3366,7 @@
                 }
             }
         },
-        "Save Station A": {
+        "Save Station (North)": {
             "default_node": null,
             "extra": {
                 "map_name": "Norfair39",
@@ -3399,7 +3381,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3411,7 +3393,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Elevator to Brinstar",
-                        "node": "Door to Save Station A"
+                        "node": "Door to Save Station (North)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3428,7 +3410,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3440,7 +3422,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Main Corridor",
-                        "node": "Door to Save Station A"
+                        "node": "Door to Save Station (North)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3458,7 +3440,7 @@
                 "room_id": 40
             },
             "nodes": {
-                "Door to West Green Bubble Shaft": {
+                "Door to West Green Bubble Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3466,7 +3448,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3477,7 +3459,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "West Green Bubble Shaft",
+                        "area": "West Green Bubble Hub",
                         "node": "Door to Map Station"
                     },
                     "default_dock_weakness": "Missile Door",
@@ -3489,7 +3471,7 @@
                 }
             }
         },
-        "Save Station D": {
+        "Save Station (South)": {
             "default_node": null,
             "extra": {
                 "map_name": "Norfair41",
@@ -3504,7 +3486,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3516,7 +3498,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Illusionary Lava Pool",
-                        "node": "Door to Save Station D"
+                        "node": "Door to Save Station (South)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3533,7 +3515,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3545,7 +3527,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Path of Destruction",
-                        "node": "Door to Save Station D"
+                        "node": "Door to Save Station (South)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3563,7 +3545,7 @@
                 "room_id": 42
             },
             "nodes": {
-                "Pickup (Energy Tank (Hidden))": {
+                "Pickup (Energy Tank)": {
                     "node_type": "pickup",
                     "heal": false,
                     "coordinates": {
@@ -3571,7 +3553,7 @@
                         "y": 136.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3589,7 +3571,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3610,7 +3592,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Blue-Bubble Shaft": {
+                "Door to Blue-Bubble Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3618,7 +3600,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3629,7 +3611,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Blue-Bubble Shaft",
+                        "area": "Blue-Bubble Hub",
                         "node": "Door to Kiru-Giru Larval Hall (IGNORE)"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -3641,7 +3623,7 @@
                 }
             }
         },
-        "Kiru-Giru Chamber (FINAL)": {
+        "Kiru-Giru Arena (FINAL)": {
             "default_node": null,
             "extra": {
                 "map_name": "Norfair43",
@@ -3656,7 +3638,7 @@
                         "y": 608.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3668,7 +3650,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Path of Vines",
-                        "node": "Door to Kiru-Giru Chamber (INITIAL WITH PIPE)"
+                        "node": "Door to Kiru-Giru Arena (INITIAL WITH PIPE)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3685,7 +3667,7 @@
                         "y": 416.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3697,7 +3679,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Elevator to Ridley",
-                        "node": "Door to Kiru-Giru Chamber (INITIAL)"
+                        "node": "Door to Kiru-Giru Arena (INITIAL)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3714,7 +3696,7 @@
                         "y": 24.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3726,7 +3708,7 @@
                     "default_connection": {
                         "region": "Ridley",
                         "area": "Cocoon Cave (Upper)",
-                        "node": "Dock to Kiru-Giru Chamber (FINAL)"
+                        "node": "Dock to Kiru-Giru Arena (FINAL)"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -3737,14 +3719,14 @@
                 }
             }
         },
-        "Save Station B": {
+        "Save Station (Far North)": {
             "default_node": null,
             "extra": {
                 "map_name": "Norfair44",
                 "room_id": 44
             },
             "nodes": {
-                "Door to Dark Green Bubble Shaft": {
+                "Door to Ice Beam Tutorial A": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3752,7 +3734,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3763,8 +3745,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Dark Green Bubble Shaft",
-                        "node": "Door to Save Station B"
+                        "area": "Ice Beam Tutorial A",
+                        "node": "Door to Save Station (Far North)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3775,7 +3757,7 @@
                 }
             }
         },
-        "Save Station E": {
+        "Save Station (Southeast)": {
             "default_node": null,
             "extra": {
                 "map_name": "Norfair45",
@@ -3790,7 +3772,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3802,7 +3784,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Path of Vines",
-                        "node": "Door to Save Station E"
+                        "node": "Door to Save Station (Southeast)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3811,7 +3793,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Blue-Bubble Shaft": {
+                "Door to Blue-Bubble Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3819,7 +3801,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3830,8 +3812,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Blue-Bubble Shaft",
-                        "node": "Door to Save Station E"
+                        "area": "Blue-Bubble Hub",
+                        "node": "Door to Save Station (Southeast)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3849,7 +3831,7 @@
                 "room_id": 46
             },
             "nodes": {
-                "Pickup (Energy Tank (Hidden))": {
+                "Pickup (Energy Tank)": {
                     "node_type": "pickup",
                     "heal": false,
                     "coordinates": {
@@ -3857,7 +3839,7 @@
                         "y": 136.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3867,7 +3849,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Blue-Bubble Shaft": {
+                "Door to Blue-Bubble Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3875,7 +3857,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3886,7 +3868,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Blue-Bubble Shaft",
+                        "area": "Blue-Bubble Hub",
                         "node": "Door to Kiru-Giru Larval Hall (IGNORE)"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -3898,14 +3880,14 @@
                 }
             }
         },
-        "Ice Beam Tutorial B": {
+        "Ice Beam Tutorial C": {
             "default_node": null,
             "extra": {
                 "map_name": "Norfair47",
                 "room_id": 47
             },
             "nodes": {
-                "Pickup (Missile Tank (Hidden))": {
+                "Pickup (Missile Tank)": {
                     "node_type": "pickup",
                     "heal": false,
                     "coordinates": {
@@ -3913,7 +3895,7 @@
                         "y": 168.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3923,7 +3905,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Ice Beam Tutorial A": {
+                "Door to Guide Statue (Speed Booster)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3931,7 +3913,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3942,8 +3924,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Ice Beam Tutorial A",
-                        "node": "Door to Ice Beam Tutorial B"
+                        "area": "Guide Statue (Speed Booster)",
+                        "node": "Door to Ice Beam Tutorial C"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3952,7 +3934,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Blue-Bubble Shaft": {
+                "Door to Blue-Bubble Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3960,7 +3942,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3971,8 +3953,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Blue-Bubble Shaft",
-                        "node": "Door to Ice Beam Tutorial B"
+                        "area": "Blue-Bubble Hub",
+                        "node": "Door to Ice Beam Tutorial C"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3998,7 +3980,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4027,7 +4009,7 @@
                         "y": 344.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4056,7 +4038,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4094,7 +4076,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4123,7 +4105,7 @@
                         "y": 72.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4161,7 +4143,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4190,7 +4172,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4228,7 +4210,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4257,7 +4239,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4295,7 +4277,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4316,7 +4298,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Tunnel to East Green Bubble Shaft (Lower)": {
+                "Tunnel to East Green Bubble Hub (Lower)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -4324,7 +4306,7 @@
                         "y": 184.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4335,7 +4317,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "East Green Bubble Shaft (Lower)",
+                        "area": "East Green Bubble Hub (Lower)",
                         "node": "Tunnel to Speed Transporter C"
                     },
                     "default_dock_weakness": "Tunnel",
@@ -4347,14 +4329,14 @@
                 }
             }
         },
-        "Guide Chamber (Varia)": {
+        "Guide Statue (Varia)": {
             "default_node": null,
             "extra": {
                 "map_name": "Norfair53",
                 "room_id": 53
             },
             "nodes": {
-                "Door to Blue-Bubble Shaft": {
+                "Door to Blue-Bubble Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -4362,7 +4344,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4373,8 +4355,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Blue-Bubble Shaft",
-                        "node": "Door to Guide Chamber (Varia)"
+                        "area": "Blue-Bubble Hub",
+                        "node": "Door to Guide Statue (Varia)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -4383,7 +4365,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Blue-Bubble Shaft (121)": {
+                "Door to Blue-Bubble Hub (121)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -4391,7 +4373,7 @@
                         "y": 240.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4402,8 +4384,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Blue-Bubble Shaft",
-                        "node": "Door to Guide Chamber (Varia)"
+                        "area": "Blue-Bubble Hub",
+                        "node": "Door to Guide Statue (Varia)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -4414,7 +4396,7 @@
                 }
             }
         },
-        "Kiru-Giru Chamber (INITIAL)": {
+        "Kiru-Giru Arena (INITIAL)": {
             "default_node": null,
             "extra": {
                 "map_name": "Norfair54",
@@ -4429,7 +4411,7 @@
                         "y": 448.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4441,7 +4423,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Path of Vines",
-                        "node": "Door to Kiru-Giru Chamber (INITIAL WITH PIPE)"
+                        "node": "Door to Kiru-Giru Arena (INITIAL WITH PIPE)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -4458,7 +4440,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4470,7 +4452,7 @@
                     "default_connection": {
                         "region": "Norfair",
                         "area": "Elevator to Ridley",
-                        "node": "Door to Kiru-Giru Chamber (INITIAL)"
+                        "node": "Door to Kiru-Giru Arena (INITIAL)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -4496,7 +4478,7 @@
                         "y": 472.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4514,7 +4496,7 @@
                         "y": 328.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4524,7 +4506,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to West Green Bubble Shaft": {
+                "Door to West Green Bubble Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -4532,7 +4514,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4543,7 +4525,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "West Green Bubble Shaft",
+                        "area": "West Green Bubble Hub",
                         "node": "Door to Lava-Filled Passage"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -4553,7 +4535,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Tunnel to West Green Bubble Shaft": {
+                "Tunnel to West Green Bubble Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -4561,7 +4543,7 @@
                         "y": 616.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4572,7 +4554,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "West Green Bubble Shaft",
+                        "area": "West Green Bubble Hub",
                         "node": "Tunnel to Lava-Filled Passage"
                     },
                     "default_dock_weakness": "Tunnel",
@@ -4599,7 +4581,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4620,7 +4602,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Dock to West Green Bubble Shaft": {
+                "Dock to West Green Bubble Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -4628,7 +4610,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -4639,7 +4621,7 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "West Green Bubble Shaft",
+                        "area": "West Green Bubble Hub",
                         "node": "Dock to Secret Tunnel"
                     },
                     "default_dock_weakness": "Access Open",

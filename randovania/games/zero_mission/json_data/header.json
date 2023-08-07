@@ -473,7 +473,7 @@
     "starting_location": {
         "region": "Brinstar",
         "area": "Starting Room",
-        "node": "Door to Fake Block Shaft"
+        "node": "Door to Fake Block Fork"
     },
     "initial_states": {
         "Default": []

@@ -19,7 +19,7 @@
                         "y": 1304.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -40,7 +40,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station A": {
+                "Door to Save Station (North)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -48,7 +48,7 @@
                         "y": 912.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -59,7 +59,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Save Station A",
+                        "area": "Save Station (North)",
                         "node": "Door to Elevator to Brinstar"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -77,7 +77,7 @@
                         "y": 912.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -106,7 +106,7 @@
                         "y": 752.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -135,7 +135,7 @@
                         "y": 752.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -164,7 +164,7 @@
                         "y": 448.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -193,7 +193,7 @@
                         "y": 448.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -222,7 +222,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -251,7 +251,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -289,7 +289,7 @@
                         "y": 152.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -307,7 +307,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -328,7 +328,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Apex Launcher Shaft": {
+                "Door to Apex Launcher Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -336,7 +336,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -347,7 +347,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Apex Launcher Shaft",
+                        "area": "Apex Launcher Hub",
                         "node": "Door to Caged Sidehopper Hall"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -359,7 +359,7 @@
                 }
             }
         },
-        "Apex Launcher Shaft": {
+        "Apex Launcher Hub": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid2",
@@ -374,7 +374,7 @@
                         "y": 648.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -392,7 +392,7 @@
                         "y": 1072.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -404,7 +404,7 @@
                     "default_connection": {
                         "region": "Kraid",
                         "area": "Upper Corridor",
-                        "node": "Door to Apex Launcher Shaft"
+                        "node": "Door to Apex Launcher Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -413,7 +413,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station B": {
+                "Door to Save Station (Northeast)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -421,7 +421,7 @@
                         "y": 912.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -432,8 +432,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Save Station B",
-                        "node": "Door to Apex Launcher Shaft"
+                        "area": "Save Station (Northeast)",
+                        "node": "Door to Apex Launcher Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -442,7 +442,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Acid Worm Access": {
+                "Door to Acid Worm Arena Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -450,7 +450,7 @@
                         "y": 752.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -461,8 +461,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Acid Worm Access",
-                        "node": "Door to Apex Launcher Shaft"
+                        "area": "Acid Worm Arena Access",
+                        "node": "Door to Apex Launcher Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -479,7 +479,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -491,7 +491,7 @@
                     "default_connection": {
                         "region": "Kraid",
                         "area": "Caged Sidehopper Hall",
-                        "node": "Door to Apex Launcher Shaft"
+                        "node": "Door to Apex Launcher Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -517,7 +517,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -538,7 +538,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Apex Launcher Shaft": {
+                "Door to Apex Launcher Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -546,7 +546,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -557,7 +557,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Apex Launcher Shaft",
+                        "area": "Apex Launcher Hub",
                         "node": "Door to Upper Corridor"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -584,7 +584,7 @@
                         "y": 120.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -602,7 +602,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -623,7 +623,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station B": {
+                "Door to Save Station (Northeast)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -631,7 +631,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -642,7 +642,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Save Station B",
+                        "area": "Save Station (Northeast)",
                         "node": "Door to Zipline Activation Chamber"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -654,7 +654,7 @@
                 }
             }
         },
-        "Acid Worm Battle": {
+        "Acid Worm Arena": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid5",
@@ -669,7 +669,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -681,7 +681,7 @@
                     "default_connection": {
                         "region": "Kraid",
                         "area": "Zeela-Infested Room",
-                        "node": "Door to Acid Worm Battle"
+                        "node": "Door to Acid Worm Arena"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -690,7 +690,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Acid Worm Access": {
+                "Door to Acid Worm Arena Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -698,7 +698,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -709,8 +709,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Acid Worm Access",
-                        "node": "Door to Acid Worm Battle"
+                        "area": "Acid Worm Arena Access",
+                        "node": "Door to Acid Worm Arena"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -727,7 +727,7 @@
                         "y": 104.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -739,7 +739,7 @@
                     "default_connection": {
                         "region": "Kraid",
                         "area": "Cache",
-                        "node": "Tunnel to Acid Worm Battle"
+                        "node": "Tunnel to Acid Worm Arena"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -765,7 +765,7 @@
                         "y": 448.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -794,7 +794,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -815,7 +815,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Acid Worm Battle": {
+                "Door to Acid Worm Arena": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -823,7 +823,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -834,7 +834,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Acid Worm Battle",
+                        "area": "Acid Worm Arena",
                         "node": "Door to Zeela-Infested Room"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -861,7 +861,7 @@
                         "y": 152.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -879,7 +879,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -900,7 +900,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Tunnel to Save Station A": {
+                "Tunnel to Save Station (North)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -908,7 +908,7 @@
                         "y": 88.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -919,7 +919,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Save Station A",
+                        "area": "Save Station (North)",
                         "node": "Tunnel to Barisute Pit"
                     },
                     "default_dock_weakness": "Tunnel",
@@ -937,7 +937,7 @@
                         "y": 288.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -975,7 +975,7 @@
                         "y": 56.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -993,7 +993,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1022,7 +1022,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1060,7 +1060,7 @@
                         "y": 72.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1078,7 +1078,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1116,7 +1116,7 @@
                         "y": 232.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1134,7 +1134,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1163,7 +1163,7 @@
                         "y": 288.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1201,7 +1201,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1230,7 +1230,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1268,7 +1268,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1289,7 +1289,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Block Column Shaft": {
+                "Door to Block Column Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1297,7 +1297,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1308,7 +1308,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Block Column Shaft",
+                        "area": "Block Column Hub",
                         "node": "Door to Corrosive Pool"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1326,7 +1326,7 @@
                         "y": 40.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1364,7 +1364,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1393,7 +1393,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1422,7 +1422,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1460,7 +1460,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1481,7 +1481,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Pit Block Shaft": {
+                "Door to Pit Block Chamber": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1489,7 +1489,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1500,7 +1500,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Pit Block Shaft",
+                        "area": "Pit Block Chamber",
                         "node": "Door to Divided Alcove"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1512,7 +1512,7 @@
                 }
             }
         },
-        "Pit Block Shaft": {
+        "Pit Block Chamber": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid15",
@@ -1527,7 +1527,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1539,7 +1539,7 @@
                     "default_connection": {
                         "region": "Kraid",
                         "area": "Divided Alcove",
-                        "node": "Door to Pit Block Shaft"
+                        "node": "Door to Pit Block Chamber"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1556,7 +1556,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1568,7 +1568,7 @@
                     "default_connection": {
                         "region": "Kraid",
                         "area": "Ball Launcher Speedway",
-                        "node": "Door to Pit Block Shaft"
+                        "node": "Door to Pit Block Chamber"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1585,7 +1585,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1597,7 +1597,7 @@
                     "default_connection": {
                         "region": "Kraid",
                         "area": "Ramp",
-                        "node": "Door to Pit Block Shaft"
+                        "node": "Door to Pit Block Chamber"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1615,7 +1615,7 @@
                 "room_id": 16
             },
             "nodes": {
-                "Door to Pit Block Shaft": {
+                "Door to Pit Block Chamber": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1623,7 +1623,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1634,7 +1634,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Pit Block Shaft",
+                        "area": "Pit Block Chamber",
                         "node": "Door to Ramp"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1652,7 +1652,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1682,7 +1682,7 @@
                 "room_id": 17
             },
             "nodes": {
-                "Pickup (Missile Tank (Hidden))": {
+                "Pickup (Missile Tank)": {
                     "node_type": "pickup",
                     "heal": false,
                     "coordinates": {
@@ -1690,7 +1690,7 @@
                         "y": 152.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1700,7 +1700,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Block Column Shaft": {
+                "Door to Block Column Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1708,7 +1708,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1719,7 +1719,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Block Column Shaft",
+                        "area": "Block Column Hub",
                         "node": "Door to Acid Fall"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1737,7 +1737,7 @@
                         "y": 184.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1775,7 +1775,7 @@
                         "y": 288.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1804,7 +1804,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1834,7 +1834,7 @@
                 "room_id": 19
             },
             "nodes": {
-                "Door to Save Station D": {
+                "Door to Save Station (South)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1842,7 +1842,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1853,7 +1853,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Save Station D",
+                        "area": "Save Station (South)",
                         "node": "Door to Hidden Drop"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1871,7 +1871,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1892,7 +1892,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Tunnel to Kraid's Slope": {
+                "Tunnel to Speed Booster Tutorial Slope": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1900,7 +1900,7 @@
                         "y": 40.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1911,7 +1911,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Kraid's Slope",
+                        "area": "Speed Booster Tutorial Slope",
                         "node": "Tunnel to Hidden Drop"
                     },
                     "default_dock_weakness": "Tunnel",
@@ -1923,7 +1923,7 @@
                 }
             }
         },
-        "Save Station D": {
+        "Save Station (South)": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid20",
@@ -1938,7 +1938,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1950,7 +1950,7 @@
                     "default_connection": {
                         "region": "Kraid",
                         "area": "Sidehopper Path",
-                        "node": "Door to Save Station D"
+                        "node": "Door to Save Station (South)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1967,7 +1967,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1979,7 +1979,7 @@
                     "default_connection": {
                         "region": "Kraid",
                         "area": "Hidden Drop",
-                        "node": "Door to Save Station D"
+                        "node": "Door to Save Station (South)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2005,7 +2005,7 @@
                         "y": 168.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2023,7 +2023,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2044,7 +2044,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Pit Block Shaft": {
+                "Door to Pit Block Chamber": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2052,7 +2052,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2063,7 +2063,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Pit Block Shaft",
+                        "area": "Pit Block Chamber",
                         "node": "Door to Ball Launcher Speedway"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2090,7 +2090,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2111,7 +2111,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station D": {
+                "Door to Save Station (South)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2119,7 +2119,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2130,7 +2130,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Save Station D",
+                        "area": "Save Station (South)",
                         "node": "Door to Sidehopper Path"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2157,7 +2157,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2186,7 +2186,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2215,7 +2215,7 @@
                         "y": 40.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2253,7 +2253,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2282,7 +2282,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2320,7 +2320,7 @@
                         "y": 344.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2349,7 +2349,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2370,7 +2370,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station C": {
+                "Door to Save Station (Southwest)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2378,7 +2378,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2389,7 +2389,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Save Station C",
+                        "area": "Save Station (Southwest)",
                         "node": "Door to Space Jump Access"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2407,7 +2407,7 @@
                         "y": 168.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2436,7 +2436,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2474,7 +2474,7 @@
                         "y": 1176.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2492,7 +2492,7 @@
                         "y": 1072.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2521,7 +2521,7 @@
                         "y": 896.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2550,7 +2550,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2579,7 +2579,7 @@
                         "y": 1248.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2602,7 +2602,7 @@
                 }
             }
         },
-        "Block Column Shaft": {
+        "Block Column Hub": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid27",
@@ -2617,7 +2617,7 @@
                         "y": 912.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2629,7 +2629,7 @@
                     "default_connection": {
                         "region": "Kraid",
                         "area": "Corrosive Pool",
-                        "node": "Door to Block Column Shaft"
+                        "node": "Door to Block Column Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2646,7 +2646,7 @@
                         "y": 736.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2658,7 +2658,7 @@
                     "default_connection": {
                         "region": "Kraid",
                         "area": "Acid Fall",
-                        "node": "Door to Block Column Shaft"
+                        "node": "Door to Block Column Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2667,7 +2667,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Kraid's Slope": {
+                "Door to Speed Booster Tutorial Slope": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2675,7 +2675,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2686,8 +2686,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Kraid's Slope",
-                        "node": "Door to Block Column Shaft"
+                        "area": "Speed Booster Tutorial Slope",
+                        "node": "Door to Block Column Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2696,7 +2696,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station E": {
+                "Door to Save Station (East)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2704,7 +2704,7 @@
                         "y": 912.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2715,8 +2715,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Save Station E",
-                        "node": "Door to Block Column Shaft"
+                        "area": "Save Station (East)",
+                        "node": "Door to Block Column Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2727,14 +2727,14 @@
                 }
             }
         },
-        "Kraid's Slope": {
+        "Speed Booster Tutorial Slope": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid28",
                 "room_id": 28
             },
             "nodes": {
-                "Door to Kraid's Chamber Access": {
+                "Door to Kraid Arena Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2742,7 +2742,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2753,8 +2753,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Kraid's Chamber Access",
-                        "node": "Door to Kraid's Slope"
+                        "area": "Kraid Arena Access",
+                        "node": "Door to Speed Booster Tutorial Slope"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2763,7 +2763,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Block Column Shaft": {
+                "Door to Block Column Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2771,7 +2771,7 @@
                         "y": 304.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2782,8 +2782,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Block Column Shaft",
-                        "node": "Door to Kraid's Slope"
+                        "area": "Block Column Hub",
+                        "node": "Door to Speed Booster Tutorial Slope"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2800,7 +2800,7 @@
                         "y": 344.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2812,7 +2812,7 @@
                     "default_connection": {
                         "region": "Kraid",
                         "area": "Hidden Drop",
-                        "node": "Tunnel to Kraid's Slope"
+                        "node": "Tunnel to Speed Booster Tutorial Slope"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -2821,7 +2821,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Dock to Kraid's Chamber (FINAL)": {
+                "Dock to Kraid Arena (FINAL)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2829,7 +2829,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2840,8 +2840,8 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Kraid's Chamber (FINAL)",
-                        "node": "Dock to Kraid's Slope"
+                        "area": "Kraid Arena (FINAL)",
+                        "node": "Dock to Speed Booster Tutorial Slope"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -2852,14 +2852,14 @@
                 }
             }
         },
-        "Kraid's Chamber Access": {
+        "Kraid Arena Access": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid29",
                 "room_id": 29
             },
             "nodes": {
-                "Door to Kraid's Chamber": {
+                "Door to Kraid Arena": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2867,7 +2867,7 @@
                         "y": 240.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2878,8 +2878,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Kraid's Chamber",
-                        "node": "Dock to Kraid's Chamber Access"
+                        "area": "Kraid Arena",
+                        "node": "Dock to Kraid Arena Access"
                     },
                     "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
@@ -2888,7 +2888,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Kraid's Slope": {
+                "Door to Speed Booster Tutorial Slope": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2896,7 +2896,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2907,8 +2907,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Kraid's Slope",
-                        "node": "Door to Kraid's Chamber Access"
+                        "area": "Speed Booster Tutorial Slope",
+                        "node": "Door to Kraid Arena Access"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2919,14 +2919,14 @@
                 }
             }
         },
-        "Kraid's Chamber": {
+        "Kraid Arena": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid30",
                 "room_id": 30
             },
             "nodes": {
-                "Dock to Kraid's Chamber Access": {
+                "Dock to Kraid Arena Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2934,7 +2934,7 @@
                         "y": 240.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2945,8 +2945,8 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Kraid's Chamber Access",
-                        "node": "Door to Kraid's Chamber"
+                        "area": "Kraid Arena Access",
+                        "node": "Door to Kraid Arena"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -2963,7 +2963,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2975,7 +2975,7 @@
                     "default_connection": {
                         "region": "Kraid",
                         "area": "Kraid's Reliquary",
-                        "node": "Dock to Kraid's Chamber (FINAL)"
+                        "node": "Dock to Kraid Arena (FINAL)"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -2986,7 +2986,7 @@
                 }
             }
         },
-        "Save Station A": {
+        "Save Station (North)": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid31",
@@ -3001,7 +3001,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3013,7 +3013,7 @@
                     "default_connection": {
                         "region": "Kraid",
                         "area": "Elevator to Brinstar",
-                        "node": "Door to Save Station A"
+                        "node": "Door to Save Station (North)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3030,7 +3030,7 @@
                         "y": 88.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3042,7 +3042,7 @@
                     "default_connection": {
                         "region": "Kraid",
                         "area": "Barisute Pit",
-                        "node": "Tunnel to Save Station A"
+                        "node": "Tunnel to Save Station (North)"
                     },
                     "default_dock_weakness": "Tunnel",
                     "exclude_from_dock_rando": false,
@@ -3053,7 +3053,7 @@
                 }
             }
         },
-        "Save Station C": {
+        "Save Station (Southwest)": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid32",
@@ -3068,7 +3068,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3080,7 +3080,7 @@
                     "default_connection": {
                         "region": "Kraid",
                         "area": "Space Jump Access",
-                        "node": "Door to Save Station C"
+                        "node": "Door to Save Station (Southwest)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3106,7 +3106,7 @@
                         "y": 168.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3135,7 +3135,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3165,7 +3165,7 @@
                 "room_id": 34
             },
             "nodes": {
-                "Dock to Kraid's Chamber (FINAL)": {
+                "Dock to Kraid Arena (FINAL)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3173,7 +3173,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3184,7 +3184,7 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Kraid's Chamber (FINAL)",
+                        "area": "Kraid Arena (FINAL)",
                         "node": "Dock to Kraid's Reliquary"
                     },
                     "default_dock_weakness": "Access Open",
@@ -3211,7 +3211,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3234,14 +3234,14 @@
                 }
             }
         },
-        "Save Station E": {
+        "Save Station (East)": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid36",
                 "room_id": 36
             },
             "nodes": {
-                "Door to Block Column Shaft": {
+                "Door to Block Column Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3249,7 +3249,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3260,8 +3260,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Block Column Shaft",
-                        "node": "Door to Save Station E"
+                        "area": "Block Column Hub",
+                        "node": "Door to Save Station (East)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3278,7 +3278,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3290,7 +3290,7 @@
                     "default_connection": {
                         "region": "Kraid",
                         "area": "Norfair Tunnel",
-                        "node": "Dock to Save Station E"
+                        "node": "Dock to Save Station (East)"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -3301,14 +3301,14 @@
                 }
             }
         },
-        "Kraid's Chamber (FINAL)": {
+        "Kraid Arena (FINAL)": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid37",
                 "room_id": 37
             },
             "nodes": {
-                "Door to Kraid's Chamber Access": {
+                "Door to Kraid Arena Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3316,7 +3316,7 @@
                         "y": 240.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3327,8 +3327,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Kraid's Chamber Access",
-                        "node": "Door to Kraid's Chamber"
+                        "area": "Kraid Arena Access",
+                        "node": "Door to Kraid Arena"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3345,7 +3345,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3357,7 +3357,7 @@
                     "default_connection": {
                         "region": "Kraid",
                         "area": "Kraid's Reliquary",
-                        "node": "Dock to Kraid's Chamber (FINAL)"
+                        "node": "Dock to Kraid Arena (FINAL)"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -3366,7 +3366,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Dock to Kraid's Slope": {
+                "Dock to Speed Booster Tutorial Slope": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3374,7 +3374,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3385,8 +3385,8 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Kraid's Slope",
-                        "node": "Dock to Kraid's Chamber (FINAL)"
+                        "area": "Speed Booster Tutorial Slope",
+                        "node": "Dock to Kraid Arena (FINAL)"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -3412,7 +3412,7 @@
                         "y": 152.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3422,7 +3422,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Tunnel to Acid Worm Battle": {
+                "Tunnel to Acid Worm Arena": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3430,7 +3430,7 @@
                         "y": 104.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3441,7 +3441,7 @@
                     "dock_type": "tunnel",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Acid Worm Battle",
+                        "area": "Acid Worm Arena",
                         "node": "Tunnel to Cache"
                     },
                     "default_dock_weakness": "Tunnel",
@@ -3453,14 +3453,14 @@
                 }
             }
         },
-        "Save Station B": {
+        "Save Station (Northeast)": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid39",
                 "room_id": 39
             },
             "nodes": {
-                "Door to Apex Launcher Shaft": {
+                "Door to Apex Launcher Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3468,7 +3468,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3479,8 +3479,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Apex Launcher Shaft",
-                        "node": "Door to Save Station B"
+                        "area": "Apex Launcher Hub",
+                        "node": "Door to Save Station (Northeast)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3497,7 +3497,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3509,7 +3509,7 @@
                     "default_connection": {
                         "region": "Kraid",
                         "area": "Zipline Activation Chamber",
-                        "node": "Door to Save Station B"
+                        "node": "Door to Save Station (Northeast)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3520,14 +3520,14 @@
                 }
             }
         },
-        "Acid Worm Access": {
+        "Acid Worm Arena Access": {
             "default_node": null,
             "extra": {
                 "map_name": "Kraid40",
                 "room_id": 40
             },
             "nodes": {
-                "Door to Acid Worm Battle": {
+                "Door to Acid Worm Arena": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3535,7 +3535,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3546,8 +3546,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Acid Worm Battle",
-                        "node": "Door to Acid Worm Access"
+                        "area": "Acid Worm Arena",
+                        "node": "Door to Acid Worm Arena Access"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3556,7 +3556,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Apex Launcher Shaft": {
+                "Door to Apex Launcher Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3564,7 +3564,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3575,8 +3575,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Apex Launcher Shaft",
-                        "node": "Door to Acid Worm Access"
+                        "area": "Apex Launcher Hub",
+                        "node": "Door to Acid Worm Arena Access"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -3594,7 +3594,7 @@
                 "room_id": 41
             },
             "nodes": {
-                "Dock to Save Station E": {
+                "Dock to Save Station (East)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3602,7 +3602,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -3613,7 +3613,7 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Kraid",
-                        "area": "Save Station E",
+                        "area": "Save Station (East)",
                         "node": "Dock to Norfair Tunnel"
                     },
                     "default_dock_weakness": "Access Open",
@@ -3631,7 +3631,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],

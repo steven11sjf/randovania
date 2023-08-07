@@ -19,7 +19,7 @@
                         "y": 504.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -40,7 +40,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station A": {
+                "Door to Save Station (North)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -48,7 +48,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -59,7 +59,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Save Station A",
+                        "area": "Save Station (North)",
                         "node": "Door to Elevator to Norfair"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -69,7 +69,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Ridley's Shortcut": {
+                "Door to Shortcut": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -77,7 +77,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -88,7 +88,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Ridley's Shortcut",
+                        "area": "Shortcut",
                         "node": "Door to Elevator to Norfair"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -100,7 +100,7 @@
                 }
             }
         },
-        "Save Station A": {
+        "Save Station (North)": {
             "default_node": null,
             "extra": {
                 "map_name": "Ridley1",
@@ -115,7 +115,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -127,7 +127,7 @@
                     "default_connection": {
                         "region": "Ridley",
                         "area": "Elevator to Norfair",
-                        "node": "Door to Save Station A"
+                        "node": "Door to Save Station (North)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -144,7 +144,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -156,7 +156,7 @@
                     "default_connection": {
                         "region": "Ridley",
                         "area": "Cocoon Cavern (Lower)",
-                        "node": "Door to Save Station A"
+                        "node": "Door to Save Station (North)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -174,7 +174,7 @@
                 "room_id": 2
             },
             "nodes": {
-                "Door to Imago's Hideout": {
+                "Door to Imago Arena": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -182,7 +182,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -193,7 +193,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Imago's Hideout",
+                        "area": "Imago Arena",
                         "node": "Door to Cocoon Cave (Upper)"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -203,7 +203,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Dock to Kiru-Giru Chamber (FINAL)": {
+                "Dock to Kiru-Giru Arena (FINAL)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -211,7 +211,7 @@
                         "y": 520.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -222,7 +222,7 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Norfair",
-                        "area": "Kiru-Giru Chamber (FINAL)",
+                        "area": "Kiru-Giru Arena (FINAL)",
                         "node": "Dock to Cocoon Cave (Upper)"
                     },
                     "default_dock_weakness": "Access Open",
@@ -232,7 +232,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Dock to Imago's Hideout": {
+                "Dock to Imago Arena": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -240,7 +240,7 @@
                         "y": 392.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -251,7 +251,7 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Imago's Hideout",
+                        "area": "Imago Arena",
                         "node": "Dock to Cocoon Cave (Upper)"
                     },
                     "default_dock_weakness": "Access Open",
@@ -269,7 +269,7 @@
                         "y": 24.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -307,7 +307,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -336,7 +336,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -374,7 +374,7 @@
                         "y": 408.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -392,7 +392,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -421,7 +421,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -450,7 +450,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -488,7 +488,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -509,7 +509,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Shaft of Doom": {
+                "Door to Western Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -517,7 +517,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -528,7 +528,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Shaft of Doom",
+                        "area": "Western Hub",
                         "node": "Door to Pronged Hall"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -540,7 +540,7 @@
                 }
             }
         },
-        "Shaft of Doom": {
+        "Western Hub": {
             "default_node": null,
             "extra": {
                 "map_name": "Ridley6",
@@ -555,7 +555,7 @@
                         "y": 648.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -573,7 +573,7 @@
                         "y": 1072.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -585,7 +585,7 @@
                     "default_connection": {
                         "region": "Ridley",
                         "area": "Pronged Hall",
-                        "node": "Door to Shaft of Doom"
+                        "node": "Door to Western Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -602,7 +602,7 @@
                         "y": 768.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -614,7 +614,7 @@
                     "default_connection": {
                         "region": "Ridley",
                         "area": "Path over Lava",
-                        "node": "Door to Shaft of Doom"
+                        "node": "Door to Western Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -631,7 +631,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -643,7 +643,7 @@
                     "default_connection": {
                         "region": "Ridley",
                         "area": "Map Station",
-                        "node": "Door to Shaft of Doom"
+                        "node": "Door to Western Hub"
                     },
                     "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
@@ -652,7 +652,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station B": {
+                "Door to Save Station (West)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -660,7 +660,7 @@
                         "y": 752.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -671,8 +671,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Save Station B",
-                        "node": "Door to Shaft of Doom"
+                        "area": "Save Station (West)",
+                        "node": "Door to Western Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -681,7 +681,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Ridley's Maze": {
+                "Door to Maze": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -689,7 +689,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -700,8 +700,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Ridley's Maze",
-                        "node": "Door to Shaft of Doom"
+                        "area": "Maze",
+                        "node": "Door to Western Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -719,7 +719,7 @@
                 "room_id": 7
             },
             "nodes": {
-                "Door to Shaft of Doom": {
+                "Door to Western Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -727,7 +727,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -738,7 +738,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Shaft of Doom",
+                        "area": "Western Hub",
                         "node": "Door to Path over Lava"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -756,7 +756,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -779,14 +779,14 @@
                 }
             }
         },
-        "Cache Access": {
+        "Desgeega Hall": {
             "default_node": null,
             "extra": {
                 "map_name": "Ridley8",
                 "room_id": 8
             },
             "nodes": {
-                "Door to Cache 2": {
+                "Door to Hidden Climb": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -794,7 +794,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -805,8 +805,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Cache 2",
-                        "node": "Door to Cache Access"
+                        "area": "Hidden Climb",
+                        "node": "Door to Desgeega Hall"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -815,7 +815,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Gambit Shaft": {
+                "Door to Gambit": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -823,7 +823,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -834,8 +834,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Gambit Shaft",
-                        "node": "Door to Cache Access"
+                        "area": "Gambit",
+                        "node": "Door to Desgeega Hall"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -846,7 +846,7 @@
                 }
             }
         },
-        "Gambit Shaft": {
+        "Gambit": {
             "default_node": null,
             "extra": {
                 "map_name": "Ridley9",
@@ -861,7 +861,7 @@
                         "y": 472.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -871,7 +871,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Cache Access": {
+                "Door to Desgeega Hall": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -879,7 +879,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -890,8 +890,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Cache Access",
-                        "node": "Door to Gambit Shaft"
+                        "area": "Desgeega Hall",
+                        "node": "Door to Gambit"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -900,7 +900,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Cache 1": {
+                "Door to Multiviola Cache": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -908,7 +908,7 @@
                         "y": 432.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -919,8 +919,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Cache 1",
-                        "node": "Door to Gambit Shaft"
+                        "area": "Multiviola Cache",
+                        "node": "Door to Gambit"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -929,7 +929,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station D": {
+                "Door to Save Station (Central)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -937,7 +937,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -948,8 +948,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Save Station D",
-                        "node": "Door to Gambit Shaft"
+                        "area": "Save Station (Central)",
+                        "node": "Door to Gambit"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -966,7 +966,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -978,7 +978,7 @@
                     "default_connection": {
                         "region": "Ridley",
                         "area": "Sloped Passage",
-                        "node": "Door to Gambit Shaft"
+                        "node": "Door to Gambit"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -989,14 +989,14 @@
                 }
             }
         },
-        "Cache 1": {
+        "Multiviola Cache": {
             "default_node": null,
             "extra": {
                 "map_name": "Ridley10",
                 "room_id": 10
             },
             "nodes": {
-                "Pickup (Super Missile Tank (Hidden))": {
+                "Pickup (Super Missile Tank)": {
                     "node_type": "pickup",
                     "heal": false,
                     "coordinates": {
@@ -1004,7 +1004,7 @@
                         "y": 280.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1022,7 +1022,7 @@
                         "y": 136.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1032,7 +1032,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Middle Corridor": {
+                "Door to Desgeega Corridor": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1040,7 +1040,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1051,8 +1051,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Middle Corridor",
-                        "node": "Door to Cache 1"
+                        "area": "Desgeega Corridor",
+                        "node": "Door to Multiviola Cache"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1061,7 +1061,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Gambit Shaft": {
+                "Door to Gambit": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1069,7 +1069,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1080,8 +1080,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Gambit Shaft",
-                        "node": "Door to Cache 1"
+                        "area": "Gambit",
+                        "node": "Door to Multiviola Cache"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1092,14 +1092,14 @@
                 }
             }
         },
-        "Ridley's Chamber Access": {
+        "Ridley Arena Access": {
             "default_node": null,
             "extra": {
                 "map_name": "Ridley11",
                 "room_id": 11
             },
             "nodes": {
-                "Door to Save Station D": {
+                "Door to Save Station (Central)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1107,7 +1107,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1118,8 +1118,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Save Station D",
-                        "node": "Door to Ridley's Chamber Access"
+                        "area": "Save Station (Central)",
+                        "node": "Door to Ridley Arena Access"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1128,7 +1128,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Ridley's Chamber": {
+                "Door to Ridley Arena": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1136,7 +1136,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1147,8 +1147,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Ridley's Chamber",
-                        "node": "Door to Ridley's Chamber Access"
+                        "area": "Ridley Arena",
+                        "node": "Door to Ridley Arena Access"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1159,14 +1159,14 @@
                 }
             }
         },
-        "Ridley's Chamber": {
+        "Ridley Arena": {
             "default_node": null,
             "extra": {
                 "map_name": "Ridley12",
                 "room_id": 12
             },
             "nodes": {
-                "Door to Ridley's Chamber Access": {
+                "Door to Ridley Arena Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1174,7 +1174,7 @@
                         "y": 288.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1185,8 +1185,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Ridley's Chamber Access",
-                        "node": "Door to Ridley's Chamber"
+                        "area": "Ridley Arena Access",
+                        "node": "Door to Ridley Arena"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1203,7 +1203,7 @@
                         "y": 288.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1215,7 +1215,7 @@
                     "default_connection": {
                         "region": "Ridley",
                         "area": "Ridley's Reliquary",
-                        "node": "Door to Ridley's Chamber"
+                        "node": "Door to Ridley Arena"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1241,7 +1241,7 @@
                         "y": 104.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1251,7 +1251,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Ridley's Chamber": {
+                "Door to Ridley Arena": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1259,7 +1259,7 @@
                         "y": 128.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1270,7 +1270,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Ridley's Chamber",
+                        "area": "Ridley Arena",
                         "node": "Door to Ridley's Reliquary"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1282,7 +1282,7 @@
                 }
             }
         },
-        "Multiviola Nest": {
+        "Holtz Hall": {
             "default_node": null,
             "extra": {
                 "map_name": "Ridley14",
@@ -1297,7 +1297,7 @@
                         "y": 72.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1307,7 +1307,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Rightmost Shaft": {
+                "Door to Eastern Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1315,7 +1315,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1326,8 +1326,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Rightmost Shaft",
-                        "node": "Door to Multiviola Nest"
+                        "area": "Eastern Hub",
+                        "node": "Door to Holtz Hall"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1344,7 +1344,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1356,7 +1356,7 @@
                     "default_connection": {
                         "region": "Ridley",
                         "area": "Sloped Passage",
-                        "node": "Door to Multiviola Nest"
+                        "node": "Door to Holtz Hall"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1365,7 +1365,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Dock to Middle Corridor": {
+                "Dock to Desgeega Corridor": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1373,7 +1373,7 @@
                         "y": 184.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1384,8 +1384,8 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Middle Corridor",
-                        "node": "Dock to Multiviola Nest"
+                        "area": "Desgeega Corridor",
+                        "node": "Dock to Holtz Hall"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -1396,14 +1396,14 @@
                 }
             }
         },
-        "Rightmost Shaft": {
+        "Eastern Hub": {
             "default_node": null,
             "extra": {
                 "map_name": "Ridley15",
                 "room_id": 15
             },
             "nodes": {
-                "Door to Ridley's Shortcut": {
+                "Door to Shortcut": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1411,7 +1411,7 @@
                         "y": 912.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1422,8 +1422,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Ridley's Shortcut",
-                        "node": "Door to Rightmost Shaft"
+                        "area": "Shortcut",
+                        "node": "Door to Eastern Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1432,7 +1432,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Middle Corridor": {
+                "Door to Desgeega Corridor": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1440,7 +1440,7 @@
                         "y": 592.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1451,8 +1451,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Middle Corridor",
-                        "node": "Door to Rightmost Shaft"
+                        "area": "Desgeega Corridor",
+                        "node": "Door to Eastern Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1461,7 +1461,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Multiviola Nest": {
+                "Door to Holtz Hall": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1469,7 +1469,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1480,8 +1480,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Multiviola Nest",
-                        "node": "Door to Rightmost Shaft"
+                        "area": "Holtz Hall",
+                        "node": "Door to Eastern Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1490,7 +1490,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Save Station C": {
+                "Door to Save Station (East)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1498,7 +1498,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1509,8 +1509,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Save Station C",
-                        "node": "Door to Rightmost Shaft"
+                        "area": "Save Station (East)",
+                        "node": "Door to Eastern Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1527,7 +1527,7 @@
                         "y": 256.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1539,7 +1539,7 @@
                     "default_connection": {
                         "region": "Ridley",
                         "area": "Chain Reaction Chamber",
-                        "node": "Door to Rightmost Shaft"
+                        "node": "Door to Eastern Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1548,7 +1548,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Ridley's Runway": {
+                "Door to Runway": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1556,7 +1556,7 @@
                         "y": 576.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1567,8 +1567,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Ridley's Runway",
-                        "node": "Door to Rightmost Shaft"
+                        "area": "Runway",
+                        "node": "Door to Eastern Hub"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1579,7 +1579,7 @@
                 }
             }
         },
-        "Ridley's Shortcut": {
+        "Shortcut": {
             "default_node": null,
             "extra": {
                 "map_name": "Ridley16",
@@ -1594,7 +1594,7 @@
                         "y": 280.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1604,7 +1604,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Rightmost Shaft": {
+                "Door to Eastern Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1612,7 +1612,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1623,8 +1623,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Rightmost Shaft",
-                        "node": "Door to Ridley's Shortcut"
+                        "area": "Eastern Hub",
+                        "node": "Door to Shortcut"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1641,7 +1641,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1653,7 +1653,7 @@
                     "default_connection": {
                         "region": "Ridley",
                         "area": "Elevator to Norfair",
-                        "node": "Door to Ridley's Shortcut"
+                        "node": "Door to Shortcut"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1664,14 +1664,14 @@
                 }
             }
         },
-        "Middle Corridor": {
+        "Desgeega Corridor": {
             "default_node": null,
             "extra": {
                 "map_name": "Ridley17",
                 "room_id": 17
             },
             "nodes": {
-                "Pickup (Missile Tank (Hidden))": {
+                "Pickup (Missile Tank)": {
                     "node_type": "pickup",
                     "heal": false,
                     "coordinates": {
@@ -1679,7 +1679,7 @@
                         "y": 56.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1689,7 +1689,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Rightmost Shaft": {
+                "Door to Eastern Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1697,7 +1697,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1708,8 +1708,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Rightmost Shaft",
-                        "node": "Door to Middle Corridor"
+                        "area": "Eastern Hub",
+                        "node": "Door to Desgeega Corridor"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1718,7 +1718,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Cache 1": {
+                "Door to Multiviola Cache": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1726,7 +1726,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1737,8 +1737,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Cache 1",
-                        "node": "Door to Middle Corridor"
+                        "area": "Multiviola Cache",
+                        "node": "Door to Desgeega Corridor"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1747,7 +1747,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Dock to Multiviola Nest": {
+                "Dock to Holtz Hall": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1755,7 +1755,7 @@
                         "y": 24.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1766,8 +1766,8 @@
                     "dock_type": "dock",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Multiviola Nest",
-                        "node": "Dock to Middle Corridor"
+                        "area": "Holtz Hall",
+                        "node": "Dock to Desgeega Corridor"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -1793,7 +1793,7 @@
                         "y": 120.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1803,7 +1803,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Save Station C": {
+                "Door to Save Station (East)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1811,7 +1811,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1822,7 +1822,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Save Station C",
+                        "area": "Save Station (East)",
                         "node": "Door to Zebbo Nest"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -1840,7 +1840,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1863,7 +1863,7 @@
                 }
             }
         },
-        "Imago's Hideout": {
+        "Imago Arena": {
             "default_node": null,
             "extra": {
                 "map_name": "Ridley19",
@@ -1878,7 +1878,7 @@
                         "y": 200.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1896,7 +1896,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1908,7 +1908,7 @@
                     "default_connection": {
                         "region": "Ridley",
                         "area": "Cocoon Cave (Upper)",
-                        "node": "Door to Imago's Hideout"
+                        "node": "Door to Imago Arena"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1925,7 +1925,7 @@
                         "y": 392.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1937,7 +1937,7 @@
                     "default_connection": {
                         "region": "Ridley",
                         "area": "Cocoon Cave (Upper)",
-                        "node": "Dock to Imago's Hideout"
+                        "node": "Dock to Imago Arena"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -1948,14 +1948,14 @@
                 }
             }
         },
-        "Save Station D": {
+        "Save Station (Central)": {
             "default_node": null,
             "extra": {
                 "map_name": "Ridley20",
                 "room_id": 20
             },
             "nodes": {
-                "Door to Ridley's Chamber Access": {
+                "Door to Ridley Arena Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1963,7 +1963,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -1974,8 +1974,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Ridley's Chamber Access",
-                        "node": "Door to Save Station D"
+                        "area": "Ridley Arena Access",
+                        "node": "Door to Save Station (Central)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -1984,7 +1984,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Gambit Shaft": {
+                "Door to Gambit": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1992,7 +1992,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2003,8 +2003,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Gambit Shaft",
-                        "node": "Door to Save Station D"
+                        "area": "Gambit",
+                        "node": "Door to Save Station (Central)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2022,7 +2022,7 @@
                 "room_id": 21
             },
             "nodes": {
-                "Door to Shaft of Doom": {
+                "Door to Western Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2030,7 +2030,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2041,7 +2041,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Shaft of Doom",
+                        "area": "Western Hub",
                         "node": "Door to Map Station"
                     },
                     "default_dock_weakness": "Missile Door",
@@ -2059,7 +2059,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2082,14 +2082,14 @@
                 }
             }
         },
-        "Cache 2": {
+        "Hidden Climb": {
             "default_node": null,
             "extra": {
                 "map_name": "Ridley22",
                 "room_id": 22
             },
             "nodes": {
-                "Pickup (Missile Tank (Hidden))": {
+                "Pickup (Missile Tank)": {
                     "node_type": "pickup",
                     "heal": false,
                     "coordinates": {
@@ -2097,7 +2097,7 @@
                         "y": 280.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2115,7 +2115,7 @@
                         "y": 120.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2125,7 +2125,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Cache Access": {
+                "Door to Desgeega Hall": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2133,7 +2133,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2144,8 +2144,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Cache Access",
-                        "node": "Door to Cache 2"
+                        "area": "Desgeega Hall",
+                        "node": "Door to Hidden Climb"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2154,7 +2154,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Cache 3": {
+                "Door to Missile Cache": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2162,7 +2162,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2173,8 +2173,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Cache 3",
-                        "node": "Door to Cache 2"
+                        "area": "Missile Cache",
+                        "node": "Door to Hidden Climb"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2185,7 +2185,7 @@
                 }
             }
         },
-        "Cache 3": {
+        "Missile Cache": {
             "default_node": null,
             "extra": {
                 "map_name": "Ridley23",
@@ -2200,7 +2200,7 @@
                         "y": 168.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2210,7 +2210,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Cache 2": {
+                "Door to Hidden Climb": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2218,7 +2218,7 @@
                         "y": 272.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2229,8 +2229,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Cache 2",
-                        "node": "Door to Cache 3"
+                        "area": "Hidden Climb",
+                        "node": "Door to Missile Cache"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2241,14 +2241,14 @@
                 }
             }
         },
-        "Save Station B": {
+        "Save Station (West)": {
             "default_node": null,
             "extra": {
                 "map_name": "Ridley24",
                 "room_id": 24
             },
             "nodes": {
-                "Door to Shaft of Doom": {
+                "Door to Western Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2256,7 +2256,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2267,8 +2267,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Shaft of Doom",
-                        "node": "Door to Save Station B"
+                        "area": "Western Hub",
+                        "node": "Door to Save Station (West)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2279,14 +2279,14 @@
                 }
             }
         },
-        "Save Station C": {
+        "Save Station (East)": {
             "default_node": null,
             "extra": {
                 "map_name": "Ridley25",
                 "room_id": 25
             },
             "nodes": {
-                "Door to Rightmost Shaft": {
+                "Door to Eastern Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2294,7 +2294,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2305,8 +2305,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Rightmost Shaft",
-                        "node": "Door to Save Station C"
+                        "area": "Eastern Hub",
+                        "node": "Door to Save Station (East)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2323,7 +2323,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2335,7 +2335,7 @@
                     "default_connection": {
                         "region": "Ridley",
                         "area": "Zebbo Nest",
-                        "node": "Door to Save Station C"
+                        "node": "Door to Save Station (East)"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2353,7 +2353,7 @@
                 "room_id": 26
             },
             "nodes": {
-                "Door to Gambit Shaft": {
+                "Door to Gambit": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2361,7 +2361,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2372,7 +2372,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Gambit Shaft",
+                        "area": "Gambit",
                         "node": "Door to Sloped Passage"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2382,7 +2382,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {}
                 },
-                "Door to Multiviola Nest": {
+                "Door to Holtz Hall": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2390,7 +2390,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2401,7 +2401,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Multiviola Nest",
+                        "area": "Holtz Hall",
                         "node": "Door to Sloped Passage"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2428,7 +2428,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2440,7 +2440,7 @@
                     "default_connection": {
                         "region": "Ridley",
                         "area": "Cocoon Cave (Upper)",
-                        "node": "Door to Imago's Hideout"
+                        "node": "Door to Imago Arena"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2457,7 +2457,7 @@
                         "y": 392.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2469,7 +2469,7 @@
                     "default_connection": {
                         "region": "Ridley",
                         "area": "Cocoon Cave (Upper)",
-                        "node": "Dock to Imago's Hideout"
+                        "node": "Dock to Imago Arena"
                     },
                     "default_dock_weakness": "Access Open",
                     "exclude_from_dock_rando": false,
@@ -2495,7 +2495,7 @@
                         "y": 24.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2524,7 +2524,7 @@
                         "y": 144.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2547,7 +2547,7 @@
                 }
             }
         },
-        "Ridley's Maze": {
+        "Maze": {
             "default_node": null,
             "extra": {
                 "map_name": "Ridley29",
@@ -2562,7 +2562,7 @@
                         "y": 136.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2572,7 +2572,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Shaft of Doom": {
+                "Door to Western Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2580,7 +2580,7 @@
                         "y": 80.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2591,8 +2591,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Shaft of Doom",
-                        "node": "Door to Ridley's Maze"
+                        "area": "Western Hub",
+                        "node": "Door to Maze"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2618,7 +2618,7 @@
                         "y": 168.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2628,7 +2628,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Rightmost Shaft": {
+                "Door to Eastern Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2636,7 +2636,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2647,7 +2647,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Rightmost Shaft",
+                        "area": "Eastern Hub",
                         "node": "Door to Chain Reaction Chamber"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2659,7 +2659,7 @@
                 }
             }
         },
-        "Ridley's Runway": {
+        "Runway": {
             "default_node": null,
             "extra": {
                 "map_name": "Ridley31",
@@ -2674,7 +2674,7 @@
                         "y": 104.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2684,7 +2684,7 @@
                     "location_category": "minor",
                     "connections": {}
                 },
-                "Door to Rightmost Shaft": {
+                "Door to Eastern Hub": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2692,7 +2692,7 @@
                         "y": 96.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2703,8 +2703,8 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Rightmost Shaft",
-                        "node": "Door to Ridley's Runway"
+                        "area": "Eastern Hub",
+                        "node": "Door to Runway"
                     },
                     "default_dock_weakness": "Power Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2722,7 +2722,7 @@
                 "room_id": 32
             },
             "nodes": {
-                "Door to Save Station A": {
+                "Door to Save Station (North)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2730,7 +2730,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2741,7 +2741,7 @@
                     "dock_type": "door",
                     "default_connection": {
                         "region": "Ridley",
-                        "area": "Save Station A",
+                        "area": "Save Station (North)",
                         "node": "Door to Cocoon Cavern (Lower)"
                     },
                     "default_dock_weakness": "Power Beam Door",
@@ -2759,7 +2759,7 @@
                         "y": 112.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
@@ -2788,7 +2788,7 @@
                         "y": 200.0,
                         "z": 0.0
                     },
-                    "description": "Generated from ROM.",
+                    "description": "",
                     "layers": [
                         "default"
                     ],
