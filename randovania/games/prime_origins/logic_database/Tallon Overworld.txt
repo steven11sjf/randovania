@@ -10,6 +10,8 @@ Extra - room_height: 224
   * Extra - instance_id: 114777
   * Extra - facing: 0
   * Extra - dest_room: tal_Landing_Site
+  > Pickup (Space Jump Boots)
+      Trivial
 
 > Pickup (Space Jump Boots); Heals? False
   * Layers: default
@@ -18,6 +20,8 @@ Extra - room_height: 224
   * Extra - object_name: obj_upgrade_space_jump
   * Extra - item_type: Space Jump Boots
   * Extra - is_major: major
+  > Door to Landing Site
+      Trivial
 
 ----------------
 Arbor Chamber
@@ -56,6 +60,8 @@ Extra - room_height: 448
   * Extra - instance_id: 114875
   * Extra - facing: 0
   * Extra - dest_room: tal_Temple_Lobby
+  > Door to Cipher Site
+      Trivial
 
 > Door to Cipher Site; Heals? False
   * Layers: default
@@ -63,6 +69,8 @@ Extra - room_height: 448
   * Extra - instance_id: 114880
   * Extra - facing: 0
   * Extra - dest_room: tal_Artifact_Temple_subB
+  > Door to Temple Lobby
+      Trivial
 
 ----------------
 Biohazard Containment
@@ -76,6 +84,12 @@ Extra - room_height: 448
   * Extra - instance_id: 114928
   * Extra - facing: 0
   * Extra - dest_room: tal_Deck_Beta_Transit_Hall
+  > Door to Deck Beta Security Hall
+      All of the following:
+          Missile Launcher and Wave Beam
+          Grapple Beam or Gravity Suit
+  > Pickup (Missile Expansion)
+      Missile Launcher and Super Missile
 
 > Door to Deck Beta Security Hall; Heals? False
   * Layers: default
@@ -83,6 +97,8 @@ Extra - room_height: 448
   * Extra - instance_id: 114929
   * Extra - facing: 0
   * Extra - dest_room: tal_Deck_Beta_Security_Hall
+  > Door to Deck Beta Transit Hall
+      Grapple Beam or Gravity Suit
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -91,6 +107,8 @@ Extra - room_height: 448
   * Extra - object_name: obj_expansion_missile
   * Extra - item_type: Missile Expansion
   * Extra - is_major: minor
+  > Door to Deck Beta Transit Hall
+      Gravity Suit or Missile Launcher
 
 ----------------
 Biotech Research Area 1
@@ -104,6 +122,10 @@ Extra - room_height: 448
   * Extra - instance_id: 115022
   * Extra - facing: 0
   * Extra - dest_room: tal_Deck_Beta_Security_Hall
+  > Door to Deck Beta Conduit Hall
+      All of the following:
+          Wave Beam and Can Break Bomb Blocks
+          Grapple Beam or Gravity Suit
 
 > Door to Deck Beta Conduit Hall; Heals? False
   * Layers: default
@@ -111,6 +133,8 @@ Extra - room_height: 448
   * Extra - instance_id: 115023
   * Extra - facing: 0
   * Extra - dest_room: tal_Deck_Beta_Conduit_Hall
+  > Door to Deck Beta Security Hall
+      Trivial
 
 ----------------
 Canyon Cavern
@@ -148,6 +172,8 @@ Extra - room_height: 672
   * Extra - instance_id: 115154
   * Extra - facing: 0
   * Extra - dest_room: tal_Cargo_Freight_Lift_to_Deck_Gamma
+  > Door to Cargo Freight Lift to Deck Gamma subC
+      Morph Ball and Wave Beam
 
 > Door to Cargo Freight Lift to Deck Gamma subC; Heals? False
   * Layers: default
@@ -155,6 +181,8 @@ Extra - room_height: 672
   * Extra - instance_id: 115184
   * Extra - facing: 0
   * Extra - dest_room: tal_Cargo_Freight_Lift_to_Deck_Gamma_subC
+  > Door to Cargo Freight Lift to Deck Gamma
+      Morph Ball
 
 ----------------
 Cargo Freight Lift to Deck Gamma subC
@@ -168,6 +196,8 @@ Extra - room_height: 224
   * Extra - instance_id: 115256
   * Extra - facing: 0
   * Extra - dest_room: tal_Cargo_Freight_Lift_to_Deck_Gamma_subB
+  > Door to Deck Beta Transit Hall
+      Trivial
 
 > Door to Deck Beta Transit Hall; Heals? False
   * Layers: default
@@ -175,6 +205,8 @@ Extra - room_height: 224
   * Extra - instance_id: 115257
   * Extra - facing: 0
   * Extra - dest_room: tal_Deck_Beta_Transit_Hall
+  > Door to Cargo Freight Lift to Deck Gamma subB
+      Trivial
 
 ----------------
 Cargo Freight Lift to Deck Gamma
@@ -188,6 +220,10 @@ Extra - room_height: 224
   * Extra - instance_id: 115285
   * Extra - facing: 0
   * Extra - dest_room: tal_Reactor_Access
+  > Door to Cargo Freight Lift to Deck Gamma subB
+      Trivial
+  > Pickup (Energy Tank)
+      Missile Launcher
 
 > Door to Cargo Freight Lift to Deck Gamma subB; Heals? False
   * Layers: default
@@ -195,6 +231,8 @@ Extra - room_height: 224
   * Extra - instance_id: 115286
   * Extra - facing: 0
   * Extra - dest_room: tal_Cargo_Freight_Lift_to_Deck_Gamma_subB
+  > Door to Reactor Access
+      Trivial
 
 > Pickup (Energy Tank); Heals? False
   * Layers: default
@@ -203,6 +241,8 @@ Extra - room_height: 224
   * Extra - object_name: obj_expansion_energy_tank
   * Extra - item_type: Energy Tank
   * Extra - is_major: minor
+  > Door to Reactor Access
+      Trivial
 
 ----------------
 Cipher Site
@@ -229,6 +269,8 @@ Extra - room_height: 1344
   * Extra - instance_id: 115369
   * Extra - facing: 0
   * Extra - dest_room: tal_Deck_Beta_Conduit_Hall
+  > Door to Hydro Access Tunnel
+      Can Break Bomb Blocks
 
 > Door to Hydro Access Tunnel; Heals? False
   * Layers: default
@@ -236,6 +278,10 @@ Extra - room_height: 1344
   * Extra - instance_id: 115370
   * Extra - facing: 0
   * Extra - dest_room: tal_Hydro_Access_Tunnel
+  > Door to Deck Beta Conduit Hall
+      All of the following:
+          Can Break Bomb Blocks
+          Grapple Beam or Gravity Suit
 
 ----------------
 Crash Site
@@ -302,6 +348,8 @@ Extra - room_height: 224
   * Extra - instance_id: 115606
   * Extra - facing: 0
   * Extra - dest_room: tal_Biotech_Research_Area_1
+  > Door to Connection Elevator to Deck Beta
+      Trivial
 
 > Door to Connection Elevator to Deck Beta; Heals? False
   * Layers: default
@@ -309,6 +357,8 @@ Extra - room_height: 224
   * Extra - instance_id: 115607
   * Extra - facing: 0
   * Extra - dest_room: tal_Connection_Elevator_to_Deck_Beta
+  > Door to Biotech Research Area 1
+      Trivial
 
 ----------------
 Deck Beta Security Hall
@@ -322,6 +372,8 @@ Extra - room_height: 224
   * Extra - instance_id: 115621
   * Extra - facing: 0
   * Extra - dest_room: tal_Biohazard_Containment
+  > Door to Biotech Research Area 1
+      Trivial
 
 > Door to Biotech Research Area 1; Heals? False
   * Layers: default
@@ -329,6 +381,8 @@ Extra - room_height: 224
   * Extra - instance_id: 115622
   * Extra - facing: 0
   * Extra - dest_room: tal_Biotech_Research_Area_1
+  > Door to Biohazard Containment
+      Trivial
 
 ----------------
 Deck Beta Transit Hall
@@ -342,6 +396,8 @@ Extra - room_height: 224
   * Extra - instance_id: 115675
   * Extra - facing: 0
   * Extra - dest_room: tal_Cargo_Freight_Lift_to_Deck_Gamma_subC
+  > Door to Biohazard Containment
+      Trivial
 
 > Door to Biohazard Containment; Heals? False
   * Layers: default
@@ -349,6 +405,8 @@ Extra - room_height: 224
   * Extra - instance_id: 115676
   * Extra - facing: 0
   * Extra - dest_room: tal_Biohazard_Containment
+  > Door to Cargo Freight Lift to Deck Gamma subC
+      Trivial
 
 ----------------
 Frigate Access Tunnel
@@ -387,6 +445,8 @@ Extra - room_height: 224
   * Extra - object_name: obj_expansion_missile
   * Extra - item_type: Missile Expansion
   * Extra - is_major: minor
+  > Door to Great Tree Hall
+      Trivial
 
 > Door to Great Tree Hall; Heals? False
   * Layers: default
@@ -394,6 +454,8 @@ Extra - room_height: 224
   * Extra - instance_id: 115761
   * Extra - facing: 0
   * Extra - dest_room: tal_Great_Tree_Hall
+  > Pickup (Missile Expansion)
+      Trivial
 
 ----------------
 Great Tree Hall
@@ -407,6 +469,12 @@ Extra - room_height: 896
   * Extra - instance_id: 115764
   * Extra - facing: 0
   * Extra - dest_room: tal_Hydro_Access_Tunnel
+  > Door to Transport Tunnel D
+      All of the following:
+          After Great Tree Hall Spinner
+          Grapple Beam or Gravity Suit
+  > Event Spinner
+      Can Use Boost Ball
 
 > Door to Transport Tunnel D; Heals? False
   * Layers: default
@@ -414,6 +482,18 @@ Extra - room_height: 896
   * Extra - instance_id: 115765
   * Extra - facing: 0
   * Extra - dest_room: tal_Transport_Tunnel_D
+  > Door to Hydro Access Tunnel
+      All of the following:
+          After Great Tree Hall Spinner
+          Grapple Beam or Gravity Suit
+  > Door to Transport Tunnel E
+      After Great Tree Hall Spinner
+  > Door to Great Tree Chamber
+      All of the following:
+          Screw Attack
+          Grapple Beam or Space Jump or Can Lay Bomb or Can Use Spider Ball
+  > Door to Life Grove Tunnel
+      Grapple Beam or Space Jump or Can Lay Bomb or Can Use Spider Ball
 
 > Door to Transport Tunnel E; Heals? False
   * Layers: default
@@ -421,6 +501,8 @@ Extra - room_height: 896
   * Extra - instance_id: 115766
   * Extra - facing: 0
   * Extra - dest_room: tal_Transport_Tunnel_E
+  > Door to Transport Tunnel D
+      After Great Tree Hall Spinner
 
 > Door to Great Tree Chamber; Heals? False
   * Layers: default
@@ -428,6 +510,8 @@ Extra - room_height: 896
   * Extra - instance_id: 115767
   * Extra - facing: 0
   * Extra - dest_room: tal_Great_Tree_Chamber
+  > Door to Transport Tunnel D
+      Trivial
 
 > Door to Life Grove Tunnel; Heals? False
   * Layers: default
@@ -435,6 +519,14 @@ Extra - room_height: 896
   * Extra - instance_id: 115768
   * Extra - facing: 0
   * Extra - dest_room: tal_Life_Grove_Tunnel
+  > Door to Transport Tunnel D
+      Trivial
+
+> Event Spinner; Heals? False
+  * Layers: default
+  * Event Great Tree Hall Spinner
+  > Door to Hydro Access Tunnel
+      Trivial
 
 ----------------
 Gully
@@ -448,6 +540,8 @@ Extra - room_height: 224
   * Extra - instance_id: 115893
   * Extra - facing: 0
   * Extra - dest_room: tal_Landing_Site
+  > Door to Tallon Canyon
+      Morph Ball
 
 > Door to Tallon Canyon; Heals? False
   * Layers: default
@@ -455,6 +549,8 @@ Extra - room_height: 224
   * Extra - instance_id: 115895
   * Extra - facing: 0
   * Extra - dest_room: tal_Tallon_Canyon
+  > Door to Landing Site
+      Morph Ball
 
 ----------------
 Hydro Access Tunnel
@@ -468,6 +564,12 @@ Extra - room_height: 224
   * Extra - instance_id: 115915
   * Extra - facing: 0
   * Extra - dest_room: tal_Connection_Elevator_to_Deck_Beta
+  > Door to Great Tree Hall
+      All of the following:
+          Can Use Boost Ball
+          Grapple Beam or Gravity Suit
+  > Pickup (Energy Tank)
+      Can Use Boost Ball
 
 > Door to Great Tree Hall; Heals? False
   * Layers: default
@@ -475,6 +577,14 @@ Extra - room_height: 224
   * Extra - instance_id: 115916
   * Extra - facing: 0
   * Extra - dest_room: tal_Great_Tree_Hall
+  > Door to Connection Elevator to Deck Beta
+      All of the following:
+          Can Use Boost Ball
+          Grapple Beam or Gravity Suit
+  > Pickup (Energy Tank)
+      All of the following:
+          Can Use Boost Ball
+          Grapple Beam or Gravity Suit or Missile Launcher
 
 > Pickup (Energy Tank); Heals? False
   * Layers: default
@@ -483,6 +593,14 @@ Extra - room_height: 224
   * Extra - object_name: obj_expansion_energy_tank
   * Extra - item_type: Energy Tank
   * Extra - is_major: minor
+  > Door to Connection Elevator to Deck Beta
+      All of the following:
+          Can Use Boost Ball
+          Grapple Beam or Gravity Suit
+  > Door to Great Tree Hall
+      All of the following:
+          Can Use Boost Ball
+          Grapple Beam or Gravity Suit
 
 ----------------
 Landing Site
@@ -573,6 +691,10 @@ Extra - room_height: 224
   * Extra - object_name: obj_expansion_missile
   * Extra - item_type: Missile Expansion
   * Extra - is_major: minor
+  > Door to Life Grove
+      Morph Ball
+  > Door to Great Tree Hall
+      Can Lay Power Bomb
 
 > Door to Life Grove; Heals? False
   * Layers: default
@@ -580,6 +702,10 @@ Extra - room_height: 224
   * Extra - instance_id: 116212
   * Extra - facing: 0
   * Extra - dest_room: tal_Life_Grove
+  > Pickup (Missile Expansion)
+      Can Break Bomb Blocks and Can Use Boost Ball
+  > Door to Great Tree Hall
+      Can Lay Power Bomb
 
 > Door to Great Tree Hall; Heals? False
   * Layers: default
@@ -587,6 +713,10 @@ Extra - room_height: 224
   * Extra - instance_id: 116213
   * Extra - facing: 0
   * Extra - dest_room: tal_Great_Tree_Hall
+  > Pickup (Missile Expansion)
+      Can Lay Power Bomb and Can Use Boost Ball
+  > Door to Life Grove
+      Can Lay Power Bomb
 
 ----------------
 Life Grove
@@ -600,6 +730,10 @@ Extra - room_height: 448
   * Extra - instance_id: 116231
   * Extra - facing: 0
   * Extra - dest_room: tal_Life_Grove_Tunnel
+  > Pickup (Screw Attack)
+      Trivial
+  > Pickup (Artifact 6)
+      Screw Attack and Can Use Boost Ball
 
 > Pickup (Screw Attack); Heals? False
   * Layers: default
@@ -608,6 +742,8 @@ Extra - room_height: 448
   * Extra - object_name: obj_upgrade_screw_attack
   * Extra - item_type: Screw Attack
   * Extra - is_major: major
+  > Door to Life Grove Tunnel
+      Screw Attack and Can Use Boost Ball
 
 > Pickup (Artifact 6); Heals? False
   * Layers: default
@@ -616,6 +752,8 @@ Extra - room_height: 448
   * Extra - object_name: obj_artifact_6
   * Extra - item_type: Artifact 6
   * Extra - is_major: major
+  > Door to Life Grove Tunnel
+      Morph Ball
 
 ----------------
 Main Ventilation Shaft Section A
@@ -737,6 +875,16 @@ Extra - room_height: 448
   * Extra - instance_id: 116454
   * Extra - facing: 0
   * Extra - dest_room: tal_Reactor_Core
+  > Door to Save Station
+      Trivial
+  > Door to Cargo Freight Lift to Deck Gamma
+      All of the following:
+          After Reactor Access Wave Slots
+          Gravity Suit or Missile Launcher
+  > Event Nodes Activated
+      All of the following:
+          Wave Beam
+          Gravity Suit or Missile Launcher
 
 > Door to Save Station; Heals? False
   * Layers: default
@@ -744,6 +892,8 @@ Extra - room_height: 448
   * Extra - instance_id: 116455
   * Extra - facing: 0
   * Extra - dest_room: tal_Save_Station
+  > Door to Reactor Core
+      Trivial
 
 > Door to Cargo Freight Lift to Deck Gamma; Heals? False
   * Layers: default
@@ -751,6 +901,14 @@ Extra - room_height: 448
   * Extra - instance_id: 116456
   * Extra - facing: 0
   * Extra - dest_room: tal_Cargo_Freight_Lift_to_Deck_Gamma
+  > Door to Reactor Core
+      After Reactor Access Wave Slots
+
+> Event Nodes Activated; Heals? False
+  * Layers: default
+  * Event Reactor Access Wave Slots
+  > Door to Reactor Core
+      Trivial
 
 ----------------
 Reactor Core
@@ -764,6 +922,8 @@ Extra - room_height: 448
   * Extra - instance_id: 116535
   * Extra - facing: 0
   * Extra - dest_room: tal_Main_Ventilation_Shaft_Section_A
+  > Door to Reactor Access
+      Wave Beam and Can Break Bomb Blocks
 
 > Door to Reactor Access; Heals? False
   * Layers: default
@@ -771,6 +931,8 @@ Extra - room_height: 448
   * Extra - instance_id: 116536
   * Extra - facing: 0
   * Extra - dest_room: tal_Reactor_Access
+  > Door to Main Ventilation Shaft Section A
+      Gravity Suit or Missile Launcher
 
 ----------------
 Root Cave
@@ -900,7 +1062,7 @@ Extra - room_height: 672
   * Extra - facing: 0
   * Extra - dest_room: tal_Gully
   > Door to Canyon Cavern
-      Can Use Boost Ball
+      Can Lay Bomb and Can Use Boost Ball
 
 ----------------
 Temple Hall
@@ -914,6 +1076,8 @@ Extra - room_height: 224
   * Extra - instance_id: 116989
   * Extra - facing: 0
   * Extra - dest_room: tal_Landing_Site
+  > Door to Temple Security Station
+      Trivial
 
 > Door to Temple Security Station; Heals? False
   * Layers: default
@@ -921,6 +1085,8 @@ Extra - room_height: 224
   * Extra - instance_id: 116991
   * Extra - facing: 0
   * Extra - dest_room: tal_Temple_Security_Station
+  > Door to Landing Site
+      Trivial
 
 ----------------
 Temple Lobby
@@ -934,6 +1100,8 @@ Extra - room_height: 224
   * Extra - instance_id: 117012
   * Extra - facing: 0
   * Extra - dest_room: tal_Temple_Security_Station
+  > Door to Artifact Temple
+      Trivial
 
 > Door to Artifact Temple; Heals? False
   * Layers: default
@@ -941,6 +1109,8 @@ Extra - room_height: 224
   * Extra - instance_id: 117013
   * Extra - facing: 0
   * Extra - dest_room: tal_Artifact_Temple
+  > Door to Temple Security Station
+      Trivial
 
 ----------------
 Temple Security Station
@@ -954,13 +1124,17 @@ Extra - room_height: 448
   * Extra - instance_id: 117022
   * Extra - facing: 0
   * Extra - dest_room: tal_Temple_Hall
+  > Door to Temple Lobby
+      Trivial
 
 > Door to Temple Lobby; Heals? False
   * Layers: default
-  * Beam Door to Temple Lobby/Door to Temple Security Station
+  * Missile Door to Temple Lobby/Door to Temple Security Station
   * Extra - instance_id: 117023
   * Extra - facing: 0
   * Extra - dest_room: tal_Temple_Lobby
+  > Door to Temple Hall
+      Trivial
 
 ----------------
 Transport to Chozo Ruins East
@@ -995,10 +1169,14 @@ Extra - room_height: 224
   * Extra - instance_id: 117085
   * Extra - facing: 0
   * Extra - dest_room: tal_Transport_Tunnel_D
+  > Elevator to Transport to Tallon Overworld South
+      Trivial
 
 > Elevator to Transport to Tallon Overworld South; Heals? False
   * Layers: default
   * Beam Door to Transport to Tallon Overworld South/Elevator to Transport to Chozo Ruins South
+  > Door to Transport Tunnel D
+      Trivial
 
 ----------------
 Transport to Chozo Ruins West
@@ -1012,6 +1190,14 @@ Extra - room_height: 224
   * Extra - instance_id: 117087
   * Extra - facing: 0
   * Extra - dest_room: tal_Transport_Tunnel_A
+  > Elevator to Transport to Tallon Overworld North
+      Trivial
+
+> Elevator to Transport to Tallon Overworld North; Heals? False
+  * Layers: default
+  * Elevator to Transport to Tallon Overworld North/Door to Ruins Entrance
+  > Door to Transport Tunnel A
+      Trivial
 
 ----------------
 Transport to Magmoor Caverns East
@@ -1021,10 +1207,18 @@ Extra - room_width: 320
 Extra - room_height: 224
 > Door to Transport Tunnel B; Heals? False
   * Layers: default
-  * Beam Door to Transport Tunnel B/Door to Transport to Magmoor Caverns East
+  * Beam Door to Transport to Tallon Overworld West/Door to Transport Tunnel B
   * Extra - instance_id: 117111
   * Extra - facing: 0
   * Extra - dest_room: tal_Transport_Tunnel_B
+  > Elevator to Transport To Tallon Overworld West
+      Trivial
+
+> Elevator to Transport To Tallon Overworld West; Heals? False
+  * Layers: default
+  * Elevator to Transport to Tallon Overworld West/Door to Transport Tunnel B
+  > Door to Transport Tunnel B
+      Trivial
 
 ----------------
 Transport to Phazon Mines East
@@ -1038,6 +1232,14 @@ Extra - room_height: 224
   * Extra - instance_id: 117146
   * Extra - facing: 0
   * Extra - dest_room: tal_Transport_Tunnel_E
+  > Elevator to Transport to Tallon Overworld South
+      Trivial
+
+> Elevator to Transport to Tallon Overworld South; Heals? False
+  * Layers: default
+  * Elevator to Transport to Tallon Overworld South/Door to Quarry Access
+  > Door to Transport Tunnel E
+      Trivial
 
 ----------------
 Transport Tunnel A
@@ -1153,6 +1355,8 @@ Extra - room_height: 224
   * Extra - instance_id: 117353
   * Extra - facing: 0
   * Extra - dest_room: tal_Transport_to_Phazon_Mines_East
+  > Door to Great Tree Hall
+      Trivial
 
 > Door to Great Tree Hall; Heals? False
   * Layers: default
@@ -1160,6 +1364,8 @@ Extra - room_height: 224
   * Extra - instance_id: 117354
   * Extra - facing: 0
   * Extra - dest_room: tal_Great_Tree_Hall
+  > Door to Transport to Phazon Mines East
+      Trivial
 
 ----------------
 Waterfall Cavern
