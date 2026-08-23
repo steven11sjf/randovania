@@ -5461,9 +5461,9 @@
                     "valid_starting_location": false,
                     "dock_type": "Door",
                     "default_connection": {
-                        "region": "Magmoor Caverns",
-                        "area": "Transport to Tallon Overworld West",
-                        "node": "Door to Transport Tunnel B"
+                        "region": "Tallon Overworld",
+                        "area": "Transport Tunnel B",
+                        "node": "Door to Transport to Magmoor Caverns East"
                     },
                     "default_dock_weakness": "Beam Door",
                     "exclude_from_dock_rando": false,

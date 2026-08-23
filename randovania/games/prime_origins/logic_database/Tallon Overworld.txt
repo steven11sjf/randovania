@@ -1207,7 +1207,7 @@ Extra - room_width: 320
 Extra - room_height: 224
 > Door to Transport Tunnel B; Heals? False
   * Layers: default
-  * Beam Door to Transport to Tallon Overworld West/Door to Transport Tunnel B
+  * Beam Door to Transport Tunnel B/Door to Transport to Magmoor Caverns East
   * Extra - instance_id: 117111
   * Extra - facing: 0
   * Extra - dest_room: tal_Transport_Tunnel_B
