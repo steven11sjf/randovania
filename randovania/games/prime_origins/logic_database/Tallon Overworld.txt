@@ -733,7 +733,9 @@ Extra - room_height: 448
   > Pickup (Screw Attack)
       Trivial
   > Pickup (Artifact 6)
-      Screw Attack and Can Use Boost Ball
+      All of the following:
+          Can Use Boost Ball
+          Screw Attack or Can Lay Power Bomb
 
 > Pickup (Screw Attack); Heals? False
   * Layers: default
