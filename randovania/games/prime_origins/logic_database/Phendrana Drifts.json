@@ -865,6 +865,26 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {}
+                },
+                "Pickup (Artifact of Elder)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 239.35,
+                        "y": 126.72,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 97,
+                    "location_category": "major",
+                    "custom_index_group": null,
+                    "hint_features": [],
+                    "connections": {}
                 }
             }
         },
@@ -3918,6 +3938,26 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
+                    "connections": {}
+                },
+                "Pickup (Spider Ball)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 317.44,
+                        "y": 94.73,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 95,
+                    "location_category": "major",
+                    "custom_index_group": null,
+                    "hint_features": [],
                     "connections": {}
                 }
             }

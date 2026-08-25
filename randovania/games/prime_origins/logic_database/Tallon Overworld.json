@@ -763,6 +763,26 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {}
+                },
+                "Pickup (Artifact of Truth)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 285.02,
+                        "y": 81.93,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 98,
+                    "location_category": "major",
+                    "custom_index_group": null,
+                    "hint_features": [],
+                    "connections": {}
                 }
             }
         },

@@ -209,6 +209,10 @@ Extra - room_height: 448
   * Extra - facing: 0
   * Extra - dest_room: tal_Artifact_Temple
 
+> Pickup (Artifact of Truth); Heals? False
+  * Layers: default
+  * Pickup 98; Category? Major
+
 ----------------
 Connection Elevator to Deck Beta
 Extra - room_name: tal_Connection_Elevator_to_Deck_Beta
