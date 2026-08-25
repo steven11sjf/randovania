@@ -42,7 +42,19 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Quarantine Access A": {
+                            "type": "template",
+                            "data": "Can Lay Power Bomb"
+                        },
+                        "Door to Dynamo Access": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Quarantine Access A": {
                     "node_type": "dock",
@@ -74,7 +86,12 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Save Station Mines B": {
+                            "type": "template",
+                            "data": "Can Lay Power Bomb"
+                        }
+                    }
                 },
                 "Door to Dynamo Access": {
                     "node_type": "dock",
@@ -106,7 +123,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Save Station Mines B": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -150,7 +175,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Central Dynamo": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Central Dynamo": {
                     "node_type": "dock",
@@ -182,7 +215,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Omega Research": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -226,7 +267,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Elite Control Access": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Elite Control Access": {
                     "node_type": "dock",
@@ -258,7 +307,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Elevator Access A": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -302,7 +359,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Elevator A": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "MorphBall",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Elevator A": {
                     "node_type": "dock",
@@ -334,7 +401,20 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Ore Processing": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "template",
+                                        "data": "Can Use Spider Ball"
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -378,7 +458,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Elevator B": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "PlasmaBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Elevator B": {
                     "node_type": "dock",
@@ -410,7 +500,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Metroid Quarantine A": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "PlasmaBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -454,7 +554,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Fungal Hall Access": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "PlasmaBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Fungal Hall Access": {
                     "node_type": "dock",
@@ -486,7 +596,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Elevator Access B": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "PlasmaBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -530,7 +650,26 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Elite Control": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "WaveBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        "Pickup (Missile Expansion)": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "MorphBall",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Elite Control": {
                     "node_type": "dock",
@@ -562,7 +701,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Elevator A": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Pickup (Missile Expansion)": {
                     "node_type": "pickup",
@@ -587,7 +734,15 @@
                     "location_category": "minor",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to Elevator A": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -631,7 +786,45 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Maintenance Tunnel": {
+                            "type": "resource",
+                            "data": {
+                                "type": "events",
+                                "name": "EliteControlElitePirate",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        "Door to Ventilation Shaft": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "template",
+                                        "data": "Climb High Ledge"
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "IceBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Event - Defeat Elite Pirate": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Maintenance Tunnel": {
                     "node_type": "dock",
@@ -663,7 +856,22 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Elite Control Access": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Event - Defeat Elite Pirate": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Ventilation Shaft": {
                     "node_type": "dock",
@@ -695,7 +903,66 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Elite Control Access": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "events",
+                                            "name": "EliteControlElitePirate",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "IceBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Event - Defeat Elite Pirate": {
+                    "node_type": "event",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 324.13,
+                        "y": 131.87,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "event_name": "EliteControlElitePirate",
+                    "connections": {
+                        "Door to Elite Control Access": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Door to Maintenance Tunnel": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -739,7 +1006,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Metroid Quarantine B": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "PlasmaBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Metroid Quarantine B": {
                     "node_type": "dock",
@@ -771,7 +1048,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Elite Quarters": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "PlasmaBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -815,7 +1102,24 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Processing Center Access": {
+                            "type": "resource",
+                            "data": {
+                                "type": "events",
+                                "name": "OmegaPirate",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        "Event - Omega Pirate Defeated": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Processing Center Access": {
                     "node_type": "dock",
@@ -847,7 +1151,42 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Elite Quarters Access": {
+                            "type": "resource",
+                            "data": {
+                                "type": "events",
+                                "name": "OmegaPirate",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
+                },
+                "Event - Omega Pirate Defeated": {
+                    "node_type": "event",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 317.9328165374677,
+                        "y": 111.85529715762272,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "event_name": "OmegaPirate",
+                    "connections": {
+                        "Door to Elite Quarters Access": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -861,12 +1200,12 @@
                 "room_height": 672
             },
             "nodes": {
-                "Door to Elite Research": {
+                "Open Access to Elite Research": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 608.0,
-                        "y": -16.0,
+                        "x": 561.21,
+                        "y": 3.04,
                         "z": 0.0
                     },
                     "description": "",
@@ -879,19 +1218,91 @@
                         "dest_room": "pha_Elite_Research"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Phazon Mines",
                         "area": "Elite Research",
-                        "node": "Door to Elite Research subB"
+                        "node": "Open Access to Elite Research subB"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Vertical)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Pickup (Missile Expansion)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Use Spider Ball"
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "GrappleBeam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "events",
+                                            "name": "EliteResearchMiningCannon",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Open Access to Elite Research subC": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "events",
+                                            "name": "EliteResearchMiningCannon",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Event - Elite Research Mining Cannon": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "template",
+                                        "data": "Climb High Ledge"
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Use Boost Ball"
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Pickup (Missile Expansion)": {
                     "node_type": "pickup",
@@ -916,14 +1327,22 @@
                     "location_category": "minor",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Open Access to Elite Research": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
-                "Door to Elite Research subC": {
+                "Open Access to Elite Research subC": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 976.0,
-                        "y": 48.0,
+                        "x": 956.93,
+                        "y": 94.58,
                         "z": 0.0
                     },
                     "description": "",
@@ -936,19 +1355,71 @@
                         "dest_room": "pha_Elite_Research_subC"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Phazon Mines",
                         "area": "Elite Research subC",
-                        "node": "Door to Elite Research subB"
+                        "node": "Open Access to Elite Research subB"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Open Access to Elite Research": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "GrappleBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "events",
+                                            "name": "EliteResearchMiningCannon",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Event - Elite Research Mining Cannon": {
+                    "node_type": "event",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 565.64,
+                        "y": 354.46,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "event_name": "EliteResearchMiningCannon",
+                    "connections": {
+                        "Open Access to Elite Research": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -962,7 +1433,7 @@
                 "room_height": 224
             },
             "nodes": {
-                "Door to Elite Research subB": {
+                "Open Access to Elite Research subB": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -980,19 +1451,27 @@
                         "dest_room": "pha_Elite_Research_subB"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Phazon Mines",
                         "area": "Elite Research subB",
-                        "node": "Door to Elite Research subC"
+                        "node": "Open Access to Elite Research subC"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Research Access": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Research Access": {
                     "node_type": "dock",
@@ -1024,7 +1503,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Open Access to Elite Research subB": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -1042,8 +1529,8 @@
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 560.0,
-                        "y": 0.0,
+                        "x": 537.8417620278085,
+                        "y": 4.3341946597760455,
                         "z": 0.0
                     },
                     "description": "",
@@ -1068,14 +1555,29 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Open Access to Elite Research subB": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Warrior Artifact Pickup": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
-                "Door to Elite Research subB": {
+                "Open Access to Elite Research subB": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 608.0,
-                        "y": 240.0,
+                        "x": 567.37,
+                        "y": 225.82,
                         "z": 0.0
                     },
                     "description": "",
@@ -1088,19 +1590,55 @@
                         "dest_room": "pha_Elite_Research_subB"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Phazon Mines",
                         "area": "Elite Research subB",
-                        "node": "Door to Elite Research"
+                        "node": "Open Access to Elite Research"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Vertical)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Security Access B": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Warrior Artifact Pickup": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 110.18,
+                        "y": 109.42,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 85,
+                    "location_category": "minor",
+                    "custom_index_group": null,
+                    "hint_features": [],
+                    "connections": {
+                        "Door to Security Access B": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -1144,7 +1682,34 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Phazon Mining Tunnel": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "GrappleBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "IceBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Phazon Mining Tunnel": {
                     "node_type": "dock",
@@ -1176,7 +1741,29 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Fungal Hall Access": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "IceBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Climb High Ledge"
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -1220,7 +1807,41 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Fungal Hall A": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Pickup (Missile Expansion)": {
+                            "type": "or",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "EnergyTank",
+                                            "amount": 2,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "PhazonSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Fungal Hall A": {
                     "node_type": "dock",
@@ -1252,7 +1873,12 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Elevator B": {
+                            "type": "template",
+                            "data": "Climb High Ledge"
+                        }
+                    }
                 },
                 "Pickup (Missile Expansion)": {
                     "node_type": "pickup",
@@ -1277,7 +1903,15 @@
                     "location_category": "minor",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to Elevator B": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -1321,7 +1955,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Junction": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "GrappleBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Missile Station Mines": {
                     "node_type": "dock",
@@ -1353,7 +1997,12 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Junction": {
+                            "type": "template",
+                            "data": "Climb High Ledge"
+                        }
+                    }
                 },
                 "Door to Quarantine Access B": {
                     "node_type": "dock",
@@ -1385,7 +2034,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Junction": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Pickup (Missile Expansion)": {
                     "node_type": "pickup",
@@ -1410,7 +2067,56 @@
                     "location_category": "minor",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Junction": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Junction": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 670.4761904761905,
+                        "y": 227.69139904023623,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Phazon Mining Tunnel": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "GrappleBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        "Door to Missile Station Mines": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Door to Quarantine Access B": {
+                            "type": "template",
+                            "data": "Climb High Ledge"
+                        },
+                        "Pickup (Missile Expansion)": {
+                            "type": "template",
+                            "data": "Can Break Bomb Blocks"
+                        }
+                    }
                 }
             }
         },
@@ -1454,7 +2160,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Lower Junction": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Quarry Access": {
                     "node_type": "dock",
@@ -1486,7 +2200,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Lower Junction": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Waste Disposal": {
                     "node_type": "dock",
@@ -1518,7 +2240,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Lower Junction": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Security Access A": {
                     "node_type": "dock",
@@ -1550,7 +2280,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Lower Junction": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "IceBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Pickup (Missile Expansion)": {
                     "node_type": "pickup",
@@ -1575,7 +2315,118 @@
                     "location_category": "minor",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Upper Junction": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Upper Junction": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 398.74984619170664,
+                        "y": 572.7417251138181,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Waste Disposal": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "GrappleBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        "Pickup (Missile Expansion)": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "WaveBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        "Lower Junction": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Lower Junction": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 265.8594807432017,
+                        "y": 114.02387104712682,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Save Station Mines A": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Door to Quarry Access": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Door to Security Access A": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "IceBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        "Upper Junction": {
+                            "type": "or",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "template",
+                                        "data": "Can Use Spider Ball"
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "GrappleBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -1619,7 +2470,12 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Phazon Processing Center": {
+                            "type": "template",
+                            "data": "Can Lay Power Bomb"
+                        }
+                    }
                 },
                 "Door to Phazon Processing Center": {
                     "node_type": "dock",
@@ -1651,7 +2507,12 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Elite Control": {
+                            "type": "template",
+                            "data": "Can Lay Power Bomb"
+                        }
+                    }
                 }
             }
         },
@@ -1695,7 +2556,39 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Phazon Mines - Map Station": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Phazon Mines - Map Station": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 102.90636151101269,
+                        "y": 94.52737787621507,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Omega Research": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -1739,7 +2632,38 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Event - Metroid Quarantine A Gate": {
+                            "type": "template",
+                            "data": "Can Break Bomb Blocks"
+                        },
+                        "Junction": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "events",
+                                            "name": "MetroidQuarantineAGate",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "GrappleBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Elevator Access B": {
                     "node_type": "dock",
@@ -1771,7 +2695,29 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Junction": {
+                            "type": "or",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "ScrewAttack",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Break Bomb Blocks"
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Pickup (Missile Expansion)": {
                     "node_type": "pickup",
@@ -1796,7 +2742,117 @@
                     "location_category": "minor",
                     "custom_index_group": null,
                     "hint_features": [],
+                    "connections": {
+                        "Junction": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Event - Metroid Quarantine A Gate": {
+                    "node_type": "event",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 806.32,
+                        "y": 77.08,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "event_name": "MetroidQuarantineAGate",
                     "connections": {}
+                },
+                "Junction": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 360.97024256064026,
+                        "y": 161.4843710927729,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Quarantine Access A": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "events",
+                                            "name": "MetroidQuarantineAGate",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "GrappleBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Door to Elevator Access B": {
+                            "type": "or",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "ScrewAttack",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Break Bomb Blocks"
+                                    }
+                                ]
+                            }
+                        },
+                        "Pickup (Missile Expansion)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Power Bomb"
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "ScrewAttack",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },

@@ -10,6 +10,10 @@ Extra - room_height: 448
   * Extra - instance_id: 108598
   * Extra - facing: 0
   * Extra - dest_room: pha_Save_Station_Mines_B
+  > Door to Quarantine Access A
+      Can Lay Power Bomb
+  > Door to Dynamo Access
+      Trivial
 
 > Door to Quarantine Access A; Heals? False
   * Layers: default
@@ -17,6 +21,8 @@ Extra - room_height: 448
   * Extra - instance_id: 108599
   * Extra - facing: 0
   * Extra - dest_room: pha_Quarantine_Access_A
+  > Door to Save Station Mines B
+      Can Lay Power Bomb
 
 > Door to Dynamo Access; Heals? False
   * Layers: default
@@ -24,6 +30,8 @@ Extra - room_height: 448
   * Extra - instance_id: 108600
   * Extra - facing: 0
   * Extra - dest_room: pha_Dynamo_Access
+  > Door to Save Station Mines B
+      Trivial
 
 ----------------
 Dynamo Access
@@ -37,6 +45,8 @@ Extra - room_height: 224
   * Extra - instance_id: 108675
   * Extra - facing: 0
   * Extra - dest_room: pha_Omega_Research
+  > Door to Central Dynamo
+      Trivial
 
 > Door to Central Dynamo; Heals? False
   * Layers: default
@@ -44,6 +54,8 @@ Extra - room_height: 224
   * Extra - instance_id: 108676
   * Extra - facing: 0
   * Extra - dest_room: pha_Central_Dynamo
+  > Door to Omega Research
+      Trivial
 
 ----------------
 Elevator A
@@ -57,6 +69,8 @@ Extra - room_height: 1120
   * Extra - instance_id: 108696
   * Extra - facing: 0
   * Extra - dest_room: pha_Elevator_Access_A
+  > Door to Elite Control Access
+      Trivial
 
 > Door to Elite Control Access; Heals? False
   * Layers: default
@@ -64,6 +78,8 @@ Extra - room_height: 1120
   * Extra - instance_id: 108697
   * Extra - facing: 0
   * Extra - dest_room: pha_Elite_Control_Access
+  > Door to Elevator Access A
+      Trivial
 
 ----------------
 Elevator Access A
@@ -77,6 +93,8 @@ Extra - room_height: 224
   * Extra - instance_id: 108752
   * Extra - facing: 0
   * Extra - dest_room: pha_Ore_Processing
+  > Door to Elevator A
+      Morph Ball
 
 > Door to Elevator A; Heals? False
   * Layers: default
@@ -84,6 +102,8 @@ Extra - room_height: 224
   * Extra - instance_id: 108753
   * Extra - facing: 0
   * Extra - dest_room: pha_Elevator_A
+  > Door to Ore Processing
+      Can Use Spider Ball
 
 ----------------
 Elevator Access B
@@ -97,6 +117,8 @@ Extra - room_height: 224
   * Extra - instance_id: 108765
   * Extra - facing: 0
   * Extra - dest_room: pha_Metroid_Quarantine_A
+  > Door to Elevator B
+      Plasma Beam
 
 > Door to Elevator B; Heals? False
   * Layers: default
@@ -104,6 +126,8 @@ Extra - room_height: 224
   * Extra - instance_id: 108766
   * Extra - facing: 0
   * Extra - dest_room: pha_Elevator_B
+  > Door to Metroid Quarantine A
+      Plasma Beam
 
 ----------------
 Elevator B
@@ -117,6 +141,8 @@ Extra - room_height: 1120
   * Extra - instance_id: 108829
   * Extra - facing: 0
   * Extra - dest_room: pha_Elevator_Access_B
+  > Door to Fungal Hall Access
+      Plasma Beam
 
 > Door to Fungal Hall Access; Heals? False
   * Layers: default
@@ -124,6 +150,8 @@ Extra - room_height: 1120
   * Extra - instance_id: 108830
   * Extra - facing: 0
   * Extra - dest_room: pha_Fungal_Hall_Access
+  > Door to Elevator Access B
+      Plasma Beam
 
 ----------------
 Elite Control Access
@@ -137,6 +165,10 @@ Extra - room_height: 224
   * Extra - instance_id: 108861
   * Extra - facing: 0
   * Extra - dest_room: pha_Elevator_A
+  > Door to Elite Control
+      Wave Beam
+  > Pickup (Missile Expansion)
+      Morph Ball
 
 > Door to Elite Control; Heals? False
   * Layers: default
@@ -144,6 +176,8 @@ Extra - room_height: 224
   * Extra - instance_id: 108862
   * Extra - facing: 0
   * Extra - dest_room: pha_Elite_Control
+  > Door to Elevator A
+      Trivial
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -152,6 +186,8 @@ Extra - room_height: 224
   * Extra - object_name: obj_expansion_missile
   * Extra - item_type: Missile Expansion
   * Extra - is_major: minor
+  > Door to Elevator A
+      Trivial
 
 ----------------
 Elite Control
@@ -165,6 +201,12 @@ Extra - room_height: 672
   * Extra - instance_id: 108876
   * Extra - facing: 0
   * Extra - dest_room: pha_Elite_Control_Access
+  > Door to Maintenance Tunnel
+      After Elite Control Elite Pirate
+  > Door to Ventilation Shaft
+      Ice Beam and Climb High Ledge
+  > Event - Defeat Elite Pirate
+      Trivial
 
 > Door to Maintenance Tunnel; Heals? False
   * Layers: default
@@ -172,6 +214,10 @@ Extra - room_height: 672
   * Extra - instance_id: 108877
   * Extra - facing: 0
   * Extra - dest_room: pha_Maintenance_Tunnel
+  > Door to Elite Control Access
+      Trivial
+  > Event - Defeat Elite Pirate
+      Trivial
 
 > Door to Ventilation Shaft; Heals? False
   * Layers: default
@@ -179,6 +225,16 @@ Extra - room_height: 672
   * Extra - instance_id: 108878
   * Extra - facing: 0
   * Extra - dest_room: pha_Ventilation_Shaft
+  > Door to Elite Control Access
+      Ice Beam and After Elite Control Elite Pirate
+
+> Event - Defeat Elite Pirate; Heals? False
+  * Layers: default
+  * Event Elite Control Elite Pirate
+  > Door to Elite Control Access
+      Trivial
+  > Door to Maintenance Tunnel
+      Trivial
 
 ----------------
 Elite Quarters Access
@@ -192,6 +248,8 @@ Extra - room_height: 224
   * Extra - instance_id: 108997
   * Extra - facing: 0
   * Extra - dest_room: pha_Elite_Quarters
+  > Door to Metroid Quarantine B
+      Plasma Beam
 
 > Door to Metroid Quarantine B; Heals? False
   * Layers: default
@@ -199,6 +257,8 @@ Extra - room_height: 224
   * Extra - instance_id: 108998
   * Extra - facing: 0
   * Extra - dest_room: pha_Metroid_Quarantine_B
+  > Door to Elite Quarters
+      Plasma Beam
 
 ----------------
 Elite Quarters
@@ -212,6 +272,10 @@ Extra - room_height: 448
   * Extra - instance_id: 109022
   * Extra - facing: 0
   * Extra - dest_room: pha_Elite_Quarters_Access
+  > Door to Processing Center Access
+      After Omega Pirate Defeated
+  > Event - Omega Pirate Defeated
+      Trivial
 
 > Door to Processing Center Access; Heals? False
   * Layers: default
@@ -219,6 +283,14 @@ Extra - room_height: 448
   * Extra - instance_id: 109023
   * Extra - facing: 0
   * Extra - dest_room: pha_Processing_Center_Access
+  > Door to Elite Quarters Access
+      After Omega Pirate Defeated
+
+> Event - Omega Pirate Defeated; Heals? False
+  * Layers: default
+  * Event Omega Pirate Defeated
+  > Door to Elite Quarters Access
+      Trivial
 
 ----------------
 Elite Research subB
@@ -226,12 +298,20 @@ Extra - room_name: pha_Elite_Research_subB
 Extra - map_name: pha_Elite_Research_subB
 Extra - room_width: 960
 Extra - room_height: 672
-> Door to Elite Research; Heals? False
+> Open Access to Elite Research; Heals? False
   * Layers: default
-  * Beam Door to Elite Research/Door to Elite Research subB
+  * Open Access (Vertical) to Elite Research/Open Access to Elite Research subB
   * Extra - instance_id: 109107
   * Extra - facing: 90
   * Extra - dest_room: pha_Elite_Research
+  > Pickup (Missile Expansion)
+      All of the following:
+          After Elite Research Mining Cannon
+          Grapple Beam or Can Use Spider Ball
+  > Open Access to Elite Research subC
+      After Elite Research Mining Cannon
+  > Event - Elite Research Mining Cannon
+      Can Use Boost Ball and Climb High Ledge
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -240,13 +320,23 @@ Extra - room_height: 672
   * Extra - object_name: obj_expansion_missile
   * Extra - item_type: Missile Expansion
   * Extra - is_major: minor
+  > Open Access to Elite Research
+      Trivial
 
-> Door to Elite Research subC; Heals? False
+> Open Access to Elite Research subC; Heals? False
   * Layers: default
-  * Beam Door to Elite Research subC/Door to Elite Research subB
+  * Open Access (Horizontal) to Elite Research subC/Open Access to Elite Research subB
   * Extra - instance_id: 109319
   * Extra - facing: 0
   * Extra - dest_room: pha_Elite_Research_subC
+  > Open Access to Elite Research
+      Grapple Beam and After Elite Research Mining Cannon
+
+> Event - Elite Research Mining Cannon; Heals? False
+  * Layers: default
+  * Event Elite Research Mining Cannon
+  > Open Access to Elite Research
+      Trivial
 
 ----------------
 Elite Research subC
@@ -254,12 +344,14 @@ Extra - room_name: pha_Elite_Research_subC
 Extra - map_name: pha_Elite_Research_subC
 Extra - room_width: 640
 Extra - room_height: 224
-> Door to Elite Research subB; Heals? False
+> Open Access to Elite Research subB; Heals? False
   * Layers: default
-  * Beam Door to Elite Research subB/Door to Elite Research subC
+  * Open Access (Horizontal) to Elite Research subB/Open Access to Elite Research subC
   * Extra - instance_id: 109388
   * Extra - facing: 0
   * Extra - dest_room: pha_Elite_Research_subB
+  > Door to Research Access
+      Trivial
 
 > Door to Research Access; Heals? False
   * Layers: default
@@ -267,6 +359,8 @@ Extra - room_height: 224
   * Extra - instance_id: 109394
   * Extra - facing: 0
   * Extra - dest_room: pha_Research_Access
+  > Open Access to Elite Research subB
+      Trivial
 
 ----------------
 Elite Research
@@ -280,13 +374,25 @@ Extra - room_height: 224
   * Extra - instance_id: 109396
   * Extra - facing: 90
   * Extra - dest_room: pha_Security_Access_B
+  > Open Access to Elite Research subB
+      Trivial
+  > Warrior Artifact Pickup
+      Trivial
 
-> Door to Elite Research subB; Heals? False
+> Open Access to Elite Research subB; Heals? False
   * Layers: default
-  * Beam Door to Elite Research subB/Door to Elite Research
+  * Open Access (Vertical) to Elite Research subB/Open Access to Elite Research
   * Extra - instance_id: 109397
   * Extra - facing: 90
   * Extra - dest_room: pha_Elite_Research_subB
+  > Door to Security Access B
+      Trivial
+
+> Warrior Artifact Pickup; Heals? False
+  * Layers: default
+  * Pickup 85; Category? Minor
+  > Door to Security Access B
+      Trivial
 
 ----------------
 Fungal Hall A
@@ -300,6 +406,8 @@ Extra - room_height: 448
   * Extra - instance_id: 109424
   * Extra - facing: 0
   * Extra - dest_room: pha_Fungal_Hall_Access
+  > Door to Phazon Mining Tunnel
+      Grapple Beam and Ice Beam
 
 > Door to Phazon Mining Tunnel; Heals? False
   * Layers: default
@@ -307,6 +415,8 @@ Extra - room_height: 448
   * Extra - instance_id: 109425
   * Extra - facing: 0
   * Extra - dest_room: pha_Phazon_Mining_Tunnel
+  > Door to Fungal Hall Access
+      Ice Beam and Climb High Ledge
 
 ----------------
 Fungal Hall Access
@@ -320,6 +430,10 @@ Extra - room_height: 448
   * Extra - instance_id: 109655
   * Extra - facing: 0
   * Extra - dest_room: pha_Elevator_B
+  > Door to Fungal Hall A
+      Trivial
+  > Pickup (Missile Expansion)
+      Energy Tank ≥ 2 or Phazon Suit
 
 > Door to Fungal Hall A; Heals? False
   * Layers: default
@@ -327,6 +441,8 @@ Extra - room_height: 448
   * Extra - instance_id: 109656
   * Extra - facing: 0
   * Extra - dest_room: pha_Fungal_Hall_A
+  > Door to Elevator B
+      Climb High Ledge
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -335,6 +451,8 @@ Extra - room_height: 448
   * Extra - object_name: obj_expansion_missile
   * Extra - item_type: Missile Expansion
   * Extra - is_major: minor
+  > Door to Elevator B
+      Trivial
 
 ----------------
 Fungal Hall B
@@ -348,6 +466,8 @@ Extra - room_height: 448
   * Extra - instance_id: 109746
   * Extra - facing: 0
   * Extra - dest_room: pha_Phazon_Mining_Tunnel
+  > Junction
+      Grapple Beam
 
 > Door to Missile Station Mines; Heals? False
   * Layers: default
@@ -355,6 +475,8 @@ Extra - room_height: 448
   * Extra - instance_id: 109747
   * Extra - facing: 0
   * Extra - dest_room: pha_Missile_Station_Mines
+  > Junction
+      Climb High Ledge
 
 > Door to Quarantine Access B; Heals? False
   * Layers: default
@@ -362,6 +484,8 @@ Extra - room_height: 448
   * Extra - instance_id: 109748
   * Extra - facing: 0
   * Extra - dest_room: pha_Quarantine_Access_B
+  > Junction
+      Trivial
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -370,6 +494,19 @@ Extra - room_height: 448
   * Extra - object_name: obj_expansion_missile
   * Extra - item_type: Missile Expansion
   * Extra - is_major: minor
+  > Junction
+      Trivial
+
+> Junction; Heals? False
+  * Layers: default
+  > Door to Phazon Mining Tunnel
+      Grapple Beam
+  > Door to Missile Station Mines
+      Trivial
+  > Door to Quarantine Access B
+      Climb High Ledge
+  > Pickup (Missile Expansion)
+      Can Break Bomb Blocks
 
 ----------------
 Main Quarry
@@ -383,6 +520,8 @@ Extra - room_height: 672
   * Extra - instance_id: 109898
   * Extra - facing: 0
   * Extra - dest_room: pha_Save_Station_Mines_A
+  > Lower Junction
+      Trivial
 
 > Door to Quarry Access; Heals? False
   * Layers: default
@@ -390,6 +529,8 @@ Extra - room_height: 672
   * Extra - instance_id: 109899
   * Extra - facing: 0
   * Extra - dest_room: pha_Quarry_Access
+  > Lower Junction
+      Trivial
 
 > Door to Waste Disposal; Heals? False
   * Layers: default
@@ -397,6 +538,8 @@ Extra - room_height: 672
   * Extra - instance_id: 109900
   * Extra - facing: 0
   * Extra - dest_room: pha_Waste_Disposal
+  > Lower Junction
+      Trivial
 
 > Door to Security Access A; Heals? False
   * Layers: default
@@ -404,6 +547,8 @@ Extra - room_height: 672
   * Extra - instance_id: 109901
   * Extra - facing: 0
   * Extra - dest_room: pha_Security_Access_A
+  > Lower Junction
+      Ice Beam
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -412,6 +557,28 @@ Extra - room_height: 672
   * Extra - object_name: obj_expansion_missile
   * Extra - item_type: Missile Expansion
   * Extra - is_major: minor
+  > Upper Junction
+      Trivial
+
+> Upper Junction; Heals? False
+  * Layers: default
+  > Door to Waste Disposal
+      Grapple Beam
+  > Pickup (Missile Expansion)
+      Wave Beam
+  > Lower Junction
+      Trivial
+
+> Lower Junction; Heals? False
+  * Layers: default
+  > Door to Save Station Mines A
+      Trivial
+  > Door to Quarry Access
+      Trivial
+  > Door to Security Access A
+      Ice Beam
+  > Upper Junction
+      Grapple Beam or Can Use Spider Ball
 
 ----------------
 Maintenance Tunnel
@@ -425,6 +592,8 @@ Extra - room_height: 224
   * Extra - instance_id: 110017
   * Extra - facing: 0
   * Extra - dest_room: pha_Elite_Control
+  > Door to Phazon Processing Center
+      Can Lay Power Bomb
 
 > Door to Phazon Processing Center; Heals? False
   * Layers: default
@@ -432,6 +601,8 @@ Extra - room_height: 224
   * Extra - instance_id: 110018
   * Extra - facing: 0
   * Extra - dest_room: pha_Phazon_Processing_Center
+  > Door to Elite Control
+      Can Lay Power Bomb
 
 ----------------
 Map Station Mines
@@ -445,6 +616,13 @@ Extra - room_height: 224
   * Extra - instance_id: 110041
   * Extra - facing: 0
   * Extra - dest_room: pha_Omega_Research
+  > Phazon Mines - Map Station
+      Trivial
+
+> Phazon Mines - Map Station; Heals? False
+  * Layers: default
+  > Door to Omega Research
+      Trivial
 
 ----------------
 Metroid Quarantine A
@@ -458,6 +636,10 @@ Extra - room_height: 448
   * Extra - instance_id: 110044
   * Extra - facing: 0
   * Extra - dest_room: pha_Quarantine_Access_A
+  > Event - Metroid Quarantine A Gate
+      Can Break Bomb Blocks
+  > Junction
+      Grapple Beam and After Metroid Quarantine A Gate
 
 > Door to Elevator Access B; Heals? False
   * Layers: default
@@ -465,6 +647,8 @@ Extra - room_height: 448
   * Extra - instance_id: 110045
   * Extra - facing: 0
   * Extra - dest_room: pha_Elevator_Access_B
+  > Junction
+      Screw Attack or Can Break Bomb Blocks
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -473,6 +657,21 @@ Extra - room_height: 448
   * Extra - object_name: obj_expansion_missile
   * Extra - item_type: Missile Expansion
   * Extra - is_major: minor
+  > Junction
+      Trivial
+
+> Event - Metroid Quarantine A Gate; Heals? False
+  * Layers: default
+  * Event Metroid Quarantine A Gate
+
+> Junction; Heals? False
+  * Layers: default
+  > Door to Quarantine Access A
+      Grapple Beam and After Metroid Quarantine A Gate
+  > Door to Elevator Access B
+      Screw Attack or Can Break Bomb Blocks
+  > Pickup (Missile Expansion)
+      Screw Attack and Can Lay Power Bomb
 
 ----------------
 Metroid Quarantine B
