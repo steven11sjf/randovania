@@ -141,6 +141,10 @@
             "ElderPlasmaBeam": {
                 "long_name": "Hall of the Elders Plasma Slot",
                 "extra": {}
+            },
+            "MetroidQuarantineBGate": {
+                "long_name": "Metroid Quarantine B Gate",
+                "extra": {}
             }
         },
         "tricks": {},
@@ -313,6 +317,35 @@
                                 "data": {
                                     "type": "items",
                                     "name": "BoostBall",
+                                    "amount": 1,
+                                    "negate": false
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "Can Use Spring Ball": {
+                "display_name": "Can Use Spring Ball",
+                "requirement": {
+                    "type": "and",
+                    "data": {
+                        "comment": null,
+                        "items": [
+                            {
+                                "type": "resource",
+                                "data": {
+                                    "type": "items",
+                                    "name": "Bomb",
+                                    "amount": 1,
+                                    "negate": false
+                                }
+                            },
+                            {
+                                "type": "resource",
+                                "data": {
+                                    "type": "items",
+                                    "name": "MorphBall",
                                     "amount": 1,
                                     "negate": false
                                 }
