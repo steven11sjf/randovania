@@ -3980,23 +3980,6 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Transport Tunnel C": {
-                            "type": "or",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "MorphBall",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    }
-                                ]
-                            }
-                        },
                         "Pickup (Missile Expansion)": {
                             "type": "or",
                             "data": {
@@ -4047,21 +4030,13 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Crash Site": {
-                            "type": "or",
+                        "Pickup (Missile Expansion)": {
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "MorphBall",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    }
-                                ]
+                                "type": "items",
+                                "name": "MorphBall",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -4105,6 +4080,15 @@
                                         }
                                     }
                                 ]
+                            }
+                        },
+                        "Door to Transport Tunnel C": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "MorphBall",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -4202,7 +4186,7 @@
                                 ]
                             }
                         },
-                        "Event Nodes Activated": {
+                        "Event - Nodes Activated": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -4337,7 +4321,7 @@
                         }
                     }
                 },
-                "Event Nodes Activated": {
+                "Event - Nodes Activated": {
                     "node_type": "event",
                     "heal": false,
                     "coordinates": {
@@ -4486,6 +4470,15 @@
                                         "data": {
                                             "type": "items",
                                             "name": "GrappleBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "SpaceJump",
                                             "amount": 1,
                                             "negate": false
                                         }

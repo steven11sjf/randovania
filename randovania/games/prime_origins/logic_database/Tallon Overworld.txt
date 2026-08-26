@@ -850,8 +850,6 @@ Extra - room_height: 224
   * Extra - instance_id: 116427
   * Extra - facing: 0
   * Extra - dest_room: tal_Crash_Site
-  > Door to Transport Tunnel C
-      Morph Ball
   > Pickup (Missile Expansion)
       Morph Ball
 
@@ -861,7 +859,7 @@ Extra - room_height: 224
   * Extra - instance_id: 116428
   * Extra - facing: 0
   * Extra - dest_room: tal_Transport_Tunnel_C
-  > Door to Crash Site
+  > Pickup (Missile Expansion)
       Morph Ball
 
 > Pickup (Missile Expansion); Heals? False
@@ -872,6 +870,8 @@ Extra - room_height: 224
   * Extra - item_type: Missile Expansion
   * Extra - is_major: minor
   > Door to Crash Site
+      Morph Ball
+  > Door to Transport Tunnel C
       Morph Ball
 
 ----------------
@@ -892,7 +892,7 @@ Extra - room_height: 448
       All of the following:
           After Reactor Access Wave Slots
           Grapple Beam or Gravity Suit
-  > Event Nodes Activated
+  > Event - Nodes Activated
       All of the following:
           Wave Beam
           Grapple Beam or Gravity Suit
@@ -915,7 +915,7 @@ Extra - room_height: 448
   > Door to Reactor Core
       After Reactor Access Wave Slots
 
-> Event Nodes Activated; Heals? False
+> Event - Nodes Activated; Heals? False
   * Layers: default
   * Event Reactor Access Wave Slots
   > Door to Reactor Core
@@ -943,7 +943,7 @@ Extra - room_height: 448
   * Extra - facing: 0
   * Extra - dest_room: tal_Reactor_Access
   > Door to Main Ventilation Shaft Section A
-      Grapple Beam or Gravity Suit
+      Grapple Beam or Gravity Suit or Space Jump
 
 ----------------
 Root Cave
