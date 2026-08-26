@@ -141,6 +141,10 @@
             "ElderPlasmaBeam": {
                 "long_name": "Hall of the Elders Plasma Slot",
                 "extra": {}
+            },
+            "FirstChozoGhost": {
+                "long_name": "First Chozo Ghost",
+                "extra": {}
             }
         },
         "tricks": {},
