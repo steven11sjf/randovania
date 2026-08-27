@@ -155,6 +155,10 @@ Extra - room_height: 224
   > Door to Burn Dome Access
       Can Break Bomb Blocks
 
+> Pickup (Morph Ball Bombs); Heals? False
+  * Layers: default
+  * Pickup 93; Category? Major
+
 ----------------
 Crossway Access South
 Extra - room_name: cho_Crossway_Access_South
@@ -1857,6 +1861,10 @@ Extra - room_height: 448
   * Extra - dest_room: cho_Sun_Tower_Access
   > Pickup (Varia Suit)
       Trivial
+
+> Pickup (Artifact of Chozo); Heals? False
+  * Layers: default
+  * Pickup 85; Category? Major
 
 ----------------
 Totem Access

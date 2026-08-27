@@ -25,6 +25,10 @@ Extra - room_height: 448
   * Extra - facing: 0
   * Extra - dest_room: pha_Dynamo_Access
 
+> Pickup (Power Bomb); Heals? False
+  * Layers: default
+  * Pickup 96; Category? Major
+
 ----------------
 Dynamo Access
 Extra - room_name: pha_Dynamo_Access
@@ -220,6 +224,10 @@ Extra - room_height: 448
   * Extra - facing: 0
   * Extra - dest_room: pha_Processing_Center_Access
 
+> Pickup (Phazon Suit); Heals? False
+  * Layers: default
+  * Pickup 94; Category? Major
+
 ----------------
 Elite Research subB
 Extra - room_name: pha_Elite_Research_subB
@@ -287,6 +295,10 @@ Extra - room_height: 224
   * Extra - instance_id: 109397
   * Extra - facing: 90
   * Extra - dest_room: pha_Elite_Research_subB
+
+> Pickup (Artifact of Warrior); Heals? False
+  * Layers: default
+  * Pickup 99; Category? Major
 
 ----------------
 Fungal Hall A
