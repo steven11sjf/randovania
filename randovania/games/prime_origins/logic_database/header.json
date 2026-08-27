@@ -142,6 +142,10 @@
                 "long_name": "Hall of the Elders Plasma Slot",
                 "extra": {}
             },
+            "FirstChozoGhost": {
+                "long_name": "First Chozo Ghost",
+                "extra": {}
+            }
             "Reactor Access Wave Slots": {
                 "long_name": "Reactor Access Wave Slots",
                 "extra": {}
