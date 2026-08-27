@@ -1072,7 +1072,7 @@
                                 "items": []
                             }
                         },
-                        "Impact Crater - Entry Point Save": {
+                        "Save Station": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -1107,12 +1107,12 @@
                         }
                     }
                 },
-                "Impact Crater - Entry Point Save": {
+                "Save Station": {
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
-                        "x": 244.2715270475523,
-                        "y": 294.40074775090545,
+                        "x": 244.27,
+                        "y": 294.4,
                         "z": 0.0
                     },
                     "description": "",
@@ -1174,7 +1174,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Impact Crater - Missile Station": {
+                        "Missile Station": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -1183,12 +1183,12 @@
                         }
                     }
                 },
-                "Impact Crater - Missile Station": {
+                "Missile Station": {
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
                         "x": 160.0,
-                        "y": 121.56072351421187,
+                        "y": 121.56,
                         "z": 0.0
                     },
                     "description": "",
@@ -1250,7 +1250,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Impact Crater - Crater Save": {
+                        "Save Station": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -1259,12 +1259,12 @@
                         }
                     }
                 },
-                "Impact Crater - Crater Save": {
+                "Save Station": {
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
-                        "x": 163.10077519379846,
-                        "y": 100.88888888888887,
+                        "x": 163.1,
+                        "y": 100.89,
                         "z": 0.0
                     },
                     "description": "",

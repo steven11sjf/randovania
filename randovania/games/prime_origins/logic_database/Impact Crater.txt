@@ -250,7 +250,7 @@ Extra - room_height: 448
   * Extra - dest_room: imp_Crater_Vein_A
   > Elevator to Cipher Site
       Trivial
-  > Impact Crater - Entry Point Save
+  > Save Station
       Trivial
 
 > Elevator to Cipher Site; Heals? False
@@ -258,7 +258,7 @@ Extra - room_height: 448
   > Door to Crater Vein A
       Grapple Beam
 
-> Impact Crater - Entry Point Save; Heals? False
+> Save Station; Heals? False
   * Layers: default
   > Door to Crater Vein A
       Trivial
@@ -275,10 +275,10 @@ Extra - room_height: 224
   * Extra - instance_id: 105221
   * Extra - facing: 0
   * Extra - dest_room: imp_Crater_Depths
-  > Impact Crater - Missile Station
+  > Missile Station
       Trivial
 
-> Impact Crater - Missile Station; Heals? False
+> Missile Station; Heals? False
   * Layers: default
   > Door to Crater Depths
       Trivial
@@ -295,10 +295,10 @@ Extra - room_height: 224
   * Extra - instance_id: 105244
   * Extra - facing: 0
   * Extra - dest_room: imp_Crater_Depths
-  > Impact Crater - Crater Save
+  > Save Station
       Trivial
 
-> Impact Crater - Crater Save; Heals? False
+> Save Station; Heals? False
   * Layers: default
   > Door to Crater Depths
       Trivial
