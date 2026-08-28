@@ -2,7 +2,7 @@
     "name": "Magmoor Caverns",
     "extra": {},
     "areas": {
-        "Burning Trail subB": {
+        "Burning Trail (Platforms)": {
             "default_node": null,
             "hint_features": [],
             "extra": {
@@ -34,7 +34,7 @@
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Transport to Chozo Ruins North",
-                        "node": "Door to Burning Trail subB"
+                        "node": "Door to Burning Trail (Platforms)"
                     },
                     "default_dock_weakness": "Beam Door",
                     "exclude_from_dock_rando": false,
@@ -42,7 +42,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Open Access to Burning Trail": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Save Station Magmoor A": {
                     "node_type": "dock",
@@ -66,22 +74,37 @@
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Save Station Magmoor A",
-                        "node": "Door to Burning Trail subB"
+                        "node": "Door to Burning Trail (Platforms)"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Transport to Chozo Ruins North": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Open Access to Burning Trail": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
-                "Door to Burning Trail": {
+                "Open Access to Burning Trail": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": -16.0,
-                        "y": 32.0,
+                        "x": 6.34,
+                        "y": 58.69,
                         "z": 0.0
                     },
                     "description": "",
@@ -94,19 +117,34 @@
                         "dest_room": "mag_Burning_Trail"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Burning Trail",
-                        "node": "Door to Burning Trail subB"
+                        "node": "Open Access to Burning Trail (Platforms)"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Transport to Chozo Ruins North": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Door to Save Station Magmoor A": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -120,12 +158,12 @@
                 "room_height": 224
             },
             "nodes": {
-                "Door to Burning Trail subB": {
+                "Open Access to Burning Trail (Platforms)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 656.0,
-                        "y": 64.0,
+                        "x": 629.97,
+                        "y": 82.7,
                         "z": 0.0
                     },
                     "description": "",
@@ -138,19 +176,29 @@
                         "dest_room": "mag_Burning_Trail_subB"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Burning Trail subB",
-                        "node": "Door to Burning Trail"
+                        "area": "Burning Trail (Platforms)",
+                        "node": "Open Access to Burning Trail"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Lake Tunnel": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Lake Tunnel": {
                     "node_type": "dock",
@@ -182,7 +230,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Open Access to Burning Trail (Platforms)": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -196,12 +254,12 @@
                 "room_height": 448
             },
             "nodes": {
-                "Door to Warrior Shrine subB": {
+                "Morph Ball Tunnel to Warrior Shrine (Tunnel)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 656.0,
-                        "y": 400.0,
+                        "x": 631.31,
+                        "y": 408.35,
                         "z": 0.0
                     },
                     "description": "",
@@ -214,19 +272,46 @@
                         "dest_room": "mag_Warrior_Shrine_subB"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Warrior Shrine subB",
-                        "node": "Door to Fiery Shores"
+                        "area": "Warrior Shrine (Tunnel)",
+                        "node": "Morph Ball Tunnel to Fiery Shores"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Pickup (Power Bomb Tank)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Shore Tunnel": {
                     "node_type": "dock",
@@ -258,7 +343,34 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Transport Tunnel B": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Transport Tunnel B": {
                     "node_type": "dock",
@@ -290,7 +402,60 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Shore Tunnel": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Pickup (Missile Expansion)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Pickup (Power Bomb Tank)": {
                     "node_type": "pickup",
@@ -315,7 +480,43 @@
                     "location_category": "minor",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Morph Ball Tunnel to Warrior Shrine (Tunnel)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Door to Shore Tunnel": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Pickup (Missile Expansion)": {
                     "node_type": "pickup",
@@ -340,7 +541,60 @@
                     "location_category": "minor",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to Shore Tunnel": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Door to Transport Tunnel B": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -384,7 +638,60 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to North Core Tunnel": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        "Door to Plasma Processing": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Use Boost Ball"
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "GrappleBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Break Bomb Blocks"
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "IceBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to North Core Tunnel": {
                     "node_type": "dock",
@@ -416,7 +723,25 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to South Core Tunnel": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Plasma Processing": {
                     "node_type": "dock",
@@ -448,7 +773,43 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to South Core Tunnel": {
+                            "type": "and",
+                            "data": {
+                                "comment": "// NOTE add event here for the spinners after overworld PR and this one are in to avoid conflict",
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "GrappleBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -492,9 +853,19 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Lava Lake (Artifact)": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
-                "Door to Lava Lake subC": {
+                "Door to Lava Lake (Artifact)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -515,7 +886,7 @@
                     "dock_type": "Door",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Lava Lake subC",
+                        "area": "Lava Lake (Artifact)",
                         "node": "Door to Lake Tunnel"
                     },
                     "default_dock_weakness": "Beam Door",
@@ -524,11 +895,21 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Burning Trail": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 }
             }
         },
-        "Lava Lake subB": {
+        "Lava Lake (Morph Tunnel)": {
             "default_node": null,
             "hint_features": [],
             "extra": {
@@ -538,12 +919,12 @@
                 "room_height": 224
             },
             "nodes": {
-                "Door to Lava Lake subC": {
+                "Morph Ball Tunnel to Lava Lake (Artifact)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 336.0,
-                        "y": 96.0,
+                        "x": 312.26,
+                        "y": 104.61,
                         "z": 0.0
                     },
                     "description": "",
@@ -556,26 +937,53 @@
                         "dest_room": "mag_Lava_Lake_subC"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Lava Lake subC",
-                        "node": "Door to Lava Lake subB"
+                        "area": "Lava Lake (Artifact)",
+                        "node": "Morph Ball Tunnel to Lava Lake (Morph Tunnel)"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Morph Ball Tunnel to Lava Lake": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
-                "Door to Lava Lake": {
+                "Morph Ball Tunnel to Lava Lake": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": -16.0,
-                        "y": 96.0,
+                        "x": 9.81,
+                        "y": 103.88,
                         "z": 0.0
                     },
                     "description": "",
@@ -588,23 +996,50 @@
                         "dest_room": "mag_Lava_Lake"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Lava Lake",
-                        "node": "Door to Lava Lake subB"
+                        "node": "Morph Ball Tunnel to Lava Lake (Morph Tunnel)"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Morph Ball Tunnel to Lava Lake (Artifact)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },
-        "Lava Lake subC": {
+        "Lava Lake (Artifact)": {
             "default_node": null,
             "hint_features": [],
             "extra": {
@@ -618,8 +1053,8 @@
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 640.0,
-                        "y": 112.0,
+                        "x": 631.2449690227469,
+                        "y": 133.95269750825284,
                         "z": 0.0
                     },
                     "description": "",
@@ -636,7 +1071,7 @@
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Lake Tunnel",
-                        "node": "Door to Lava Lake subC"
+                        "node": "Door to Lava Lake (Artifact)"
                     },
                     "default_dock_weakness": "Beam Door",
                     "exclude_from_dock_rando": false,
@@ -644,14 +1079,71 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Morph Ball Tunnel to Lava Lake (Morph Tunnel)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MissileLauncher",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Break Bomb Blocks"
+                                    }
+                                ]
+                            }
+                        },
+                        "Pickup (Artifact 7)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MissileLauncher",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
-                "Door to Lava Lake subB": {
+                "Morph Ball Tunnel to Lava Lake (Morph Tunnel)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": -16.0,
-                        "y": 80.0,
+                        "x": 8.26,
+                        "y": 86.2,
                         "z": 0.0
                     },
                     "description": "",
@@ -664,19 +1156,50 @@
                         "dest_room": "mag_Lava_Lake_subB"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Lava Lake subB",
-                        "node": "Door to Lava Lake subC"
+                        "area": "Lava Lake (Morph Tunnel)",
+                        "node": "Morph Ball Tunnel to Lava Lake (Artifact)"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Lake Tunnel": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MissileLauncher",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Break Bomb Blocks"
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Pickup (Artifact 7)": {
                     "node_type": "pickup",
@@ -701,7 +1224,25 @@
                     "location_category": "major",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to Lake Tunnel": {
+                            "type": "or",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -715,12 +1256,12 @@
                 "room_height": 224
             },
             "nodes": {
-                "Door to Lava Lake subB": {
+                "Morph Ball Tunnel to Lava Lake (Morph Tunnel)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 656.0,
-                        "y": 64.0,
+                        "x": 633.52,
+                        "y": 70.34,
                         "z": 0.0
                     },
                     "description": "",
@@ -733,19 +1274,41 @@
                         "dest_room": "mag_Lava_Lake_subB"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Lava Lake subB",
-                        "node": "Door to Lava Lake"
+                        "area": "Lava Lake (Morph Tunnel)",
+                        "node": "Morph Ball Tunnel to Lava Lake"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Pit Tunnel": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Break Bomb Blocks"
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Pit Tunnel": {
                     "node_type": "dock",
@@ -777,7 +1340,29 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Morph Ball Tunnel to Lava Lake (Morph Tunnel)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Break Bomb Blocks"
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -821,7 +1406,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Workstation Tunnel": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Workstation Tunnel": {
                     "node_type": "dock",
@@ -853,7 +1448,26 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Transport Tunnel C": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        "Door to South Core Tunnel": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to South Core Tunnel": {
                     "node_type": "dock",
@@ -885,7 +1499,51 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Workstation Tunnel": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        "Pickup (Energy Tank)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "WaveBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Use Spider Ball"
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Bomb"
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Pickup (Energy Tank)": {
                     "node_type": "pickup",
@@ -910,7 +1568,29 @@
                     "location_category": "minor",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to South Core Tunnel": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Use Spider Ball"
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -954,7 +1634,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Monitor Station": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Shore Tunnel": {
                     "node_type": "dock",
@@ -986,7 +1676,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Monitor Station": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Warrior Shrine": {
                     "node_type": "dock",
@@ -1018,7 +1718,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Monitor Station": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Transport Tunnel A": {
                     "node_type": "dock",
@@ -1050,7 +1760,103 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Monitor Station": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
+                },
+                "Monitor Station": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 335.63,
+                        "y": 440.84,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Monitor Tunnel": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        "Door to Shore Tunnel": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        "Door to Warrior Shrine": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Climb High Ledge"
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Use Boost Ball"
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "GrappleBeam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Door to Transport Tunnel A": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -1094,7 +1900,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Monitor Station": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Monitor Station": {
                     "node_type": "dock",
@@ -1126,7 +1942,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Triclops Pit": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -1170,7 +1996,64 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Twin Fires": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "MissileLauncher",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "GrappleBeam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "SpaceJump",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Use Spider Ball"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Twin Fires": {
                     "node_type": "dock",
@@ -1202,7 +2085,64 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Geothermal Core": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "GrappleBeam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "SpaceJump",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "MissileLauncher",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Use Spider Ball"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -1246,7 +2186,34 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Triclops Pit": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Triclops Pit": {
                     "node_type": "dock",
@@ -1278,7 +2245,34 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Lava Lake": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -1322,7 +2316,25 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Pickup (Plasma Beam)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Pickup (Plasma Beam)": {
                     "node_type": "pickup",
@@ -1347,7 +2359,34 @@
                     "location_category": "major",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to Geothermal Core": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "PlasmaBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -1361,7 +2400,7 @@
                 "room_height": 224
             },
             "nodes": {
-                "Door to Burning Trail subB": {
+                "Door to Burning Trail (Platforms)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1382,7 +2421,7 @@
                     "dock_type": "Door",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Burning Trail subB",
+                        "area": "Burning Trail (Platforms)",
                         "node": "Door to Save Station Magmoor A"
                     },
                     "default_dock_weakness": "Beam Door",
@@ -1472,7 +2511,17 @@
                     "location_category": "major",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to Monitor Station": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Monitor Station": {
                     "node_type": "dock",
@@ -1504,7 +2553,38 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Pickup (Ice Spreader)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Power Bomb"
+                                    }
+                                ]
+                            }
+                        },
+                        "Door to Fiery Shores": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Fiery Shores": {
                     "node_type": "dock",
@@ -1536,7 +2616,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Monitor Station": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -1580,7 +2670,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Geothermal Core": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Geothermal Core": {
                     "node_type": "dock",
@@ -1612,7 +2712,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Magmoor Workstation": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -1626,7 +2736,7 @@
                 "room_height": 224
             },
             "nodes": {
-                "Door to Triclops Pit subB": {
+                "Door to Triclops Pit (Tunnel)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1647,7 +2757,7 @@
                     "dock_type": "Door",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Triclops Pit subB",
+                        "area": "Triclops Pit (Tunnel)",
                         "node": "Door to Storage Cavern"
                     },
                     "default_dock_weakness": "Beam Door",
@@ -1656,7 +2766,25 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Pickup (Missile Expansion)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Pickup (Missile Expansion)": {
                     "node_type": "pickup",
@@ -1681,7 +2809,17 @@
                     "location_category": "minor",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to Triclops Pit (Tunnel)": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -1695,7 +2833,7 @@
                 "room_height": 224
             },
             "nodes": {
-                "Door to Burning Trail subB": {
+                "Door to Burning Trail (Platforms)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1716,7 +2854,7 @@
                     "dock_type": "Door",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Burning Trail subB",
+                        "area": "Burning Trail (Platforms)",
                         "node": "Door to Transport to Chozo Ruins North"
                     },
                     "default_dock_weakness": "Beam Door",
@@ -1725,7 +2863,51 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Elevator to Transport to Magmoor Caverns North": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Elevator to Transport to Magmoor Caverns North": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 160.0,
+                        "y": 84.32,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "Elevator",
+                    "default_connection": {
+                        "region": "Chozo Ruins",
+                        "area": "Transport to Magmoor Caverns North",
+                        "node": "Transport to Magmoor Caverns North"
+                    },
+                    "default_dock_weakness": "Elevator",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "ui_custom_name": null,
+                    "connections": {
+                        "Door to Burning Trail (Platforms)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -1769,7 +2951,51 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Elevator to Transport to Magmoor Caverns South": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Elevator to Transport to Magmoor Caverns South": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 160.0,
+                        "y": 97.52,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "Elevator",
+                    "default_connection": {
+                        "region": "Phazon Mines",
+                        "area": "Transport to Magmoor Caverns South",
+                        "node": "Door to Transport Access"
+                    },
+                    "default_dock_weakness": "Elevator",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "ui_custom_name": null,
+                    "connections": {
+                        "Door to Workstation Tunnel": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -1813,7 +3039,51 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Elevator to Transport to Magmoor Caverns West": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Elevator to Transport to Magmoor Caverns West": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 153.15,
+                        "y": 121.25,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "Elevator",
+                    "default_connection": {
+                        "region": "Phendrana Drifts",
+                        "area": "Transport to Magmoor Caverns West",
+                        "node": "Door to Shoreline Entrance"
+                    },
+                    "default_dock_weakness": "Elevator",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "ui_custom_name": null,
+                    "connections": {
+                        "Door to Transport Tunnel A": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -1851,13 +3121,21 @@
                         "area": "Save Station Magmoor B",
                         "node": "Door to Transport to Phendrana Drifts South"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Elevator to Transport To Magmoor Caverns South": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Transport Tunnel C": {
                     "node_type": "dock",
@@ -1889,7 +3167,58 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Elevator to Transport To Magmoor Caverns South": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Elevator to Transport To Magmoor Caverns South": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 159.41,
+                        "y": 67.37,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "Elevator",
+                    "default_connection": {
+                        "region": "Phendrana Drifts",
+                        "area": "Transport to Magmoor Caverns South",
+                        "node": "Door to Transport Access"
+                    },
+                    "default_dock_weakness": "Elevator",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "ui_custom_name": null,
+                    "connections": {
+                        "Door to Save Station Magmoor B": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Door to Transport Tunnel C": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -1933,7 +3262,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Elevator to Transport to Magmoor Caverns East": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Twin Fires Tunnel": {
                     "node_type": "dock",
@@ -1965,7 +3302,58 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Elevator to Transport to Magmoor Caverns East": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Elevator to Transport to Magmoor Caverns East": {
+                    "node_type": "dock",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 155.26,
+                        "y": 105.78,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "dock_type": "Elevator",
+                    "default_connection": {
+                        "region": "Tallon Overworld",
+                        "area": "Transport to Magmoor Caverns East",
+                        "node": "Door to Transport Tunnel B"
+                    },
+                    "default_dock_weakness": "Elevator",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "ui_custom_name": null,
+                    "connections": {
+                        "Door to Transport Tunnel B": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Door to Twin Fires Tunnel": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -2009,7 +3397,60 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Transport to Phendrana Drifts North": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Pickup (Energy Tank)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Transport to Phendrana Drifts North": {
                     "node_type": "dock",
@@ -2041,7 +3482,34 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Monitor Station": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Pickup (Energy Tank)": {
                     "node_type": "pickup",
@@ -2066,7 +3534,34 @@
                     "location_category": "minor",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to Monitor Station": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -2110,7 +3605,25 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Transport to Tallon Overworld West": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Transport to Tallon Overworld West": {
                     "node_type": "dock",
@@ -2142,7 +3655,25 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Fiery Shores": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -2186,7 +3717,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Transport to Phendrana Drifts South": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Transport to Phendrana Drifts South": {
                     "node_type": "dock",
@@ -2218,11 +3759,21 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Magmoor Workstation": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 }
             }
         },
-        "Triclops Pit subB": {
+        "Triclops Pit (Tunnel)": {
             "default_node": null,
             "hint_features": [],
             "extra": {
@@ -2232,12 +3783,12 @@
                 "room_height": 224
             },
             "nodes": {
-                "Door to Triclops Pit": {
+                "Open Access to Triclops Pit": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 576.0,
-                        "y": 240.0,
+                        "x": 568.01,
+                        "y": 214.42,
                         "z": 0.0
                     },
                     "description": "",
@@ -2250,19 +3801,46 @@
                         "dest_room": "mag_Triclops_Pit"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Triclops Pit",
-                        "node": "Door to Triclops Pit subB"
+                        "node": "Morph Ball Tunnel to Triclops Pit (Tunnel)"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Vertical)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Storage Cavern": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Storage Cavern": {
                     "node_type": "dock",
@@ -2286,7 +3864,7 @@
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Storage Cavern",
-                        "node": "Door to Triclops Pit subB"
+                        "node": "Door to Triclops Pit (Tunnel)"
                     },
                     "default_dock_weakness": "Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2294,7 +3872,34 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Open Access to Triclops Pit": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -2338,14 +3943,71 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Morph Ball Tunnel to Triclops Pit (Tunnel)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Break Bomb Blocks"
+                                    }
+                                ]
+                            }
+                        },
+                        "Door to Monitor Tunnel": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        "Pickup (Missile Expansion)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MissileLauncher",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
-                "Door to Triclops Pit subB": {
+                "Morph Ball Tunnel to Triclops Pit (Tunnel)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 464.0,
-                        "y": -16.0,
+                        "x": 453.79,
+                        "y": 11.47,
                         "z": 0.0
                     },
                     "description": "",
@@ -2358,19 +4020,62 @@
                         "dest_room": "mag_Triclops_Pit_subB"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Triclops Pit subB",
-                        "node": "Door to Triclops Pit"
+                        "area": "Triclops Pit (Tunnel)",
+                        "node": "Open Access to Triclops Pit"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Pit Tunnel": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Break Bomb Blocks"
+                                    }
+                                ]
+                            }
+                        },
+                        "Door to Monitor Tunnel": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Break Bomb Blocks"
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Monitor Tunnel": {
                     "node_type": "dock",
@@ -2402,7 +4107,25 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Pit Tunnel": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Pickup (Missile Expansion)": {
                     "node_type": "pickup",
@@ -2427,11 +4150,21 @@
                     "location_category": "minor",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to Monitor Tunnel": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 }
             }
         },
-        "Twin Fires subB": {
+        "Twin Fires (Fire)": {
             "default_node": null,
             "hint_features": [],
             "extra": {
@@ -2441,12 +4174,12 @@
                 "room_height": 224
             },
             "nodes": {
-                "Door to Twin Fires": {
+                "Open Access to Twin Fires": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": -16.0,
-                        "y": 64.0,
+                        "x": 11.11,
+                        "y": 87.08,
                         "z": 0.0
                     },
                     "description": "",
@@ -2459,26 +4192,36 @@
                         "dest_room": "mag_Twin_Fires"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Twin Fires",
-                        "node": "Door to Twin Fires subB"
+                        "node": "Open Access to Twin Fires (Fire)"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Open Access to Twin Fires (Stalagmites)": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
-                "Door to Twin Fires subC": {
+                "Open Access to Twin Fires (Stalagmites)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 336.0,
-                        "y": 64.0,
+                        "x": 307.41,
+                        "y": 86.84,
                         "z": 0.0
                     },
                     "description": "",
@@ -2491,23 +4234,33 @@
                         "dest_room": "mag_Twin_Fires_subC"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Twin Fires subC",
-                        "node": "Door to Twin Fires subB"
+                        "area": "Twin Fires (Stalagmites)",
+                        "node": "Open Access to Twin Fires (Fire)"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Open Access to Twin Fires": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 }
             }
         },
-        "Twin Fires subC": {
+        "Twin Fires (Stalagmites)": {
             "default_node": null,
             "hint_features": [],
             "extra": {
@@ -2517,12 +4270,12 @@
                 "room_height": 224
             },
             "nodes": {
-                "Door to Twin Fires subB": {
+                "Open Access to Twin Fires (Fire)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": -16.0,
-                        "y": 80.0,
+                        "x": 13.34,
+                        "y": 105.49,
                         "z": 0.0
                     },
                     "description": "",
@@ -2535,19 +4288,67 @@
                         "dest_room": "mag_Twin_Fires_subB"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Twin Fires subB",
-                        "node": "Door to Twin Fires subC"
+                        "area": "Twin Fires (Fire)",
+                        "node": "Open Access to Twin Fires (Stalagmites)"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Twin Fires Tunnel": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "GrappleBeam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "MissileLauncher",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Use Spider Ball"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Twin Fires Tunnel": {
                     "node_type": "dock",
@@ -2571,7 +4372,7 @@
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Twin Fires Tunnel",
-                        "node": "Door to Twin Fires subC"
+                        "node": "Door to Twin Fires (Stalagmites)"
                     },
                     "default_dock_weakness": "Beam Door",
                     "exclude_from_dock_rando": false,
@@ -2579,7 +4380,55 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Open Access to Twin Fires (Fire)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "GrappleBeam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "MissileLauncher",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Use Spider Ball"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -2623,9 +4472,57 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Twin Fires (Stalagmites)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Use Spider Ball"
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "GrappleBeam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
-                "Door to Twin Fires subC": {
+                "Door to Twin Fires (Stalagmites)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2646,7 +4543,7 @@
                     "dock_type": "Door",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Twin Fires subC",
+                        "area": "Twin Fires (Stalagmites)",
                         "node": "Door to Twin Fires Tunnel"
                     },
                     "default_dock_weakness": "Beam Door",
@@ -2655,7 +4552,55 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Transport to Tallon Overworld West": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "GrappleBeam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Use Spider Ball"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -2699,14 +4644,71 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Open Access to Twin Fires (Fire)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "GrappleBeam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "MissileLauncher",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "SpaceJump",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Use Spider Ball"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
-                "Door to Twin Fires subB": {
+                "Open Access to Twin Fires (Fire)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 656.0,
-                        "y": 80.0,
+                        "x": 624.92,
+                        "y": 106.64,
                         "z": 0.0
                     },
                     "description": "",
@@ -2719,23 +4721,89 @@
                         "dest_room": "mag_Twin_Fires_subB"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Twin Fires subB",
-                        "node": "Door to Twin Fires"
+                        "area": "Twin Fires (Fire)",
+                        "node": "Open Access to Twin Fires"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to North Core Tunnel": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "GrappleBeam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "MissileLauncher",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "SpaceJump",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Use Spider Ball"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "WaveBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },
-        "Warrior Shrine subB": {
+        "Warrior Shrine (Tunnel)": {
             "default_node": null,
             "hint_features": [],
             "extra": {
@@ -2745,12 +4813,12 @@
                 "room_height": 224
             },
             "nodes": {
-                "Door to Warrior Shrine": {
+                "Morph Ball Tunnel to Warrior Shrine": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 176.0,
-                        "y": 240.0,
+                        "x": 166.85,
+                        "y": 199.4,
                         "z": 0.0
                     },
                     "description": "",
@@ -2763,26 +4831,53 @@
                         "dest_room": "mag_Warrior_Shrine"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Warrior Shrine",
-                        "node": "Door to Warrior Shrine subB"
+                        "node": "Morph Ball Tunnel to Warrior Shrine (Tunnel)"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Morph Ball Tunnel to Fiery Shores": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
-                "Door to Fiery Shores": {
+                "Morph Ball Tunnel to Fiery Shores": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": -16.0,
-                        "y": 48.0,
+                        "x": 11.25,
+                        "y": 52.71,
                         "z": 0.0
                     },
                     "description": "",
@@ -2795,13 +4890,13 @@
                         "dest_room": "mag_Fiery_Shores"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Fiery Shores",
-                        "node": "Door to Warrior Shrine subB"
+                        "node": "Morph Ball Tunnel to Warrior Shrine (Tunnel)"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -2851,14 +4946,45 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Morph Ball Tunnel to Warrior Shrine (Tunnel)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Power Bomb"
+                                    }
+                                ]
+                            }
+                        },
+                        "Pickup (Artifact 1)": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
-                "Door to Warrior Shrine subB": {
+                "Morph Ball Tunnel to Warrior Shrine (Tunnel)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 144.0,
-                        "y": -16.0,
+                        "x": 135.32,
+                        "y": 29.4,
                         "z": 0.0
                     },
                     "description": "",
@@ -2871,13 +4997,13 @@
                         "dest_room": "mag_Warrior_Shrine_subB"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Warrior Shrine subB",
-                        "node": "Door to Warrior Shrine"
+                        "area": "Warrior Shrine (Tunnel)",
+                        "node": "Morph Ball Tunnel to Warrior Shrine"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -2908,7 +5034,17 @@
                     "location_category": "major",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to Monitor Station": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -2952,7 +5088,38 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Transport to Phazon Mines West": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Power Bomb"
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "IceBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Transport to Phazon Mines West": {
                     "node_type": "dock",
@@ -2984,7 +5151,38 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Magmoor Workstation": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "IceBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Power Bomb"
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         }
