@@ -1088,75 +1088,7 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {
-                        "Elder Artifact Pickup": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "PlasmaBeam",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "or",
-                                        "data": {
-                                            "comment": null,
-                                            "items": [
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "ChargeBeam",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "MissileLauncher",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                },
-                "Elder Artifact Pickup": {
-                    "node_type": "generic",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 243.85744234800836,
-                        "y": 94.19641993226898,
-                        "z": 0.0
-                    },
-                    "description": "",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "connections": {
-                        "Open Access to Control Tower": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
+                    "connections": {}
                 }
             }
         },
@@ -2773,7 +2705,7 @@
                             "type": "resource",
                             "data": {
                                 "type": "items",
-                                "name": "MissileLauncher",
+                                "name": "GrappleBeam",
                                 "amount": 1,
                                 "negate": false
                             }
@@ -3209,21 +3141,45 @@
                             }
                         },
                         "Door to Courtyard Entryway": {
-                            "type": "resource",
+                            "type": "and",
                             "data": {
-                                "type": "items",
-                                "name": "WaveBeam",
-                                "amount": 1,
-                                "negate": false
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "WaveBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Climb High Ledge"
+                                    }
+                                ]
                             }
                         },
                         "Pickup (Power Bomb Tank)": {
-                            "type": "resource",
+                            "type": "and",
                             "data": {
-                                "type": "items",
-                                "name": "PlasmaBeam",
-                                "amount": 1,
-                                "negate": false
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "PlasmaBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Climb High Ledge"
+                                    }
+                                ]
                             }
                         }
                     }
@@ -3572,7 +3528,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Phendrana Drifts - Map Station": {
+                        "Map Station": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -3581,7 +3537,7 @@
                         }
                     }
                 },
-                "Phendrana Drifts - Map Station": {
+                "Map Station": {
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
@@ -6926,7 +6882,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Phendrana Drifts - Save Station A": {
+                        "Save Station": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -6935,12 +6891,12 @@
                         }
                     }
                 },
-                "Phendrana Drifts - Save Station A": {
+                "Save Station": {
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
-                        "x": 159.225931301403,
-                        "y": 74.07063376874697,
+                        "x": 159.23,
+                        "y": 74.07,
                         "z": 0.0
                     },
                     "description": "",
@@ -7002,7 +6958,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Phendrana Drifts - Save Station B": {
+                        "Save Station": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -7011,12 +6967,12 @@
                         }
                     }
                 },
-                "Phendrana Drifts - Save Station B": {
+                "Save Station": {
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
-                        "x": 159.74197710046766,
-                        "y": 105.03338171262699,
+                        "x": 159.74,
+                        "y": 105.03,
                         "z": 0.0
                     },
                     "description": "",
@@ -7078,7 +7034,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Phendrana Drifts - Save Station C": {
+                        "Save Station": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -7087,12 +7043,12 @@
                         }
                     }
                 },
-                "Phendrana Drifts - Save Station C": {
+                "Save Station": {
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
-                        "x": 160.25802289953234,
-                        "y": 88.00387034349299,
+                        "x": 160.26,
+                        "y": 88.0,
                         "z": 0.0
                     },
                     "description": "",
@@ -7154,7 +7110,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Phendrana Drifts - Save Station D": {
+                        "Save Station": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -7163,12 +7119,12 @@
                         }
                     }
                 },
-                "Phendrana Drifts - Save Station D": {
+                "Save Station": {
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
-                        "x": 127.23109175939364,
-                        "y": 70.97435897435898,
+                        "x": 127.23,
+                        "y": 70.97,
                         "z": 0.0
                     },
                     "description": "",

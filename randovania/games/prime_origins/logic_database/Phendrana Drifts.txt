@@ -276,15 +276,6 @@ Extra - room_height: 224
   * Extra - instance_id: 112130
   * Extra - facing: 0
   * Extra - dest_room: phe_Control_Tower
-  > Elder Artifact Pickup
-      All of the following:
-          Plasma Beam
-          Charge Beam or Missile Launcher
-
-> Elder Artifact Pickup; Heals? False
-  * Layers: default
-  > Open Access to Control Tower
-      Trivial
 
 ----------------
 Control Tower
@@ -668,7 +659,7 @@ Extra - room_height: 672
   > Door to Lower Edge Tunnel
       Trivial
   > Door to Chamber Access
-      Missile Launcher
+      Grapple Beam
   > Door to Lake Tunnel
       Missile Launcher
 
@@ -783,9 +774,9 @@ Extra - room_height: 448
   > Door to Canyon Entryway
       Trivial
   > Door to Courtyard Entryway
-      Wave Beam
+      Wave Beam and Climb High Ledge
   > Pickup (Power Bomb Tank)
-      Plasma Beam
+      Plasma Beam and Climb High Ledge
 
 > Door to Canyon Entryway; Heals? False
   * Layers: default
@@ -875,10 +866,10 @@ Extra - room_height: 224
   * Extra - instance_id: 112983
   * Extra - facing: 0
   * Extra - dest_room: phe_Research_Entrance
-  > Phendrana Drifts - Map Station
+  > Map Station
       Trivial
 
-> Phendrana Drifts - Map Station; Heals? False
+> Map Station; Heals? False
   * Layers: default
   > Door to Research Entrance
       Trivial
@@ -1705,10 +1696,10 @@ Extra - room_height: 224
   * Extra - instance_id: 114289
   * Extra - facing: 0
   * Extra - dest_room: phe_Ruined_Courtyard
-  > Phendrana Drifts - Save Station A
+  > Save Station
       Trivial
 
-> Phendrana Drifts - Save Station A; Heals? False
+> Save Station; Heals? False
   * Layers: default
   > Door to Ruined Courtyard
       Trivial
@@ -1725,10 +1716,10 @@ Extra - room_height: 224
   * Extra - instance_id: 114294
   * Extra - facing: 0
   * Extra - dest_room: phe_Phendrana_Shorelines_subC
-  > Phendrana Drifts - Save Station B
+  > Save Station
       Trivial
 
-> Phendrana Drifts - Save Station B; Heals? False
+> Save Station; Heals? False
   * Layers: default
   > Door to Phendrana Shorelines subC
       Trivial
@@ -1745,10 +1736,10 @@ Extra - room_height: 224
   * Extra - instance_id: 114334
   * Extra - facing: 0
   * Extra - dest_room: phe_Frost_Cave
-  > Phendrana Drifts - Save Station C
+  > Save Station
       Trivial
 
-> Phendrana Drifts - Save Station C; Heals? False
+> Save Station; Heals? False
   * Layers: default
   > Door to Frost Cave
       Trivial
@@ -1765,10 +1756,10 @@ Extra - room_height: 224
   * Extra - instance_id: 114363
   * Extra - facing: 0
   * Extra - dest_room: phe_Observatory
-  > Phendrana Drifts - Save Station D
+  > Save Station
       Trivial
 
-> Phendrana Drifts - Save Station D; Heals? False
+> Save Station; Heals? False
   * Layers: default
   > Door to Observatory
       Trivial
