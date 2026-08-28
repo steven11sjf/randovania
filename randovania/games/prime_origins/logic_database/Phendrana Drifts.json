@@ -5476,8 +5476,7 @@
                             "type": "template",
                             "data": "Can Use Spider Ball"
                         }
-                    },
-                    "connections": {}
+                    }
                 },
                 "Pickup (Spider Ball)": {
                     "node_type": "pickup",
