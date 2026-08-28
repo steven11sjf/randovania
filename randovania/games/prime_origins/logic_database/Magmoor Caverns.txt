@@ -1,23 +1,21 @@
 ----------------
-Burning Trail ( Platforms )
+Burning Trail (Platforms)
 Extra - room_name: mag_Burning_Trail_subB
 Extra - map_name: mag_Burning_Trail_subB
 Extra - room_width: 320
 Extra - room_height: 896
 > Door to Transport to Chozo Ruins North; Heals? False
   * Layers: default
-  * Beam Door to Transport to Chozo Ruins North/Door to Burning Trail ( Platforms )
+  * Beam Door to Transport to Chozo Ruins North/Door to Burning Trail (Platforms)
   * Extra - instance_id: 106255
   * Extra - facing: 0
   * Extra - dest_room: mag_Transport_to_Chozo_Ruins_North
-  > Door to Save Station Magmoor A
-      Trivial
   > Open Access to Burning Trail
       Trivial
 
 > Door to Save Station Magmoor A; Heals? False
   * Layers: default
-  * Missile Door to Save Station Magmoor A/Door to Burning Trail ( Platforms )
+  * Missile Door to Save Station Magmoor A/Door to Burning Trail (Platforms)
   * Extra - instance_id: 106256
   * Extra - facing: 0
   * Extra - dest_room: mag_Save_Station_Magmoor_A
@@ -28,7 +26,7 @@ Extra - room_height: 896
 
 > Open Access to Burning Trail; Heals? False
   * Layers: default
-  * Open Access (Horizontal) to Burning Trail/Open Access to Burning Trail ( Platforms )
+  * Open Access (Horizontal) to Burning Trail/Open Access to Burning Trail (Platforms)
   * Extra - instance_id: 106257
   * Extra - facing: 0
   * Extra - dest_room: mag_Burning_Trail
@@ -43,9 +41,9 @@ Extra - room_name: mag_Burning_Trail
 Extra - map_name: mag_Burning_Trail
 Extra - room_width: 640
 Extra - room_height: 224
-> Open Access to Burning Trail ( Platforms ); Heals? False
+> Open Access to Burning Trail (Platforms); Heals? False
   * Layers: default
-  * Open Access (Horizontal) to Burning Trail ( Platforms )/Open Access to Burning Trail
+  * Open Access (Horizontal) to Burning Trail (Platforms)/Open Access to Burning Trail
   * Extra - instance_id: 106283
   * Extra - facing: 0
   * Extra - dest_room: mag_Burning_Trail_subB
@@ -58,7 +56,7 @@ Extra - room_height: 224
   * Extra - instance_id: 106285
   * Extra - facing: 0
   * Extra - dest_room: mag_Lake_Tunnel
-  > Open Access to Burning Trail ( Platforms )
+  > Open Access to Burning Trail (Platforms)
       Varia Suit
 
 ----------------
@@ -67,14 +65,12 @@ Extra - room_name: mag_Fiery_Shores
 Extra - map_name: mag_Fiery_Shores
 Extra - room_width: 640
 Extra - room_height: 448
-> Morph Ball Tunnel to Warrior Shrine ( Tunnel ); Heals? False
+> Morph Ball Tunnel to Warrior Shrine (Tunnel); Heals? False
   * Layers: default
-  * Morph Ball Tunnel to Warrior Shrine ( Tunnel )/Morph Ball Tunnel to Fiery Shores
+  * Morph Ball Tunnel to Warrior Shrine (Tunnel)/Morph Ball Tunnel to Fiery Shores
   * Extra - instance_id: 106316
   * Extra - facing: 0
   * Extra - dest_room: mag_Warrior_Shrine_subB
-  > Door to Shore Tunnel
-      Varia Suit
   > Pickup (Power Bomb Tank)
       Morph Ball and Varia Suit
 
@@ -85,8 +81,6 @@ Extra - room_height: 448
   * Extra - facing: 0
   * Extra - dest_room: mag_Shore_Tunnel
   > Door to Transport Tunnel B
-      Morph Ball and Varia Suit
-  > Pickup (Missile Expansion)
       Morph Ball and Varia Suit
 
 > Door to Transport Tunnel B; Heals? False
@@ -107,7 +101,7 @@ Extra - room_height: 448
   * Extra - object_name: obj_expansion_power_bomb
   * Extra - item_type: Power Bomb Tank
   * Extra - is_major: minor
-  > Morph Ball Tunnel to Warrior Shrine ( Tunnel )
+  > Morph Ball Tunnel to Warrior Shrine (Tunnel)
       Morph Ball and Varia Suit
   > Door to Shore Tunnel
       Varia Suit
@@ -185,14 +179,14 @@ Extra - room_height: 224
       Varia Suit
 
 ----------------
-Lava Lake ( Morph Tunnel )
+Lava Lake (Morph Tunnel)
 Extra - room_name: mag_Lava_Lake_subB
 Extra - map_name: mag_Lava_Lake_subB
 Extra - room_width: 320
 Extra - room_height: 224
 > Morph Ball Tunnel to Lava Lake (Artifact); Heals? False
   * Layers: default
-  * Morph Ball Tunnel to Lava Lake (Artifact)/Morph Ball Tunnel to Lava Lake ( Morph Tunnel )
+  * Morph Ball Tunnel to Lava Lake (Artifact)/Morph Ball Tunnel to Lava Lake (Morph Tunnel)
   * Extra - instance_id: 106887
   * Extra - facing: 0
   * Extra - dest_room: mag_Lava_Lake_subC
@@ -201,7 +195,7 @@ Extra - room_height: 224
 
 > Morph Ball Tunnel to Lava Lake; Heals? False
   * Layers: default
-  * Morph Ball Tunnel to Lava Lake/Morph Ball Tunnel to Lava Lake ( Morph Tunnel )
+  * Morph Ball Tunnel to Lava Lake/Morph Ball Tunnel to Lava Lake (Morph Tunnel)
   * Extra - instance_id: 106888
   * Extra - facing: 0
   * Extra - dest_room: mag_Lava_Lake
@@ -220,20 +214,18 @@ Extra - room_height: 224
   * Extra - instance_id: 106901
   * Extra - facing: 0
   * Extra - dest_room: mag_Lake_Tunnel
-  > Morph Ball Tunnel to Lava Lake ( Morph Tunnel )
+  > Morph Ball Tunnel to Lava Lake (Morph Tunnel)
       Missile Launcher and Varia Suit and Can Break Bomb Blocks
   > Pickup (Artifact 7)
       Missile Launcher and Varia Suit
 
-> Morph Ball Tunnel to Lava Lake ( Morph Tunnel ); Heals? False
+> Morph Ball Tunnel to Lava Lake (Morph Tunnel); Heals? False
   * Layers: default
-  * Morph Ball Tunnel to Lava Lake ( Morph Tunnel )/Morph Ball Tunnel to Lava Lake (Artifact)
+  * Morph Ball Tunnel to Lava Lake (Morph Tunnel)/Morph Ball Tunnel to Lava Lake (Artifact)
   * Extra - instance_id: 106902
   * Extra - facing: 0
   * Extra - dest_room: mag_Lava_Lake_subB
   > Door to Lake Tunnel
-      Missile Launcher and Varia Suit and Can Break Bomb Blocks
-  > Pickup (Artifact 7)
       Missile Launcher and Varia Suit and Can Break Bomb Blocks
 
 > Pickup (Artifact 7); Heals? False
@@ -245,8 +237,6 @@ Extra - room_height: 224
   * Extra - is_major: major
   > Door to Lake Tunnel
       Varia Suit
-  > Morph Ball Tunnel to Lava Lake ( Morph Tunnel )
-      Varia Suit and Can Break Bomb Blocks
 
 ----------------
 Lava Lake
@@ -254,9 +244,9 @@ Extra - room_name: mag_Lava_Lake
 Extra - map_name: mag_Lava_Lake
 Extra - room_width: 640
 Extra - room_height: 224
-> Morph Ball Tunnel to Lava Lake ( Morph Tunnel ); Heals? False
+> Morph Ball Tunnel to Lava Lake (Morph Tunnel); Heals? False
   * Layers: default
-  * Morph Ball Tunnel to Lava Lake ( Morph Tunnel )/Morph Ball Tunnel to Lava Lake
+  * Morph Ball Tunnel to Lava Lake (Morph Tunnel)/Morph Ball Tunnel to Lava Lake
   * Extra - instance_id: 106954
   * Extra - facing: 0
   * Extra - dest_room: mag_Lava_Lake_subB
@@ -269,7 +259,7 @@ Extra - room_height: 224
   * Extra - instance_id: 106955
   * Extra - facing: 0
   * Extra - dest_room: mag_Pit_Tunnel
-  > Morph Ball Tunnel to Lava Lake ( Morph Tunnel )
+  > Morph Ball Tunnel to Lava Lake (Morph Tunnel)
       Varia Suit and Can Break Bomb Blocks
 
 ----------------
@@ -285,8 +275,6 @@ Extra - room_height: 448
   * Extra - facing: 0
   * Extra - dest_room: mag_Transport_Tunnel_C
   > Door to Workstation Tunnel
-      Varia Suit
-  > Door to South Core Tunnel
       Varia Suit
 
 > Door to Workstation Tunnel; Heals? False
@@ -306,8 +294,6 @@ Extra - room_height: 448
   * Extra - instance_id: 107020
   * Extra - facing: 0
   * Extra - dest_room: mag_South_Core_Tunnel
-  > Door to Transport Tunnel C
-      Varia Suit
   > Door to Workstation Tunnel
       Varia Suit
   > Pickup (Energy Tank)
@@ -335,15 +321,7 @@ Extra - room_height: 672
   * Extra - instance_id: 107410
   * Extra - facing: 0
   * Extra - dest_room: mag_Monitor_Tunnel
-  > Door to Shore Tunnel
-      Varia Suit
-  > Door to Warrior Shrine
-      All of the following:
-          Varia Suit
-          Any of the following:
-              Grapple Beam
-              Can Use Boost Ball and Climb High Ledge
-  > Door to Transport Tunnel A
+  > Monitor Station
       Varia Suit
 
 > Door to Shore Tunnel; Heals? False
@@ -352,15 +330,7 @@ Extra - room_height: 672
   * Extra - instance_id: 107411
   * Extra - facing: 0
   * Extra - dest_room: mag_Shore_Tunnel
-  > Door to Monitor Tunnel
-      Varia Suit
-  > Door to Warrior Shrine
-      All of the following:
-          Varia Suit
-          Any of the following:
-              Grapple Beam
-              Can Use Boost Ball and Climb High Ledge
-  > Door to Transport Tunnel A
+  > Monitor Station
       Varia Suit
 
 > Door to Warrior Shrine; Heals? False
@@ -369,11 +339,7 @@ Extra - room_height: 672
   * Extra - instance_id: 107412
   * Extra - facing: 0
   * Extra - dest_room: mag_Warrior_Shrine
-  > Door to Monitor Tunnel
-      Varia Suit
-  > Door to Shore Tunnel
-      Varia Suit
-  > Door to Transport Tunnel A
+  > Monitor Station
       Varia Suit
 
 > Door to Transport Tunnel A; Heals? False
@@ -382,16 +348,21 @@ Extra - room_height: 672
   * Extra - instance_id: 107416
   * Extra - facing: 0
   * Extra - dest_room: mag_Transport_Tunnel_A
+  > Monitor Station
+      Varia Suit
+
+> Monitor Station; Heals? False
+  * Layers: default
   > Door to Monitor Tunnel
       Varia Suit
   > Door to Shore Tunnel
       Varia Suit
   > Door to Warrior Shrine
       All of the following:
-          Varia Suit
-          Any of the following:
-              Grapple Beam
-              Can Use Boost Ball and Climb High Ledge
+          Varia Suit and Climb High Ledge
+          Grapple Beam or Can Use Boost Ball
+  > Door to Transport Tunnel A
+      Varia Suit
 
 ----------------
 Monitor Tunnel
@@ -500,9 +471,9 @@ Extra - room_name: mag_Save_Station_Magmoor_A
 Extra - map_name: mag_Save_Station_Magmoor_A
 Extra - room_width: 320
 Extra - room_height: 224
-> Door to Burning Trail ( Platforms ); Heals? False
+> Door to Burning Trail (Platforms); Heals? False
   * Layers: default
-  * Beam Door to Burning Trail ( Platforms )/Door to Save Station Magmoor A
+  * Beam Door to Burning Trail (Platforms)/Door to Save Station Magmoor A
   * Extra - instance_id: 107759
   * Extra - facing: 0
   * Extra - dest_room: mag_Burning_Trail_subB
@@ -535,8 +506,6 @@ Extra - room_height: 224
   * Extra - is_major: major
   > Door to Monitor Station
       Varia Suit
-  > Door to Fiery Shores
-      Varia Suit
 
 > Door to Monitor Station; Heals? False
   * Layers: default
@@ -555,8 +524,6 @@ Extra - room_height: 224
   * Extra - instance_id: 107811
   * Extra - facing: 0
   * Extra - dest_room: mag_Fiery_Shores
-  > Pickup (Ice Spreader)
-      Varia Suit and Can Lay Power Bomb
   > Door to Monitor Station
       Varia Suit
 
@@ -615,9 +582,9 @@ Extra - room_name: mag_Transport_to_Chozo_Ruins_North
 Extra - map_name: mag_Transport_to_Chozo_Ruins_North
 Extra - room_width: 320
 Extra - room_height: 224
-> Door to Burning Trail ( Platforms ); Heals? False
+> Door to Burning Trail (Platforms); Heals? False
   * Layers: default
-  * Beam Door to Burning Trail ( Platforms )/Door to Transport to Chozo Ruins North
+  * Beam Door to Burning Trail (Platforms)/Door to Transport to Chozo Ruins North
   * Extra - instance_id: 107879
   * Extra - facing: 0
   * Extra - dest_room: mag_Burning_Trail_subB
@@ -627,7 +594,7 @@ Extra - room_height: 224
 > Elevator to Transport to Magmoor Caverns North; Heals? False
   * Layers: default
   * Elevator to Transport to Magmoor Caverns North/Transport to Magmoor Caverns North
-  > Door to Burning Trail ( Platforms )
+  > Door to Burning Trail (Platforms)
       Trivial
 
 ----------------
@@ -684,8 +651,6 @@ Extra - room_height: 224
   * Extra - instance_id: 107945
   * Extra - facing: 0
   * Extra - dest_room: mag_Save_Station_Magmoor_B
-  > Door to Transport Tunnel C
-      Trivial
   > Elevator to Transport To Magmoor Caverns South
       Trivial
 
@@ -695,8 +660,6 @@ Extra - room_height: 224
   * Extra - instance_id: 107946
   * Extra - facing: 0
   * Extra - dest_room: mag_Transport_Tunnel_C
-  > Door to Save Station Magmoor B
-      Trivial
   > Elevator to Transport To Magmoor Caverns South
       Trivial
 
@@ -720,8 +683,6 @@ Extra - room_height: 224
   * Extra - instance_id: 107970
   * Extra - facing: 0
   * Extra - dest_room: mag_Transport_Tunnel_B
-  > Door to Twin Fires Tunnel
-      Trivial
   > Elevator to Transport to Magmoor Caverns East
       Trivial
 
@@ -731,8 +692,6 @@ Extra - room_height: 224
   * Extra - instance_id: 107971
   * Extra - facing: 0
   * Extra - dest_room: mag_Twin_Fires_Tunnel
-  > Door to Transport Tunnel B
-      Trivial
   > Elevator to Transport to Magmoor Caverns East
       Trivial
 
@@ -769,8 +728,6 @@ Extra - room_height: 224
   * Extra - dest_room: mag_Transport_to_Phendrana_Drifts_North
   > Door to Monitor Station
       Morph Ball and Varia Suit
-  > Pickup (Energy Tank)
-      Morph Ball and Varia Suit
 
 > Pickup (Energy Tank); Heals? False
   * Layers: default
@@ -780,8 +737,6 @@ Extra - room_height: 224
   * Extra - item_type: Energy Tank
   * Extra - is_major: minor
   > Door to Monitor Station
-      Morph Ball and Varia Suit
-  > Door to Transport to Phendrana Drifts North
       Morph Ball and Varia Suit
 
 ----------------
@@ -894,10 +849,6 @@ Extra - room_height: 448
   * Extra - dest_room: mag_Monitor_Tunnel
   > Door to Pit Tunnel
       Varia Suit
-  > Morph Ball Tunnel to Triclops Pit (Tunnel)
-      Varia Suit and Can Break Bomb Blocks
-  > Pickup (Missile Expansion)
-      Missile Launcher and Varia Suit
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -906,29 +857,27 @@ Extra - room_height: 448
   * Extra - object_name: obj_expansion_missile
   * Extra - item_type: Missile Expansion
   * Extra - is_major: minor
-  > Door to Pit Tunnel
-      Varia Suit
   > Door to Monitor Tunnel
       Varia Suit
 
 ----------------
-Twin Fires ( Fire )
+Twin Fires (Fire)
 Extra - room_name: mag_Twin_Fires_subB
 Extra - map_name: mag_Twin_Fires_subB
 Extra - room_width: 320
 Extra - room_height: 224
 > Open Access to Twin Fires; Heals? False
   * Layers: default
-  * Open Access (Horizontal) to Twin Fires/Open Access to Twin Fires ( Fire )
+  * Open Access (Horizontal) to Twin Fires/Open Access to Twin Fires (Fire)
   * Extra - instance_id: 108409
   * Extra - facing: 0
   * Extra - dest_room: mag_Twin_Fires
-  > Open Access to Twin Fires ( Stalagmites )
+  > Open Access to Twin Fires (Stalagmites)
       Varia Suit
 
-> Open Access to Twin Fires ( Stalagmites ); Heals? False
+> Open Access to Twin Fires (Stalagmites); Heals? False
   * Layers: default
-  * Open Access (Horizontal) to Twin Fires ( Stalagmites )/Open Access to Twin Fires ( Fire )
+  * Open Access (Horizontal) to Twin Fires (Stalagmites)/Open Access to Twin Fires (Fire)
   * Extra - instance_id: 108411
   * Extra - facing: 0
   * Extra - dest_room: mag_Twin_Fires_subC
@@ -936,14 +885,14 @@ Extra - room_height: 224
       Varia Suit
 
 ----------------
-Twin Fires ( Stalagmites )
+Twin Fires (Stalagmites)
 Extra - room_name: mag_Twin_Fires_subC
 Extra - map_name: mag_Twin_Fires_subC
 Extra - room_width: 640
 Extra - room_height: 224
-> Open Access to Twin Fires ( Fire ); Heals? False
+> Open Access to Twin Fires (Fire); Heals? False
   * Layers: default
-  * Open Access (Horizontal) to Twin Fires ( Fire )/Open Access to Twin Fires ( Stalagmites )
+  * Open Access (Horizontal) to Twin Fires (Fire)/Open Access to Twin Fires (Stalagmites)
   * Extra - instance_id: 108428
   * Extra - facing: 0
   * Extra - dest_room: mag_Twin_Fires_subB
@@ -954,11 +903,11 @@ Extra - room_height: 224
 
 > Door to Twin Fires Tunnel; Heals? False
   * Layers: default
-  * Beam Door to Twin Fires Tunnel/Door to Twin Fires ( Stalagmites )
+  * Beam Door to Twin Fires Tunnel/Door to Twin Fires (Stalagmites)
   * Extra - instance_id: 108429
   * Extra - facing: 0
   * Extra - dest_room: mag_Twin_Fires_Tunnel
-  > Open Access to Twin Fires ( Fire )
+  > Open Access to Twin Fires (Fire)
       All of the following:
           Varia Suit
           Grapple Beam or Missile Launcher or Can Use Spider Ball
@@ -975,14 +924,14 @@ Extra - room_height: 224
   * Extra - instance_id: 108461
   * Extra - facing: 0
   * Extra - dest_room: mag_Transport_to_Tallon_Overworld_West
-  > Door to Twin Fires ( Stalagmites )
+  > Door to Twin Fires (Stalagmites)
       All of the following:
           Morph Ball and Varia Suit
           Grapple Beam or Can Use Spider Ball
 
-> Door to Twin Fires ( Stalagmites ); Heals? False
+> Door to Twin Fires (Stalagmites); Heals? False
   * Layers: default
-  * Beam Door to Twin Fires ( Stalagmites )/Door to Twin Fires Tunnel
+  * Beam Door to Twin Fires (Stalagmites)/Door to Twin Fires Tunnel
   * Extra - instance_id: 108462
   * Extra - facing: 0
   * Extra - dest_room: mag_Twin_Fires_subC
@@ -1003,14 +952,14 @@ Extra - room_height: 224
   * Extra - instance_id: 108498
   * Extra - facing: 0
   * Extra - dest_room: mag_North_Core_Tunnel
-  > Open Access to Twin Fires ( Fire )
+  > Open Access to Twin Fires (Fire)
       All of the following:
           Varia Suit
           Grapple Beam or Missile Launcher or Space Jump or Can Use Spider Ball
 
-> Open Access to Twin Fires ( Fire ); Heals? False
+> Open Access to Twin Fires (Fire); Heals? False
   * Layers: default
-  * Open Access (Horizontal) to Twin Fires ( Fire )/Open Access to Twin Fires
+  * Open Access (Horizontal) to Twin Fires (Fire)/Open Access to Twin Fires
   * Extra - instance_id: 108530
   * Extra - facing: 0
   * Extra - dest_room: mag_Twin_Fires_subB
@@ -1020,14 +969,14 @@ Extra - room_height: 224
           Grapple Beam or Missile Launcher or Space Jump or Can Use Spider Ball
 
 ----------------
-Warrior Shrine ( Tunnel )
+Warrior Shrine (Tunnel)
 Extra - room_name: mag_Warrior_Shrine_subB
 Extra - map_name: mag_Warrior_Shrine_subB
 Extra - room_width: 320
 Extra - room_height: 224
 > Morph Ball Tunnel to Warrior Shrine; Heals? False
   * Layers: default
-  * Morph Ball Tunnel to Warrior Shrine/Morph Ball Tunnel to Warrior Shrine ( Tunnel )
+  * Morph Ball Tunnel to Warrior Shrine/Morph Ball Tunnel to Warrior Shrine (Tunnel)
   * Extra - instance_id: 108544
   * Extra - facing: 90
   * Extra - dest_room: mag_Warrior_Shrine
@@ -1036,7 +985,7 @@ Extra - room_height: 224
 
 > Morph Ball Tunnel to Fiery Shores; Heals? False
   * Layers: default
-  * Morph Ball Tunnel to Fiery Shores/Morph Ball Tunnel to Warrior Shrine ( Tunnel )
+  * Morph Ball Tunnel to Fiery Shores/Morph Ball Tunnel to Warrior Shrine (Tunnel)
   * Extra - instance_id: 108545
   * Extra - facing: 0
   * Extra - dest_room: mag_Fiery_Shores
@@ -1053,14 +1002,14 @@ Extra - room_height: 224
   * Extra - instance_id: 108558
   * Extra - facing: 0
   * Extra - dest_room: mag_Monitor_Station
-  > Morph Ball Tunnel to Warrior Shrine ( Tunnel )
+  > Morph Ball Tunnel to Warrior Shrine (Tunnel)
       Varia Suit and Can Lay Power Bomb
   > Pickup (Artifact 1)
       Varia Suit
 
-> Morph Ball Tunnel to Warrior Shrine ( Tunnel ); Heals? False
+> Morph Ball Tunnel to Warrior Shrine (Tunnel); Heals? False
   * Layers: default
-  * Morph Ball Tunnel to Warrior Shrine ( Tunnel )/Morph Ball Tunnel to Warrior Shrine
+  * Morph Ball Tunnel to Warrior Shrine (Tunnel)/Morph Ball Tunnel to Warrior Shrine
   * Extra - instance_id: 108559
   * Extra - facing: 90
   * Extra - dest_room: mag_Warrior_Shrine_subB
@@ -1074,8 +1023,6 @@ Extra - room_height: 224
   * Extra - is_major: major
   > Door to Monitor Station
       Varia Suit
-  > Morph Ball Tunnel to Warrior Shrine ( Tunnel )
-      Varia Suit and Can Lay Power Bomb
 
 ----------------
 Workstation Tunnel

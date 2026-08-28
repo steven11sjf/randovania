@@ -2,7 +2,7 @@
     "name": "Magmoor Caverns",
     "extra": {},
     "areas": {
-        "Burning Trail ( Platforms )": {
+        "Burning Trail (Platforms)": {
             "default_node": null,
             "hint_features": [],
             "extra": {
@@ -34,7 +34,7 @@
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Transport to Chozo Ruins North",
-                        "node": "Door to Burning Trail ( Platforms )"
+                        "node": "Door to Burning Trail (Platforms)"
                     },
                     "default_dock_weakness": "Beam Door",
                     "exclude_from_dock_rando": false,
@@ -43,13 +43,6 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Save Station Magmoor A": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        },
                         "Open Access to Burning Trail": {
                             "type": "and",
                             "data": {
@@ -81,7 +74,7 @@
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Save Station Magmoor A",
-                        "node": "Door to Burning Trail ( Platforms )"
+                        "node": "Door to Burning Trail (Platforms)"
                     },
                     "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
@@ -128,7 +121,7 @@
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Burning Trail",
-                        "node": "Open Access to Burning Trail ( Platforms )"
+                        "node": "Open Access to Burning Trail (Platforms)"
                     },
                     "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
@@ -165,7 +158,7 @@
                 "room_height": 224
             },
             "nodes": {
-                "Open Access to Burning Trail ( Platforms )": {
+                "Open Access to Burning Trail (Platforms)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -186,7 +179,7 @@
                     "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Burning Trail ( Platforms )",
+                        "area": "Burning Trail (Platforms)",
                         "node": "Open Access to Burning Trail"
                     },
                     "default_dock_weakness": "Open Access (Horizontal)",
@@ -238,7 +231,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Open Access to Burning Trail ( Platforms )": {
+                        "Open Access to Burning Trail (Platforms)": {
                             "type": "resource",
                             "data": {
                                 "type": "items",
@@ -261,7 +254,7 @@
                 "room_height": 448
             },
             "nodes": {
-                "Morph Ball Tunnel to Warrior Shrine ( Tunnel )": {
+                "Morph Ball Tunnel to Warrior Shrine (Tunnel)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -282,7 +275,7 @@
                     "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Warrior Shrine ( Tunnel )",
+                        "area": "Warrior Shrine (Tunnel)",
                         "node": "Morph Ball Tunnel to Fiery Shores"
                     },
                     "default_dock_weakness": "Morph Ball Tunnel",
@@ -292,15 +285,6 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Shore Tunnel": {
-                            "type": "resource",
-                            "data": {
-                                "type": "items",
-                                "name": "VariaSuit",
-                                "amount": 1,
-                                "negate": false
-                            }
-                        },
                         "Pickup (Power Bomb Tank)": {
                             "type": "and",
                             "data": {
@@ -361,32 +345,6 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Transport Tunnel B": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "MorphBall",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "VariaSuit",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        "Pickup (Missile Expansion)": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -523,7 +481,7 @@
                     "custom_index_group": null,
                     "hint_features": [],
                     "connections": {
-                        "Morph Ball Tunnel to Warrior Shrine ( Tunnel )": {
+                        "Morph Ball Tunnel to Warrior Shrine (Tunnel)": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -951,7 +909,7 @@
                 }
             }
         },
-        "Lava Lake ( Morph Tunnel )": {
+        "Lava Lake (Morph Tunnel)": {
             "default_node": null,
             "hint_features": [],
             "extra": {
@@ -983,7 +941,7 @@
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Lava Lake (Artifact)",
-                        "node": "Morph Ball Tunnel to Lava Lake ( Morph Tunnel )"
+                        "node": "Morph Ball Tunnel to Lava Lake (Morph Tunnel)"
                     },
                     "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
@@ -1042,7 +1000,7 @@
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Lava Lake",
-                        "node": "Morph Ball Tunnel to Lava Lake ( Morph Tunnel )"
+                        "node": "Morph Ball Tunnel to Lava Lake (Morph Tunnel)"
                     },
                     "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
@@ -1122,7 +1080,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Morph Ball Tunnel to Lava Lake ( Morph Tunnel )": {
+                        "Morph Ball Tunnel to Lava Lake (Morph Tunnel)": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -1161,7 +1119,7 @@
                                         "type": "resource",
                                         "data": {
                                             "type": "items",
-                                            "name": "MissileLauncher",
+                                            "name": "VariaSuit",
                                             "amount": 1,
                                             "negate": false
                                         }
@@ -1170,7 +1128,7 @@
                                         "type": "resource",
                                         "data": {
                                             "type": "items",
-                                            "name": "VariaSuit",
+                                            "name": "MissileLauncher",
                                             "amount": 1,
                                             "negate": false
                                         }
@@ -1180,7 +1138,7 @@
                         }
                     }
                 },
-                "Morph Ball Tunnel to Lava Lake ( Morph Tunnel )": {
+                "Morph Ball Tunnel to Lava Lake (Morph Tunnel)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1201,7 +1159,7 @@
                     "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Lava Lake ( Morph Tunnel )",
+                        "area": "Lava Lake (Morph Tunnel)",
                         "node": "Morph Ball Tunnel to Lava Lake (Artifact)"
                     },
                     "default_dock_weakness": "Morph Ball Tunnel",
@@ -1212,36 +1170,6 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Lake Tunnel": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "MissileLauncher",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "VariaSuit",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Can Break Bomb Blocks"
-                                    }
-                                ]
-                            }
-                        },
-                        "Pickup (Artifact 7)": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -1313,27 +1241,6 @@
                                     }
                                 ]
                             }
-                        },
-                        "Morph Ball Tunnel to Lava Lake ( Morph Tunnel )": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "VariaSuit",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Can Break Bomb Blocks"
-                                    }
-                                ]
-                            }
                         }
                     }
                 }
@@ -1349,7 +1256,7 @@
                 "room_height": 224
             },
             "nodes": {
-                "Morph Ball Tunnel to Lava Lake ( Morph Tunnel )": {
+                "Morph Ball Tunnel to Lava Lake (Morph Tunnel)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1370,7 +1277,7 @@
                     "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Lava Lake ( Morph Tunnel )",
+                        "area": "Lava Lake (Morph Tunnel)",
                         "node": "Morph Ball Tunnel to Lava Lake"
                     },
                     "default_dock_weakness": "Morph Ball Tunnel",
@@ -1434,7 +1341,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Morph Ball Tunnel to Lava Lake ( Morph Tunnel )": {
+                        "Morph Ball Tunnel to Lava Lake (Morph Tunnel)": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -1501,15 +1408,6 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Workstation Tunnel": {
-                            "type": "resource",
-                            "data": {
-                                "type": "items",
-                                "name": "VariaSuit",
-                                "amount": 1,
-                                "negate": false
-                            }
-                        },
-                        "Door to South Core Tunnel": {
                             "type": "resource",
                             "data": {
                                 "type": "items",
@@ -1602,15 +1500,6 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Transport Tunnel C": {
-                            "type": "resource",
-                            "data": {
-                                "type": "items",
-                                "name": "VariaSuit",
-                                "amount": 1,
-                                "negate": false
-                            }
-                        },
                         "Door to Workstation Tunnel": {
                             "type": "resource",
                             "data": {
@@ -1746,66 +1635,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Shore Tunnel": {
-                            "type": "resource",
-                            "data": {
-                                "type": "items",
-                                "name": "VariaSuit",
-                                "amount": 1,
-                                "negate": false
-                            }
-                        },
-                        "Door to Warrior Shrine": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "VariaSuit",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "or",
-                                        "data": {
-                                            "comment": null,
-                                            "items": [
-                                                {
-                                                    "type": "and",
-                                                    "data": {
-                                                        "comment": null,
-                                                        "items": [
-                                                            {
-                                                                "type": "template",
-                                                                "data": "Can Use Boost Ball"
-                                                            },
-                                                            {
-                                                                "type": "template",
-                                                                "data": "Climb High Ledge"
-                                                            }
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "GrappleBeam",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        "Door to Transport Tunnel A": {
+                        "Monitor Station": {
                             "type": "resource",
                             "data": {
                                 "type": "items",
@@ -1847,66 +1677,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Monitor Tunnel": {
-                            "type": "resource",
-                            "data": {
-                                "type": "items",
-                                "name": "VariaSuit",
-                                "amount": 1,
-                                "negate": false
-                            }
-                        },
-                        "Door to Warrior Shrine": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "VariaSuit",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "or",
-                                        "data": {
-                                            "comment": null,
-                                            "items": [
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "GrappleBeam",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "and",
-                                                    "data": {
-                                                        "comment": null,
-                                                        "items": [
-                                                            {
-                                                                "type": "template",
-                                                                "data": "Can Use Boost Ball"
-                                                            },
-                                                            {
-                                                                "type": "template",
-                                                                "data": "Climb High Ledge"
-                                                            }
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        "Door to Transport Tunnel A": {
+                        "Monitor Station": {
                             "type": "resource",
                             "data": {
                                 "type": "items",
@@ -1948,39 +1719,13 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Monitor Tunnel": {
+                        "Monitor Station": {
                             "type": "resource",
                             "data": {
                                 "type": "items",
                                 "name": "VariaSuit",
                                 "amount": 1,
                                 "negate": false
-                            }
-                        },
-                        "Door to Shore Tunnel": {
-                            "type": "resource",
-                            "data": {
-                                "type": "items",
-                                "name": "VariaSuit",
-                                "amount": 1,
-                                "negate": false
-                            }
-                        },
-                        "Door to Transport Tunnel A": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "VariaSuit",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    }
-                                ]
                             }
                         }
                     }
@@ -2016,6 +1761,32 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
+                        "Monitor Station": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
+                },
+                "Monitor Station": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 335.63,
+                        "y": 440.84,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
                         "Door to Monitor Tunnel": {
                             "type": "resource",
                             "data": {
@@ -2049,10 +1820,18 @@
                                         }
                                     },
                                     {
+                                        "type": "template",
+                                        "data": "Climb High Ledge"
+                                    },
+                                    {
                                         "type": "or",
                                         "data": {
                                             "comment": null,
                                             "items": [
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Use Boost Ball"
+                                                },
                                                 {
                                                     "type": "resource",
                                                     "data": {
@@ -2061,27 +1840,20 @@
                                                         "amount": 1,
                                                         "negate": false
                                                     }
-                                                },
-                                                {
-                                                    "type": "and",
-                                                    "data": {
-                                                        "comment": null,
-                                                        "items": [
-                                                            {
-                                                                "type": "template",
-                                                                "data": "Can Use Boost Ball"
-                                                            },
-                                                            {
-                                                                "type": "template",
-                                                                "data": "Climb High Ledge"
-                                                            }
-                                                        ]
-                                                    }
                                                 }
                                             ]
                                         }
                                     }
                                 ]
+                            }
+                        },
+                        "Door to Transport Tunnel A": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "VariaSuit",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -2628,7 +2400,7 @@
                 "room_height": 224
             },
             "nodes": {
-                "Door to Burning Trail ( Platforms )": {
+                "Door to Burning Trail (Platforms)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -2649,7 +2421,7 @@
                     "dock_type": "Door",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Burning Trail ( Platforms )",
+                        "area": "Burning Trail (Platforms)",
                         "node": "Door to Save Station Magmoor A"
                     },
                     "default_dock_weakness": "Beam Door",
@@ -2741,15 +2513,6 @@
                     "hint_features": [],
                     "connections": {
                         "Door to Monitor Station": {
-                            "type": "resource",
-                            "data": {
-                                "type": "items",
-                                "name": "VariaSuit",
-                                "amount": 1,
-                                "negate": false
-                            }
-                        },
-                        "Door to Fiery Shores": {
                             "type": "resource",
                             "data": {
                                 "type": "items",
@@ -2854,27 +2617,6 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Pickup (Ice Spreader)": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "VariaSuit",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Can Lay Power Bomb"
-                                    }
-                                ]
-                            }
-                        },
                         "Door to Monitor Station": {
                             "type": "resource",
                             "data": {
@@ -3091,7 +2833,7 @@
                 "room_height": 224
             },
             "nodes": {
-                "Door to Burning Trail ( Platforms )": {
+                "Door to Burning Trail (Platforms)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3112,7 +2854,7 @@
                     "dock_type": "Door",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Burning Trail ( Platforms )",
+                        "area": "Burning Trail (Platforms)",
                         "node": "Door to Transport to Chozo Ruins North"
                     },
                     "default_dock_weakness": "Beam Door",
@@ -3158,7 +2900,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Burning Trail ( Platforms )": {
+                        "Door to Burning Trail (Platforms)": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -3386,13 +3128,6 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Transport Tunnel C": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        },
                         "Elevator to Transport To Magmoor Caverns South": {
                             "type": "and",
                             "data": {
@@ -3433,13 +3168,6 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Save Station Magmoor B": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        },
                         "Elevator to Transport To Magmoor Caverns South": {
                             "type": "and",
                             "data": {
@@ -3535,13 +3263,6 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Twin Fires Tunnel": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        },
                         "Elevator to Transport to Magmoor Caverns East": {
                             "type": "and",
                             "data": {
@@ -3582,13 +3303,6 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Transport Tunnel B": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        },
                         "Elevator to Transport to Magmoor Caverns East": {
                             "type": "and",
                             "data": {
@@ -3794,32 +3508,6 @@
                                     }
                                 ]
                             }
-                        },
-                        "Pickup (Energy Tank)": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "MorphBall",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "VariaSuit",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    }
-                                ]
-                            }
                         }
                     }
                 },
@@ -3848,32 +3536,6 @@
                     "hint_features": [],
                     "connections": {
                         "Door to Monitor Station": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "MorphBall",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "VariaSuit",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        "Door to Transport to Phendrana Drifts North": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -4462,53 +4124,6 @@
                                     }
                                 ]
                             }
-                        },
-                        "Morph Ball Tunnel to Triclops Pit (Tunnel)": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "VariaSuit",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Can Break Bomb Blocks"
-                                    }
-                                ]
-                            }
-                        },
-                        "Pickup (Missile Expansion)": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "VariaSuit",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "MissileLauncher",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    }
-                                ]
-                            }
                         }
                     }
                 },
@@ -4536,15 +4151,6 @@
                     "custom_index_group": null,
                     "hint_features": [],
                     "connections": {
-                        "Door to Pit Tunnel": {
-                            "type": "resource",
-                            "data": {
-                                "type": "items",
-                                "name": "VariaSuit",
-                                "amount": 1,
-                                "negate": false
-                            }
-                        },
                         "Door to Monitor Tunnel": {
                             "type": "resource",
                             "data": {
@@ -4558,7 +4164,7 @@
                 }
             }
         },
-        "Twin Fires ( Fire )": {
+        "Twin Fires (Fire)": {
             "default_node": null,
             "hint_features": [],
             "extra": {
@@ -4590,7 +4196,7 @@
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Twin Fires",
-                        "node": "Open Access to Twin Fires ( Fire )"
+                        "node": "Open Access to Twin Fires (Fire)"
                     },
                     "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
@@ -4599,7 +4205,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Open Access to Twin Fires ( Stalagmites )": {
+                        "Open Access to Twin Fires (Stalagmites)": {
                             "type": "resource",
                             "data": {
                                 "type": "items",
@@ -4610,7 +4216,7 @@
                         }
                     }
                 },
-                "Open Access to Twin Fires ( Stalagmites )": {
+                "Open Access to Twin Fires (Stalagmites)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -4631,8 +4237,8 @@
                     "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Twin Fires ( Stalagmites )",
-                        "node": "Open Access to Twin Fires ( Fire )"
+                        "area": "Twin Fires (Stalagmites)",
+                        "node": "Open Access to Twin Fires (Fire)"
                     },
                     "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
@@ -4654,7 +4260,7 @@
                 }
             }
         },
-        "Twin Fires ( Stalagmites )": {
+        "Twin Fires (Stalagmites)": {
             "default_node": null,
             "hint_features": [],
             "extra": {
@@ -4664,7 +4270,7 @@
                 "room_height": 224
             },
             "nodes": {
-                "Open Access to Twin Fires ( Fire )": {
+                "Open Access to Twin Fires (Fire)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -4685,8 +4291,8 @@
                     "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Twin Fires ( Fire )",
-                        "node": "Open Access to Twin Fires ( Stalagmites )"
+                        "area": "Twin Fires (Fire)",
+                        "node": "Open Access to Twin Fires (Stalagmites)"
                     },
                     "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
@@ -4766,7 +4372,7 @@
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Twin Fires Tunnel",
-                        "node": "Door to Twin Fires ( Stalagmites )"
+                        "node": "Door to Twin Fires (Stalagmites)"
                     },
                     "default_dock_weakness": "Beam Door",
                     "exclude_from_dock_rando": false,
@@ -4775,7 +4381,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Open Access to Twin Fires ( Fire )": {
+                        "Open Access to Twin Fires (Fire)": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -4867,7 +4473,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Twin Fires ( Stalagmites )": {
+                        "Door to Twin Fires (Stalagmites)": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -4916,7 +4522,7 @@
                         }
                     }
                 },
-                "Door to Twin Fires ( Stalagmites )": {
+                "Door to Twin Fires (Stalagmites)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -4937,7 +4543,7 @@
                     "dock_type": "Door",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Twin Fires ( Stalagmites )",
+                        "area": "Twin Fires (Stalagmites)",
                         "node": "Door to Twin Fires Tunnel"
                     },
                     "default_dock_weakness": "Beam Door",
@@ -5039,7 +4645,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Open Access to Twin Fires ( Fire )": {
+                        "Open Access to Twin Fires (Fire)": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -5097,7 +4703,7 @@
                         }
                     }
                 },
-                "Open Access to Twin Fires ( Fire )": {
+                "Open Access to Twin Fires (Fire)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -5118,7 +4724,7 @@
                     "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Twin Fires ( Fire )",
+                        "area": "Twin Fires (Fire)",
                         "node": "Open Access to Twin Fires"
                     },
                     "default_dock_weakness": "Open Access (Horizontal)",
@@ -5197,7 +4803,7 @@
                 }
             }
         },
-        "Warrior Shrine ( Tunnel )": {
+        "Warrior Shrine (Tunnel)": {
             "default_node": null,
             "hint_features": [],
             "extra": {
@@ -5229,7 +4835,7 @@
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Warrior Shrine",
-                        "node": "Morph Ball Tunnel to Warrior Shrine ( Tunnel )"
+                        "node": "Morph Ball Tunnel to Warrior Shrine (Tunnel)"
                     },
                     "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
@@ -5288,7 +4894,7 @@
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Fiery Shores",
-                        "node": "Morph Ball Tunnel to Warrior Shrine ( Tunnel )"
+                        "node": "Morph Ball Tunnel to Warrior Shrine (Tunnel)"
                     },
                     "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
@@ -5341,7 +4947,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Morph Ball Tunnel to Warrior Shrine ( Tunnel )": {
+                        "Morph Ball Tunnel to Warrior Shrine (Tunnel)": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -5373,7 +4979,7 @@
                         }
                     }
                 },
-                "Morph Ball Tunnel to Warrior Shrine ( Tunnel )": {
+                "Morph Ball Tunnel to Warrior Shrine (Tunnel)": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -5394,7 +5000,7 @@
                     "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Magmoor Caverns",
-                        "area": "Warrior Shrine ( Tunnel )",
+                        "area": "Warrior Shrine (Tunnel)",
                         "node": "Morph Ball Tunnel to Warrior Shrine"
                     },
                     "default_dock_weakness": "Morph Ball Tunnel",
@@ -5436,27 +5042,6 @@
                                 "name": "VariaSuit",
                                 "amount": 1,
                                 "negate": false
-                            }
-                        },
-                        "Morph Ball Tunnel to Warrior Shrine ( Tunnel )": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "VariaSuit",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Can Lay Power Bomb"
-                                    }
-                                ]
                             }
                         }
                     }
