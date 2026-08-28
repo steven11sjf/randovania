@@ -157,6 +157,18 @@
             "MetroidQuarantineAGate": {
                 "long_name": "Metroid Quarantine A Gate",
                 "extra": {}
+            },
+            "FirstChozoGhost": {
+                "long_name": "First Chozo Ghost",
+                "extra": {}
+            },
+            "Reactor Access Wave Slots": {
+                "long_name": "Reactor Access Wave Slots",
+                "extra": {}
+            },
+            "GTHSpinner": {
+                "long_name": "Great Tree Hall Spinner",
+                "extra": {}
             }
         },
         "tricks": {},

@@ -163,7 +163,7 @@
                         "area": "Arboretum",
                         "node": "Door to Arboretum Access"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -228,13 +228,6 @@
                                 "comment": null,
                                 "items": []
                             }
-                        },
-                        "Door to Sunchamber Lobby": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
                         }
                     }
                 },
@@ -262,7 +255,7 @@
                         "area": "Gathering Hall Access",
                         "node": "Door to Arboretum"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -275,6 +268,10 @@
                                 "comment": null,
                                 "items": []
                             }
+                        },
+                        "Door to Sunchamber Lobby": {
+                            "type": "template",
+                            "data": "Can Break Bomb Blocks"
                         }
                     }
                 },
@@ -302,19 +299,16 @@
                         "area": "Sunchamber Lobby",
                         "node": "Door to Arboretum"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Arboretum Access": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
+                        "Door to Gathering Hall Access": {
+                            "type": "template",
+                            "data": "Can Break Bomb Blocks"
                         }
                     }
                 }
@@ -361,16 +355,18 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Energy Core": {
-                            "type": "and",
+                        "Morph Ball Tunnel to Energy Core": {
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "MorphBall",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
                 },
-                "Door to Energy Core": {
+                "Morph Ball Tunnel to Energy Core": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -388,13 +384,13 @@
                         "dest_room": "cho_Energy_Core"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Energy Core",
-                        "node": "Door to Burn Dome Access"
+                        "node": "Morph Ball Tunnel to Burn Dome Access"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -402,10 +398,12 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Burn Dome": {
-                            "type": "and",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "MorphBall",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -446,7 +444,7 @@
                     "custom_index_group": null,
                     "hint_features": [],
                     "connections": {
-                        "Door to Burn Dome": {
+                        "Morph Ball Tunnel to Burn Dome": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -455,7 +453,7 @@
                         }
                     }
                 },
-                "Door to Burn Dome": {
+                "Morph Ball Tunnel to Burn Dome": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -473,13 +471,13 @@
                         "dest_room": "cho_Burn_Dome"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Burn Dome",
-                        "node": "Door to Burn Dome subB"
+                        "node": "Morph Ball Tunnel to Burn Dome subB"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -538,16 +536,13 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Burn Dome subB": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
+                        "Morph Ball Tunnel to Burn Dome subB": {
+                            "type": "template",
+                            "data": "Can Break Bomb Blocks"
                         }
                     }
                 },
-                "Door to Burn Dome subB": {
+                "Morph Ball Tunnel to Burn Dome subB": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -565,13 +560,13 @@
                         "dest_room": "cho_Burn_Dome_subB"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Burn Dome subB",
-                        "node": "Door to Burn Dome"
+                        "node": "Morph Ball Tunnel to Burn Dome"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -579,13 +574,30 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Burn Dome Access": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
+                            "type": "template",
+                            "data": "Can Break Bomb Blocks"
                         }
                     }
+                },
+                "Pickup (Morph Ball Bombs)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 159.15,
+                        "y": 96.0,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 93,
+                    "location_category": "major",
+                    "custom_index_group": null,
+                    "hint_features": [],
+                    "connections": {}
                 }
             }
         },
@@ -830,9 +842,22 @@
                                     {
                                         "type": "template",
                                         "data": "Can Use Boost Ball"
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "IceBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
                                     }
                                 ]
                             }
+                        },
+                        "Door to Elder Hall Access": {
+                            "type": "template",
+                            "data": "Can Use Boost Ball"
                         },
                         "Pickup (Missile Expansion)": {
                             "type": "and",
@@ -883,23 +908,13 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Crossway Access West": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "template",
-                                        "data": "Can Use Boost Ball"
-                                    }
-                                ]
-                            }
-                        },
                         "Door to Elder Hall Access": {
-                            "type": "and",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "IceBeam",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -928,7 +943,7 @@
                         "area": "Elder Hall Access",
                         "node": "Door to Crossway"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -936,10 +951,12 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Crossway Access South": {
-                            "type": "and",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "IceBeam",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -1053,7 +1070,7 @@
                         "area": "Dynamo",
                         "node": "Door to Dynamo Access"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -1113,10 +1130,12 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Pickup (Missile Expansion)": {
-                            "type": "and",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "MissileLauncher",
+                                "amount": 1,
+                                "negate": false
                             }
                         },
                         "Pickup (Missile Expansion 2)": {
@@ -1690,7 +1709,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Burn Dome Access": {
+                        "Morph Ball Tunnel to Burn Dome Access": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -1698,15 +1717,12 @@
                             }
                         },
                         "Door to West Furnace Access": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
+                            "type": "template",
+                            "data": "Can Lay Bomb"
                         }
                     }
                 },
-                "Door to Burn Dome Access": {
+                "Morph Ball Tunnel to Burn Dome Access": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1724,13 +1740,13 @@
                         "dest_room": "cho_Burn_Dome_Access"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Burn Dome Access",
-                        "node": "Door to Energy Core"
+                        "node": "Morph Ball Tunnel to Energy Core"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -2162,7 +2178,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to East Furnace Access": {
+                        "Morph Ball Tunnel to Crossway Access West": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -2175,13 +2191,8 @@
                                 "comment": null,
                                 "items": [
                                     {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "PowerBombExpansion",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
+                                        "type": "template",
+                                        "data": "Can Lay Power Bomb"
                                     },
                                     {
                                         "type": "template",
@@ -2227,11 +2238,20 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to East Furnace Access": {
+                        "Morph Ball Tunnel to Furnace (Boost Tunnel)": {
                             "type": "and",
                             "data": {
                                 "comment": null,
                                 "items": []
+                            }
+                        },
+                        "Door to East Furnace Access": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "IceBeam",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -2267,18 +2287,13 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Morph Ball Tunnel to Furnace (Boost Tunnel)": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        },
                         "Morph Ball Tunnel to Crossway Access West": {
-                            "type": "and",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "IceBeam",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -2497,6 +2512,22 @@
                                 "comment": null,
                                 "items": []
                             }
+                        },
+                        "Morph Ball Tunnel to Furnace (Boost Tunnel)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "template",
+                                        "data": "Can Break Bomb Blocks"
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Use Spider Ball"
+                                    }
+                                ]
+                            }
                         }
                     }
                 },
@@ -2537,22 +2568,6 @@
                                 "comment": null,
                                 "items": []
                             }
-                        },
-                        "Morph Ball Tunnel to Furnace (Boost Tunnel)": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "template",
-                                        "data": "Can Break Bomb Blocks"
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Can Use Spider Ball"
-                                    }
-                                ]
-                            }
                         }
                     }
                 },
@@ -2587,7 +2602,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Morph Ball Tunnel to Furnace (Bottom)": {
+                        "Door to West Furnace Access": {
                             "type": "template",
                             "data": "Can Break Bomb Blocks"
                         }
@@ -2734,6 +2749,13 @@
                                 "comment": null,
                                 "items": []
                             }
+                        },
+                        "Door to Watery Hall Access": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
                         }
                     }
                 },
@@ -2761,7 +2783,7 @@
                         "area": "Save Station 2",
                         "node": "Door to Gathering Hall"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -2769,13 +2791,6 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Gathering Hall Access": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        },
-                        "Door to Watery Hall Access": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -2816,18 +2831,17 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Watery Hall Access": {
-                            "type": "and",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "MorphBall",
+                                "amount": 1,
+                                "negate": false
                             }
                         },
                         "Pickup (Missile Expansion)": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
+                            "type": "template",
+                            "data": "Can Break Bomb Blocks"
                         }
                     }
                 },
@@ -2862,7 +2876,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Save Station 2": {
+                        "Door to Gathering Hall Access": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -2870,10 +2884,12 @@
                             }
                         },
                         "Door to East Atrium": {
-                            "type": "and",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "MorphBall",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -3137,8 +3153,8 @@
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 736.0,
-                        "y": 0.0,
+                        "x": 711.2918356786353,
+                        "y": 3.2175204900929657,
                         "z": 0.0
                     },
                     "description": "",
@@ -3320,6 +3336,15 @@
                                 "items": []
                             }
                         },
+                        "Door to Elder Chamber": {
+                            "type": "resource",
+                            "data": {
+                                "type": "events",
+                                "name": "ElderPlasmaBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
                         "Pickup (Energy Tank)": {
                             "type": "and",
                             "data": {
@@ -3399,6 +3424,27 @@
                                     }
                                 ]
                             }
+                        },
+                        "Event - Hall of the Elders Plasma Slot": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "PlasmaBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Bomb"
+                                    }
+                                ]
+                            }
                         }
                     }
                 },
@@ -3451,6 +3497,23 @@
                             }
                         }
                     }
+                },
+                "Event - Hall of the Elders Plasma Slot": {
+                    "node_type": "event",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 856.58,
+                        "y": 56.63,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "event_name": "ElderPlasmaBeam",
+                    "connections": {}
                 }
             }
         },
@@ -3528,7 +3591,7 @@
                         "area": "Transport Access North",
                         "node": "Door to Hive Totem"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -3631,7 +3694,21 @@
                             "type": "and",
                             "data": {
                                 "comment": null,
-                                "items": []
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Climb High Ledge"
+                                    }
+                                ]
                             }
                         }
                     }
@@ -3671,14 +3748,42 @@
                             "type": "and",
                             "data": {
                                 "comment": null,
-                                "items": []
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Climb High Ledge"
+                                    }
+                                ]
                             }
                         },
                         "Pickup (Power Bomb Tank)": {
                             "type": "and",
                             "data": {
                                 "comment": null,
-                                "items": []
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Power Bomb"
+                                    }
+                                ]
                             }
                         }
                     }
@@ -3774,17 +3879,16 @@
                             }
                         },
                         "Pickup (Missile Expansion)": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
+                            "type": "template",
+                            "data": "Can Use Boost Ball"
                         },
                         "Pickup (Missile Expansion 2)": {
-                            "type": "and",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "MissileLauncher",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -3813,7 +3917,7 @@
                         "area": "Ruined Shrine Access",
                         "node": "Door to Main Plaza"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -3912,6 +4016,15 @@
                             "data": {
                                 "comment": null,
                                 "items": []
+                            }
+                        },
+                        "Pickup (Energy Tank)": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "GrappleBeam",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -4019,17 +4132,10 @@
                                 "comment": null,
                                 "items": []
                             }
-                        },
-                        "Door to Plaza Access": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
                         }
                     }
                 },
-                "Door to Piston Tunnel subB": {
+                "Open Access to Piston Tunnel subB": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -4047,24 +4153,33 @@
                         "dest_room": "cho_Piston_Tunnel_subB"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Piston Tunnel subB",
-                        "node": "Door to Main Plaza"
+                        "node": "Morph Ball Tunnel to Main Plaza"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Vertical)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Pickup (Missile Expansion 3)": {
+                        "Door to Ruined Fountain Access": {
                             "type": "and",
                             "data": {
                                 "comment": null,
                                 "items": []
+                            }
+                        },
+                        "Pickup (Missile Expansion 3)": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "GrappleBeam",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -4092,7 +4207,15 @@
                     "location_category": "minor",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to Ruins Entrance": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Pickup (Missile Expansion 3)": {
                     "node_type": "pickup",
@@ -4119,13 +4242,6 @@
                     "hint_features": [],
                     "connections": {
                         "Door to Ruined Fountain Access": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        },
-                        "Door to Piston Tunnel subB": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -4510,7 +4626,7 @@
                 "room_height": 448
             },
             "nodes": {
-                "Door to Piston Tunnel": {
+                "Morph Ball Tunnel to Piston Tunnel": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -4528,20 +4644,20 @@
                         "dest_room": "cho_Piston_Tunnel"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Piston Tunnel",
-                        "node": "Door to Piston Tunnel subB"
+                        "node": "Morph Ball Tunnel to Piston Tunnel subB"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Main Plaza": {
+                        "Morph Ball Tunnel to Main Plaza": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -4550,7 +4666,7 @@
                         }
                     }
                 },
-                "Door to Main Plaza": {
+                "Morph Ball Tunnel to Main Plaza": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -4568,13 +4684,13 @@
                         "dest_room": "cho_Main_Plaza"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Main Plaza",
-                        "node": "Door to Piston Tunnel subB"
+                        "node": "Open Access to Piston Tunnel subB"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -4594,7 +4710,7 @@
                 "room_height": 224
             },
             "nodes": {
-                "Door to Training Chamber": {
+                "Morph Ball Tunnel to Training Chamber": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -4612,20 +4728,20 @@
                         "dest_room": "cho_Training_Chamber"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Training Chamber",
-                        "node": "Door to Piston Tunnel"
+                        "node": "Morph Ball Tunnel to Piston Tunnel"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Piston Tunnel subB": {
+                        "Morph Ball Tunnel to Piston Tunnel subB": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -4634,7 +4750,7 @@
                         }
                     }
                 },
-                "Door to Piston Tunnel subB": {
+                "Morph Ball Tunnel to Piston Tunnel subB": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -4652,13 +4768,13 @@
                         "dest_room": "cho_Piston_Tunnel_subB"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Piston Tunnel subB",
-                        "node": "Door to Piston Tunnel"
+                        "node": "Morph Ball Tunnel to Piston Tunnel"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -4927,22 +5043,6 @@
                                                 }
                                             ]
                                         }
-                                    },
-                                    {
-                                        "type": "and",
-                                        "data": {
-                                            "comment": null,
-                                            "items": [
-                                                {
-                                                    "type": "template",
-                                                    "data": "Can Lay Bomb"
-                                                },
-                                                {
-                                                    "type": "template",
-                                                    "data": "Can Use Spider Ball"
-                                                }
-                                            ]
-                                        }
                                     }
                                 ]
                             }
@@ -5191,10 +5291,12 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Ruined Fountain": {
-                            "type": "and",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "MorphBall",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -5231,10 +5333,12 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Main Plaza": {
-                            "type": "and",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "MorphBall",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -5380,7 +5484,26 @@
                             "type": "and",
                             "data": {
                                 "comment": null,
-                                "items": []
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "SpiderBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
                             }
                         }
                     }
@@ -5468,11 +5591,20 @@
                                 "items": []
                             }
                         },
-                        "Pickup (Missile Expansion)": {
+                        "Door to Map Station": {
                             "type": "and",
                             "data": {
                                 "comment": null,
                                 "items": []
+                            }
+                        },
+                        "Pickup (Missile Expansion)": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "MorphBall",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -5516,10 +5648,12 @@
                             }
                         },
                         "Pickup (Missile Expansion 2)": {
-                            "type": "and",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "MissileLauncher",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -5548,14 +5682,14 @@
                         "area": "Map Station",
                         "node": "Door to Ruined Gallery"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Pickup (Missile Expansion)": {
+                        "Door to North Atrium": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -5589,13 +5723,6 @@
                     "hint_features": [],
                     "connections": {
                         "Door to North Atrium": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        },
-                        "Door to Map Station": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -5688,11 +5815,8 @@
                             }
                         },
                         "Pickup (Missile Expansion)": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
+                            "type": "template",
+                            "data": "Can Break Bomb Blocks"
                         }
                     }
                 },
@@ -5955,7 +6079,50 @@
                             "type": "and",
                             "data": {
                                 "comment": null,
-                                "items": []
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "WaveBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "and",
+                                                    "data": {
+                                                        "comment": null,
+                                                        "items": [
+                                                            {
+                                                                "type": "template",
+                                                                "data": "Can Use Spider Ball"
+                                                            },
+                                                            {
+                                                                "type": "template",
+                                                                "data": "Can Use Boost Ball"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "GrappleBeam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
                             }
                         },
                         "Pickup (Morph Ball)": {
@@ -5966,18 +6133,12 @@
                             }
                         },
                         "Pickup (Missile Expansion)": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
+                            "type": "template",
+                            "data": "Can Break Bomb Blocks"
                         },
                         "Pickup (Missile Expansion 2)": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
+                            "type": "template",
+                            "data": "Can Use Boost Ball"
                         }
                     }
                 },
@@ -6013,10 +6174,24 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Ruined Shrine Access": {
-                            "type": "and",
+                            "type": "or",
                             "data": {
                                 "comment": null,
-                                "items": []
+                                "items": [
+                                    {
+                                        "type": "template",
+                                        "data": "Can Use Spider Ball"
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "GrappleBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
                             }
                         }
                     }
@@ -6162,7 +6337,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Main Plaza": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Main Plaza": {
                     "node_type": "dock",
@@ -6194,7 +6377,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Transport to Tallon Overworld North": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -6238,7 +6429,39 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Save Station": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Save Station": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 159.8219462388925,
+                        "y": 54.132527640064325,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Ruined Nursery": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -6359,18 +6582,16 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Save Station 3": {
-                            "type": "resource",
+                        "Morph Ball Tunnel to Save Station 3": {
+                            "type": "and",
                             "data": {
-                                "type": "items",
-                                "name": "MorphBall",
-                                "amount": 1,
-                                "negate": false
+                                "comment": null,
+                                "items": []
                             }
                         }
                     }
                 },
-                "Door to Save Station 3": {
+                "Morph Ball Tunnel to Save Station 3": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -6388,13 +6609,13 @@
                         "dest_room": "cho_Save_Station_3"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Save Station 3",
-                        "node": "Door to Save Station 3 subB"
+                        "node": "Morph Ball Tunnel to Save Station 3 subB"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -6402,12 +6623,10 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Transport to Tallon Overworld East": {
-                            "type": "resource",
+                            "type": "and",
                             "data": {
-                                "type": "items",
-                                "name": "MorphBall",
-                                "amount": 1,
-                                "negate": false
+                                "comment": null,
+                                "items": []
                             }
                         }
                     }
@@ -6464,7 +6683,7 @@
                         }
                     }
                 },
-                "Door to Save Station 3 subB": {
+                "Morph Ball Tunnel to Save Station 3 subB": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -6482,13 +6701,13 @@
                         "dest_room": "cho_Save_Station_3_subB"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Save Station 3 subB",
-                        "node": "Door to Save Station 3"
+                        "node": "Morph Ball Tunnel to Save Station 3"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -6496,12 +6715,10 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Save Station": {
-                            "type": "resource",
+                            "type": "and",
                             "data": {
-                                "type": "items",
-                                "name": "MorphBall",
-                                "amount": 1,
-                                "negate": false
+                                "comment": null,
+                                "items": []
                             }
                         }
                     }
@@ -6531,13 +6748,11 @@
                                 "items": []
                             }
                         },
-                        "Door to Save Station 3 subB": {
-                            "type": "resource",
+                        "Morph Ball Tunnel to Save Station 3 subB": {
+                            "type": "and",
                             "data": {
-                                "type": "items",
-                                "name": "MorphBall",
-                                "amount": 1,
-                                "negate": false
+                                "comment": null,
+                                "items": []
                             }
                         }
                     }
@@ -6646,7 +6861,7 @@
                 "room_height": 1120
             },
             "nodes": {
-                "Door to Sun Tower subC": {
+                "Open Access to Sun Tower subC": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -6664,29 +6879,26 @@
                         "dest_room": "cho_Sun_Tower_subC"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Sun Tower subC",
-                        "node": "Door to Sun Tower subB"
+                        "node": "Open Access to Sun Tower subB"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Sun Tower": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
+                        "Open Access to Sun Tower": {
+                            "type": "template",
+                            "data": "Can Break Bomb Blocks"
                         }
                     }
                 },
-                "Door to Sun Tower": {
+                "Open Access to Sun Tower": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -6704,24 +6916,59 @@
                         "dest_room": "cho_Sun_Tower"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Sun Tower",
-                        "node": "Door to Sun Tower subB"
+                        "node": "Open Access to Sun Tower subB"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Sun Tower subC": {
+                        "Open Access to Sun Tower subC": {
                             "type": "and",
                             "data": {
                                 "comment": null,
-                                "items": []
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MissileLauncher",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Use Spider Ball"
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "GrappleBeam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Break Bomb Blocks"
+                                    }
+                                ]
                             }
                         }
                     }
@@ -6769,7 +7016,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Sun Tower subB": {
+                        "Open Access to Sun Tower subB": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -6778,7 +7025,7 @@
                         }
                     }
                 },
-                "Door to Sun Tower subB": {
+                "Open Access to Sun Tower subB": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -6796,13 +7043,13 @@
                         "dest_room": "cho_Sun_Tower_subB"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Sun Tower subB",
-                        "node": "Door to Sun Tower subC"
+                        "node": "Open Access to Sun Tower subC"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -6830,7 +7077,7 @@
                 "room_height": 224
             },
             "nodes": {
-                "Door to Sun Tower subB": {
+                "Open Access to Sun Tower subB": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -6848,13 +7095,13 @@
                         "dest_room": "cho_Sun_Tower_subB"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Sun Tower subB",
-                        "node": "Door to Sun Tower"
+                        "node": "Open Access to Sun Tower"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -6901,7 +7148,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Sun Tower subB": {
+                        "Open Access to Sun Tower subB": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -7225,6 +7472,26 @@
                             }
                         }
                     }
+                },
+                "Pickup (Artifact of Chozo)": {
+                    "node_type": "pickup",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 320.0,
+                        "y": 224.0,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "pickup_index": 85,
+                    "location_category": "major",
+                    "custom_index_group": null,
+                    "hint_features": [],
+                    "connections": {}
                 }
             }
         },
@@ -7447,10 +7714,12 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Tower of Light": {
-                            "type": "and",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "WaveBeam",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -7582,14 +7851,103 @@
                             "type": "and",
                             "data": {
                                 "comment": null,
-                                "items": []
+                                "items": [
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "GravitySuit",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "GrappleBeam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "WaveBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
                             }
                         },
                         "Pickup (Wavebuster)": {
                             "type": "and",
                             "data": {
                                 "comment": null,
-                                "items": []
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MissileLauncher",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "MissileExpansion",
+                                                        "amount": 3,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "and",
+                                                    "data": {
+                                                        "comment": null,
+                                                        "items": [
+                                                            {
+                                                                "type": "resource",
+                                                                "data": {
+                                                                    "type": "items",
+                                                                    "name": "MissileExpansion",
+                                                                    "amount": 1,
+                                                                    "negate": false
+                                                                }
+                                                            },
+                                                            {
+                                                                "type": "resource",
+                                                                "data": {
+                                                                    "type": "items",
+                                                                    "name": "SuperMissile",
+                                                                    "amount": 1,
+                                                                    "negate": false
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
                             }
                         }
                     }
@@ -7670,11 +8028,22 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Pickup (Missile Expansion)": {
-                            "type": "and",
+                        "Door to Training Chamber": {
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "WaveBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        "Pickup (Missile Expansion)": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "MorphBall",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -7709,7 +8078,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Magma Pool": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Pickup (Missile Expansion)": {
                     "node_type": "pickup",
@@ -7735,7 +8112,7 @@
                     "custom_index_group": null,
                     "hint_features": [],
                     "connections": {
-                        "Door to Training Chamber": {
+                        "Door to Magma Pool": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -7787,16 +8164,43 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
+                        "Morph Ball Tunnel to Piston Tunnel": {
+                            "type": "resource",
+                            "data": {
+                                "type": "events",
+                                "name": "FirstChozoGhost",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
                         "Pickup (Energy Tank)": {
                             "type": "and",
                             "data": {
                                 "comment": null,
-                                "items": []
+                                "items": [
+                                    {
+                                        "type": "template",
+                                        "data": "Can Use Spider Ball"
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Bomb"
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "events",
+                                            "name": "FirstChozoGhost",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
                             }
                         }
                     }
                 },
-                "Door to Piston Tunnel": {
+                "Morph Ball Tunnel to Piston Tunnel": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -7814,13 +8218,13 @@
                         "dest_room": "cho_Piston_Tunnel"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Piston Tunnel",
-                        "node": "Door to Training Chamber"
+                        "node": "Morph Ball Tunnel to Training Chamber"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -7852,7 +8256,7 @@
                     "custom_index_group": null,
                     "hint_features": [],
                     "connections": {
-                        "Door to Piston Tunnel": {
+                        "Door to Training Chamber Access": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -7873,7 +8277,7 @@
                 "room_height": 224
             },
             "nodes": {
-                "Door to Transport Access North": {
+                "Morph Ball Tunnel to Transport Access North": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -7891,20 +8295,20 @@
                         "dest_room": "cho_Transport_Access_North"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Transport Access North",
-                        "node": "Door to Transport Access North subB"
+                        "node": "Morph Ball Tunnel to Transport Access North subB"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Transport Access North subC": {
+                        "Morph Ball Tunnel to Transport Access North subC": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -7913,7 +8317,7 @@
                         }
                     }
                 },
-                "Door to Transport Access North subC": {
+                "Morph Ball Tunnel to Transport Access North subC": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -7931,20 +8335,20 @@
                         "dest_room": "cho_Transport_Access_North_subC"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Transport Access North subC",
-                        "node": "Door to Transport Access North subB"
+                        "node": "Morph Ball Tunnel to Transport Access North subB"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Transport Access North": {
+                        "Morph Ball Tunnel to Transport Access North": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -7996,7 +8400,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Door to Transport Access North subB": {
+                        "Morph Ball Tunnel to Transport Access North subB": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -8005,7 +8409,7 @@
                         }
                     }
                 },
-                "Door to Transport Access North subB": {
+                "Morph Ball Tunnel to Transport Access North subB": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -8023,13 +8427,13 @@
                         "dest_room": "cho_Transport_Access_North_subB"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Transport Access North subB",
-                        "node": "Door to Transport Access North subC"
+                        "node": "Morph Ball Tunnel to Transport Access North subC"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -8128,7 +8532,7 @@
                                 "items": []
                             }
                         },
-                        "Door to Transport Access North subB": {
+                        "Morph Ball Tunnel to Transport Access North subB": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -8137,7 +8541,7 @@
                         }
                     }
                 },
-                "Door to Transport Access North subB": {
+                "Morph Ball Tunnel to Transport Access North subB": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -8155,13 +8559,13 @@
                         "dest_room": "cho_Transport_Access_North_subB"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Morph Ball Tunnel",
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Transport Access North subB",
-                        "node": "Door to Transport Access North"
+                        "node": "Morph Ball Tunnel to Transport Access North"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Morph Ball Tunnel",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -8311,7 +8715,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Transport to Magmoor Caverns North": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Vault Access": {
                     "node_type": "dock",
@@ -8343,7 +8755,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Transport to Magmoor Caverns North": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Sun Tower": {
                     "node_type": "dock",
@@ -8389,8 +8809,8 @@
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
-                        "x": 159.2320614350852,
-                        "y": 82.12335013198947,
+                        "x": 159.23,
+                        "y": 82.12,
                         "z": 0.0
                     },
                     "description": "",
@@ -8553,7 +8973,39 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Elevator to Tallon Overworld North": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Elevator to Tallon Overworld North": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 159.46583871667752,
+                        "y": 99.71429048358289,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Ruins Entrance": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -8687,10 +9139,12 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Vault": {
-                            "type": "and",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "MorphBall",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -8727,10 +9181,12 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Transport to Magmoor Caverns North": {
-                            "type": "and",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "MorphBall",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -8779,10 +9235,12 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Plaza Access": {
-                            "type": "and",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "MorphBall",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -8819,18 +9277,17 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Vault Access": {
-                            "type": "and",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "MorphBall",
+                                "amount": 1,
+                                "negate": false
                             }
                         },
                         "Pickup (Missile Expansion)": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
+                            "type": "template",
+                            "data": "Can Lay Bomb"
                         }
                     }
                 },
@@ -8943,7 +9400,7 @@
                         "area": "Watery Hall",
                         "node": "Door to Watery Hall Access"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -8958,10 +9415,12 @@
                             }
                         },
                         "Pickup (Missile Expansion)": {
-                            "type": "and",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "MissileLauncher",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -9043,17 +9502,21 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Pickup (Charge Beam)": {
-                            "type": "and",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "MissileLauncher",
+                                "amount": 1,
+                                "negate": false
                             }
                         },
                         "Pickup (Missile Expansion)": {
-                            "type": "and",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "GravitySuit",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -9082,7 +9545,7 @@
                         "area": "Dynamo Access",
                         "node": "Door to Watery Hall"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Missile Door",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
@@ -9090,11 +9553,8 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Pickup (Charge Beam)": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
+                            "type": "template",
+                            "data": "Can Break Bomb Blocks"
                         }
                     }
                 },
@@ -9130,11 +9590,8 @@
                             }
                         },
                         "Door to Dynamo Access": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
+                            "type": "template",
+                            "data": "Can Break Bomb Blocks"
                         }
                     }
                 },

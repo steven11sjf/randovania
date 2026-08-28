@@ -33,6 +33,10 @@ Extra - room_height: 448
   > Door to Save Station Mines B
       Trivial
 
+> Pickup (Power Bomb); Heals? False
+  * Layers: default
+  * Pickup 96; Category? Major
+
 ----------------
 Dynamo Access
 Extra - room_name: pha_Dynamo_Access
@@ -292,6 +296,10 @@ Extra - room_height: 448
   > Door to Elite Quarters Access
       Trivial
 
+> Pickup (Phazon Suit); Heals? False
+  * Layers: default
+  * Pickup 94; Category? Major
+
 ----------------
 Elite Research subB
 Extra - room_name: pha_Elite_Research_subB
@@ -385,6 +393,10 @@ Extra - room_height: 224
   * Extra - dest_room: pha_Elite_Research_subB
   > Door to Security Access B
       Trivial
+
+> Pickup (Artifact of Warrior); Heals? False
+  * Layers: default
+  * Pickup 99; Category? Major
 
 ----------------
 Fungal Hall A
