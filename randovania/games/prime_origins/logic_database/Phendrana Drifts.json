@@ -7980,7 +7980,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Elevator to Magmoor Caverns South": {
+                        "Elevator from Magmoor Caverns": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -8039,7 +8039,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Elevator to Magmoor Caverns South": {
+                        "Elevator from Magmoor Caverns": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -8048,12 +8048,12 @@
                         }
                     }
                 },
-                "Elevator to Magmoor Caverns South": {
-                    "node_type": "generic",
+                "Elevator from Magmoor Caverns": {
+                    "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 159.225931301403,
-                        "y": 34.8511530398323,
+                        "x": 159.23,
+                        "y": 34.85,
                         "z": 0.0
                     },
                     "description": "",
@@ -8062,6 +8062,18 @@
                     ],
                     "extra": {},
                     "valid_starting_location": false,
+                    "dock_type": "Elevator",
+                    "default_connection": {
+                        "region": "Magmoor Caverns",
+                        "area": "Transport to Phendrana Drifts South",
+                        "node": "Elevator from Phendrana Drifts"
+                    },
+                    "default_dock_weakness": "Elevator",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "ui_custom_name": null,
                     "connections": {
                         "Door to Transport Access": {
                             "type": "and",
@@ -8136,7 +8148,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Elevator to Magmoor Caverns West": {
+                        "Elevator from Magmoor Caverns": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -8145,12 +8157,12 @@
                         }
                     }
                 },
-                "Elevator to Magmoor Caverns West": {
-                    "node_type": "generic",
+                "Elevator from Magmoor Caverns": {
+                    "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 161.29011449766165,
-                        "y": 113.80616029672633,
+                        "x": 161.29,
+                        "y": 113.81,
                         "z": 0.0
                     },
                     "description": "",
@@ -8159,6 +8171,18 @@
                     ],
                     "extra": {},
                     "valid_starting_location": false,
+                    "dock_type": "Elevator",
+                    "default_connection": {
+                        "region": "Magmoor Caverns",
+                        "area": "Transport to Phendrana Drifts North",
+                        "node": "Elevator from Phendrana Drifts"
+                    },
+                    "default_dock_weakness": "Elevator",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "ui_custom_name": null,
                     "connections": {
                         "Door to Shoreline Entrance": {
                             "type": "and",

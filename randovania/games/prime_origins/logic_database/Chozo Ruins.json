@@ -3179,7 +3179,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Chozo Statue": {
+                            "type": "resource",
+                            "data": {
+                                "type": "events",
+                                "name": "ElderPlasmaBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Pickup (Energy Tank)": {
                     "node_type": "pickup",
@@ -3513,7 +3523,15 @@
                     "extra": {},
                     "valid_starting_location": false,
                     "event_name": "ElderPlasmaBeam",
-                    "connections": {}
+                    "connections": {
+                        "Chozo Statue": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -8716,7 +8734,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Transport to Magmoor Caverns North": {
+                        "Elevator from Magmoor Caverns": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -8756,7 +8774,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Transport to Magmoor Caverns North": {
+                        "Elevator from Magmoor Caverns": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -8796,7 +8814,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Transport to Magmoor Caverns North": {
+                        "Elevator from Magmoor Caverns": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -8805,8 +8823,8 @@
                         }
                     }
                 },
-                "Transport to Magmoor Caverns North": {
-                    "node_type": "generic",
+                "Elevator from Magmoor Caverns": {
+                    "node_type": "dock",
                     "heal": false,
                     "coordinates": {
                         "x": 159.23,
@@ -8819,6 +8837,18 @@
                     ],
                     "extra": {},
                     "valid_starting_location": false,
+                    "dock_type": "Elevator",
+                    "default_connection": {
+                        "region": "Magmoor Caverns",
+                        "area": "Transport to Chozo Ruins North",
+                        "node": "Elevator from Chozo Ruins"
+                    },
+                    "default_dock_weakness": "Elevator",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "ui_custom_name": null,
                     "connections": {
                         "Door to Transport Access North subC": {
                             "type": "and",
@@ -8886,7 +8916,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Elevator to Transport to Chozo Ruins East": {
+                        "Elevator from Tallon Overworld": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -8895,7 +8925,7 @@
                         }
                     }
                 },
-                "Elevator to Transport to Chozo Ruins East": {
+                "Elevator from Tallon Overworld": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -8913,7 +8943,7 @@
                     "default_connection": {
                         "region": "Tallon Overworld",
                         "area": "Transport to Chozo Ruins East",
-                        "node": "Door to Transport to Tallon Overworld East"
+                        "node": "Elevator from Chozo Ruins"
                     },
                     "default_dock_weakness": "Elevator",
                     "exclude_from_dock_rando": false,
@@ -8974,7 +9004,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Elevator to Tallon Overworld North": {
+                        "Door to Tallon Overworld": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -8983,12 +9013,12 @@
                         }
                     }
                 },
-                "Elevator to Tallon Overworld North": {
-                    "node_type": "generic",
+                "Door to Tallon Overworld": {
+                    "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 159.46583871667752,
-                        "y": 99.71429048358289,
+                        "x": 159.47,
+                        "y": 99.71,
                         "z": 0.0
                     },
                     "description": "",
@@ -8997,6 +9027,18 @@
                     ],
                     "extra": {},
                     "valid_starting_location": false,
+                    "dock_type": "Door",
+                    "default_connection": {
+                        "region": "Tallon Overworld",
+                        "area": "Transport to Chozo Ruins West",
+                        "node": "Elevator from Chozo Ruins"
+                    },
+                    "default_dock_weakness": "Beam Door",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "ui_custom_name": null,
                     "connections": {
                         "Door to Ruins Entrance": {
                             "type": "and",
@@ -9050,7 +9092,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Elevator to Transport to Chozo Ruins South": {
+                        "Elevator from Tallon Overworld": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -9059,7 +9101,7 @@
                         }
                     }
                 },
-                "Elevator to Transport to Chozo Ruins South": {
+                "Elevator from Tallon Overworld": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -9077,7 +9119,7 @@
                     "default_connection": {
                         "region": "Tallon Overworld",
                         "area": "Transport to Chozo Ruins South",
-                        "node": "Elevator to Transport to Tallon Overworld South"
+                        "node": "Elevator from Chozo Ruins"
                     },
                     "default_dock_weakness": "Elevator",
                     "exclude_from_dock_rando": false,

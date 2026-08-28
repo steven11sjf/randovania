@@ -5737,7 +5737,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Elevator to Magmoor Caverns South": {
+                        "Elevator from Magmoor Caverns": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -5746,12 +5746,12 @@
                         }
                     }
                 },
-                "Elevator to Magmoor Caverns South": {
-                    "node_type": "generic",
+                "Elevator from Magmoor Caverns": {
+                    "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 160.4698144233028,
-                        "y": 115.52360817477097,
+                        "x": 160.47,
+                        "y": 115.52,
                         "z": 0.0
                     },
                     "description": "",
@@ -5760,6 +5760,18 @@
                     ],
                     "extra": {},
                     "valid_starting_location": false,
+                    "dock_type": "Elevator",
+                    "default_connection": {
+                        "region": "Magmoor Caverns",
+                        "area": "Transport to Phazon Mines West",
+                        "node": "Elevator from Phazon Mines"
+                    },
+                    "default_dock_weakness": "Elevator",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "ui_custom_name": null,
                     "connections": {
                         "Door to Transport Access": {
                             "type": "and",
@@ -5813,7 +5825,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Elevator to Tallon Overworld South": {
+                        "Elevator from Tallon Overworld": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -5822,12 +5834,12 @@
                         }
                     }
                 },
-                "Elevator to Tallon Overworld South": {
-                    "node_type": "generic",
+                "Elevator from Tallon Overworld": {
+                    "node_type": "dock",
                     "heal": false,
                     "coordinates": {
                         "x": 160.0,
-                        "y": 90.15362931642,
+                        "y": 90.15,
                         "z": 0.0
                     },
                     "description": "",
@@ -5836,6 +5848,18 @@
                     ],
                     "extra": {},
                     "valid_starting_location": false,
+                    "dock_type": "Elevator",
+                    "default_connection": {
+                        "region": "Tallon Overworld",
+                        "area": "Transport to Phazon Mines East",
+                        "node": "Elevator from Phazon Mines"
+                    },
+                    "default_dock_weakness": "Elevator",
+                    "exclude_from_dock_rando": false,
+                    "incompatible_dock_weaknesses": [],
+                    "override_default_open_requirement": null,
+                    "override_default_lock_requirement": null,
+                    "ui_custom_name": null,
                     "connections": {
                         "Door to Quarry Access": {
                             "type": "and",

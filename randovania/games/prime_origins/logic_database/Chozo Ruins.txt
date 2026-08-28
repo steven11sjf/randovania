@@ -809,6 +809,8 @@ Extra - room_height: 672
   * Extra - instance_id: 100987
   * Extra - facing: 90
   * Extra - dest_room: cho_Elder_Chamber
+  > Chozo Statue
+      After Hall of the Elders Plasma Slot
 
 > Pickup (Energy Tank); Heals? False
   * Layers: default
@@ -864,6 +866,8 @@ Extra - room_height: 672
 > Event - Hall of the Elders Plasma Slot; Heals? False
   * Layers: default
   * Event Hall of the Elders Plasma Slot
+  > Chozo Statue
+      Trivial
 
 ----------------
 Hive Totem
@@ -2171,7 +2175,7 @@ Extra - room_height: 448
   * Extra - instance_id: 102684
   * Extra - facing: 0
   * Extra - dest_room: cho_Transport_Access_North_subC
-  > Transport to Magmoor Caverns North
+  > Elevator from Magmoor Caverns
       Trivial
 
 > Door to Vault Access; Heals? False
@@ -2180,7 +2184,7 @@ Extra - room_height: 448
   * Extra - instance_id: 102685
   * Extra - facing: 0
   * Extra - dest_room: cho_Vault_Access
-  > Transport to Magmoor Caverns North
+  > Elevator from Magmoor Caverns
       Trivial
 
 > Door to Sun Tower; Heals? False
@@ -2189,11 +2193,12 @@ Extra - room_height: 448
   * Extra - instance_id: 102686
   * Extra - facing: 0
   * Extra - dest_room: cho_Sun_Tower
-  > Transport to Magmoor Caverns North
+  > Elevator from Magmoor Caverns
       Trivial
 
-> Transport to Magmoor Caverns North; Heals? False
+> Elevator from Magmoor Caverns; Heals? False
   * Layers: default
+  * Elevator to Transport to Chozo Ruins North/Elevator from Chozo Ruins
   > Door to Transport Access North subC
       Trivial
   > Door to Vault Access
@@ -2213,12 +2218,12 @@ Extra - room_height: 224
   * Extra - instance_id: 102720
   * Extra - facing: 0
   * Extra - dest_room: cho_Save_Station_3_subB
-  > Elevator to Transport to Chozo Ruins East
+  > Elevator from Tallon Overworld
       Trivial
 
-> Elevator to Transport to Chozo Ruins East; Heals? False
+> Elevator from Tallon Overworld; Heals? False
   * Layers: default
-  * Elevator to Transport to Chozo Ruins East/Door to Transport to Tallon Overworld East
+  * Elevator to Transport to Chozo Ruins East/Elevator from Chozo Ruins
   > Door to Save Station 3 subB
       Trivial
 
@@ -2234,11 +2239,12 @@ Extra - room_height: 224
   * Extra - instance_id: 102724
   * Extra - facing: 0
   * Extra - dest_room: cho_Ruins_Entrance
-  > Elevator to Tallon Overworld North
+  > Door to Tallon Overworld
       Trivial
 
-> Elevator to Tallon Overworld North; Heals? False
+> Door to Tallon Overworld; Heals? False
   * Layers: default
+  * Beam Door to Transport to Chozo Ruins West/Elevator from Chozo Ruins
   > Door to Ruins Entrance
       Trivial
 
@@ -2254,12 +2260,12 @@ Extra - room_height: 224
   * Extra - instance_id: 102765
   * Extra - facing: 0
   * Extra - dest_room: cho_Transport_Access_South
-  > Elevator to Transport to Chozo Ruins South
+  > Elevator from Tallon Overworld
       Trivial
 
-> Elevator to Transport to Chozo Ruins South; Heals? False
+> Elevator from Tallon Overworld; Heals? False
   * Layers: default
-  * Elevator to Transport to Chozo Ruins South/Elevator to Transport to Tallon Overworld South
+  * Elevator to Transport to Chozo Ruins South/Elevator from Chozo Ruins
   > Door to Transport Access South
       Trivial
 

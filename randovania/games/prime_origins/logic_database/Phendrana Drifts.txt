@@ -1966,7 +1966,7 @@ Extra - room_height: 224
   * Extra - instance_id: 114573
   * Extra - facing: 0
   * Extra - dest_room: phe_Transport_Access
-  > Elevator to Magmoor Caverns South
+  > Elevator from Magmoor Caverns
       Ice Beam and Morph Ball
 
 > Door to South Quarantine Tunnel; Heals? False
@@ -1975,11 +1975,12 @@ Extra - room_height: 224
   * Extra - instance_id: 114574
   * Extra - facing: 0
   * Extra - dest_room: phe_South_Quarantine_Tunnel
-  > Elevator to Magmoor Caverns South
+  > Elevator from Magmoor Caverns
       Trivial
 
-> Elevator to Magmoor Caverns South; Heals? False
+> Elevator from Magmoor Caverns; Heals? False
   * Layers: default
+  * Elevator to Transport to Phendrana Drifts South/Elevator from Phendrana Drifts
   > Door to Transport Access
       Ice Beam and Can Use Spider Ball
   > Door to South Quarantine Tunnel
@@ -1997,11 +1998,12 @@ Extra - room_height: 224
   * Extra - instance_id: 114643
   * Extra - facing: 0
   * Extra - dest_room: phe_Shoreline_Entrance
-  > Elevator to Magmoor Caverns West
+  > Elevator from Magmoor Caverns
       Trivial
 
-> Elevator to Magmoor Caverns West; Heals? False
+> Elevator from Magmoor Caverns; Heals? False
   * Layers: default
+  * Elevator to Transport to Phendrana Drifts North/Elevator from Phendrana Drifts
   > Door to Shoreline Entrance
       Trivial
 
