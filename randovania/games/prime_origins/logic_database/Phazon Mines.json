@@ -2958,7 +2958,55 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Save Station Mines C": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "GrappleBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "events",
+                                            "name": "MetroidQuarantineBGate",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Event - Metroid Quarantine B Gate": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "GrappleBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Break Bomb Blocks"
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Elite Quarters Access": {
                     "node_type": "dock",
@@ -2990,7 +3038,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Save Station Mines C": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Save Station Mines C": {
                     "node_type": "dock",
@@ -3022,7 +3078,67 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Quarantine Access B": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "GrappleBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "events",
+                                            "name": "MetroidQuarantineBGate",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Door to Elite Quarters Access": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Pickup (Missile Expansion)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MissileLauncher",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "SuperMissile",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Pickup (Missile Expansion)": {
                     "node_type": "pickup",
@@ -3047,7 +3163,40 @@
                     "location_category": "minor",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to Save Station Mines C": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Event - Metroid Quarantine B Gate": {
+                    "node_type": "event",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 27.12,
+                        "y": 174.52,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "event_name": "MetroidQuarantineBGate",
+                    "connections": {
+                        "Door to Quarantine Access B": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -3061,7 +3210,7 @@
                 "room_height": 448
             },
             "nodes": {
-                "Door to Mine Security Station": {
+                "Open Access to Mine Security Station": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3079,21 +3228,29 @@
                         "dest_room": "pha_Mine_Security_Station"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Phazon Mines",
                         "area": "Mine Security Station",
-                        "node": "Door to Mine Security Station subB"
+                        "node": "Open Access to Mine Security Station subB"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Open Access to Mine Security Station subC": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
-                "Door to Mine Security Station subC": {
+                "Open Access to Mine Security Station subC": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3111,19 +3268,27 @@
                         "dest_room": "pha_Mine_Security_Station_subC"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Phazon Mines",
                         "area": "Mine Security Station subC",
-                        "node": "Door to Mine Security Station subB"
+                        "node": "Open Access to Mine Security Station subB"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Open Access to Mine Security Station": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -3137,7 +3302,7 @@
                 "room_height": 448
             },
             "nodes": {
-                "Door to Mine Security Station subB": {
+                "Open Access to Mine Security Station subB": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3155,21 +3320,29 @@
                         "dest_room": "pha_Mine_Security_Station_subB"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Phazon Mines",
                         "area": "Mine Security Station subB",
-                        "node": "Door to Mine Security Station subC"
+                        "node": "Open Access to Mine Security Station subC"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Open Access to Security Access B": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
-                "Door to Security Access B": {
+                "Open Access to Security Access B": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3187,19 +3360,27 @@
                         "dest_room": "pha_Security_Access_B"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Phazon Mines",
                         "area": "Security Access B",
                         "node": "Door to Mine Security Station subC"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Open Access to Mine Security Station subB": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -3243,7 +3424,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Security Access A": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "PlasmaBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Security Access A": {
                     "node_type": "dock",
@@ -3275,9 +3466,38 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Storage Depot A": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "PlasmaBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Power Bomb"
+                                    }
+                                ]
+                            }
+                        },
+                        "Open Access to Mine Security Station subB": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
-                "Door to Mine Security Station subB": {
+                "Open Access to Mine Security Station subB": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -3295,19 +3515,27 @@
                         "dest_room": "pha_Mine_Security_Station_subB"
                     },
                     "valid_starting_location": false,
-                    "dock_type": "Door",
+                    "dock_type": "Open Access",
                     "default_connection": {
                         "region": "Phazon Mines",
                         "area": "Mine Security Station subB",
-                        "node": "Door to Mine Security Station"
+                        "node": "Open Access to Mine Security Station"
                     },
-                    "default_dock_weakness": "Beam Door",
+                    "default_dock_weakness": "Open Access (Horizontal)",
                     "exclude_from_dock_rando": false,
                     "incompatible_dock_weaknesses": [],
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Security Access A": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -3351,7 +3579,39 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Missile Station": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Missile Station": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 175.78,
+                        "y": 97.58,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Fungal Hall B": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -3395,7 +3655,19 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Map Station Mines": {
+                            "type": "template",
+                            "data": "Can Lay Power Bomb"
+                        },
+                        "Door to Dynamo Access": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Map Station Mines": {
                     "node_type": "dock",
@@ -3427,7 +3699,12 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Ventilation Shaft": {
+                            "type": "template",
+                            "data": "Can Lay Power Bomb"
+                        }
+                    }
                 },
                 "Door to Dynamo Access": {
                     "node_type": "dock",
@@ -3459,7 +3736,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Ventilation Shaft": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -3503,7 +3788,52 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Storage Depot B": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Bomb"
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Power Bomb"
+                                    }
+                                ]
+                            }
+                        },
+                        "Door to Elevator Access A": {
+                            "type": "or",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "and",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Lay Bomb"
+                                                },
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Break Bomb Blocks"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Power Bomb"
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Storage Depot B": {
                     "node_type": "dock",
@@ -3535,7 +3865,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Waste Disposal": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "GrappleBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Elevator Access A": {
                     "node_type": "dock",
@@ -3567,7 +3907,12 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Research Access": {
+                            "type": "template",
+                            "data": "Can Break Bomb Blocks"
+                        }
+                    }
                 },
                 "Door to Waste Disposal": {
                     "node_type": "dock",
@@ -3599,7 +3944,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Storage Depot B": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "GrappleBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -3643,7 +3998,92 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Fungal Hall B": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "template",
+                                        "data": "Can Break Bomb Blocks"
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Power Bomb"
+                                    }
+                                ]
+                            }
+                        },
+                        "Pickup (Artifact 11)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "template",
+                                        "data": "Can Break Bomb Blocks"
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Power Bomb"
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "PhazonSuit",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "and",
+                                                    "data": {
+                                                        "comment": null,
+                                                        "items": [
+                                                            {
+                                                                "type": "resource",
+                                                                "data": {
+                                                                    "type": "items",
+                                                                    "name": "GravitySuit",
+                                                                    "amount": 1,
+                                                                    "negate": false
+                                                                }
+                                                            },
+                                                            {
+                                                                "type": "resource",
+                                                                "data": {
+                                                                    "type": "items",
+                                                                    "name": "EnergyTank",
+                                                                    "amount": 5,
+                                                                    "negate": false
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "EnergyTank",
+                                                        "amount": 8,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Fungal Hall B": {
                     "node_type": "dock",
@@ -3675,7 +4115,24 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Fungal Hall A": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Power Bomb"
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Break Bomb Blocks"
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Pickup (Artifact 11)": {
                     "node_type": "pickup",
@@ -3700,7 +4157,15 @@
                     "location_category": "major",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to Fungal Hall B": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -3744,7 +4209,51 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Maintenance Tunnel": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "PlasmaBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "EnergyTank",
+                                                        "amount": 3,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "PhazonSuit",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Transport Access": {
                     "node_type": "dock",
@@ -3776,7 +4285,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Maintenance Tunnel": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "MorphBall",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Maintenance Tunnel": {
                     "node_type": "dock",
@@ -3808,7 +4327,88 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Processing Center Access": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "PlasmaBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "PhazonSuit",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "EnergyTank",
+                                                        "amount": 3,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Door to Transport Access": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "MorphBall",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        "Pickup (Missile Expansion)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Power Bomb"
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "template",
+                                                    "data": "Climb High Ledge"
+                                                },
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Use Spider Ball"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Pickup (Missile Expansion)": {
                     "node_type": "pickup",
@@ -3833,7 +4433,12 @@
                     "location_category": "minor",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to Maintenance Tunnel": {
+                            "type": "template",
+                            "data": "Climb High Ledge"
+                        }
+                    }
                 }
             }
         },
@@ -3877,7 +4482,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Pickup (Energy Tank)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Phazon Processing Center": {
                     "node_type": "dock",
@@ -3909,7 +4522,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Pickup (Energy Tank)": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "PhazonSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Pickup (Energy Tank)": {
                     "node_type": "pickup",
@@ -3934,7 +4557,24 @@
                     "location_category": "minor",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to Elite Quarters": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Door to Phazon Processing Center": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "PhazonSuit",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -3978,7 +4618,34 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Metroid Quarantine A": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "IceBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "WaveBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Metroid Quarantine A": {
                     "node_type": "dock",
@@ -4010,7 +4677,25 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Central Dynamo": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "IceBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -4054,7 +4739,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Fungal Hall B": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "PlasmaBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Fungal Hall B": {
                     "node_type": "dock",
@@ -4086,7 +4781,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Metroid Quarantine B": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "PlasmaBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -4130,7 +4835,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Transport to Tallon Overworld South": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Transport to Tallon Overworld South": {
                     "node_type": "dock",
@@ -4162,7 +4875,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Main Quarry": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -4206,7 +4927,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Ore Processing": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Ore Processing": {
                     "node_type": "dock",
@@ -4238,7 +4967,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Elite Research subC": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "GrappleBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -4282,7 +5021,39 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Save Station": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Save Station": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 192.1,
+                        "y": 101.39,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Main Quarry": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -4326,7 +5097,39 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Save Station": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Save Station": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 161.09,
+                        "y": 59.5,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Central Dynamo": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -4370,7 +5173,39 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Save Station": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Save Station": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 159.46,
+                        "y": 67.66,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Metroid Quarantine B": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -4414,7 +5249,19 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Mine Security Station": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Pickup (Missile Expansion)": {
+                            "type": "template",
+                            "data": "Can Lay Power Bomb"
+                        }
+                    }
                 },
                 "Door to Mine Security Station": {
                     "node_type": "dock",
@@ -4446,7 +5293,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Main Quarry": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Pickup (Missile Expansion)": {
                     "node_type": "pickup",
@@ -4471,7 +5326,15 @@
                     "location_category": "minor",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to Main Quarry": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -4489,8 +5352,8 @@
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 176.0,
-                        "y": 224.0,
+                        "x": 153.24060680241828,
+                        "y": 217.58460986857557,
                         "z": 0.0
                     },
                     "description": "",
@@ -4515,7 +5378,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Mine Security Station subC": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Mine Security Station subC": {
                     "node_type": "dock",
@@ -4539,7 +5410,7 @@
                     "default_connection": {
                         "region": "Phazon Mines",
                         "area": "Mine Security Station subC",
-                        "node": "Door to Security Access B"
+                        "node": "Open Access to Security Access B"
                     },
                     "default_dock_weakness": "Beam Door",
                     "exclude_from_dock_rando": false,
@@ -4547,7 +5418,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Elite Research": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -4591,7 +5470,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Pickup (Incinerator)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Pickup (Incinerator)": {
                     "node_type": "pickup",
@@ -4616,7 +5503,15 @@
                     "location_category": "major",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to Mine Security Station": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -4660,7 +5555,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Pickup (Grapple Beam)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Pickup (Grapple Beam)": {
                     "node_type": "pickup",
@@ -4685,7 +5588,15 @@
                     "location_category": "major",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to Ore Processing": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -4729,7 +5640,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Transport to Magmoor Caverns South": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "IceBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 },
                 "Door to Transport to Magmoor Caverns South": {
                     "node_type": "dock",
@@ -4761,7 +5682,17 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Phazon Processing Center": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "IceBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -4805,7 +5736,39 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Elevator to Magmoor Caverns South": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Elevator to Magmoor Caverns South": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 160.4698144233028,
+                        "y": 115.52360817477097,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Transport Access": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -4849,7 +5812,39 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Elevator to Tallon Overworld South": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Elevator to Tallon Overworld South": {
+                    "node_type": "generic",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 160.0,
+                        "y": 90.15362931642,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "connections": {
+                        "Door to Quarry Access": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -4893,7 +5888,28 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Omega Research": {
+                            "type": "template",
+                            "data": "Can Use Boost Ball"
+                        },
+                        "Pickup (Energy Tank)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "template",
+                                        "data": "Can Use Boost Ball"
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Power Bomb"
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Omega Research": {
                     "node_type": "dock",
@@ -4925,7 +5941,12 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Elite Control": {
+                            "type": "template",
+                            "data": "Can Use Boost Ball"
+                        }
+                    }
                 },
                 "Pickup (Energy Tank)": {
                     "node_type": "pickup",
@@ -4950,7 +5971,15 @@
                     "location_category": "minor",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to Elite Control": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -4994,7 +6023,68 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Main Quarry": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "GrappleBeam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "and",
+                                                    "data": {
+                                                        "comment": null,
+                                                        "items": [
+                                                            {
+                                                                "type": "resource",
+                                                                "data": {
+                                                                    "type": "items",
+                                                                    "name": "SpiderBall",
+                                                                    "amount": 1,
+                                                                    "negate": false
+                                                                }
+                                                            },
+                                                            {
+                                                                "type": "resource",
+                                                                "data": {
+                                                                    "type": "items",
+                                                                    "name": "GravitySuit",
+                                                                    "amount": 1,
+                                                                    "negate": false
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Door to Main Quarry": {
                     "node_type": "dock",
@@ -5026,7 +6116,68 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Ore Processing": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "and",
+                                                    "data": {
+                                                        "comment": null,
+                                                        "items": [
+                                                            {
+                                                                "type": "resource",
+                                                                "data": {
+                                                                    "type": "items",
+                                                                    "name": "GravitySuit",
+                                                                    "amount": 1,
+                                                                    "negate": false
+                                                                }
+                                                            },
+                                                            {
+                                                                "type": "resource",
+                                                                "data": {
+                                                                    "type": "items",
+                                                                    "name": "SpiderBall",
+                                                                    "amount": 1,
+                                                                    "negate": false
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "GrappleBeam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         }
