@@ -1845,7 +1845,26 @@
                             "type": "and",
                             "data": {
                                 "comment": null,
-                                "items": []
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "GrappleBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "events",
+                                            "name": "MetroidQuarantineBGate",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
                             }
                         },
                         "Event - Metroid Quarantine B Gate": {
@@ -2289,10 +2308,12 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Security Access A": {
-                            "type": "and",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "type": "items",
+                                "name": "PlasmaBeam",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -2332,7 +2353,21 @@
                             "type": "and",
                             "data": {
                                 "comment": null,
-                                "items": []
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "PlasmaBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Power Bomb"
+                                    }
+                                ]
                             }
                         },
                         "Open Access to Mine Security Station subB": {
@@ -2427,7 +2462,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Phazon Mines - Missile Station": {
+                        "Missile Station": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -2436,12 +2471,12 @@
                         }
                     }
                 },
-                "Phazon Mines - Missile Station": {
+                "Missile Station": {
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
-                        "x": 175.77587379300965,
-                        "y": 97.58411532707737,
+                        "x": 175.78,
+                        "y": 97.58,
                         "z": 0.0
                     },
                     "description": "",
@@ -3134,41 +3169,12 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Maintenance Tunnel": {
-                            "type": "or",
+                            "type": "resource",
                             "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "and",
-                                        "data": {
-                                            "comment": null,
-                                            "items": [
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "MorphBall",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "GrappleBeam",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Can Break Bomb Blocks"
-                                    }
-                                ]
+                                "type": "items",
+                                "name": "MorphBall",
+                                "amount": 1,
+                                "negate": false
                             }
                         }
                     }
@@ -3248,34 +3254,41 @@
                             }
                         },
                         "Door to Transport Access": {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "MorphBall",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        "Pickup (Missile Expansion)": {
                             "type": "and",
                             "data": {
                                 "comment": null,
                                 "items": [
                                     {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "MorphBall",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
+                                        "type": "template",
+                                        "data": "Can Lay Power Bomb"
                                     },
                                     {
-                                        "type": "resource",
+                                        "type": "or",
                                         "data": {
-                                            "type": "items",
-                                            "name": "GrappleBeam",
-                                            "amount": 1,
-                                            "negate": false
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "template",
+                                                    "data": "Climb High Ledge"
+                                                },
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Use Spider Ball"
+                                                }
+                                            ]
                                         }
                                     }
                                 ]
                             }
-                        },
-                        "Pickup (Missile Expansion)": {
-                            "type": "template",
-                            "data": "Can Lay Power Bomb"
                         }
                     }
                 },
@@ -3304,11 +3317,8 @@
                     "hint_features": [],
                     "connections": {
                         "Door to Maintenance Tunnel": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
+                            "type": "template",
+                            "data": "Climb High Ledge"
                         }
                     }
                 }
@@ -3894,7 +3904,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Phazon Mines - Save Station Mines A": {
+                        "Save Station": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -3903,12 +3913,12 @@
                         }
                     }
                 },
-                "Phazon Mines - Save Station Mines A": {
+                "Save Station": {
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
-                        "x": 192.09574323405414,
-                        "y": 101.39208486332109,
+                        "x": 192.1,
+                        "y": 101.39,
                         "z": 0.0
                     },
                     "description": "",
@@ -3970,7 +3980,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Phazon Mines - Save Station Mines B": {
+                        "Save Station": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -3979,12 +3989,12 @@
                         }
                     }
                 },
-                "Phazon Mines - Save Station Mines B": {
+                "Save Station": {
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
-                        "x": 161.08799129606965,
-                        "y": 59.50441996464028,
+                        "x": 161.09,
+                        "y": 59.5,
                         "z": 0.0
                     },
                     "description": "",
@@ -4046,7 +4056,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Phazon Mines - Save Station Mines C": {
+                        "Save Station": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -4055,12 +4065,12 @@
                         }
                     }
                 },
-                "Phazon Mines - Save Station Mines C": {
+                "Save Station": {
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
-                        "x": 159.4560043519652,
-                        "y": 67.6643546851625,
+                        "x": 159.46,
+                        "y": 67.66,
                         "z": 0.0
                     },
                     "description": "",
@@ -4813,7 +4823,12 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Elite Control": {
+                            "type": "template",
+                            "data": "Can Use Boost Ball"
+                        }
+                    }
                 },
                 "Pickup (Energy Tank)": {
                     "node_type": "pickup",
@@ -4914,32 +4929,6 @@
                                                     "type": "resource",
                                                     "data": {
                                                         "type": "items",
-                                                        "name": "Bomb",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "SpiderBall",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "type": "or",
-                                        "data": {
-                                            "comment": null,
-                                            "items": [
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
                                                         "name": "GrappleBeam",
                                                         "amount": 1,
                                                         "negate": false
@@ -5022,32 +5011,6 @@
                                             "name": "MorphBall",
                                             "amount": 1,
                                             "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "or",
-                                        "data": {
-                                            "comment": null,
-                                            "items": [
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "SpiderBall",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "Bomb",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                }
-                                            ]
                                         }
                                     },
                                     {

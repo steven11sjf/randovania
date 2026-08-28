@@ -487,7 +487,7 @@ Extra - room_height: 448
   * Extra - facing: 0
   * Extra - dest_room: pha_Quarantine_Access_B
   > Door to Save Station Mines C
-      Trivial
+      Grapple Beam and After Metroid Quarantine B Gate
   > Event - Metroid Quarantine B Gate
       Grapple Beam and Can Break Bomb Blocks
 
@@ -590,7 +590,7 @@ Extra - room_height: 448
   * Extra - facing: 0
   * Extra - dest_room: pha_Storage_Depot_A
   > Door to Security Access A
-      Trivial
+      Plasma Beam
 
 > Door to Security Access A; Heals? False
   * Layers: default
@@ -599,7 +599,7 @@ Extra - room_height: 448
   * Extra - facing: 0
   * Extra - dest_room: pha_Security_Access_A
   > Door to Storage Depot A
-      Trivial
+      Plasma Beam and Can Lay Power Bomb
   > Open Access to Mine Security Station subB
       Trivial
 
@@ -624,10 +624,10 @@ Extra - room_height: 224
   * Extra - instance_id: 110584
   * Extra - facing: 0
   * Extra - dest_room: pha_Fungal_Hall_B
-  > Phazon Mines - Missile Station
+  > Missile Station
       Trivial
 
-> Phazon Mines - Missile Station; Heals? False
+> Missile Station; Heals? False
   * Layers: default
   > Door to Fungal Hall B
       Trivial
@@ -777,9 +777,7 @@ Extra - room_height: 896
   * Extra - facing: 0
   * Extra - dest_room: pha_Transport_Access
   > Door to Maintenance Tunnel
-      Any of the following:
-          Can Break Bomb Blocks
-          Grapple Beam and Morph Ball
+      Morph Ball
 
 > Door to Maintenance Tunnel; Heals? False
   * Layers: default
@@ -792,9 +790,11 @@ Extra - room_height: 896
           Plasma Beam
           Energy Tank ≥ 3 or Phazon Suit
   > Door to Transport Access
-      Grapple Beam and Morph Ball
+      Morph Ball
   > Pickup (Missile Expansion)
-      Can Lay Power Bomb
+      All of the following:
+          Can Lay Power Bomb
+          Can Use Spider Ball or Climb High Ledge
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -804,7 +804,7 @@ Extra - room_height: 896
   * Extra - item_type: Missile Expansion
   * Extra - is_major: minor
   > Door to Maintenance Tunnel
-      Trivial
+      Climb High Ledge
 
 ----------------
 Processing Center Access
@@ -950,10 +950,10 @@ Extra - room_height: 224
   * Extra - instance_id: 111267
   * Extra - facing: 0
   * Extra - dest_room: pha_Main_Quarry
-  > Phazon Mines - Save Station Mines A
+  > Save Station
       Trivial
 
-> Phazon Mines - Save Station Mines A; Heals? False
+> Save Station; Heals? False
   * Layers: default
   > Door to Main Quarry
       Trivial
@@ -970,10 +970,10 @@ Extra - room_height: 224
   * Extra - instance_id: 111294
   * Extra - facing: 0
   * Extra - dest_room: pha_Central_Dynamo
-  > Phazon Mines - Save Station Mines B
+  > Save Station
       Trivial
 
-> Phazon Mines - Save Station Mines B; Heals? False
+> Save Station; Heals? False
   * Layers: default
   > Door to Central Dynamo
       Trivial
@@ -990,10 +990,10 @@ Extra - room_height: 224
   * Extra - instance_id: 111332
   * Extra - facing: 0
   * Extra - dest_room: pha_Metroid_Quarantine_B
-  > Phazon Mines - Save Station Mines C
+  > Save Station
       Trivial
 
-> Phazon Mines - Save Station Mines C; Heals? False
+> Save Station; Heals? False
   * Layers: default
   > Door to Metroid Quarantine B
       Trivial
@@ -1195,6 +1195,8 @@ Extra - room_height: 672
   * Extra - instance_id: 111609
   * Extra - facing: 0
   * Extra - dest_room: pha_Omega_Research
+  > Door to Elite Control
+      Can Use Boost Ball
 
 > Pickup (Energy Tank); Heals? False
   * Layers: default
@@ -1221,7 +1223,6 @@ Extra - room_height: 448
   > Door to Main Quarry
       All of the following:
           Morph Ball
-          Bomb or Spider Ball
           Any of the following:
               Grapple Beam
               Gravity Suit and Spider Ball
@@ -1235,7 +1236,6 @@ Extra - room_height: 448
   > Door to Ore Processing
       All of the following:
           Morph Ball
-          Bomb or Spider Ball
           Any of the following:
               Grapple Beam
               Gravity Suit and Spider Ball
