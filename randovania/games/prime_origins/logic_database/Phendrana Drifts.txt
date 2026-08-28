@@ -277,6 +277,10 @@ Extra - room_height: 224
   * Extra - facing: 0
   * Extra - dest_room: phe_Control_Tower
 
+> Pickup (Artifact of Elder); Heals? False
+  * Layers: default
+  * Pickup 97; Category? Major
+
 ----------------
 Control Tower
 Extra - room_name: phe_Control_Tower
@@ -1328,6 +1332,10 @@ Extra - room_height: 448
   * Extra - dest_room: phe_South_Quarantine_Tunnel
   > Door to North Quarantine Tunnel
       Can Use Spider Ball
+
+> Pickup (Spider Ball); Heals? False
+  * Layers: default
+  * Pickup 95; Category? Major
 
 ----------------
 Quarantine Monitor
