@@ -40,7 +40,7 @@ Extra - room_height: 224
 
 > Door to Arboretum; Heals? False
   * Layers: default
-  * Beam Door to Arboretum/Door to Arboretum Access
+  * Missile Door to Arboretum/Door to Arboretum Access
   * Extra - instance_id: 100039
   * Extra - facing: 0
   * Extra - dest_room: cho_Arboretum
@@ -61,26 +61,26 @@ Extra - room_height: 1344
   * Extra - dest_room: cho_Arboretum_Access
   > Door to Gathering Hall Access
       Trivial
-  > Door to Sunchamber Lobby
-      Trivial
 
 > Door to Gathering Hall Access; Heals? False
   * Layers: default
-  * Beam Door to Gathering Hall Access/Door to Arboretum
+  * Missile Door to Gathering Hall Access/Door to Arboretum
   * Extra - instance_id: 100063
   * Extra - facing: 0
   * Extra - dest_room: cho_Gathering_Hall_Access
   > Door to Arboretum Access
       Trivial
+  > Door to Sunchamber Lobby
+      Can Break Bomb Blocks
 
 > Door to Sunchamber Lobby; Heals? False
   * Layers: default
-  * Beam Door to Sunchamber Lobby/Door to Arboretum
+  * Missile Door to Sunchamber Lobby/Door to Arboretum
   * Extra - instance_id: 100064
   * Extra - facing: 0
   * Extra - dest_room: cho_Sunchamber_Lobby
-  > Door to Arboretum Access
-      Trivial
+  > Door to Gathering Hall Access
+      Can Break Bomb Blocks
 
 ----------------
 Burn Dome Access
@@ -94,17 +94,17 @@ Extra - room_height: 224
   * Extra - instance_id: 100210
   * Extra - facing: 0
   * Extra - dest_room: cho_Burn_Dome
-  > Door to Energy Core
-      Trivial
+  > Morph Ball Tunnel to Energy Core
+      Morph Ball
 
-> Door to Energy Core; Heals? False
+> Morph Ball Tunnel to Energy Core; Heals? False
   * Layers: default
-  * Beam Door to Energy Core/Door to Burn Dome Access
+  * Morph Ball Tunnel to Energy Core/Morph Ball Tunnel to Burn Dome Access
   * Extra - instance_id: 100209
   * Extra - facing: 0
   * Extra - dest_room: cho_Energy_Core
   > Door to Burn Dome
-      Trivial
+      Morph Ball
 
 ----------------
 Burn Dome subB
@@ -119,12 +119,12 @@ Extra - room_height: 224
   * Extra - object_name: obj_expansion_missile
   * Extra - item_type: Missile Expansion
   * Extra - is_major: minor
-  > Door to Burn Dome
+  > Morph Ball Tunnel to Burn Dome
       Trivial
 
-> Door to Burn Dome; Heals? False
+> Morph Ball Tunnel to Burn Dome; Heals? False
   * Layers: default
-  * Beam Door to Burn Dome/Door to Burn Dome subB
+  * Morph Ball Tunnel to Burn Dome/Morph Ball Tunnel to Burn Dome subB
   * Extra - instance_id: 100224
   * Extra - facing: 0
   * Extra - dest_room: cho_Burn_Dome
@@ -143,17 +143,21 @@ Extra - room_height: 224
   * Extra - instance_id: 100233
   * Extra - facing: 0
   * Extra - dest_room: cho_Burn_Dome_Access
-  > Door to Burn Dome subB
-      Trivial
+  > Morph Ball Tunnel to Burn Dome subB
+      Can Break Bomb Blocks
 
-> Door to Burn Dome subB; Heals? False
+> Morph Ball Tunnel to Burn Dome subB; Heals? False
   * Layers: default
-  * Beam Door to Burn Dome subB/Door to Burn Dome
+  * Morph Ball Tunnel to Burn Dome subB/Morph Ball Tunnel to Burn Dome
   * Extra - instance_id: 100252
   * Extra - facing: 0
   * Extra - dest_room: cho_Burn_Dome_subB
   > Door to Burn Dome Access
-      Trivial
+      Can Break Bomb Blocks
+
+> Pickup (Morph Ball Bombs); Heals? False
+  * Layers: default
+  * Pickup 93; Category? Major
 
 ----------------
 Crossway Access South
@@ -216,6 +220,8 @@ Extra - room_height: 448
   * Extra - facing: 0
   * Extra - dest_room: cho_Crossway_Access_West
   > Door to Crossway Access South
+      Ice Beam and Can Use Boost Ball
+  > Door to Elder Hall Access
       Can Use Boost Ball
   > Pickup (Missile Expansion)
       Can Lay Bomb and Can Use Boost Ball
@@ -226,19 +232,17 @@ Extra - room_height: 448
   * Extra - instance_id: 100302
   * Extra - facing: 0
   * Extra - dest_room: cho_Crossway_Access_South
-  > Door to Crossway Access West
-      Can Use Boost Ball
   > Door to Elder Hall Access
-      Trivial
+      Ice Beam
 
 > Door to Elder Hall Access; Heals? False
   * Layers: default
-  * Beam Door to Elder Hall Access/Door to Crossway
+  * Missile Door to Elder Hall Access/Door to Crossway
   * Extra - instance_id: 100303
   * Extra - facing: 0
   * Extra - dest_room: cho_Elder_Hall_Access
   > Door to Crossway Access South
-      Trivial
+      Ice Beam
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -267,7 +271,7 @@ Extra - room_height: 224
 
 > Door to Dynamo; Heals? False
   * Layers: default
-  * Beam Door to Dynamo/Door to Dynamo Access
+  * Missile Door to Dynamo/Door to Dynamo Access
   * Extra - instance_id: 100403
   * Extra - facing: 0
   * Extra - dest_room: cho_Dynamo
@@ -287,7 +291,7 @@ Extra - room_height: 448
   * Extra - facing: 0
   * Extra - dest_room: cho_Dynamo_Access
   > Pickup (Missile Expansion)
-      Trivial
+      Missile Launcher
   > Pickup (Missile Expansion 2)
       Trivial
 
@@ -444,14 +448,14 @@ Extra - room_height: 448
   * Extra - instance_id: 100597
   * Extra - facing: 0
   * Extra - dest_room: cho_Energy_Core_Access
-  > Door to Burn Dome Access
+  > Morph Ball Tunnel to Burn Dome Access
       Trivial
   > Door to West Furnace Access
-      Trivial
+      Can Lay Bomb
 
-> Door to Burn Dome Access; Heals? False
+> Morph Ball Tunnel to Burn Dome Access; Heals? False
   * Layers: default
-  * Beam Door to Burn Dome Access/Door to Energy Core
+  * Morph Ball Tunnel to Burn Dome Access/Morph Ball Tunnel to Energy Core
   * Extra - instance_id: 100598
   * Extra - facing: 0
   * Extra - dest_room: cho_Burn_Dome_Access
@@ -563,10 +567,10 @@ Extra - room_height: 448
   * Extra - instance_id: 100725
   * Extra - facing: 0
   * Extra - dest_room: cho_Furnace_subB
-  > Door to East Furnace Access
+  > Morph Ball Tunnel to Crossway Access West
       Trivial
   > Pickup (Missile Expansion)
-      Power Bomb Expansion and Can Use Boost Ball and Can Use Spider Ball
+      Can Lay Power Bomb and Can Use Boost Ball and Can Use Spider Ball
 
 > Morph Ball Tunnel to Crossway Access West; Heals? False
   * Layers: default
@@ -574,8 +578,10 @@ Extra - room_height: 448
   * Extra - instance_id: 100727
   * Extra - facing: 0
   * Extra - dest_room: cho_Crossway_Access_West
-  > Door to East Furnace Access
+  > Morph Ball Tunnel to Furnace (Boost Tunnel)
       Trivial
+  > Door to East Furnace Access
+      Ice Beam
 
 > Door to East Furnace Access; Heals? False
   * Layers: default
@@ -583,10 +589,8 @@ Extra - room_height: 448
   * Extra - instance_id: 100729
   * Extra - facing: 0
   * Extra - dest_room: cho_East_Furnace_Access
-  > Morph Ball Tunnel to Furnace (Boost Tunnel)
-      Trivial
   > Morph Ball Tunnel to Crossway Access West
-      Trivial
+      Ice Beam
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -645,6 +649,8 @@ Extra - room_height: 448
   * Extra - dest_room: cho_West_Furnace_Access
   > Morph Ball Tunnel to Furnace (Bottom)
       Trivial
+  > Morph Ball Tunnel to Furnace (Boost Tunnel)
+      Can Break Bomb Blocks and Can Use Spider Ball
 
 > Morph Ball Tunnel to Furnace (Bottom); Heals? False
   * Layers: default
@@ -654,8 +660,6 @@ Extra - room_height: 448
   * Extra - dest_room: cho_Furnace_subE
   > Door to West Furnace Access
       Trivial
-  > Morph Ball Tunnel to Furnace (Boost Tunnel)
-      Can Break Bomb Blocks and Can Use Spider Ball
 
 > Morph Ball Tunnel to Furnace (Boost Tunnel); Heals? False
   * Layers: default
@@ -663,7 +667,7 @@ Extra - room_height: 448
   * Extra - instance_id: 100833
   * Extra - facing: 0
   * Extra - dest_room: cho_Furnace_subB
-  > Morph Ball Tunnel to Furnace (Bottom)
+  > Door to West Furnace Access
       Can Break Bomb Blocks
 
 ----------------
@@ -704,16 +708,16 @@ Extra - room_height: 672
   * Extra - dest_room: cho_Gathering_Hall_Access
   > Door to Save Station 2
       Trivial
+  > Door to Watery Hall Access
+      Trivial
 
 > Door to Save Station 2; Heals? False
   * Layers: default
-  * Beam Door to Save Station 2/Door to Gathering Hall
+  * Missile Door to Save Station 2/Door to Gathering Hall
   * Extra - instance_id: 100895
   * Extra - facing: 0
   * Extra - dest_room: cho_Save_Station_2
   > Door to Gathering Hall Access
-      Trivial
-  > Door to Watery Hall Access
       Trivial
 
 > Door to East Atrium; Heals? False
@@ -723,9 +727,9 @@ Extra - room_height: 672
   * Extra - facing: 0
   * Extra - dest_room: cho_East_Atrium
   > Door to Watery Hall Access
-      Trivial
+      Morph Ball
   > Pickup (Missile Expansion)
-      Trivial
+      Can Break Bomb Blocks
 
 > Door to Watery Hall Access; Heals? False
   * Layers: default
@@ -733,10 +737,10 @@ Extra - room_height: 672
   * Extra - instance_id: 100900
   * Extra - facing: 0
   * Extra - dest_room: cho_Watery_Hall_Access
-  > Door to Save Station 2
+  > Door to Gathering Hall Access
       Trivial
   > Door to East Atrium
-      Trivial
+      Morph Ball
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -832,6 +836,8 @@ Extra - room_height: 672
       Climb High Ledge
   > Door to East Furnace Access
       Trivial
+  > Door to Elder Chamber
+      After Hall of the Elders Plasma Slot
   > Pickup (Energy Tank)
       All of the following:
           After Hall of the Elders Ice Slot
@@ -840,6 +846,8 @@ Extra - room_height: 672
       Wave Beam and Can Lay Bomb
   > Event - Hall of the Elders Ice Slot
       Ice Beam and Can Lay Bomb
+  > Event - Hall of the Elders Plasma Slot
+      Plasma Beam and Can Lay Bomb
 
 > Event - Hall of the Elders Wave Slot; Heals? False
   * Layers: default
@@ -852,6 +860,10 @@ Extra - room_height: 672
   * Event Hall of the Elders Ice Slot
   > Chozo Statue
       Trivial
+
+> Event - Hall of the Elders Plasma Slot; Heals? False
+  * Layers: default
+  * Event Hall of the Elders Plasma Slot
 
 ----------------
 Hive Totem
@@ -870,7 +882,7 @@ Extra - room_height: 448
 
 > Door to Transport Access North; Heals? False
   * Layers: default
-  * Beam Door to Transport Access North/Door to Hive Totem
+  * Missile Door to Transport Access North/Door to Hive Totem
   * Extra - instance_id: 101133
   * Extra - facing: 0
   * Extra - dest_room: cho_Transport_Access_North
@@ -902,7 +914,7 @@ Extra - room_height: 224
   * Extra - facing: 0
   * Extra - dest_room: cho_Meditation_Fountain
   > Door to Training Chamber Access
-      Trivial
+      Varia Suit and Climb High Ledge
 
 > Door to Training Chamber Access; Heals? False
   * Layers: default
@@ -911,9 +923,9 @@ Extra - room_height: 224
   * Extra - facing: 0
   * Extra - dest_room: cho_Training_Chamber_Access
   > Door to Meditation Fountain
-      Trivial
+      Varia Suit and Climb High Ledge
   > Pickup (Power Bomb Tank)
-      Trivial
+      Varia Suit and Can Lay Power Bomb
 
 > Pickup (Power Bomb Tank); Heals? False
   * Layers: default
@@ -942,13 +954,13 @@ Extra - room_height: 896
   > Door to Ruined Fountain Access
       Trivial
   > Pickup (Missile Expansion)
-      Trivial
+      Can Use Boost Ball
   > Pickup (Missile Expansion 2)
-      Trivial
+      Missile Launcher
 
 > Door to Ruined Shrine Access; Heals? False
   * Layers: default
-  * Beam Door to Ruined Shrine Access/Door to Main Plaza
+  * Missile Door to Ruined Shrine Access/Door to Main Plaza
   * Extra - instance_id: 101235
   * Extra - facing: 0
   * Extra - dest_room: cho_Ruined_Shrine_Access
@@ -974,6 +986,8 @@ Extra - room_height: 896
   * Extra - dest_room: cho_Ruined_Fountain_Access
   > Door to Ruins Entrance
       Trivial
+  > Pickup (Energy Tank)
+      Grapple Beam
 
 > Door to Plaza Access; Heals? False
   * Layers: default
@@ -1003,17 +1017,17 @@ Extra - room_height: 896
   * Extra - is_major: minor
   > Door to Ruined Fountain Access
       Trivial
-  > Door to Plaza Access
-      Trivial
 
-> Door to Piston Tunnel subB; Heals? False
+> Open Access to Piston Tunnel subB; Heals? False
   * Layers: default
-  * Beam Door to Piston Tunnel subB/Door to Main Plaza
+  * Open Access (Vertical) to Piston Tunnel subB/Morph Ball Tunnel to Main Plaza
   * Extra - instance_id: 101338
   * Extra - facing: 90
   * Extra - dest_room: cho_Piston_Tunnel_subB
-  > Pickup (Missile Expansion 3)
+  > Door to Ruined Fountain Access
       Trivial
+  > Pickup (Missile Expansion 3)
+      Grapple Beam
 
 > Pickup (Missile Expansion 2); Heals? False
   * Layers: default
@@ -1022,6 +1036,8 @@ Extra - room_height: 896
   * Extra - object_name: obj_expansion_missile
   * Extra - item_type: Missile Expansion
   * Extra - is_major: minor
+  > Door to Ruins Entrance
+      Trivial
 
 > Pickup (Missile Expansion 3); Heals? False
   * Layers: default
@@ -1031,8 +1047,6 @@ Extra - room_height: 896
   * Extra - item_type: Missile Expansion
   * Extra - is_major: minor
   > Door to Ruined Fountain Access
-      Trivial
-  > Door to Piston Tunnel subB
       Trivial
 
 ----------------
@@ -1139,18 +1153,18 @@ Extra - room_name: cho_Piston_Tunnel_subB
 Extra - map_name: cho_Piston_Tunnel_subB
 Extra - room_width: 320
 Extra - room_height: 448
-> Door to Piston Tunnel; Heals? False
+> Morph Ball Tunnel to Piston Tunnel; Heals? False
   * Layers: default
-  * Beam Door to Piston Tunnel/Door to Piston Tunnel subB
+  * Morph Ball Tunnel to Piston Tunnel/Morph Ball Tunnel to Piston Tunnel subB
   * Extra - instance_id: 101468
   * Extra - facing: 0
   * Extra - dest_room: cho_Piston_Tunnel
-  > Door to Main Plaza
+  > Morph Ball Tunnel to Main Plaza
       Trivial
 
-> Door to Main Plaza; Heals? False
+> Morph Ball Tunnel to Main Plaza; Heals? False
   * Layers: default
-  * Beam Door to Main Plaza/Door to Piston Tunnel subB
+  * Morph Ball Tunnel to Main Plaza/Open Access to Piston Tunnel subB
   * Extra - instance_id: 101469
   * Extra - facing: 90
   * Extra - dest_room: cho_Main_Plaza
@@ -1161,18 +1175,18 @@ Extra - room_name: cho_Piston_Tunnel
 Extra - map_name: cho_Piston_Tunnel
 Extra - room_width: 320
 Extra - room_height: 224
-> Door to Training Chamber; Heals? False
+> Morph Ball Tunnel to Training Chamber; Heals? False
   * Layers: default
-  * Beam Door to Training Chamber/Door to Piston Tunnel
+  * Morph Ball Tunnel to Training Chamber/Morph Ball Tunnel to Piston Tunnel
   * Extra - instance_id: 101500
   * Extra - facing: 0
   * Extra - dest_room: cho_Training_Chamber
-  > Door to Piston Tunnel subB
+  > Morph Ball Tunnel to Piston Tunnel subB
       Trivial
 
-> Door to Piston Tunnel subB; Heals? False
+> Morph Ball Tunnel to Piston Tunnel subB; Heals? False
   * Layers: default
-  * Beam Door to Piston Tunnel subB/Door to Piston Tunnel
+  * Morph Ball Tunnel to Piston Tunnel subB/Morph Ball Tunnel to Piston Tunnel
   * Extra - instance_id: 101501
   * Extra - facing: 0
   * Extra - dest_room: cho_Piston_Tunnel_subB
@@ -1241,7 +1255,6 @@ Extra - room_height: 672
       Any of the following:
           Grapple Beam
           Boost Ball and Can Break Bomb Blocks
-          Can Lay Bomb and Can Use Spider Ball
 
 > Door to Antechamber; Heals? False
   * Layers: default
@@ -1294,7 +1307,7 @@ Extra - room_height: 224
   * Extra - facing: 0
   * Extra - dest_room: cho_Main_Plaza
   > Door to Ruined Fountain
-      Trivial
+      Morph Ball
 
 > Door to Ruined Fountain; Heals? False
   * Layers: default
@@ -1303,7 +1316,7 @@ Extra - room_height: 224
   * Extra - facing: 0
   * Extra - dest_room: cho_Ruined_Fountain
   > Door to Main Plaza
-      Trivial
+      Morph Ball
 
 ----------------
 Ruined Fountain
@@ -1340,7 +1353,7 @@ Extra - room_height: 448
   > Door to Ruined Fountain Access
       Trivial
   > Pickup (Missile Expansion)
-      Trivial
+      Morph Ball and Spider Ball
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -1366,8 +1379,10 @@ Extra - room_height: 448
   * Extra - dest_room: cho_North_Atrium
   > Door to Totem Access
       Trivial
-  > Pickup (Missile Expansion)
+  > Door to Map Station
       Trivial
+  > Pickup (Missile Expansion)
+      Morph Ball
 
 > Door to Totem Access; Heals? False
   * Layers: default
@@ -1378,15 +1393,15 @@ Extra - room_height: 448
   > Door to North Atrium
       Trivial
   > Pickup (Missile Expansion 2)
-      Trivial
+      Missile Launcher
 
 > Door to Map Station; Heals? False
   * Layers: default
-  * Beam Door to Map Station/Door to Ruined Gallery
+  * Missile Door to Map Station/Door to Ruined Gallery
   * Extra - instance_id: 101725
   * Extra - facing: 0
   * Extra - dest_room: cho_Map_Station
-  > Pickup (Missile Expansion)
+  > Door to North Atrium
       Trivial
 
 > Pickup (Missile Expansion); Heals? False
@@ -1397,8 +1412,6 @@ Extra - room_height: 448
   * Extra - item_type: Missile Expansion
   * Extra - is_major: minor
   > Door to North Atrium
-      Trivial
-  > Door to Map Station
       Trivial
 
 > Pickup (Missile Expansion 2); Heals? False
@@ -1426,7 +1439,7 @@ Extra - room_height: 448
   > Door to Save Station 1
       Trivial
   > Pickup (Missile Expansion)
-      Trivial
+      Can Break Bomb Blocks
 
 > Door to Save Station 1; Heals? False
   * Layers: default
@@ -1495,13 +1508,17 @@ Extra - room_height: 224
   * Extra - facing: 0
   * Extra - dest_room: cho_Ruined_Shrine_Access
   > Door to Tower of Light Access
-      Trivial
+      All of the following:
+          Wave Beam
+          Any of the following:
+              Grapple Beam
+              Can Use Boost Ball and Can Use Spider Ball
   > Pickup (Morph Ball)
       Trivial
   > Pickup (Missile Expansion)
-      Trivial
+      Can Break Bomb Blocks
   > Pickup (Missile Expansion 2)
-      Trivial
+      Can Use Boost Ball
 
 > Door to Tower of Light Access; Heals? False
   * Layers: default
@@ -1510,7 +1527,7 @@ Extra - room_height: 224
   * Extra - facing: 0
   * Extra - dest_room: cho_Tower_of_Light_Access
   > Door to Ruined Shrine Access
-      Trivial
+      Grapple Beam or Can Use Spider Ball
 
 > Pickup (Morph Ball); Heals? False
   * Layers: default
@@ -1554,6 +1571,8 @@ Extra - room_height: 224
   * Extra - instance_id: 101920
   * Extra - facing: 0
   * Extra - dest_room: cho_Transport_to_Tallon_Overworld_North
+  > Door to Main Plaza
+      Trivial
 
 > Door to Main Plaza; Heals? False
   * Layers: default
@@ -1561,6 +1580,8 @@ Extra - room_height: 224
   * Extra - instance_id: 101922
   * Extra - facing: 0
   * Extra - dest_room: cho_Main_Plaza
+  > Door to Transport to Tallon Overworld North
+      Trivial
 
 ----------------
 Save Station 1
@@ -1574,6 +1595,13 @@ Extra - room_height: 224
   * Extra - instance_id: 101939
   * Extra - facing: 0
   * Extra - dest_room: cho_Ruined_Nursery
+  > Save Station
+      Trivial
+
+> Save Station; Heals? False
+  * Layers: default
+  > Door to Ruined Nursery
+      Trivial
 
 ----------------
 Save Station 2
@@ -1607,17 +1635,17 @@ Extra - room_height: 224
   * Extra - instance_id: 101989
   * Extra - facing: 0
   * Extra - dest_room: cho_Transport_to_Tallon_Overworld_East
-  > Door to Save Station 3
-      Morph Ball
+  > Morph Ball Tunnel to Save Station 3
+      Trivial
 
-> Door to Save Station 3; Heals? False
+> Morph Ball Tunnel to Save Station 3; Heals? False
   * Layers: default
-  * Beam Door to Save Station 3/Door to Save Station 3 subB
+  * Morph Ball Tunnel to Save Station 3/Morph Ball Tunnel to Save Station 3 subB
   * Extra - instance_id: 101990
   * Extra - facing: 0
   * Extra - dest_room: cho_Save_Station_3
   > Door to Transport to Tallon Overworld East
-      Morph Ball
+      Trivial
 
 ----------------
 Save Station 3
@@ -1634,14 +1662,14 @@ Extra - room_height: 224
   > Save Station
       Trivial
 
-> Door to Save Station 3 subB; Heals? False
+> Morph Ball Tunnel to Save Station 3 subB; Heals? False
   * Layers: default
-  * Beam Door to Save Station 3 subB/Door to Save Station 3
+  * Morph Ball Tunnel to Save Station 3 subB/Morph Ball Tunnel to Save Station 3
   * Extra - instance_id: 101993
   * Extra - facing: 0
   * Extra - dest_room: cho_Save_Station_3_subB
   > Save Station
-      Morph Ball
+      Trivial
 
 > Save Station; Heals? False
   * Layers: default
@@ -1649,8 +1677,8 @@ Extra - room_height: 224
   * Extra - y: 142
   > Door to Reflecting Pool
       Trivial
-  > Door to Save Station 3 subB
-      Morph Ball
+  > Morph Ball Tunnel to Save Station 3 subB
+      Trivial
 
 ----------------
 Sun Tower Access
@@ -1682,23 +1710,25 @@ Extra - room_name: cho_Sun_Tower_subB
 Extra - map_name: cho_Sun_Tower_subB
 Extra - room_width: 320
 Extra - room_height: 1120
-> Door to Sun Tower subC; Heals? False
+> Open Access to Sun Tower subC; Heals? False
   * Layers: default
-  * Beam Door to Sun Tower subC/Door to Sun Tower subB
+  * Open Access (Horizontal) to Sun Tower subC/Open Access to Sun Tower subB
   * Extra - instance_id: 102083
   * Extra - facing: 0
   * Extra - dest_room: cho_Sun_Tower_subC
-  > Door to Sun Tower
-      Trivial
+  > Open Access to Sun Tower
+      Can Break Bomb Blocks
 
-> Door to Sun Tower; Heals? False
+> Open Access to Sun Tower; Heals? False
   * Layers: default
-  * Beam Door to Sun Tower/Door to Sun Tower subB
+  * Open Access (Horizontal) to Sun Tower/Open Access to Sun Tower subB
   * Extra - instance_id: 102085
   * Extra - facing: 0
   * Extra - dest_room: cho_Sun_Tower
-  > Door to Sun Tower subC
-      Trivial
+  > Open Access to Sun Tower subC
+      All of the following:
+          Missile Launcher and Can Break Bomb Blocks
+          Grapple Beam or Can Use Spider Ball
 
 ----------------
 Sun Tower subC
@@ -1712,12 +1742,12 @@ Extra - room_height: 224
   * Extra - instance_id: 102177
   * Extra - facing: 0
   * Extra - dest_room: cho_Sun_Tower_Access
-  > Door to Sun Tower subB
+  > Open Access to Sun Tower subB
       Trivial
 
-> Door to Sun Tower subB; Heals? False
+> Open Access to Sun Tower subB; Heals? False
   * Layers: default
-  * Beam Door to Sun Tower subB/Door to Sun Tower subC
+  * Open Access (Horizontal) to Sun Tower subB/Open Access to Sun Tower subC
   * Extra - instance_id: 102178
   * Extra - facing: 0
   * Extra - dest_room: cho_Sun_Tower_subB
@@ -1730,9 +1760,9 @@ Extra - room_name: cho_Sun_Tower
 Extra - map_name: cho_Sun_Tower
 Extra - room_width: 320
 Extra - room_height: 224
-> Door to Sun Tower subB; Heals? False
+> Open Access to Sun Tower subB; Heals? False
   * Layers: default
-  * Beam Door to Sun Tower subB/Door to Sun Tower
+  * Open Access (Horizontal) to Sun Tower subB/Open Access to Sun Tower
   * Extra - instance_id: 102190
   * Extra - facing: 0
   * Extra - dest_room: cho_Sun_Tower_subB
@@ -1745,7 +1775,7 @@ Extra - room_height: 224
   * Extra - instance_id: 102202
   * Extra - facing: 0
   * Extra - dest_room: cho_Transport_to_Magmoor_Caverns_North
-  > Door to Sun Tower subB
+  > Open Access to Sun Tower subB
       Trivial
 
 ----------------
@@ -1832,6 +1862,10 @@ Extra - room_height: 448
   > Pickup (Varia Suit)
       Trivial
 
+> Pickup (Artifact of Chozo); Heals? False
+  * Layers: default
+  * Pickup 85; Category? Major
+
 ----------------
 Totem Access
 Extra - room_name: cho_Totem_Access
@@ -1894,7 +1928,7 @@ Extra - room_height: 224
   * Extra - facing: 0
   * Extra - dest_room: cho_Ruined_Shrine
   > Door to Tower of Light
-      Trivial
+      Wave Beam
 
 > Door to Tower of Light; Heals? False
   * Layers: default
@@ -1927,9 +1961,15 @@ Extra - room_height: 896
   * Extra - facing: 0
   * Extra - dest_room: cho_Tower_of_Light_Access
   > Door to Tower Chamber
-      Trivial
+      All of the following:
+          Wave Beam
+          Grapple Beam or Gravity Suit
   > Pickup (Wavebuster)
-      Trivial
+      All of the following:
+          Missile Launcher
+          Any of the following:
+              Missile Expansion ≥ 3
+              Missile Expansion and Super Missile
 
 > Pickup (Wavebuster); Heals? False
   * Layers: default
@@ -1953,8 +1993,10 @@ Extra - room_height: 448
   * Extra - instance_id: 102507
   * Extra - facing: 0
   * Extra - dest_room: cho_Magma_Pool
+  > Door to Training Chamber
+      Wave Beam
   > Pickup (Missile Expansion)
-      Trivial
+      Morph Ball
 
 > Door to Training Chamber; Heals? False
   * Layers: default
@@ -1962,6 +2004,8 @@ Extra - room_height: 448
   * Extra - instance_id: 102508
   * Extra - facing: 0
   * Extra - dest_room: cho_Training_Chamber
+  > Door to Magma Pool
+      Trivial
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -1970,7 +2014,7 @@ Extra - room_height: 448
   * Extra - object_name: obj_expansion_missile
   * Extra - item_type: Missile Expansion
   * Extra - is_major: minor
-  > Door to Training Chamber
+  > Door to Magma Pool
       Trivial
 
 ----------------
@@ -1985,12 +2029,14 @@ Extra - room_height: 448
   * Extra - instance_id: 102537
   * Extra - facing: 0
   * Extra - dest_room: cho_Training_Chamber_Access
+  > Morph Ball Tunnel to Piston Tunnel
+      After First Chozo Ghost
   > Pickup (Energy Tank)
-      Trivial
+      After First Chozo Ghost and Can Lay Bomb and Can Use Spider Ball
 
-> Door to Piston Tunnel; Heals? False
+> Morph Ball Tunnel to Piston Tunnel; Heals? False
   * Layers: default
-  * Beam Door to Piston Tunnel/Door to Training Chamber
+  * Morph Ball Tunnel to Piston Tunnel/Morph Ball Tunnel to Training Chamber
   * Extra - instance_id: 102538
   * Extra - facing: 0
   * Extra - dest_room: cho_Piston_Tunnel
@@ -2002,7 +2048,7 @@ Extra - room_height: 448
   * Extra - object_name: obj_expansion_energy_tank
   * Extra - item_type: Energy Tank
   * Extra - is_major: minor
-  > Door to Piston Tunnel
+  > Door to Training Chamber Access
       Trivial
 
 ----------------
@@ -2011,22 +2057,22 @@ Extra - room_name: cho_Transport_Access_North_subB
 Extra - map_name: cho_Transport_Access_North_subB
 Extra - room_width: 320
 Extra - room_height: 224
-> Door to Transport Access North; Heals? False
+> Morph Ball Tunnel to Transport Access North; Heals? False
   * Layers: default
-  * Beam Door to Transport Access North/Door to Transport Access North subB
+  * Morph Ball Tunnel to Transport Access North/Morph Ball Tunnel to Transport Access North subB
   * Extra - instance_id: 102591
   * Extra - facing: 0
   * Extra - dest_room: cho_Transport_Access_North
-  > Door to Transport Access North subC
+  > Morph Ball Tunnel to Transport Access North subC
       Trivial
 
-> Door to Transport Access North subC; Heals? False
+> Morph Ball Tunnel to Transport Access North subC; Heals? False
   * Layers: default
-  * Beam Door to Transport Access North subC/Door to Transport Access North subB
+  * Morph Ball Tunnel to Transport Access North subC/Morph Ball Tunnel to Transport Access North subB
   * Extra - instance_id: 102607
   * Extra - facing: 0
   * Extra - dest_room: cho_Transport_Access_North_subC
-  > Door to Transport Access North
+  > Morph Ball Tunnel to Transport Access North
       Trivial
 
 ----------------
@@ -2041,12 +2087,12 @@ Extra - room_height: 224
   * Extra - instance_id: 102612
   * Extra - facing: 0
   * Extra - dest_room: cho_Transport_to_Magmoor_Caverns_North
-  > Door to Transport Access North subB
+  > Morph Ball Tunnel to Transport Access North subB
       Trivial
 
-> Door to Transport Access North subB; Heals? False
+> Morph Ball Tunnel to Transport Access North subB; Heals? False
   * Layers: default
-  * Beam Door to Transport Access North subB/Door to Transport Access North subC
+  * Morph Ball Tunnel to Transport Access North subB/Morph Ball Tunnel to Transport Access North subC
   * Extra - instance_id: 102614
   * Extra - facing: 0
   * Extra - dest_room: cho_Transport_Access_North_subB
@@ -2077,12 +2123,12 @@ Extra - room_height: 224
   * Extra - is_major: minor
   > Door to Hive Totem
       Trivial
-  > Door to Transport Access North subB
+  > Morph Ball Tunnel to Transport Access North subB
       Trivial
 
-> Door to Transport Access North subB; Heals? False
+> Morph Ball Tunnel to Transport Access North subB; Heals? False
   * Layers: default
-  * Beam Door to Transport Access North subB/Door to Transport Access North
+  * Morph Ball Tunnel to Transport Access North subB/Morph Ball Tunnel to Transport Access North
   * Extra - instance_id: 102637
   * Extra - facing: 0
   * Extra - dest_room: cho_Transport_Access_North_subB
@@ -2125,6 +2171,8 @@ Extra - room_height: 448
   * Extra - instance_id: 102684
   * Extra - facing: 0
   * Extra - dest_room: cho_Transport_Access_North_subC
+  > Transport to Magmoor Caverns North
+      Trivial
 
 > Door to Vault Access; Heals? False
   * Layers: default
@@ -2132,6 +2180,8 @@ Extra - room_height: 448
   * Extra - instance_id: 102685
   * Extra - facing: 0
   * Extra - dest_room: cho_Vault_Access
+  > Transport to Magmoor Caverns North
+      Trivial
 
 > Door to Sun Tower; Heals? False
   * Layers: default
@@ -2184,6 +2234,13 @@ Extra - room_height: 224
   * Extra - instance_id: 102724
   * Extra - facing: 0
   * Extra - dest_room: cho_Ruins_Entrance
+  > Elevator to Tallon Overworld North
+      Trivial
+
+> Elevator to Tallon Overworld North; Heals? False
+  * Layers: default
+  > Door to Ruins Entrance
+      Trivial
 
 ----------------
 Transport to Tallon Overworld South
@@ -2219,7 +2276,7 @@ Extra - room_height: 224
   * Extra - facing: 0
   * Extra - dest_room: cho_Transport_to_Magmoor_Caverns_North
   > Door to Vault
-      Trivial
+      Morph Ball
 
 > Door to Vault; Heals? False
   * Layers: default
@@ -2228,7 +2285,7 @@ Extra - room_height: 224
   * Extra - facing: 0
   * Extra - dest_room: cho_Vault
   > Door to Transport to Magmoor Caverns North
-      Trivial
+      Morph Ball
 
 ----------------
 Vault
@@ -2243,7 +2300,7 @@ Extra - room_height: 224
   * Extra - facing: 0
   * Extra - dest_room: cho_Vault_Access
   > Door to Plaza Access
-      Trivial
+      Morph Ball
 
 > Door to Plaza Access; Heals? False
   * Layers: default
@@ -2252,9 +2309,9 @@ Extra - room_height: 224
   * Extra - facing: 0
   * Extra - dest_room: cho_Plaza_Access
   > Door to Vault Access
-      Trivial
+      Morph Ball
   > Pickup (Missile Expansion)
-      Trivial
+      Can Lay Bomb
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -2283,14 +2340,14 @@ Extra - room_height: 224
 
 > Door to Watery Hall; Heals? False
   * Layers: default
-  * Beam Door to Watery Hall/Door to Watery Hall Access
+  * Missile Door to Watery Hall/Door to Watery Hall Access
   * Extra - instance_id: 102837
   * Extra - facing: 0
   * Extra - dest_room: cho_Watery_Hall
   > Door to Gathering Hall
       Trivial
   > Pickup (Missile Expansion)
-      Trivial
+      Missile Launcher
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -2315,18 +2372,18 @@ Extra - room_height: 448
   * Extra - facing: 0
   * Extra - dest_room: cho_Watery_Hall_Access
   > Pickup (Charge Beam)
-      Trivial
+      Missile Launcher
   > Pickup (Missile Expansion)
-      Trivial
+      Gravity Suit
 
 > Door to Dynamo Access; Heals? False
   * Layers: default
-  * Beam Door to Dynamo Access/Door to Watery Hall
+  * Missile Door to Dynamo Access/Door to Watery Hall
   * Extra - instance_id: 102876
   * Extra - facing: 0
   * Extra - dest_room: cho_Dynamo_Access
   > Pickup (Charge Beam)
-      Trivial
+      Can Break Bomb Blocks
 
 > Pickup (Charge Beam); Heals? False
   * Layers: default
@@ -2338,7 +2395,7 @@ Extra - room_height: 448
   > Door to Watery Hall Access
       Trivial
   > Door to Dynamo Access
-      Trivial
+      Can Break Bomb Blocks
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default

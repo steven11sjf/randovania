@@ -145,6 +145,34 @@
             "MetroidQuarantineBGate": {
                 "long_name": "Metroid Quarantine B Gate",
                 "extra": {}
+            },
+            "EliteControlElitePirate": {
+                "long_name": "Elite Control Elite Pirate",
+                "extra": {}
+            },
+            "OmegaPirate": {
+                "long_name": "Omega Pirate Defeated",
+                "extra": {}
+            },
+            "EliteResearchMiningCannon": {
+                "long_name": "Elite Research Mining Cannon",
+                "extra": {}
+            },
+            "MetroidQuarantineAGate": {
+                "long_name": "Metroid Quarantine A Gate",
+                "extra": {}
+            },
+            "FirstChozoGhost": {
+                "long_name": "First Chozo Ghost",
+                "extra": {}
+            },
+            "Reactor Access Wave Slots": {
+                "long_name": "Reactor Access Wave Slots",
+                "extra": {}
+            },
+            "GTHSpinner": {
+                "long_name": "Great Tree Hall Spinner",
+                "extra": {}
             }
         },
         "tricks": {},
