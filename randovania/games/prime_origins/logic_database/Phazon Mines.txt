@@ -376,8 +376,6 @@ Extra - room_height: 224
   * Extra - dest_room: pha_Security_Access_B
   > Open Access to Elite Research subB
       Trivial
-  > Warrior Artifact Pickup
-      Trivial
 
 > Open Access to Elite Research subB; Heals? False
   * Layers: default
@@ -385,12 +383,6 @@ Extra - room_height: 224
   * Extra - instance_id: 109397
   * Extra - facing: 90
   * Extra - dest_room: pha_Elite_Research_subB
-  > Door to Security Access B
-      Trivial
-
-> Warrior Artifact Pickup; Heals? False
-  * Layers: default
-  * Pickup 85; Category? Minor
   > Door to Security Access B
       Trivial
 
@@ -432,8 +424,6 @@ Extra - room_height: 448
   * Extra - dest_room: pha_Elevator_B
   > Door to Fungal Hall A
       Trivial
-  > Pickup (Missile Expansion)
-      Energy Tank ≥ 2 or Phazon Suit
 
 > Door to Fungal Hall A; Heals? False
   * Layers: default
@@ -443,6 +433,8 @@ Extra - room_height: 448
   * Extra - dest_room: pha_Fungal_Hall_A
   > Door to Elevator B
       Climb High Ledge
+  > Pickup (Missile Expansion)
+      Energy Tank ≥ 2 or Phazon Suit
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -451,7 +443,7 @@ Extra - room_height: 448
   * Extra - object_name: obj_expansion_missile
   * Extra - item_type: Missile Expansion
   * Extra - is_major: minor
-  > Door to Elevator B
+  > Door to Fungal Hall A
       Trivial
 
 ----------------
@@ -476,7 +468,7 @@ Extra - room_height: 448
   * Extra - facing: 0
   * Extra - dest_room: pha_Missile_Station_Mines
   > Junction
-      Climb High Ledge
+      Grapple Beam
 
 > Door to Quarantine Access B; Heals? False
   * Layers: default
@@ -616,10 +608,10 @@ Extra - room_height: 224
   * Extra - instance_id: 110041
   * Extra - facing: 0
   * Extra - dest_room: pha_Omega_Research
-  > Phazon Mines - Map Station
+  > Map Station
       Trivial
 
-> Phazon Mines - Map Station; Heals? False
+> Map Station; Heals? False
   * Layers: default
   > Door to Omega Research
       Trivial
@@ -639,7 +631,9 @@ Extra - room_height: 448
   > Event - Metroid Quarantine A Gate
       Can Break Bomb Blocks
   > Junction
-      Grapple Beam and After Metroid Quarantine A Gate
+      All of the following:
+          After Metroid Quarantine A Gate
+          Grapple Beam or Can Use Spider Ball
 
 > Door to Elevator Access B; Heals? False
   * Layers: default
@@ -663,11 +657,15 @@ Extra - room_height: 448
 > Event - Metroid Quarantine A Gate; Heals? False
   * Layers: default
   * Event Metroid Quarantine A Gate
+  > Door to Quarantine Access A
+      Trivial
 
 > Junction; Heals? False
   * Layers: default
   > Door to Quarantine Access A
-      Grapple Beam and After Metroid Quarantine A Gate
+      All of the following:
+          After Metroid Quarantine A Gate
+          Grapple Beam or Can Use Spider Ball
   > Door to Elevator Access B
       Screw Attack or Can Break Bomb Blocks
   > Pickup (Missile Expansion)

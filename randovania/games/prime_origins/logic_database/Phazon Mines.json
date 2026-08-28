@@ -1562,13 +1562,6 @@
                                 "comment": null,
                                 "items": []
                             }
-                        },
-                        "Warrior Artifact Pickup": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
                         }
                     }
                 },
@@ -1602,34 +1595,6 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {
-                        "Door to Security Access B": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        }
-                    }
-                },
-                "Warrior Artifact Pickup": {
-                    "node_type": "pickup",
-                    "heal": false,
-                    "coordinates": {
-                        "x": 110.18,
-                        "y": 109.42,
-                        "z": 0.0
-                    },
-                    "description": "",
-                    "layers": [
-                        "default"
-                    ],
-                    "extra": {},
-                    "valid_starting_location": false,
-                    "pickup_index": 85,
-                    "location_category": "minor",
-                    "custom_index_group": null,
-                    "hint_features": [],
                     "connections": {
                         "Door to Security Access B": {
                             "type": "and",
@@ -1814,32 +1779,6 @@
                                 "comment": null,
                                 "items": []
                             }
-                        },
-                        "Pickup (Missile Expansion)": {
-                            "type": "or",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "EnergyTank",
-                                            "amount": 2,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "PhazonSuit",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    }
-                                ]
-                            }
                         }
                     }
                 },
@@ -1877,6 +1816,32 @@
                         "Door to Elevator B": {
                             "type": "template",
                             "data": "Climb High Ledge"
+                        },
+                        "Pickup (Missile Expansion)": {
+                            "type": "or",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "EnergyTank",
+                                            "amount": 2,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "PhazonSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
                         }
                     }
                 },
@@ -1904,7 +1869,7 @@
                     "custom_index_group": null,
                     "hint_features": [],
                     "connections": {
-                        "Door to Elevator B": {
+                        "Door to Fungal Hall A": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -1999,8 +1964,13 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Junction": {
-                            "type": "template",
-                            "data": "Climb High Ledge"
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "GrappleBeam",
+                                "amount": 1,
+                                "negate": false
+                            }
                         }
                     }
                 },
@@ -2557,7 +2527,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Phazon Mines - Map Station": {
+                        "Map Station": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -2566,12 +2536,12 @@
                         }
                     }
                 },
-                "Phazon Mines - Map Station": {
+                "Map Station": {
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
-                        "x": 102.90636151101269,
-                        "y": 94.52737787621507,
+                        "x": 102.91,
+                        "y": 94.53,
                         "z": 0.0
                     },
                     "description": "",
@@ -2652,12 +2622,24 @@
                                         }
                                     },
                                     {
-                                        "type": "resource",
+                                        "type": "or",
                                         "data": {
-                                            "type": "items",
-                                            "name": "GrappleBeam",
-                                            "amount": 1,
-                                            "negate": false
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "GrappleBeam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Use Spider Ball"
+                                                }
+                                            ]
                                         }
                                     }
                                 ]
@@ -2767,7 +2749,15 @@
                     "extra": {},
                     "valid_starting_location": false,
                     "event_name": "MetroidQuarantineAGate",
-                    "connections": {}
+                    "connections": {
+                        "Door to Quarantine Access A": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Junction": {
                     "node_type": "generic",
@@ -2799,12 +2789,24 @@
                                         }
                                     },
                                     {
-                                        "type": "resource",
+                                        "type": "or",
                                         "data": {
-                                            "type": "items",
-                                            "name": "GrappleBeam",
-                                            "amount": 1,
-                                            "negate": false
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "GrappleBeam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Use Spider Ball"
+                                                }
+                                            ]
                                         }
                                     }
                                 ]
