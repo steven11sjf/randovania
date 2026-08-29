@@ -1065,7 +1065,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Elevator from Tallon Overworld": {
+                        "Elevator to Tallon Overworld": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -1081,7 +1081,7 @@
                         }
                     }
                 },
-                "Elevator from Tallon Overworld": {
+                "Elevator to Tallon Overworld": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1099,7 +1099,7 @@
                     "default_connection": {
                         "region": "Tallon Overworld",
                         "area": "Cipher Site",
-                        "node": "Elevator from Impact Crater"
+                        "node": "Elevator to Impact Crater"
                     },
                     "default_dock_weakness": "Elevator",
                     "exclude_from_dock_rando": false,

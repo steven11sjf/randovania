@@ -1062,8 +1062,8 @@
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": -16.0,
-                        "y": 64.0,
+                        "x": 17.16342692584595,
+                        "y": 99.9049676025918,
                         "z": 0.0
                     },
                     "description": "",
@@ -1088,7 +1088,34 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Pickup (Artifact of Elder)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "PlasmaBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MissileLauncher",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 },
                 "Pickup (Artifact of Elder)": {
                     "node_type": "pickup",
@@ -1108,7 +1135,15 @@
                     "location_category": "major",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Open Access to Control Tower": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -5438,6 +5473,13 @@
                         "Door to South Quarantine Tunnel": {
                             "type": "template",
                             "data": "Can Use Spider Ball"
+                        },
+                        "Pickup (Spider Ball)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
                         }
                     }
                 },
@@ -5496,7 +5538,15 @@
                     "location_category": "major",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to North Quarantine Tunnel": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -7980,7 +8030,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Elevator from Magmoor Caverns": {
+                        "Elevator to Magmoor Caverns": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -8039,7 +8089,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Elevator from Magmoor Caverns": {
+                        "Elevator to Magmoor Caverns": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -8048,7 +8098,7 @@
                         }
                     }
                 },
-                "Elevator from Magmoor Caverns": {
+                "Elevator to Magmoor Caverns": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -8066,7 +8116,7 @@
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Transport to Phendrana Drifts South",
-                        "node": "Elevator from Phendrana Drifts"
+                        "node": "Elevator to Phendrana Drifts"
                     },
                     "default_dock_weakness": "Elevator",
                     "exclude_from_dock_rando": false,
@@ -8148,7 +8198,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Elevator from Magmoor Caverns": {
+                        "Elevator to Magmoor Caverns": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -8157,7 +8207,7 @@
                         }
                     }
                 },
-                "Elevator from Magmoor Caverns": {
+                "Elevator to Magmoor Caverns": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -8175,7 +8225,7 @@
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Transport to Phendrana Drifts North",
-                        "node": "Elevator from Phendrana Drifts"
+                        "node": "Elevator to Phendrana Drifts"
                     },
                     "default_dock_weakness": "Elevator",
                     "exclude_from_dock_rando": false,

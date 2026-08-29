@@ -588,12 +588,12 @@ Extra - room_height: 224
   * Extra - instance_id: 107879
   * Extra - facing: 0
   * Extra - dest_room: mag_Burning_Trail_subB
-  > Elevator from Chozo Ruins
+  > Elevator to Chozo Ruins
       Trivial
 
-> Elevator from Chozo Ruins; Heals? False
+> Elevator to Chozo Ruins; Heals? False
   * Layers: default
-  * Elevator to Transport to Magmoor Caverns North/Elevator from Magmoor Caverns
+  * Elevator to Transport to Magmoor Caverns North/Elevator to Magmoor Caverns
   > Door to Burning Trail (Platforms)
       Trivial
 
@@ -609,12 +609,12 @@ Extra - room_height: 224
   * Extra - instance_id: 107883
   * Extra - facing: 0
   * Extra - dest_room: mag_Workstation_Tunnel
-  > Elevator from Phazon Mines
+  > Elevator to Phazon Mines
       Trivial
 
-> Elevator from Phazon Mines; Heals? False
+> Elevator to Phazon Mines; Heals? False
   * Layers: default
-  * Elevator to Transport to Magmoor Caverns South/Elevator from Magmoor Caverns
+  * Elevator to Transport to Magmoor Caverns South/Elevator to Magmoor Caverns
   > Door to Workstation Tunnel
       Trivial
 
@@ -630,12 +630,12 @@ Extra - room_height: 224
   * Extra - instance_id: 107905
   * Extra - facing: 0
   * Extra - dest_room: mag_Transport_Tunnel_A
-  > Elevator from Phendrana Drifts
+  > Elevator to Phendrana Drifts
       Trivial
 
-> Elevator from Phendrana Drifts; Heals? False
+> Elevator to Phendrana Drifts; Heals? False
   * Layers: default
-  * Elevator to Transport to Magmoor Caverns West/Elevator from Magmoor Caverns
+  * Elevator to Transport to Magmoor Caverns West/Elevator to Magmoor Caverns
   > Door to Transport Tunnel A
       Trivial
 
@@ -651,7 +651,7 @@ Extra - room_height: 224
   * Extra - instance_id: 107945
   * Extra - facing: 0
   * Extra - dest_room: mag_Save_Station_Magmoor_B
-  > Elevator from Phendrana Drifts
+  > Elevator to Phendrana Drifts
       Trivial
 
 > Door to Transport Tunnel C; Heals? False
@@ -660,12 +660,12 @@ Extra - room_height: 224
   * Extra - instance_id: 107946
   * Extra - facing: 0
   * Extra - dest_room: mag_Transport_Tunnel_C
-  > Elevator from Phendrana Drifts
+  > Elevator to Phendrana Drifts
       Trivial
 
-> Elevator from Phendrana Drifts; Heals? False
+> Elevator to Phendrana Drifts; Heals? False
   * Layers: default
-  * Elevator to Transport to Magmoor Caverns South/Elevator from Magmoor Caverns
+  * Elevator to Transport to Magmoor Caverns South/Elevator to Magmoor Caverns
   > Door to Save Station Magmoor B
       Trivial
   > Door to Transport Tunnel C
@@ -683,7 +683,7 @@ Extra - room_height: 224
   * Extra - instance_id: 107970
   * Extra - facing: 0
   * Extra - dest_room: mag_Transport_Tunnel_B
-  > Elevator from Tallon Overworld
+  > Elevator to Tallon Overworld
       Trivial
 
 > Door to Twin Fires Tunnel; Heals? False
@@ -692,12 +692,12 @@ Extra - room_height: 224
   * Extra - instance_id: 107971
   * Extra - facing: 0
   * Extra - dest_room: mag_Twin_Fires_Tunnel
-  > Elevator from Tallon Overworld
+  > Elevator to Tallon Overworld
       Trivial
 
-> Elevator from Tallon Overworld; Heals? False
+> Elevator to Tallon Overworld; Heals? False
   * Layers: default
-  * Elevator to Transport to Magmoor Caverns East/Elevator from Magmoor Caverns
+  * Elevator to Transport to Magmoor Caverns East/Elevator to Magmoor Caverns
   > Door to Transport Tunnel B
       Trivial
   > Door to Twin Fires Tunnel

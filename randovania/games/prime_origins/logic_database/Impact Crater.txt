@@ -248,14 +248,14 @@ Extra - room_height: 448
   * Extra - instance_id: 105157
   * Extra - facing: 0
   * Extra - dest_room: imp_Crater_Vein_A
-  > Elevator from Tallon Overworld
+  > Elevator to Tallon Overworld
       Trivial
   > Save Station
       Trivial
 
-> Elevator from Tallon Overworld; Heals? False
+> Elevator to Tallon Overworld; Heals? False
   * Layers: default
-  * Elevator to Cipher Site/Elevator from Impact Crater
+  * Elevator to Cipher Site/Elevator to Impact Crater
   > Door to Crater Vein A
       Grapple Beam
 

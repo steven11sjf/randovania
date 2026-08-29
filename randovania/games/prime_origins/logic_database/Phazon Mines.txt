@@ -14,6 +14,8 @@ Extra - room_height: 448
       Can Lay Power Bomb
   > Door to Dynamo Access
       Trivial
+  > Pickup (Power Bomb)
+      Trivial
 
 > Door to Quarantine Access A; Heals? False
   * Layers: default
@@ -36,6 +38,8 @@ Extra - room_height: 448
 > Pickup (Power Bomb); Heals? False
   * Layers: default
   * Pickup 96; Category? Major
+  > Door to Save Station Mines B
+      Trivial
 
 ----------------
 Dynamo Access
@@ -295,10 +299,14 @@ Extra - room_height: 448
   * Event Omega Pirate Defeated
   > Door to Elite Quarters Access
       Trivial
+  > Pickup (Phazon Suit)
+      Trivial
 
 > Pickup (Phazon Suit); Heals? False
   * Layers: default
   * Pickup 94; Category? Major
+  > Door to Elite Quarters Access
+      Trivial
 
 ----------------
 Elite Research subB
@@ -384,6 +392,8 @@ Extra - room_height: 224
   * Extra - dest_room: pha_Security_Access_B
   > Open Access to Elite Research subB
       Trivial
+  > Pickup (Artifact of Warrior)
+      Trivial
 
 > Open Access to Elite Research subB; Heals? False
   * Layers: default
@@ -397,6 +407,8 @@ Extra - room_height: 224
 > Pickup (Artifact of Warrior); Heals? False
   * Layers: default
   * Pickup 99; Category? Major
+  > Door to Security Access B
+      Trivial
 
 ----------------
 Fungal Hall A
@@ -1353,12 +1365,12 @@ Extra - room_height: 224
   * Extra - instance_id: 111565
   * Extra - facing: 0
   * Extra - dest_room: pha_Transport_Access
-  > Elevator from Magmoor Caverns
+  > Elevator to Magmoor Caverns
       Trivial
 
-> Elevator from Magmoor Caverns; Heals? False
+> Elevator to Magmoor Caverns; Heals? False
   * Layers: default
-  * Elevator to Transport to Phazon Mines West/Elevator from Phazon Mines
+  * Elevator to Transport to Phazon Mines West/Elevator to Phazon Mines
   > Door to Transport Access
       Trivial
 
@@ -1374,12 +1386,12 @@ Extra - room_height: 224
   * Extra - instance_id: 111605
   * Extra - facing: 0
   * Extra - dest_room: pha_Quarry_Access
-  > Elevator from Tallon Overworld
+  > Elevator to Tallon Overworld
       Trivial
 
-> Elevator from Tallon Overworld; Heals? False
+> Elevator to Tallon Overworld; Heals? False
   * Layers: default
-  * Elevator to Transport to Phazon Mines East/Elevator from Phazon Mines
+  * Elevator to Transport to Phazon Mines East/Elevator to Phazon Mines
   > Door to Quarry Access
       Trivial
 

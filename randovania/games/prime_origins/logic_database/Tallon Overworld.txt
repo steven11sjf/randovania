@@ -256,14 +256,22 @@ Extra - room_height: 448
   * Extra - instance_id: 115334
   * Extra - facing: 0
   * Extra - dest_room: tal_Artifact_Temple
+  > Pickup (Artifact of Truth)
+      Trivial
+  > Elevator to Impact Crater
+      Trivial
 
 > Pickup (Artifact of Truth); Heals? False
   * Layers: default
   * Pickup 98; Category? Major
+  > Door to Artifact Temple
+      Trivial
 
-> Elevator from Impact Crater; Heals? False
+> Elevator to Impact Crater; Heals? False
   * Layers: default
-  * Elevator to Crater Entry Point/Elevator from Tallon Overworld
+  * Elevator to Crater Entry Point/Elevator to Tallon Overworld
+  > Door to Artifact Temple
+      Trivial
 
 ----------------
 Connection Elevator to Deck Beta
@@ -1167,12 +1175,12 @@ Extra - room_height: 224
   * Extra - instance_id: 117050
   * Extra - facing: 0
   * Extra - dest_room: tal_Transport_Tunnel_C
-  > Elevator from Chozo Ruins
+  > Elevator to Chozo Ruins
       Trivial
 
-> Elevator from Chozo Ruins; Heals? False
+> Elevator to Chozo Ruins; Heals? False
   * Layers: default
-  * Elevator to Transport to Tallon Overworld East/Elevator from Tallon Overworld
+  * Elevator to Transport to Tallon Overworld East/Elevator to Tallon Overworld
   > Door to Transport Tunnel C
       Trivial
 
@@ -1188,12 +1196,12 @@ Extra - room_height: 224
   * Extra - instance_id: 117085
   * Extra - facing: 0
   * Extra - dest_room: tal_Transport_Tunnel_D
-  > Elevator from Chozo Ruins
+  > Elevator to Chozo Ruins
       Trivial
 
-> Elevator from Chozo Ruins; Heals? False
+> Elevator to Chozo Ruins; Heals? False
   * Layers: default
-  * Elevator to Transport to Tallon Overworld South/Elevator from Tallon Overworld
+  * Elevator to Transport to Tallon Overworld South/Elevator to Tallon Overworld
   > Door to Transport Tunnel D
       Trivial
 
@@ -1209,10 +1217,10 @@ Extra - room_height: 224
   * Extra - instance_id: 117087
   * Extra - facing: 0
   * Extra - dest_room: tal_Transport_Tunnel_A
-  > Elevator from Chozo Ruins
+  > Elevator to Chozo Ruins
       Trivial
 
-> Elevator from Chozo Ruins; Heals? False
+> Elevator to Chozo Ruins; Heals? False
   * Layers: default
   * Elevator to Transport to Tallon Overworld North/Door to Tallon Overworld
   > Door to Transport Tunnel A
@@ -1230,12 +1238,12 @@ Extra - room_height: 224
   * Extra - instance_id: 117111
   * Extra - facing: 0
   * Extra - dest_room: tal_Transport_Tunnel_B
-  > Elevator from Magmoor Caverns
+  > Elevator to Magmoor Caverns
       Trivial
 
-> Elevator from Magmoor Caverns; Heals? False
+> Elevator to Magmoor Caverns; Heals? False
   * Layers: default
-  * Elevator to Transport to Tallon Overworld West/Elevator from Tallon Overworld
+  * Elevator to Transport to Tallon Overworld West/Elevator to Tallon Overworld
   > Door to Transport Tunnel B
       Trivial
 
@@ -1251,12 +1259,12 @@ Extra - room_height: 224
   * Extra - instance_id: 117146
   * Extra - facing: 0
   * Extra - dest_room: tal_Transport_Tunnel_E
-  > Elevator from Phazon Mines
+  > Elevator to Phazon Mines
       Trivial
 
-> Elevator from Phazon Mines; Heals? False
+> Elevator to Phazon Mines; Heals? False
   * Layers: default
-  * Elevator to Transport to Tallon Overworld South/Elevator from Tallon Overworld
+  * Elevator to Transport to Tallon Overworld South/Elevator to Tallon Overworld
   > Door to Transport Tunnel E
       Trivial
 

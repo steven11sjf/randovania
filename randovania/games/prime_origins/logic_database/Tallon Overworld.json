@@ -1125,7 +1125,22 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Pickup (Artifact of Truth)": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Elevator to Impact Crater": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Pickup (Artifact of Truth)": {
                     "node_type": "pickup",
@@ -1145,9 +1160,17 @@
                     "location_category": "major",
                     "custom_index_group": null,
                     "hint_features": [],
-                    "connections": {}
+                    "connections": {
+                        "Door to Artifact Temple": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
-                "Elevator from Impact Crater": {
+                "Elevator to Impact Crater": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -1165,7 +1188,7 @@
                     "default_connection": {
                         "region": "Impact Crater",
                         "area": "Crater Entry Point",
-                        "node": "Elevator from Tallon Overworld"
+                        "node": "Elevator to Tallon Overworld"
                     },
                     "default_dock_weakness": "Elevator",
                     "exclude_from_dock_rando": false,
@@ -1173,7 +1196,15 @@
                     "override_default_open_requirement": null,
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
-                    "connections": {}
+                    "connections": {
+                        "Door to Artifact Temple": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -5394,7 +5425,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Elevator from Chozo Ruins": {
+                        "Elevator to Chozo Ruins": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -5403,7 +5434,7 @@
                         }
                     }
                 },
-                "Elevator from Chozo Ruins": {
+                "Elevator to Chozo Ruins": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -5421,7 +5452,7 @@
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Transport to Tallon Overworld East",
-                        "node": "Elevator from Tallon Overworld"
+                        "node": "Elevator to Tallon Overworld"
                     },
                     "default_dock_weakness": "Elevator",
                     "exclude_from_dock_rando": false,
@@ -5482,7 +5513,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Elevator from Chozo Ruins": {
+                        "Elevator to Chozo Ruins": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -5491,7 +5522,7 @@
                         }
                     }
                 },
-                "Elevator from Chozo Ruins": {
+                "Elevator to Chozo Ruins": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -5509,7 +5540,7 @@
                     "default_connection": {
                         "region": "Chozo Ruins",
                         "area": "Transport to Tallon Overworld South",
-                        "node": "Elevator from Tallon Overworld"
+                        "node": "Elevator to Tallon Overworld"
                     },
                     "default_dock_weakness": "Elevator",
                     "exclude_from_dock_rando": false,
@@ -5570,7 +5601,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Elevator from Chozo Ruins": {
+                        "Elevator to Chozo Ruins": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -5579,7 +5610,7 @@
                         }
                     }
                 },
-                "Elevator from Chozo Ruins": {
+                "Elevator to Chozo Ruins": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -5658,7 +5689,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Elevator from Magmoor Caverns": {
+                        "Elevator to Magmoor Caverns": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -5667,7 +5698,7 @@
                         }
                     }
                 },
-                "Elevator from Magmoor Caverns": {
+                "Elevator to Magmoor Caverns": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -5685,7 +5716,7 @@
                     "default_connection": {
                         "region": "Magmoor Caverns",
                         "area": "Transport to Tallon Overworld West",
-                        "node": "Elevator from Tallon Overworld"
+                        "node": "Elevator to Tallon Overworld"
                     },
                     "default_dock_weakness": "Elevator",
                     "exclude_from_dock_rando": false,
@@ -5746,7 +5777,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Elevator from Phazon Mines": {
+                        "Elevator to Phazon Mines": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -5755,7 +5786,7 @@
                         }
                     }
                 },
-                "Elevator from Phazon Mines": {
+                "Elevator to Phazon Mines": {
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
@@ -5773,7 +5804,7 @@
                     "default_connection": {
                         "region": "Phazon Mines",
                         "area": "Transport to Tallon Overworld South",
-                        "node": "Elevator from Tallon Overworld"
+                        "node": "Elevator to Tallon Overworld"
                     },
                     "default_dock_weakness": "Elevator",
                     "exclude_from_dock_rando": false,

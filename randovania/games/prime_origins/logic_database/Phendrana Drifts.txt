@@ -276,10 +276,14 @@ Extra - room_height: 224
   * Extra - instance_id: 112130
   * Extra - facing: 0
   * Extra - dest_room: phe_Control_Tower
+  > Pickup (Artifact of Elder)
+      Missile Launcher and Plasma Beam
 
 > Pickup (Artifact of Elder); Heals? False
   * Layers: default
   * Pickup 97; Category? Major
+  > Open Access to Control Tower
+      Trivial
 
 ----------------
 Control Tower
@@ -1323,6 +1327,8 @@ Extra - room_height: 448
           Can Use Boost Ball and Can Use Spider Ball
   > Door to South Quarantine Tunnel
       Can Use Spider Ball
+  > Pickup (Spider Ball)
+      Trivial
 
 > Door to South Quarantine Tunnel; Heals? False
   * Layers: default
@@ -1336,6 +1342,8 @@ Extra - room_height: 448
 > Pickup (Spider Ball); Heals? False
   * Layers: default
   * Pickup 95; Category? Major
+  > Door to North Quarantine Tunnel
+      Trivial
 
 ----------------
 Quarantine Monitor
@@ -1966,7 +1974,7 @@ Extra - room_height: 224
   * Extra - instance_id: 114573
   * Extra - facing: 0
   * Extra - dest_room: phe_Transport_Access
-  > Elevator from Magmoor Caverns
+  > Elevator to Magmoor Caverns
       Ice Beam and Morph Ball
 
 > Door to South Quarantine Tunnel; Heals? False
@@ -1975,12 +1983,12 @@ Extra - room_height: 224
   * Extra - instance_id: 114574
   * Extra - facing: 0
   * Extra - dest_room: phe_South_Quarantine_Tunnel
-  > Elevator from Magmoor Caverns
+  > Elevator to Magmoor Caverns
       Trivial
 
-> Elevator from Magmoor Caverns; Heals? False
+> Elevator to Magmoor Caverns; Heals? False
   * Layers: default
-  * Elevator to Transport to Phendrana Drifts South/Elevator from Phendrana Drifts
+  * Elevator to Transport to Phendrana Drifts South/Elevator to Phendrana Drifts
   > Door to Transport Access
       Ice Beam and Can Use Spider Ball
   > Door to South Quarantine Tunnel
@@ -1998,12 +2006,12 @@ Extra - room_height: 224
   * Extra - instance_id: 114643
   * Extra - facing: 0
   * Extra - dest_room: phe_Shoreline_Entrance
-  > Elevator from Magmoor Caverns
+  > Elevator to Magmoor Caverns
       Trivial
 
-> Elevator from Magmoor Caverns; Heals? False
+> Elevator to Magmoor Caverns; Heals? False
   * Layers: default
-  * Elevator to Transport to Phendrana Drifts North/Elevator from Phendrana Drifts
+  * Elevator to Transport to Phendrana Drifts North/Elevator to Phendrana Drifts
   > Door to Shoreline Entrance
       Trivial
 
