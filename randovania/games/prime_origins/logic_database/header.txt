@@ -61,7 +61,7 @@ Dock Weaknesses
 > Elevator
   * Elevator
       Open:
-          Impossible
+          Trivial
       No lock
 
   > Dock Rando: Disabled

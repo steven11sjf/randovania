@@ -161,38 +161,38 @@ Extra - room_height: 224
       Trivial
 
 ----------------
-Cargo Freight Lift to Deck Gamma ( Partially Submerged )
+Cargo Freight Lift to Deck Gamma (Partially Submerged)
 Extra - room_name: tal_Cargo_Freight_Lift_to_Deck_Gamma_subB
 Extra - map_name: tal_Cargo_Freight_Lift_to_Deck_Gamma_subB
 Extra - room_width: 960
 Extra - room_height: 672
-> Door to Cargo Freight Lift to Deck Gamma; Heals? False
+> Open Access to Cargo Freight Lift to Deck Gamma; Heals? False
   * Layers: default
-  * Open Access (Horizontal) to Cargo Freight Lift to Deck Gamma/Door to Cargo Freight Lift to Deck Gamma ( Partially Submerged )
+  * Open Access (Horizontal) to Cargo Freight Lift to Deck Gamma/Open Access to Cargo Freight Lift to Deck Gamma (Partially Submerged)
   * Extra - instance_id: 115154
   * Extra - facing: 0
   * Extra - dest_room: tal_Cargo_Freight_Lift_to_Deck_Gamma
-  > Door to Cargo Freight Lift to Deck Gamma ( Dry )
+  > Door to Cargo Freight Lift to Deck Gamma (Dry)
       Morph Ball and Wave Beam
 
-> Door to Cargo Freight Lift to Deck Gamma ( Dry ); Heals? False
+> Door to Cargo Freight Lift to Deck Gamma (Dry); Heals? False
   * Layers: default
-  * Beam Door to Cargo Freight Lift to Deck Gamma ( Dry )/Door to Cargo Freight Lift to Deck Gamma ( Partially Submerged )
+  * Beam Door to Cargo Freight Lift to Deck Gamma (Dry)/Door to Cargo Freight Lift to Deck Gamma (Partially Submerged)
   * Extra - instance_id: 115184
   * Extra - facing: 0
   * Extra - dest_room: tal_Cargo_Freight_Lift_to_Deck_Gamma_subC
-  > Door to Cargo Freight Lift to Deck Gamma
+  > Open Access to Cargo Freight Lift to Deck Gamma
       Morph Ball
 
 ----------------
-Cargo Freight Lift to Deck Gamma ( Dry )
+Cargo Freight Lift to Deck Gamma (Dry)
 Extra - room_name: tal_Cargo_Freight_Lift_to_Deck_Gamma_subC
 Extra - map_name: tal_Cargo_Freight_Lift_to_Deck_Gamma_subC
 Extra - room_width: 320
 Extra - room_height: 224
-> Door to Cargo Freight Lift to Deck Gamma ( Partially Submerged ); Heals? False
+> Door to Cargo Freight Lift to Deck Gamma (Partially Submerged); Heals? False
   * Layers: default
-  * Beam Door to Cargo Freight Lift to Deck Gamma ( Partially Submerged )/Door to Cargo Freight Lift to Deck Gamma ( Dry )
+  * Beam Door to Cargo Freight Lift to Deck Gamma (Partially Submerged)/Door to Cargo Freight Lift to Deck Gamma (Dry)
   * Extra - instance_id: 115256
   * Extra - facing: 0
   * Extra - dest_room: tal_Cargo_Freight_Lift_to_Deck_Gamma_subB
@@ -201,11 +201,11 @@ Extra - room_height: 224
 
 > Door to Deck Beta Transit Hall; Heals? False
   * Layers: default
-  * Beam Door to Deck Beta Transit Hall/Door to Cargo Freight Lift to Deck Gamma ( Dry )
+  * Beam Door to Deck Beta Transit Hall/Door to Cargo Freight Lift to Deck Gamma (Dry)
   * Extra - instance_id: 115257
   * Extra - facing: 0
   * Extra - dest_room: tal_Deck_Beta_Transit_Hall
-  > Door to Cargo Freight Lift to Deck Gamma ( Partially Submerged )
+  > Door to Cargo Freight Lift to Deck Gamma (Partially Submerged)
       Trivial
 
 ----------------
@@ -214,24 +214,24 @@ Extra - room_name: tal_Cargo_Freight_Lift_to_Deck_Gamma
 Extra - map_name: tal_Cargo_Freight_Lift_to_Deck_Gamma
 Extra - room_width: 320
 Extra - room_height: 224
-> Door to Reactor Access; Heals? False
+> Open Access to Reactor Access; Heals? False
   * Layers: default
-  * Open Access (Horizontal) to Reactor Access/Door to Cargo Freight Lift to Deck Gamma
+  * Open Access (Horizontal) to Reactor Access/Open Access to Cargo Freight Lift to Deck Gamma
   * Extra - instance_id: 115285
   * Extra - facing: 0
   * Extra - dest_room: tal_Reactor_Access
-  > Door to Cargo Freight Lift to Deck Gamma ( Partially Submerged )
+  > Open Access to Cargo Freight Lift to Deck Gamma (Partially Submerged)
       Trivial
   > Pickup (Energy Tank)
       Missile Launcher
 
-> Door to Cargo Freight Lift to Deck Gamma ( Partially Submerged ); Heals? False
+> Open Access to Cargo Freight Lift to Deck Gamma (Partially Submerged); Heals? False
   * Layers: default
-  * Open Access (Horizontal) to Cargo Freight Lift to Deck Gamma ( Partially Submerged )/Door to Cargo Freight Lift to Deck Gamma
+  * Open Access (Horizontal) to Cargo Freight Lift to Deck Gamma (Partially Submerged)/Open Access to Cargo Freight Lift to Deck Gamma
   * Extra - instance_id: 115286
   * Extra - facing: 0
   * Extra - dest_room: tal_Cargo_Freight_Lift_to_Deck_Gamma_subB
-  > Door to Reactor Access
+  > Open Access to Reactor Access
       Trivial
 
 > Pickup (Energy Tank); Heals? False
@@ -241,7 +241,7 @@ Extra - room_height: 224
   * Extra - object_name: obj_expansion_energy_tank
   * Extra - item_type: Energy Tank
   * Extra - is_major: minor
-  > Door to Reactor Access
+  > Open Access to Reactor Access
       Trivial
 
 ----------------
@@ -256,10 +256,22 @@ Extra - room_height: 448
   * Extra - instance_id: 115334
   * Extra - facing: 0
   * Extra - dest_room: tal_Artifact_Temple
+  > Pickup (Artifact of Truth)
+      Trivial
+  > Elevator to Impact Crater
+      Trivial
 
 > Pickup (Artifact of Truth); Heals? False
   * Layers: default
   * Pickup 98; Category? Major
+  > Door to Artifact Temple
+      Trivial
+
+> Elevator to Impact Crater; Heals? False
+  * Layers: default
+  * Elevator to Crater Entry Point/Elevator to Tallon Overworld
+  > Door to Artifact Temple
+      Trivial
 
 ----------------
 Connection Elevator to Deck Beta
@@ -398,9 +410,9 @@ Extra - room_name: tal_Deck_Beta_Transit_Hall
 Extra - map_name: tal_Deck_Beta_Transit_Hall
 Extra - room_width: 320
 Extra - room_height: 224
-> Door to Cargo Freight Lift to Deck Gamma ( Dry ); Heals? False
+> Door to Cargo Freight Lift to Deck Gamma (Dry); Heals? False
   * Layers: default
-  * Beam Door to Cargo Freight Lift to Deck Gamma ( Dry )/Door to Deck Beta Transit Hall
+  * Beam Door to Cargo Freight Lift to Deck Gamma (Dry)/Door to Deck Beta Transit Hall
   * Extra - instance_id: 115675
   * Extra - facing: 0
   * Extra - dest_room: tal_Cargo_Freight_Lift_to_Deck_Gamma_subC
@@ -413,7 +425,7 @@ Extra - room_height: 224
   * Extra - instance_id: 115676
   * Extra - facing: 0
   * Extra - dest_room: tal_Biohazard_Containment
-  > Door to Cargo Freight Lift to Deck Gamma ( Dry )
+  > Door to Cargo Freight Lift to Deck Gamma (Dry)
       Trivial
 
 ----------------
@@ -884,15 +896,15 @@ Extra - room_name: tal_Reactor_Access
 Extra - map_name: tal_Reactor_Access
 Extra - room_width: 320
 Extra - room_height: 448
-> Door to Reactor Core; Heals? False
+> Open Access to Reactor Core; Heals? False
   * Layers: default
-  * Open Access (Horizontal) to Reactor Core/Door to Reactor Access
+  * Open Access (Horizontal) to Reactor Core/Open Access to Reactor Access
   * Extra - instance_id: 116454
   * Extra - facing: 0
   * Extra - dest_room: tal_Reactor_Core
   > Door to Save Station
       Trivial
-  > Door to Cargo Freight Lift to Deck Gamma
+  > Open Access to Cargo Freight Lift to Deck Gamma
       All of the following:
           After Reactor Access Wave Slots
           Grapple Beam or Gravity Suit
@@ -907,22 +919,22 @@ Extra - room_height: 448
   * Extra - instance_id: 116455
   * Extra - facing: 0
   * Extra - dest_room: tal_Save_Station
-  > Door to Reactor Core
+  > Open Access to Reactor Core
       Trivial
 
-> Door to Cargo Freight Lift to Deck Gamma; Heals? False
+> Open Access to Cargo Freight Lift to Deck Gamma; Heals? False
   * Layers: default
-  * Open Access (Horizontal) to Cargo Freight Lift to Deck Gamma/Door to Reactor Access
+  * Open Access (Horizontal) to Cargo Freight Lift to Deck Gamma/Open Access to Reactor Access
   * Extra - instance_id: 116456
   * Extra - facing: 0
   * Extra - dest_room: tal_Cargo_Freight_Lift_to_Deck_Gamma
-  > Door to Reactor Core
+  > Open Access to Reactor Core
       After Reactor Access Wave Slots
 
 > Event - Nodes Activated; Heals? False
   * Layers: default
   * Event Reactor Access Wave Slots
-  > Door to Reactor Core
+  > Open Access to Reactor Core
       Trivial
 
 ----------------
@@ -937,12 +949,12 @@ Extra - room_height: 448
   * Extra - instance_id: 116535
   * Extra - facing: 0
   * Extra - dest_room: tal_Main_Ventilation_Shaft_Section_A
-  > Door to Reactor Access
+  > Open Access to Reactor Access
       Wave Beam and Can Break Bomb Blocks
 
-> Door to Reactor Access; Heals? False
+> Open Access to Reactor Access; Heals? False
   * Layers: default
-  * Open Access (Horizontal) to Reactor Access/Door to Reactor Core
+  * Open Access (Horizontal) to Reactor Access/Open Access to Reactor Core
   * Extra - instance_id: 116536
   * Extra - facing: 0
   * Extra - dest_room: tal_Reactor_Access
@@ -1163,12 +1175,12 @@ Extra - room_height: 224
   * Extra - instance_id: 117050
   * Extra - facing: 0
   * Extra - dest_room: tal_Transport_Tunnel_C
-  > Door to Transport to Tallon Overworld East
+  > Elevator to Chozo Ruins
       Trivial
 
-> Door to Transport to Tallon Overworld East; Heals? False
+> Elevator to Chozo Ruins; Heals? False
   * Layers: default
-  * Elevator to Transport to Tallon Overworld East/Elevator to Transport to Chozo Ruins East
+  * Elevator to Transport to Tallon Overworld East/Elevator to Tallon Overworld
   > Door to Transport Tunnel C
       Trivial
 
@@ -1184,12 +1196,12 @@ Extra - room_height: 224
   * Extra - instance_id: 117085
   * Extra - facing: 0
   * Extra - dest_room: tal_Transport_Tunnel_D
-  > Elevator to Transport to Tallon Overworld South
+  > Elevator to Chozo Ruins
       Trivial
 
-> Elevator to Transport to Tallon Overworld South; Heals? False
+> Elevator to Chozo Ruins; Heals? False
   * Layers: default
-  * Beam Door to Transport to Tallon Overworld South/Elevator to Transport to Chozo Ruins South
+  * Elevator to Transport to Tallon Overworld South/Elevator to Tallon Overworld
   > Door to Transport Tunnel D
       Trivial
 
@@ -1205,12 +1217,12 @@ Extra - room_height: 224
   * Extra - instance_id: 117087
   * Extra - facing: 0
   * Extra - dest_room: tal_Transport_Tunnel_A
-  > Elevator to Transport to Tallon Overworld North
+  > Elevator to Chozo Ruins
       Trivial
 
-> Elevator to Transport to Tallon Overworld North; Heals? False
+> Elevator to Chozo Ruins; Heals? False
   * Layers: default
-  * Elevator to Transport to Tallon Overworld North/Door to Ruins Entrance
+  * Elevator to Transport to Tallon Overworld North/Door to Tallon Overworld
   > Door to Transport Tunnel A
       Trivial
 
@@ -1226,12 +1238,12 @@ Extra - room_height: 224
   * Extra - instance_id: 117111
   * Extra - facing: 0
   * Extra - dest_room: tal_Transport_Tunnel_B
-  > Elevator to Transport To Tallon Overworld West
+  > Elevator to Magmoor Caverns
       Trivial
 
-> Elevator to Transport To Tallon Overworld West; Heals? False
+> Elevator to Magmoor Caverns; Heals? False
   * Layers: default
-  * Elevator to Transport to Tallon Overworld West/Door to Transport Tunnel B
+  * Elevator to Transport to Tallon Overworld West/Elevator to Tallon Overworld
   > Door to Transport Tunnel B
       Trivial
 
@@ -1247,12 +1259,12 @@ Extra - room_height: 224
   * Extra - instance_id: 117146
   * Extra - facing: 0
   * Extra - dest_room: tal_Transport_Tunnel_E
-  > Elevator to Transport to Tallon Overworld South
+  > Elevator to Phazon Mines
       Trivial
 
-> Elevator to Transport to Tallon Overworld South; Heals? False
+> Elevator to Phazon Mines; Heals? False
   * Layers: default
-  * Elevator to Transport to Tallon Overworld South/Door to Quarry Access
+  * Elevator to Transport to Tallon Overworld South/Elevator to Tallon Overworld
   > Door to Transport Tunnel E
       Trivial
 
