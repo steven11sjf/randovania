@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import dataclasses
+import platform
+from pathlib import Path
 from typing import TYPE_CHECKING
 
 from randovania.game.game_enum import RandovaniaGame
@@ -10,9 +12,28 @@ from randovania.games.prime_origins.layout import MPOConfiguration
 from randovania.gui.dialog.game_export_dialog import GameExportDialog, spoiler_path_for
 
 if TYPE_CHECKING:
-    from pathlib import Path
-
     from randovania.interface_common.options import PerGameOptions
+
+
+def _is_valid_input_dir(path: Path) -> bool:
+    # Checks whether data file and runner exist.
+    current_platform = platform.system()
+    if current_platform == "Windows":
+        return path.joinpath("data.win").exists() and path.joinpath("MetroidPrimeOrigins.exe").exists()
+    if current_platform == "Linux":
+        # AppImage
+        return (
+            path.joinpath("MetroidPrimeOrigins.AppImage").exists()
+            # Flatpak/non-packed
+            or (path.joinpath("assets", "game.unx").exists() and path.joinpath("runner").exists())
+        )
+    if current_platform == "Darwin":
+        return (
+            path.joinpath("MetroidPrimeOrigins.app", "Contents", "Resources", "game.ios").exists()
+            and path.joinpath("MetroidPrimeOrigins.app", "Contents", "MacOS", "Mac_Runner").exists()
+        )
+
+    return False
 
 
 class MPOGameExportDialog(GameExportDialog[MPOConfiguration]):
@@ -26,7 +47,7 @@ class MPOGameExportDialog(GameExportDialog[MPOConfiguration]):
 
     @property
     def input_file(self) -> Path:
-        raise NotImplementedError("This method hasn't been implemented yet")
+        return Path(self.input_file_edit.text())
 
     @property
     def output_file(self) -> Path:
