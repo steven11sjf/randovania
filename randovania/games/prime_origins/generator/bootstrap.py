@@ -13,4 +13,10 @@ if TYPE_CHECKING:
 
 class MPOBootstrap(Bootstrap[MPOConfiguration]):
     def create_damage_state(self, game: GameDatabaseView, configuration: MPOConfiguration) -> DamageState:
-        return EnergyTankDamageState(100, 100, game.get_resource_database_view().get_item("Health"), [])
+        db = game.get_resource_database_view()
+        return EnergyTankDamageState(
+            100,
+            100,
+            db.get_item("EnergyTank"),
+            [db.get_item(suit) for suit in ["VariaSuit", "GravitySuit", "PhazonSuit"]],
+        )

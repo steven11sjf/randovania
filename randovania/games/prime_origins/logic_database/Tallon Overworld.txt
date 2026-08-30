@@ -685,8 +685,10 @@ Extra - room_height: 672
   > Spawn Point
       Trivial
 
-> Spawn Point; Heals? False
+> Spawn Point; Heals? False; Spawn Point
   * Layers: default
+  * Extra - x: 400
+  * Extra - y: 516
   > Door to Canyon Cavern
       Trivial
   > Door to Gully

@@ -12,8 +12,8 @@
         },
         "starting_location": [
             {
-                "region": "Main",
-                "area": "First Area",
+                "region": "Tallon Overworld",
+                "area": "Landing Site",
                 "node": "Spawn Point"
             }
         ],
@@ -23,7 +23,82 @@
         },
         "standard_pickup_configuration": {
             "pickups_state": {
-                "Powerful Weapon": {
+                "Charge Beam": {
+                    "num_shuffled_pickups": 2
+                },
+                "Power Beam": {
+                    "num_included_in_starting_pickups": 1
+                },
+                "Wave Beam": {
+                    "num_shuffled_pickups": 1
+                },
+                "Ice Beam": {
+                    "num_shuffled_pickups": 1
+                },
+                "Plasma Beam": {
+                    "num_shuffled_pickups": 1
+                },
+                "Missile Launcher": {
+                    "num_shuffled_pickups": 1,
+                    "included_ammo": [
+                        5
+                    ]
+                },
+                "Grapple Beam": {
+                    "num_shuffled_pickups": 1
+                },
+                "Spazer": {
+                    "num_shuffled_pickups": 1
+                },
+                "Screw Attack": {
+                    "num_shuffled_pickups": 1
+                },
+                "Space Jump Boots": {
+                    "num_shuffled_pickups": 1
+                },
+                "Energy Tank": {
+                    "num_shuffled_pickups": 14
+                },
+                "Morph Ball": {
+                    "num_shuffled_pickups": 1
+                },
+                "Morph Ball Bomb": {
+                    "num_shuffled_pickups": 1
+                },
+                "Boost Ball": {
+                    "num_shuffled_pickups": 1
+                },
+                "Spider Ball": {
+                    "num_shuffled_pickups": 1
+                },
+                "Power Bomb": {
+                    "num_shuffled_pickups": 1,
+                    "included_ammo": [
+                        4
+                    ]
+                },
+                "Power Suit": {
+                    "num_included_in_starting_pickups": 1
+                },
+                "Varia Suit": {
+                    "num_shuffled_pickups": 1
+                },
+                "Gravity Suit": {
+                    "num_shuffled_pickups": 1
+                },
+                "Phazon Suit": {
+                    "num_shuffled_pickups": 1
+                },
+                "Super Missile": {
+                    "num_shuffled_pickups": 1
+                },
+                "Wavebuster": {
+                    "num_shuffled_pickups": 1
+                },
+                "Ice Spreader": {
+                    "num_shuffled_pickups": 1
+                },
+                "Flamethrower": {
                     "num_shuffled_pickups": 1
                 }
             },
@@ -32,7 +107,22 @@
             "maximum_random_starting_pickups": 0
         },
         "ammo_pickup_configuration": {
-            "pickups_state": {}
+            "pickups_state": {
+                "Missile Expansion": {
+                    "ammo_count": [
+                        5
+                    ],
+                    "pickup_count": 49,
+                    "requires_main_item": false
+                },
+                "Power Bomb Expansion": {
+                    "ammo_count": [
+                        1
+                    ],
+                    "pickup_count": 4,
+                    "requires_main_item": false
+                }
+            }
         },
         "damage_strictness": 1.5,
         "pickup_model_style": "all-visible",

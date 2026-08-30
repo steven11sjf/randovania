@@ -17,13 +17,14 @@ factorio-randovania-mod = false
 open-samus-returns-rando = false
 random-enemy-attributes = false
 cave-story-randomizer = false
+mpo-yampfs = false
 retro-data-structures = false
-mp2hudcolor = false
 mars-patcher = false
 am2r-yams = false
+mp2hudcolor = false
 open-prime-hunters-rando = false
-open-dread-rando = false
 py-randomprime = false
+open-dread-rando = false
 
 [[package]]
 name = "aiocache"
@@ -1723,6 +1724,28 @@ wheels = [
 ]
 
 [[package]]
+name = "mpo-yampfs"
+version = "0.1.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pythonnet" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/94/71/2485afb3f61abfc1519359a30a71806df614c8e740f4725442e7c0ca279b/mpo_yampfs-0.1.4-cp312-cp312-macosx_14_0_arm64.whl", hash = "sha256:24560816f542cf1d98d391c586a21ef6461ea1db7a48d6a3123d7ab323c1bab4", size = 52162038, upload-time = "2026-08-30T02:28:01.337Z" },
+    { url = "https://files.pythonhosted.org/packages/be/f0/3b28d123df425d96a8d7d88694ae2c37f6574c63adad2199a11500a4358f/mpo_yampfs-0.1.4-cp312-cp312-manylinux_2_34_x86_64.whl", hash = "sha256:6e50ce7fc4ac856a56bfe998b082802a2a5e181327a88a3800e3277cf5f045ea", size = 59122244, upload-time = "2026-08-30T02:28:04.715Z" },
+    { url = "https://files.pythonhosted.org/packages/88/ba/2e287fc3f2ec2104801b20d0f5a4cf6319fde8e3d8c9df2645a49acb1483/mpo_yampfs-0.1.4-cp312-cp312-win32.whl", hash = "sha256:f37b40efdf184d9cce07cf2a75ace11b2423dc89c81bb45a9e1b341d62df0ce0", size = 53851093, upload-time = "2026-08-30T02:28:08.004Z" },
+    { url = "https://files.pythonhosted.org/packages/f2/2b/97afa99b5fc60a7384ce548855d0698f4470fa695184601535d64c71bf53/mpo_yampfs-0.1.4-cp312-cp312-win_amd64.whl", hash = "sha256:f646a141491616b1f4d3d786f10fc52cb6dbb3bfc687dc8c01f3e15504645bd5", size = 53851099, upload-time = "2026-08-30T02:28:10.929Z" },
+    { url = "https://files.pythonhosted.org/packages/c2/03/a20c2970cc6cb91569928a5d51187887eb94c66545112b75ffef42c37ad4/mpo_yampfs-0.1.4-cp313-cp313-macosx_14_0_arm64.whl", hash = "sha256:d2326e5c1acdfe7054f8a2570b0f8738eafef75fc02d0b12a5a0a9cc6fc2634d", size = 52162039, upload-time = "2026-08-30T02:28:14.248Z" },
+    { url = "https://files.pythonhosted.org/packages/d8/1a/c6c1da2c042ccb388e554610edf971670d8a95e651f340f3742e9156e81a/mpo_yampfs-0.1.4-cp313-cp313-manylinux_2_34_x86_64.whl", hash = "sha256:d87f082f661863b42a3856e2b8afc7f4259f8fd45380e4b3221236db1a5f57be", size = 59122242, upload-time = "2026-08-30T02:28:17.445Z" },
+    { url = "https://files.pythonhosted.org/packages/fe/4c/7e7141dc6b50f793d80664e4edebf852249b8091a7b9f4a2379c234b351d/mpo_yampfs-0.1.4-cp313-cp313-win32.whl", hash = "sha256:2ecf7f1c167173a690b0af6be3401e100599ad4bcb02517d0f46318562154afe", size = 53851093, upload-time = "2026-08-30T02:28:20.554Z" },
+    { url = "https://files.pythonhosted.org/packages/b8/4f/c7e159de68027e8a28b50346299bb53ce87395ac51de4f8787ab12a27aff/mpo_yampfs-0.1.4-cp313-cp313-win_amd64.whl", hash = "sha256:f866c9849003b4a5fbd7a06e497b1ef92f80c3a1b312f819a2b7006b24c091f5", size = 53851098, upload-time = "2026-08-30T02:28:23.497Z" },
+    { url = "https://files.pythonhosted.org/packages/7d/41/6bd0d415cce1b61801bf6097a75acf3b5107a0b53815c60496ec88927a59/mpo_yampfs-0.1.4-cp314-cp314-macosx_14_0_arm64.whl", hash = "sha256:9275e7fe406e01b6c63c48acfb8f02fd2ae7937dd14115d1a202e800dc85c1b0", size = 52162039, upload-time = "2026-08-30T02:28:26.469Z" },
+    { url = "https://files.pythonhosted.org/packages/ac/4a/0178603abca4ff8f9141a7aedeb9335ed0fc4e1b1dd0d64b900a06675366/mpo_yampfs-0.1.4-cp314-cp314-manylinux_2_34_x86_64.whl", hash = "sha256:bd1bfda47bfdbeee04688d2dd1aa9fcc5c52b6e50ee93779343d59c756de7278", size = 59122242, upload-time = "2026-08-30T02:28:29.477Z" },
+    { url = "https://files.pythonhosted.org/packages/a4/8d/b1ac87764aa36cb998ba76df40432f346be62c6a0ff74cae744c53efff04/mpo_yampfs-0.1.4-cp314-cp314-win32.whl", hash = "sha256:2101e1b4582a0f14d9269ba0ea3d476284254a09c8921c210923fdacd9cacaf8", size = 55580932, upload-time = "2026-08-30T02:28:33.06Z" },
+    { url = "https://files.pythonhosted.org/packages/de/94/c806b6eb43d8dad087d1da6860556d8651418ad0387de10586ad6b315023/mpo_yampfs-0.1.4-cp314-cp314-win_amd64.whl", hash = "sha256:3683badb9639944b7bba6c420621c81868c75562694774e22a85dba3993e699c", size = 55580941, upload-time = "2026-08-30T02:28:36.591Z" },
+]
+
+[[package]]
 name = "multidict"
 version = "6.7.1"
 source = { registry = "https://pypi.org/simple" }
@@ -3086,6 +3109,7 @@ exporters = [
     { name = "factorio-randovania-mod" },
     { name = "mars-patcher" },
     { name = "mp2hudcolor" },
+    { name = "mpo-yampfs" },
     { name = "open-dread-rando" },
     { name = "open-prime-hunters-rando" },
     { name = "open-prime-rando", extra = ["nod"] },
@@ -3199,6 +3223,7 @@ requires-dist = [
     { name = "mars-patcher", marker = "extra == 'exporters'", specifier = "==0.15.0" },
     { name = "matplotlib", marker = "extra == 'gui'", specifier = ">=3.6.2" },
     { name = "mp2hudcolor", marker = "extra == 'exporters'", specifier = "==1.0.14" },
+    { name = "mpo-yampfs", marker = "extra == 'exporters'", specifier = "==0.1.4" },
     { name = "natsort", marker = "extra == 'gui'" },
     { name = "networkx" },
     { name = "nod", marker = "extra == 'gui'", specifier = ">=1.9" },
