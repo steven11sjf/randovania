@@ -466,6 +466,14 @@ Extra - room_height: 224
   * Extra - instance_id: 105477
   * Extra - facing: 90
   * Extra - dest_room: imp_Crater_Drop_D
+  > Event - Metroid Prime Defeated
+      Trivial
+
+> Event - Metroid Prime Defeated; Heals? False
+  * Layers: default
+  * Event Metroid Prime Defeated
+  > Open Access to Crater Drop D
+      Trivial
 
 ----------------
 Phazon Core Alpha

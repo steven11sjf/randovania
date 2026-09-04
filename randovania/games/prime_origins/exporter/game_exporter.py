@@ -1,12 +1,19 @@
 from __future__ import annotations
 
 import dataclasses
+import json
+import multiprocessing
+from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Any
 
+from randovania import monitoring
 from randovania.exporter.game_exporter import GameExporter, GameExportParams
+from randovania.games.common.dotnet import is_dotnet_set_up
 
 if TYPE_CHECKING:
+    from multiprocessing.connection import _ConnectionBase
+
     from randovania.exporter.patch_data_factory import PatcherDataMeta
     from randovania.lib import status_update_lib
 
@@ -47,4 +54,47 @@ class MPOGameExporter(GameExporter[MPOGameExportParams]):
         progress_update: status_update_lib.ProgressUpdateCallable,
         randovania_meta: PatcherDataMeta,
     ) -> None:
-        raise RuntimeError("Needs to be implemented")
+        # Check if dotnet is available
+        # Raises error in case it's not set up
+        is_dotnet_set_up()
+
+        receiving_pipe, output_pipe = multiprocessing.Pipe(True)
+
+        def on_done(_: Any) -> None:
+            output_pipe.send(None)
+
+        with ProcessPoolExecutor(max_workers=1) as executor:
+            future = executor.submit(_run_patcher, patch_data, export_params, output_pipe)
+            future.add_done_callback(on_done)
+            while not future.done():
+                result = receiving_pipe.recv()
+                if result is None:
+                    break
+                message, progress = result
+                if message is not None:
+                    try:
+                        progress_update(message, progress)
+                    except Exception:
+                        # This should only get triggered when user wants to cancel exporting.
+                        # Cancelling is currently broken and thus disabled. If it gets fixed, then this should be
+                        # revisited and a test case should be written for this.
+                        receiving_pipe.send("close")
+                        raise
+            future.result()
+
+
+@monitoring.trace_function
+def _run_patcher(patch_data: dict, export_params: MPOGameExportParams, output_pipe: _ConnectionBase) -> None:
+    # Delay this, so that we only load CLR/dotnet when exporting
+    import mpo_yampfs  # type: ignore[import-untyped]
+
+    def status_update(message: str, progress: float) -> None:
+        output_pipe.send((message, progress))
+        if output_pipe.poll():
+            raise RuntimeError(output_pipe.recv())
+
+    print(json.dumps(patch_data, indent=4))
+    with mpo_yampfs.load_wrapper() as wrapper:
+        # patch_data["configuration_identifier"]["randovania_version"] = f"Randovania {randovania.VERSION}"
+        # patch_data["configuration_identifier"]["patcher_version"] = f"YAMS {wrapper.get_csharp_version()}"
+        wrapper.patch_game(export_params.input_path, export_params.output_path, patch_data, status_update)

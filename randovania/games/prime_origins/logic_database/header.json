@@ -23,6 +23,13 @@
                 "max_capacity": 1,
                 "extra": {}
             },
+            "Missile": {
+                "long_name": "Missile",
+                "max_capacity": 999,
+                "extra": {
+                    "item_id": 4
+                }
+            },
             "MorphBall": {
                 "long_name": "Morph Ball",
                 "max_capacity": 1,
@@ -35,6 +42,11 @@
             },
             "ChargeBeam": {
                 "long_name": "Charge Beam",
+                "max_capacity": 1,
+                "extra": {}
+            },
+            "PowerSuit": {
+                "long_name": "Power Suit",
                 "max_capacity": 1,
                 "extra": {}
             },
@@ -108,6 +120,27 @@
                 "max_capacity": 1,
                 "extra": {}
             },
+            "LockedPB": {
+                "long_name": "Locked Power Bomb",
+                "max_capacity": 99,
+                "extra": {
+                    "item_id": 1006
+                }
+            },
+            "PowerBomb": {
+                "long_name": "Power Bomb",
+                "max_capacity": 99,
+                "extra": {
+                    "item_id": 7
+                }
+            },
+            "LockedMissile": {
+                "long_name": "Locked Missile",
+                "max_capacity": 999,
+                "extra": {
+                    "item_id": 1008
+                }
+            },
             "MissileExpansion": {
                 "long_name": "Missile Expansion",
                 "max_capacity": 1,
@@ -172,6 +205,10 @@
             },
             "GTHSpinner": {
                 "long_name": "Great Tree Hall Spinner",
+                "extra": {}
+            },
+            "MetroidPrimeDefeated": {
+                "long_name": "Metroid Prime Defeated",
                 "extra": {}
             }
         },
@@ -398,8 +435,8 @@
     "victory_condition": {
         "type": "resource",
         "data": {
-            "type": "items",
-            "name": "ScrewAttack",
+            "type": "events",
+            "name": "MetroidPrimeDefeated",
             "amount": 1,
             "negate": false
         }

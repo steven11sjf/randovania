@@ -3247,8 +3247,11 @@
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
-                    "valid_starting_location": false,
+                    "extra": {
+                        "x": 400,
+                        "y": 516
+                    },
+                    "valid_starting_location": true,
                     "connections": {
                         "Door to Canyon Cavern": {
                             "type": "and",

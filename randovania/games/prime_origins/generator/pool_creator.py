@@ -1,9 +1,10 @@
 from __future__ import annotations
 
+from enum import Enum
 from typing import TYPE_CHECKING
 
+from randovania.bitpacking.bitpacking import BitPackEnum
 from randovania.games.prime_origins.layout.prime_origins_configuration import MPOConfiguration
-from randovania.generator.pickup_pool.pickup_creator import create_generated_pickup
 
 if TYPE_CHECKING:
     from randovania.game_description.game_database_view import GameDatabaseView
@@ -11,9 +12,10 @@ if TYPE_CHECKING:
     from randovania.layout.base.base_configuration import BaseConfiguration
 
 
+class InGameMode(BitPackEnum, Enum):
+    CLASSIC = "Classic"
+    REMIX = "Remix"
+
+
 def pool_creator(results: PoolResults, configuration: BaseConfiguration, game: GameDatabaseView) -> None:
     assert isinstance(configuration, MPOConfiguration)
-
-    results.to_place.append(
-        create_generated_pickup("Victory Key", game.get_resource_database_view(), game.get_pickup_database())
-    )
