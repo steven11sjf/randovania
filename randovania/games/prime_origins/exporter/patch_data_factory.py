@@ -80,7 +80,7 @@ class MPOPatchDataFactory(PatchDataFactory[MPOConfiguration, MPOCosmeticPatches]
         }
 
     def create_game_specific_data(self, randovania_meta: PatcherDataMeta) -> dict:
-        model_data = json_lib.read_path(
+        model_data: dict = json_lib.read_path(
             RandovaniaGame.PRIME_ORIGINS.data_path.joinpath("pickup_database", "model-data.json")
         )
         pickup_list = self.export_pickup_list()
