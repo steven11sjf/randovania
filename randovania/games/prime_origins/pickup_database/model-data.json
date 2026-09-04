@@ -1,11 +1,20 @@
 {
     "Energy Tank": {
         "game_object": "obj_expansion_energy_tank",
-        "sprite": "sprEnergyTank_strip3",
+        "sprite": "sprItemEnergyTank_strip3",
         "item_key": "Energy Tanks Max",
         "is_adding": true,
         "display_name": "Energy Tank",
         "description": "Increases maximum energy capacity by 100. Collect more to use additional Aeon Powers at once.",
+        "fanfare": "bgmFanfareMinorItem"
+    },
+    "Missile Launcher": {
+        "game_object": "obj_expansion_missile",
+        "sprite": "sprItemMissile_strip3",
+        "item_key": "Missiles Max",
+        "is_adding": true,
+        "display_name": "Missile Launcher",
+        "description": "Maximum missile capacity increased by {COUNT}.",
         "fanfare": "bgmFanfareMinorItem"
     },
     "Missile Expansion": {
@@ -15,6 +24,15 @@
         "is_adding": true,
         "display_name": "Missile Expansion",
         "description": "Maximum missile capacity increased by {COUNT}.",
+        "fanfare": "bgmFanfareMinorItem"
+    },
+    "Power Bomb": {
+        "game_object": "obj_expansion_power_bomb",
+        "sprite": "sprItemPowerBomb_strip3",
+        "item_key": "Power Bombs Max",
+        "is_adding": true,
+        "display_name": "Power Bomb Detonator",
+        "description": "Maximum Power Bomb capacity increased by {COUNT}.",
         "fanfare": "bgmFanfareMinorItem"
     },
     "Power Bomb Expansion": {
@@ -146,7 +164,7 @@
         "fanfare": "bgmFanfareArtifact",
         "artifact_idx": 11
     },
-    "Morph Ball Bombs": {
+    "Morph Ball Bomb": {
         "game_object": "obj_upgrade_bomb",
         "sprite": "sprItemBomb",
         "item_key": "Morph Ball Bomb",
