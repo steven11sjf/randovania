@@ -6993,8 +6993,11 @@
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
-                    "valid_starting_location": false,
+                    "extra": {
+                        "x": 160,
+                        "y": 158
+                    },
+                    "valid_starting_location": true,
                     "connections": {
                         "Door to Ruined Courtyard": {
                             "type": "and",
@@ -7069,8 +7072,11 @@
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
-                    "valid_starting_location": false,
+                    "extra": {
+                        "x": 160,
+                        "y": 126
+                    },
+                    "valid_starting_location": true,
                     "connections": {
                         "Door to Phendrana Shorelines subC": {
                             "type": "and",
@@ -7145,8 +7151,11 @@
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
-                    "valid_starting_location": false,
+                    "extra": {
+                        "x": 160,
+                        "y": 142
+                    },
+                    "valid_starting_location": true,
                     "connections": {
                         "Door to Frost Cave": {
                             "type": "and",
@@ -7221,8 +7230,11 @@
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
-                    "valid_starting_location": false,
+                    "extra": {
+                        "x": 128,
+                        "y": 158
+                    },
+                    "valid_starting_location": true,
                     "connections": {
                         "Door to Observatory": {
                             "type": "and",

@@ -1174,8 +1174,10 @@ Extra - room_height: 224
   > Save Station
       Trivial
 
-> Save Station; Heals? False
+> Save Station; Heals? False; Spawn Point
   * Layers: default
+  * Extra - x: 192
+  * Extra - y: 126
   > Door to Main Quarry
       Trivial
 
@@ -1194,8 +1196,10 @@ Extra - room_height: 224
   > Save Station
       Trivial
 
-> Save Station; Heals? False
+> Save Station; Heals? False; Spawn Point
   * Layers: default
+  * Extra - x: 160
+  * Extra - y: 174
   > Door to Central Dynamo
       Trivial
 
@@ -1214,8 +1218,10 @@ Extra - room_height: 224
   > Save Station
       Trivial
 
-> Save Station; Heals? False
+> Save Station; Heals? False; Spawn Point
   * Layers: default
+  * Extra - x: 160
+  * Extra - y: 174
   > Door to Metroid Quarantine B
       Trivial
 

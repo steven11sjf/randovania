@@ -6476,16 +6476,19 @@
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
-                        "x": 159.8219462388925,
-                        "y": 54.132527640064325,
+                        "x": 160.0,
+                        "y": 52.0,
                         "z": 0.0
                     },
                     "description": "",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
-                    "valid_starting_location": false,
+                    "extra": {
+                        "x": 160,
+                        "y": 158
+                    },
+                    "valid_starting_location": true,
                     "connections": {
                         "Door to Ruined Nursery": {
                             "type": "and",
@@ -6552,16 +6555,19 @@
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
-                        "x": 159.2320614350852,
-                        "y": 54.98056155507561,
+                        "x": 160.0,
+                        "y": 52.0,
                         "z": 0.0
                     },
                     "description": "",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
-                    "valid_starting_location": false,
+                    "extra": {
+                        "x": 160,
+                        "y": 158
+                    },
+                    "valid_starting_location": true,
                     "connections": {
                         "Door to Gathering Hall": {
                             "type": "and",
@@ -6760,8 +6766,8 @@
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
-                        "x": 159.62,
-                        "y": 82.0,
+                        "x": 160.0,
+                        "y": 76.0,
                         "z": 0.0
                     },
                     "description": "",
@@ -6770,9 +6776,9 @@
                     ],
                     "extra": {
                         "x": 160,
-                        "y": 142
+                        "y": 144
                     },
-                    "valid_starting_location": false,
+                    "valid_starting_location": true,
                     "connections": {
                         "Door to Reflecting Pool": {
                             "type": "and",

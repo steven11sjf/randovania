@@ -1715,8 +1715,10 @@ Extra - room_height: 224
   > Save Station
       Trivial
 
-> Save Station; Heals? False
+> Save Station; Heals? False; Spawn Point
   * Layers: default
+  * Extra - x: 160
+  * Extra - y: 158
   > Door to Ruined Courtyard
       Trivial
 
@@ -1735,8 +1737,10 @@ Extra - room_height: 224
   > Save Station
       Trivial
 
-> Save Station; Heals? False
+> Save Station; Heals? False; Spawn Point
   * Layers: default
+  * Extra - x: 160
+  * Extra - y: 126
   > Door to Phendrana Shorelines subC
       Trivial
 
@@ -1755,8 +1759,10 @@ Extra - room_height: 224
   > Save Station
       Trivial
 
-> Save Station; Heals? False
+> Save Station; Heals? False; Spawn Point
   * Layers: default
+  * Extra - x: 160
+  * Extra - y: 142
   > Door to Frost Cave
       Trivial
 
@@ -1775,8 +1781,10 @@ Extra - room_height: 224
   > Save Station
       Trivial
 
-> Save Station; Heals? False
+> Save Station; Heals? False; Spawn Point
   * Layers: default
+  * Extra - x: 128
+  * Extra - y: 158
   > Door to Observatory
       Trivial
 

@@ -259,8 +259,10 @@ Extra - room_height: 448
   > Door to Crater Vein A
       Grapple Beam
 
-> Save Station; Heals? False
+> Save Station; Heals? False; Spawn Point
   * Layers: default
+  * Extra - x: 248
+  * Extra - y: 158
   > Door to Crater Vein A
       Trivial
 
@@ -299,8 +301,10 @@ Extra - room_height: 224
   > Save Station
       Trivial
 
-> Save Station; Heals? False
+> Save Station; Heals? False; Spawn Point
   * Layers: default
+  * Extra - x: 160
+  * Extra - y: 126
   > Door to Crater Depths
       Trivial
 

@@ -477,6 +477,15 @@ Extra - room_height: 224
   * Extra - instance_id: 107759
   * Extra - facing: 0
   * Extra - dest_room: mag_Burning_Trail_subB
+  > Save Station
+      Trivial
+
+> Save Station; Heals? False; Spawn Point
+  * Layers: default
+  * Extra - x: 160
+  * Extra - y: 158
+  > Door to Burning Trail (Platforms)
+      Trivial
 
 ----------------
 Save Station Magmoor B
@@ -490,6 +499,15 @@ Extra - room_height: 224
   * Extra - instance_id: 107766
   * Extra - facing: 0
   * Extra - dest_room: mag_Transport_to_Phendrana_Drifts_South
+  > Save Station
+      Trivial
+
+> Save Station; Heals? False; Spawn Point
+  * Layers: default
+  * Extra - x: 160
+  * Extra - y: 158
+  > Door to Transport to Phendrana Drifts South
+      Trivial
 
 ----------------
 Shore Tunnel
