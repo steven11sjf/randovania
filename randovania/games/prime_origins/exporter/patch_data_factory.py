@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from typing import TYPE_CHECKING, override
 
+import randovania
 from randovania.exporter.patch_data_factory import PatchDataFactory
 from randovania.game.game_enum import RandovaniaGame
 from randovania.games.prime_origins.exporter.hint_namer import MPOHintNamer
@@ -23,6 +24,13 @@ class MPOPatchDataFactory(PatchDataFactory[MPOConfiguration, MPOCosmeticPatches]
     def create_visual_nothing(self) -> PickupEntry:
         """The model of this pickup replaces the model of all pickups when PickupModelDataSource is ETM"""
         return pickup_creator.create_visual_nothing(self.game_enum(), "sItemUnknown")
+
+    def _create_identifier(self) -> dict:
+        return {
+            "hash": self.description.shareable_hash,
+            "word_hash": self.description.shareable_word_hash,
+            "randovania_version": f"Randovania {randovania.VERSION}",
+        }
 
     def _create_starting_items(self) -> dict:
         starting_resources = self.patches.starting_resources()
@@ -50,19 +58,22 @@ class MPOPatchDataFactory(PatchDataFactory[MPOConfiguration, MPOCosmeticPatches]
     def _create_pickup_config(self, pickup_list: list[ExportedPickupDetails], model_data: dict) -> dict:
         items = []
         for pickup in pickup_list:
-            data = model_data[pickup.name]
+            data: dict = model_data[pickup.name]
             if pickup.conditional_resources[0].resources:
                 quantity = pickup.conditional_resources[0].resources[0][1]
             else:
                 quantity = 1
+
+            desc: str = data["description"]
+            desc.replace("{COUNT}", str(quantity))
+
             pickup_entry = {
                 "pickup_index": pickup.index.index,
-                "game_object_name": data["game_object"],
                 "item_key": data["item_key"],
                 "item_val": quantity,
                 "item_display_name": data["display_name"],
-                "item_description": data["description"],
-                "aeons": [],
+                "item_description": desc,
+                "aeons": data.get("default_aeons", []),
                 "sprite": data["sprite"],
                 "fanfare": data["fanfare"],
             }
@@ -70,6 +81,15 @@ class MPOPatchDataFactory(PatchDataFactory[MPOConfiguration, MPOCosmeticPatches]
             if "artifact_idx" in data:
                 pickup_entry["artifact_idx"] = data["artifact_idx"]
 
+            if pickup.name == "Missile Expansion":
+                pickup_entry["additional_items"] = {"Missiles": f'ds_zero("Missiles") + {quantity}'}
+            if pickup.name == "Power Bomb Expansion":
+                pickup_entry["additional_items"] = {"Power Bombs": f'ds_zero("Power Bombs") + {quantity}'}
+            if pickup.name == "Energy Tank":
+                pickup_entry["additional_items"] = {
+                    "Energy Tanks": 'ds_zero("Energy Tanks Max")',
+                    "Energy": "99",
+                }
             items.append(pickup_entry)
 
         return {
@@ -86,6 +106,7 @@ class MPOPatchDataFactory(PatchDataFactory[MPOConfiguration, MPOCosmeticPatches]
         pickup_list = self.export_pickup_list()
 
         return {
+            "identifier": self._create_identifier(),
             "starting_items": self._create_starting_items(),
             "starting_location": self._create_starting_location(),
             "pickups": self._create_pickup_config(pickup_list, model_data),
