@@ -1123,16 +1123,19 @@
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
-                        "x": 244.27,
-                        "y": 294.4,
+                        "x": 248.0,
+                        "y": 290.0,
                         "z": 0.0
                     },
                     "description": "",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
-                    "valid_starting_location": false,
+                    "extra": {
+                        "x": 248,
+                        "y": 158
+                    },
+                    "valid_starting_location": true,
                     "connections": {
                         "Door to Crater Vein A": {
                             "type": "and",
@@ -1275,16 +1278,19 @@
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
-                        "x": 163.1,
-                        "y": 100.89,
+                        "x": 160.0,
+                        "y": 98.0,
                         "z": 0.0
                     },
                     "description": "",
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
-                    "valid_starting_location": false,
+                    "extra": {
+                        "x": 160,
+                        "y": 126
+                    },
+                    "valid_starting_location": true,
                     "connections": {
                         "Door to Crater Depths": {
                             "type": "and",

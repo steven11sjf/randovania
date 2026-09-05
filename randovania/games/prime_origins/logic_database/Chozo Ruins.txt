@@ -1606,8 +1606,10 @@ Extra - room_height: 224
   > Save Station
       Trivial
 
-> Save Station; Heals? False
+> Save Station; Heals? False; Spawn Point
   * Layers: default
+  * Extra - x: 160
+  * Extra - y: 158
   > Door to Ruined Nursery
       Trivial
 
@@ -1626,8 +1628,10 @@ Extra - room_height: 224
   > Save Station
       Trivial
 
-> Save Station; Heals? False
+> Save Station; Heals? False; Spawn Point
   * Layers: default
+  * Extra - x: 160
+  * Extra - y: 158
   > Door to Gathering Hall
       Trivial
 
@@ -1679,10 +1683,10 @@ Extra - room_height: 224
   > Save Station
       Trivial
 
-> Save Station; Heals? False
+> Save Station; Heals? False; Spawn Point
   * Layers: default
   * Extra - x: 160
-  * Extra - y: 142
+  * Extra - y: 144
   > Door to Reflecting Pool
       Trivial
   > Morph Ball Tunnel to Save Station 3 subB

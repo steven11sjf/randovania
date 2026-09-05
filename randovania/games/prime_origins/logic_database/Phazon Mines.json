@@ -5088,8 +5088,11 @@
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
-                    "valid_starting_location": false,
+                    "extra": {
+                        "x": 192,
+                        "y": 126
+                    },
+                    "valid_starting_location": true,
                     "connections": {
                         "Door to Main Quarry": {
                             "type": "and",
@@ -5156,7 +5159,7 @@
                     "node_type": "generic",
                     "heal": false,
                     "coordinates": {
-                        "x": 161.09,
+                        "x": 160.0,
                         "y": 59.5,
                         "z": 0.0
                     },
@@ -5164,8 +5167,11 @@
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
-                    "valid_starting_location": false,
+                    "extra": {
+                        "x": 160,
+                        "y": 174
+                    },
+                    "valid_starting_location": true,
                     "connections": {
                         "Door to Central Dynamo": {
                             "type": "and",
@@ -5240,8 +5246,11 @@
                     "layers": [
                         "default"
                     ],
-                    "extra": {},
-                    "valid_starting_location": false,
+                    "extra": {
+                        "x": 160,
+                        "y": 174
+                    },
+                    "valid_starting_location": true,
                     "connections": {
                         "Door to Metroid Quarantine B": {
                             "type": "and",
