@@ -103,8 +103,8 @@ game_data: randovania.game.data.GameData = randovania.game.data.GameData(
             "Nothing",
         ),
         need_to_play=(
-            "A Nintendo Virtual Boy",
-            "Your original Virtual Boy Game Cartridge",
+            "A Windows Computer",
+            "A VM copy of Metroid Prime Origins v1.0.4",
         ),
     ),
     hash_words=_hash_words(),

@@ -3916,12 +3916,24 @@
                             "data": "Can Use Boost Ball"
                         },
                         "Pickup (Missile Expansion 2)": {
-                            "type": "resource",
+                            "type": "and",
                             "data": {
-                                "type": "items",
-                                "name": "MissileLauncher",
-                                "amount": 1,
-                                "negate": false
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MissileLauncher",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Climb High Ledge"
+                                    }
+                                ]
                             }
                         }
                     }

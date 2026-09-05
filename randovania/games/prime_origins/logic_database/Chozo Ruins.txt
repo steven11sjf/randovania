@@ -964,7 +964,7 @@ Extra - room_height: 896
   > Pickup (Missile Expansion)
       Can Use Boost Ball
   > Pickup (Missile Expansion 2)
-      Missile Launcher
+      Missile Launcher and Climb High Ledge
 
 > Door to Ruined Shrine Access; Heals? False
   * Layers: default
