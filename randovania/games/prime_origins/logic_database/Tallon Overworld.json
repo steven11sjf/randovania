@@ -1139,6 +1139,13 @@
                                 "comment": null,
                                 "items": []
                             }
+                        },
+                        "Event - Ridley Defeated": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
                         }
                     }
                 },
@@ -1198,6 +1205,33 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Artifact Temple": {
+                            "type": "resource",
+                            "data": {
+                                "type": "events",
+                                "name": "BossRidley",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    }
+                },
+                "Event - Ridley Defeated": {
+                    "node_type": "event",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 114.96,
+                        "y": 160.65,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "event_name": "BossRidley",
+                    "connections": {
+                        "Elevator to Impact Crater": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -3270,6 +3304,15 @@
                                         "data": {
                                             "type": "items",
                                             "name": "GrappleBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "tricks",
+                                            "name": "Knowledge",
                                             "amount": 1,
                                             "negate": false
                                         }
@@ -5372,10 +5415,15 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Temple Lobby": {
-                            "type": "and",
+                            "type": "or",
                             "data": {
-                                "comment": null,
-                                "items": []
+                                "comment": "This door is open in remix mode, missile in classic.",
+                                "items": [
+                                    {
+                                        "type": "template",
+                                        "data": "Can Shoot Missile"
+                                    }
+                                ]
                             }
                         }
                     }

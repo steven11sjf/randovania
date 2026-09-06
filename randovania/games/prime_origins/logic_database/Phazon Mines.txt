@@ -901,11 +901,11 @@ Extra - room_height: 896
   * Extra - facing: 0
   * Extra - dest_room: pha_Research_Access
   > Door to Storage Depot B
-      Can Lay Bomb and Can Lay Power Bomb
+      Can Lay Power Bomb and Can Lay Single Bomb
   > Door to Elevator Access A
       Any of the following:
           Can Lay Power Bomb
-          Can Break Bomb Blocks and Can Lay Bomb
+          Can Break Bomb Blocks and Can Lay Single Bomb
 
 > Door to Storage Depot B; Heals? False
   * Layers: default

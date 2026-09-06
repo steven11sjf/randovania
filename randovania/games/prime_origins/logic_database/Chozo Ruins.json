@@ -3595,7 +3595,12 @@
                             "type": "and",
                             "data": {
                                 "comment": null,
-                                "items": []
+                                "items": [
+                                    {
+                                        "type": "template",
+                                        "data": "Can Use Any Beam"
+                                    }
+                                ]
                             }
                         }
                     }
@@ -3912,8 +3917,42 @@
                             }
                         },
                         "Pickup (Missile Expansion)": {
-                            "type": "template",
-                            "data": "Can Use Boost Ball"
+                            "type": "or",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "template",
+                                        "data": "Can Use Boost Ball"
+                                    },
+                                    {
+                                        "type": "and",
+                                        "data": {
+                                            "comment": "Blocks disappear if you have Space Jump",
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "SpaceJump",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "tricks",
+                                                        "name": "Knowledge",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         "Pickup (Missile Expansion 2)": {
                             "type": "and",
@@ -3921,17 +3960,24 @@
                                 "comment": null,
                                 "items": [
                                     {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "MissileLauncher",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
+                                        "type": "template",
+                                        "data": "Can Shoot Super  Missile"
                                     },
                                     {
-                                        "type": "template",
-                                        "data": "Climb High Ledge"
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "template",
+                                                    "data": "Climb High Ledge"
+                                                },
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Use Spider Ball"
+                                                }
+                                            ]
+                                        }
                                     }
                                 ]
                             }
@@ -4064,12 +4110,41 @@
                             }
                         },
                         "Pickup (Energy Tank)": {
-                            "type": "resource",
+                            "type": "or",
                             "data": {
-                                "type": "items",
-                                "name": "GrappleBeam",
-                                "amount": 1,
-                                "negate": false
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "GrappleBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "and",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Lay Bomb"
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "tricks",
+                                                        "name": "IBJ",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
                             }
                         }
                     }
@@ -4176,6 +4251,51 @@
                             "data": {
                                 "comment": null,
                                 "items": []
+                            }
+                        },
+                        "Door to Plaza Access": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
+                        "Pickup (Missile Expansion 3)": {
+                            "type": "or",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "GrappleBeam",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "and",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Lay Bomb"
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "tricks",
+                                                        "name": "IBJ",
+                                                        "amount": 2,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
                             }
                         }
                     }
@@ -4286,7 +4406,7 @@
                     "custom_index_group": null,
                     "hint_features": [],
                     "connections": {
-                        "Door to Ruined Fountain Access": {
+                        "Pickup (Energy Tank)": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -5693,13 +5813,8 @@
                             }
                         },
                         "Pickup (Missile Expansion 2)": {
-                            "type": "resource",
-                            "data": {
-                                "type": "items",
-                                "name": "MissileLauncher",
-                                "amount": 1,
-                                "negate": false
-                            }
+                            "type": "template",
+                            "data": "Can Shoot Missile"
                         }
                     }
                 },
@@ -5825,8 +5940,8 @@
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 640.0,
-                        "y": 32.0,
+                        "x": 616.4242860571154,
+                        "y": 59.27717782577395,
                         "z": 0.0
                     },
                     "description": "",
@@ -5860,8 +5975,20 @@
                             }
                         },
                         "Pickup (Missile Expansion)": {
-                            "type": "template",
-                            "data": "Can Break Bomb Blocks"
+                            "type": "or",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Bomb"
+                                    },
+                                    {
+                                        "type": "template",
+                                        "data": "Can Lay Power Bomb"
+                                    }
+                                ]
+                            }
                         }
                     }
                 },
@@ -7877,7 +8004,17 @@
                             "type": "and",
                             "data": {
                                 "comment": null,
-                                "items": []
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
                             }
                         }
                     }
@@ -7940,6 +8077,27 @@
                                                         "amount": 1,
                                                         "negate": false
                                                     }
+                                                },
+                                                {
+                                                    "type": "and",
+                                                    "data": {
+                                                        "comment": "Hidden bomb block passage by wave door",
+                                                        "items": [
+                                                            {
+                                                                "type": "resource",
+                                                                "data": {
+                                                                    "type": "tricks",
+                                                                    "name": "Knowledge",
+                                                                    "amount": 2,
+                                                                    "negate": false
+                                                                }
+                                                            },
+                                                            {
+                                                                "type": "template",
+                                                                "data": "Can Break Bomb Blocks"
+                                                            }
+                                                        ]
+                                                    }
                                                 }
                                             ]
                                         }
@@ -7952,62 +8110,61 @@
                                             "amount": 1,
                                             "negate": false
                                         }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "VariaSuit",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
                                     }
                                 ]
                             }
                         },
                         "Pickup (Wavebuster)": {
-                            "type": "and",
+                            "type": "or",
                             "data": {
                                 "comment": null,
                                 "items": [
                                     {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "items",
-                                            "name": "MissileLauncher",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "or",
+                                        "type": "and",
                                         "data": {
                                             "comment": null,
                                             "items": [
                                                 {
+                                                    "type": "template",
+                                                    "data": "Can Shoot Missile"
+                                                },
+                                                {
                                                     "type": "resource",
                                                     "data": {
                                                         "type": "items",
-                                                        "name": "MissileExpansion",
-                                                        "amount": 3,
+                                                        "name": "Missile",
+                                                        "amount": 30,
                                                         "negate": false
                                                     }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "and",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "template",
+                                                    "data": "Can Shoot Super  Missile"
                                                 },
                                                 {
-                                                    "type": "and",
+                                                    "type": "resource",
                                                     "data": {
-                                                        "comment": null,
-                                                        "items": [
-                                                            {
-                                                                "type": "resource",
-                                                                "data": {
-                                                                    "type": "items",
-                                                                    "name": "MissileExpansion",
-                                                                    "amount": 1,
-                                                                    "negate": false
-                                                                }
-                                                            },
-                                                            {
-                                                                "type": "resource",
-                                                                "data": {
-                                                                    "type": "items",
-                                                                    "name": "SuperMissile",
-                                                                    "amount": 1,
-                                                                    "negate": false
-                                                                }
-                                                            }
-                                                        ]
+                                                        "type": "items",
+                                                        "name": "Missile",
+                                                        "amount": 6,
+                                                        "negate": false
                                                     }
                                                 }
                                             ]
@@ -8611,8 +8768,8 @@
                     "node_type": "dock",
                     "heal": false,
                     "coordinates": {
-                        "x": 336.0,
-                        "y": 96.0,
+                        "x": 309.36405087592993,
+                        "y": 103.74466042716583,
                         "z": 0.0
                     },
                     "description": "",
@@ -9325,12 +9482,29 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Plaza Access": {
-                            "type": "resource",
+                            "type": "or",
                             "data": {
-                                "type": "items",
-                                "name": "MorphBall",
-                                "amount": 1,
-                                "negate": false
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "events",
+                                            "name": "VaultPuzzle",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
                             }
                         }
                     }
@@ -9367,15 +9541,41 @@
                     "ui_custom_name": null,
                     "connections": {
                         "Door to Vault Access": {
+                            "type": "or",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "MorphBall",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "events",
+                                            "name": "VaultPuzzle",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Pickup (Missile Expansion)": {
                             "type": "resource",
                             "data": {
-                                "type": "items",
-                                "name": "MorphBall",
+                                "type": "events",
+                                "name": "VaultPuzzle",
                                 "amount": 1,
                                 "negate": false
                             }
                         },
-                        "Pickup (Missile Expansion)": {
+                        "Event - Vault Bomb Slots": {
                             "type": "template",
                             "data": "Can Lay Bomb"
                         }
@@ -9404,6 +9604,31 @@
                     "location_category": "minor",
                     "custom_index_group": null,
                     "hint_features": [],
+                    "connections": {
+                        "Door to Plaza Access": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Event - Vault Bomb Slots": {
+                    "node_type": "event",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 451.27,
+                        "y": 85.64,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "event_name": "VaultPuzzle",
                     "connections": {
                         "Door to Plaza Access": {
                             "type": "and",
