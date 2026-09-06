@@ -36,7 +36,7 @@
                 "extra": {}
             },
             "Bomb": {
-                "long_name": "Bomb",
+                "long_name": "Morph Ball Bomb",
                 "max_capacity": 1,
                 "extra": {}
             },
@@ -210,15 +210,48 @@
             "MetroidPrimeDefeated": {
                 "long_name": "Metroid Prime Defeated",
                 "extra": {}
+            },
+            "BossRidley": {
+                "long_name": "Ridley Defeated",
+                "extra": {}
+            },
+            "VaultPuzzle": {
+                "long_name": "Vault Bomb Slots",
+                "extra": {}
             }
         },
-        "tricks": {},
+        "tricks": {
+            "Knowledge": {
+                "long_name": "Knowledge",
+                "description": "",
+                "require_documentation_above": 0,
+                "extra": {}
+            },
+            "Movement": {
+                "long_name": "Movement",
+                "description": "",
+                "require_documentation_above": 0,
+                "extra": {}
+            },
+            "Combat": {
+                "long_name": "Combat",
+                "description": "",
+                "require_documentation_above": 0,
+                "extra": {}
+            },
+            "IBJ": {
+                "long_name": "Infinite Bomb Jump",
+                "description": "",
+                "require_documentation_above": 0,
+                "extra": {}
+            }
+        },
         "damage": {},
         "versions": {},
         "misc": {},
         "requirement_template": {
             "Can Lay Bomb": {
-                "display_name": "Can Lay Bomb",
+                "display_name": "Can Lay Single Bomb",
                 "requirement": {
                     "type": "and",
                     "data": {
@@ -298,6 +331,32 @@
                             {
                                 "type": "template",
                                 "data": "Can Lay Power Bomb"
+                            },
+                            {
+                                "type": "and",
+                                "data": {
+                                    "comment": null,
+                                    "items": [
+                                        {
+                                            "type": "resource",
+                                            "data": {
+                                                "type": "items",
+                                                "name": "ScrewAttack",
+                                                "amount": 1,
+                                                "negate": false
+                                            }
+                                        },
+                                        {
+                                            "type": "resource",
+                                            "data": {
+                                                "type": "tricks",
+                                                "name": "Knowledge",
+                                                "amount": 1,
+                                                "negate": false
+                                            }
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
@@ -413,6 +472,127 @@
                                     "name": "MorphBall",
                                     "amount": 1,
                                     "negate": false
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "Can Shoot Missile": {
+                "display_name": "Can Shoot Missile",
+                "requirement": {
+                    "type": "and",
+                    "data": {
+                        "comment": null,
+                        "items": [
+                            {
+                                "type": "resource",
+                                "data": {
+                                    "type": "items",
+                                    "name": "MissileLauncher",
+                                    "amount": 1,
+                                    "negate": false
+                                }
+                            },
+                            {
+                                "type": "resource",
+                                "data": {
+                                    "type": "items",
+                                    "name": "Missile",
+                                    "amount": 1,
+                                    "negate": false
+                                }
+                            },
+                            {
+                                "type": "template",
+                                "data": "Can Use Any Beam"
+                            }
+                        ]
+                    }
+                }
+            },
+            "Can Use Any Beam": {
+                "display_name": "Can Use Any Beam",
+                "requirement": {
+                    "type": "or",
+                    "data": {
+                        "comment": null,
+                        "items": [
+                            {
+                                "type": "resource",
+                                "data": {
+                                    "type": "items",
+                                    "name": "PowerBeam",
+                                    "amount": 1,
+                                    "negate": false
+                                }
+                            },
+                            {
+                                "type": "resource",
+                                "data": {
+                                    "type": "items",
+                                    "name": "WaveBeam",
+                                    "amount": 1,
+                                    "negate": false
+                                }
+                            },
+                            {
+                                "type": "resource",
+                                "data": {
+                                    "type": "items",
+                                    "name": "IceBeam",
+                                    "amount": 1,
+                                    "negate": false
+                                }
+                            },
+                            {
+                                "type": "resource",
+                                "data": {
+                                    "type": "items",
+                                    "name": "PlasmaBeam",
+                                    "amount": 1,
+                                    "negate": false
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "Can Shoot Super  Missile": {
+                "display_name": "Can Shoot Super Missile",
+                "requirement": {
+                    "type": "and",
+                    "data": {
+                        "comment": null,
+                        "items": [
+                            {
+                                "type": "template",
+                                "data": "Can Shoot Missile"
+                            },
+                            {
+                                "type": "or",
+                                "data": {
+                                    "comment": null,
+                                    "items": [
+                                        {
+                                            "type": "resource",
+                                            "data": {
+                                                "type": "items",
+                                                "name": "Missile",
+                                                "amount": 5,
+                                                "negate": false
+                                            }
+                                        },
+                                        {
+                                            "type": "resource",
+                                            "data": {
+                                                "type": "items",
+                                                "name": "SuperMissile",
+                                                "amount": 1,
+                                                "negate": false
+                                            }
+                                        }
+                                    ]
                                 }
                             }
                         ]
@@ -600,7 +780,16 @@
         }
     },
     "hint_feature_database": {},
-    "used_trick_levels": {},
+    "used_trick_levels": {
+        "Knowledge": [
+            1,
+            2
+        ],
+        "IBJ": [
+            1,
+            2
+        ]
+    },
     "flatten_to_set_on_patch": false,
     "regions": [
         "Chozo Ruins.json",

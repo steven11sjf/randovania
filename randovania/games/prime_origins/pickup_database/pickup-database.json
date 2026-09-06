@@ -166,7 +166,7 @@
                 "beam_related",
                 "major"
             ],
-            "model_name": "Gamecube",
+            "model_name": "Nothing",
             "offworld_models": {
                 "am2r": "sItemPowerBeamPrime",
                 "samus_returns": "offworld_beam"
@@ -709,5 +709,5 @@
         }
     },
     "default_pickups": {},
-    "default_offworld_model": "Gamecube"
+    "default_offworld_model": "Nothing"
 }

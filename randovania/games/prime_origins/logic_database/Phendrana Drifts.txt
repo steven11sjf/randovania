@@ -180,7 +180,7 @@ Extra - room_height: 224
   * Extra - facing: 0
   * Extra - dest_room: phe_Chozo_Ice_Temple_subB
   > Door to Chapel Tunnel
-      Missile Launcher and Can Lay Bomb
+      Missile Launcher and Can Lay Single Bomb
   > Morph Ball Tunnel to Chozo Ice Temple subD
       Plasma Beam and Can Break Bomb Blocks
 
@@ -943,7 +943,7 @@ Extra - room_height: 448
   * Extra - facing: 0
   * Extra - dest_room: phe_Observatory_Access
   > Pickup (Super Missile)
-      Can Lay Bomb and Can Use Boost Ball
+      Can Lay Single Bomb and Can Use Boost Ball
 
 > Door to Save Station D; Heals? False
   * Layers: default
@@ -1626,7 +1626,7 @@ Extra - room_height: 672
   > Junction
       Any of the following:
           Grapple Beam or Can Use Spider Ball
-          Can Lay Bomb and Can Use Boost Ball
+          Can Lay Single Bomb and Can Use Boost Ball
 
 > Door to Quarantine Access; Heals? False
   * Layers: default

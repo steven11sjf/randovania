@@ -297,7 +297,7 @@ Extra - room_height: 448
   > Door to Workstation Tunnel
       Varia Suit
   > Pickup (Energy Tank)
-      Varia Suit and Wave Beam and Can Lay Bomb and Can Use Spider Ball
+      Varia Suit and Wave Beam and Can Lay Single Bomb and Can Use Spider Ball
 
 > Pickup (Energy Tank); Heals? False
   * Layers: default

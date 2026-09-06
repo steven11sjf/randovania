@@ -408,6 +408,12 @@
         "fanfare": "bgmFanfareItem"
     },
     "Nothing": {
-        "game_object": ""
+        "game_object": "",
+        "sprite": "spr_x_0",
+        "item_key": "Rando Nothing",
+        "is_adding": false,
+        "display_name": "Nothing",
+        "description": "A Nothing Item.",
+        "fanfare": "bgmFanfareMinorItem"
     }
 }

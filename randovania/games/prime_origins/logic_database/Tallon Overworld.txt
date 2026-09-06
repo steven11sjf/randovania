@@ -260,6 +260,8 @@ Extra - room_height: 448
       Trivial
   > Elevator to Impact Crater
       Trivial
+  > Event - Ridley Defeated
+      Trivial
 
 > Pickup (Artifact of Truth); Heals? False
   * Layers: default
@@ -271,6 +273,12 @@ Extra - room_height: 448
   * Layers: default
   * Elevator to Crater Entry Point/Elevator to Tallon Overworld
   > Door to Artifact Temple
+      After Ridley Defeated
+
+> Event - Ridley Defeated; Heals? False
+  * Layers: default
+  * Event Ridley Defeated
+  > Elevator to Impact Crater
       Trivial
 
 ----------------
@@ -511,9 +519,9 @@ Extra - room_height: 896
   > Door to Great Tree Chamber
       All of the following:
           Screw Attack
-          Grapple Beam or Space Jump or Can Lay Bomb or Can Use Spider Ball
+          Grapple Beam or Space Jump or Can Lay Single Bomb or Can Use Spider Ball
   > Door to Life Grove Tunnel
-      Grapple Beam or Space Jump or Can Lay Bomb or Can Use Spider Ball
+      Grapple Beam or Space Jump or Can Lay Single Bomb or Can Use Spider Ball
 
 > Door to Transport Tunnel E; Heals? False
   * Layers: default
@@ -692,7 +700,7 @@ Extra - room_height: 672
   > Door to Canyon Cavern
       Trivial
   > Door to Gully
-      Grapple Beam
+      Grapple Beam or Knowledge (Beginner)
   > Door to Temple Hall
       Trivial
   > Door to Waterfall Cavern
@@ -1163,7 +1171,8 @@ Extra - room_height: 448
   * Extra - facing: 0
   * Extra - dest_room: tal_Temple_Hall
   > Door to Temple Lobby
-      Trivial
+      # This door is open in remix mode, missile in classic.
+      Can Shoot Missile
 
 > Door to Temple Lobby; Heals? False
   * Layers: default

@@ -228,7 +228,7 @@ Extra - room_height: 448
   > Door to Elder Hall Access
       Can Use Boost Ball
   > Pickup (Missile Expansion)
-      Can Lay Bomb and Can Use Boost Ball
+      Can Lay Single Bomb and Can Use Boost Ball
 
 > Door to Crossway Access South; Heals? False
   * Layers: default
@@ -455,7 +455,7 @@ Extra - room_height: 448
   > Morph Ball Tunnel to Burn Dome Access
       Trivial
   > Door to West Furnace Access
-      Can Lay Bomb
+      Can Lay Single Bomb
 
 > Morph Ball Tunnel to Burn Dome Access; Heals? False
   * Layers: default
@@ -849,11 +849,11 @@ Extra - room_height: 672
           After Hall of the Elders Ice Slot
           Grapple Beam or Can Use Spider Ball
   > Event - Hall of the Elders Wave Slot
-      Wave Beam and Can Lay Bomb
+      Wave Beam and Can Lay Single Bomb
   > Event - Hall of the Elders Ice Slot
-      Ice Beam and Can Lay Bomb
+      Ice Beam and Can Lay Single Bomb
   > Event - Hall of the Elders Plasma Slot
-      Plasma Beam and Can Lay Bomb
+      Plasma Beam and Can Lay Single Bomb
 
 > Event - Hall of the Elders Wave Slot; Heals? False
   * Layers: default
@@ -886,7 +886,7 @@ Extra - room_height: 448
   * Extra - facing: 0
   * Extra - dest_room: cho_Totem_Access
   > Pickup (Missile Expansion)
-      Trivial
+      Can Use Any Beam
 
 > Door to Transport Access North; Heals? False
   * Layers: default
@@ -962,9 +962,14 @@ Extra - room_height: 896
   > Door to Ruined Fountain Access
       Trivial
   > Pickup (Missile Expansion)
-      Can Use Boost Ball
+      Any of the following:
+          Can Use Boost Ball
+          # Blocks disappear if you have Space Jump
+          Space Jump and Knowledge (Beginner)
   > Pickup (Missile Expansion 2)
-      Missile Launcher
+      All of the following:
+          Can Shoot Super Missile
+          Can Use Spider Ball or Climb High Ledge
 
 > Door to Ruined Shrine Access; Heals? False
   * Layers: default
@@ -995,7 +1000,9 @@ Extra - room_height: 896
   > Door to Ruins Entrance
       Trivial
   > Pickup (Energy Tank)
-      Grapple Beam
+      Any of the following:
+          Grapple Beam
+          Infinite Bomb Jump (Beginner) and Can Lay Single Bomb
 
 > Door to Plaza Access; Heals? False
   * Layers: default
@@ -1025,6 +1032,12 @@ Extra - room_height: 896
   * Extra - is_major: minor
   > Door to Ruined Fountain Access
       Trivial
+  > Door to Plaza Access
+      Trivial
+  > Pickup (Missile Expansion 3)
+      Any of the following:
+          Grapple Beam
+          Infinite Bomb Jump (Intermediate) and Can Lay Single Bomb
 
 > Open Access to Piston Tunnel subB; Heals? False
   * Layers: default
@@ -1054,7 +1067,7 @@ Extra - room_height: 896
   * Extra - object_name: obj_expansion_missile
   * Extra - item_type: Missile Expansion
   * Extra - is_major: minor
-  > Door to Ruined Fountain Access
+  > Pickup (Energy Tank)
       Trivial
 
 ----------------
@@ -1296,11 +1309,11 @@ Extra - room_height: 672
   > Door to Reflecting Pool Access
       Trivial
   > Door to Antechamber
-      Can Lay Bomb
+      Can Lay Single Bomb
   > Door to Save Station 3
-      Can Lay Bomb
+      Can Lay Single Bomb
   > Door to Transport Access South
-      Can Lay Bomb
+      Can Lay Single Bomb
 
 ----------------
 Ruined Fountain Access
@@ -1401,7 +1414,7 @@ Extra - room_height: 448
   > Door to North Atrium
       Trivial
   > Pickup (Missile Expansion 2)
-      Missile Launcher
+      Can Shoot Missile
 
 > Door to Map Station; Heals? False
   * Layers: default
@@ -1447,7 +1460,7 @@ Extra - room_height: 448
   > Door to Save Station 1
       Trivial
   > Pickup (Missile Expansion)
-      Can Break Bomb Blocks
+      Can Lay Power Bomb or Can Lay Single Bomb
 
 > Door to Save Station 1; Heals? False
   * Layers: default
@@ -1968,7 +1981,7 @@ Extra - room_height: 896
   * Extra - facing: 0
   * Extra - dest_room: cho_Tower_Chamber
   > Door to Tower of Light Access
-      Trivial
+      Varia Suit
 
 > Door to Tower of Light Access; Heals? False
   * Layers: default
@@ -1978,14 +1991,15 @@ Extra - room_height: 896
   * Extra - dest_room: cho_Tower_of_Light_Access
   > Door to Tower Chamber
       All of the following:
-          Wave Beam
-          Grapple Beam or Gravity Suit
-  > Pickup (Wavebuster)
-      All of the following:
-          Missile Launcher
+          Varia Suit and Wave Beam
           Any of the following:
-              Missile Expansion ≥ 3
-              Missile Expansion and Super Missile
+              Grapple Beam or Gravity Suit
+              # Hidden bomb block passage by wave door
+              Knowledge (Intermediate) and Can Break Bomb Blocks
+  > Pickup (Wavebuster)
+      Any of the following:
+          Missile ≥ 30 and Can Shoot Missile
+          Missile ≥ 6 and Can Shoot Super Missile
 
 > Pickup (Wavebuster); Heals? False
   * Layers: default
@@ -2048,7 +2062,7 @@ Extra - room_height: 448
   > Morph Ball Tunnel to Piston Tunnel
       After First Chozo Ghost
   > Pickup (Energy Tank)
-      After First Chozo Ghost and Can Lay Bomb and Can Use Spider Ball
+      After First Chozo Ghost and Can Lay Single Bomb and Can Use Spider Ball
 
 > Morph Ball Tunnel to Piston Tunnel; Heals? False
   * Layers: default
@@ -2318,7 +2332,7 @@ Extra - room_height: 224
   * Extra - facing: 0
   * Extra - dest_room: cho_Vault_Access
   > Door to Plaza Access
-      Morph Ball
+      Morph Ball or After Vault Bomb Slots
 
 > Door to Plaza Access; Heals? False
   * Layers: default
@@ -2327,9 +2341,11 @@ Extra - room_height: 224
   * Extra - facing: 0
   * Extra - dest_room: cho_Plaza_Access
   > Door to Vault Access
-      Morph Ball
+      Morph Ball or After Vault Bomb Slots
   > Pickup (Missile Expansion)
-      Can Lay Bomb
+      After Vault Bomb Slots
+  > Event - Vault Bomb Slots
+      Can Lay Single Bomb
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -2338,6 +2354,12 @@ Extra - room_height: 224
   * Extra - object_name: obj_expansion_missile
   * Extra - item_type: Missile Expansion
   * Extra - is_major: minor
+  > Door to Plaza Access
+      Trivial
+
+> Event - Vault Bomb Slots; Heals? False
+  * Layers: default
+  * Event Vault Bomb Slots
   > Door to Plaza Access
       Trivial
 
