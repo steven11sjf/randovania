@@ -65,7 +65,7 @@ class MPOPatchDataFactory(PatchDataFactory[MPOConfiguration, MPOCosmeticPatches]
                 quantity = 1
 
             desc: str = data["description"]
-            desc.replace("{COUNT}", str(quantity))
+            desc = desc.replace("{COUNT}", str(quantity))
 
             pickup_entry = {
                 "pickup_index": pickup.index.index,
