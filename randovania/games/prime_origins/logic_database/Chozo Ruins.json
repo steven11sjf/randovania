@@ -3075,7 +3075,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Chozo Statue": {
+                        "Event - First Chozo Ghost": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -3115,7 +3115,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Chozo Statue": {
+                        "Event - First Chozo Ghost": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -3155,7 +3155,7 @@
                     "override_default_lock_requirement": null,
                     "ui_custom_name": null,
                     "connections": {
-                        "Chozo Statue": {
+                        "Event - First Chozo Ghost": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -3304,63 +3304,6 @@
                                 ]
                             }
                         },
-                        "Door to Elder Hall Access": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "resource",
-                                        "data": {
-                                            "type": "events",
-                                            "name": "HOTEWaveBomb",
-                                            "amount": 1,
-                                            "negate": false
-                                        }
-                                    },
-                                    {
-                                        "type": "or",
-                                        "data": {
-                                            "comment": null,
-                                            "items": [
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "GrappleBeam",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                },
-                                                {
-                                                    "type": "template",
-                                                    "data": "Can Use Spider Ball"
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        "Door to Crossway Access South": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": [
-                                    {
-                                        "type": "template",
-                                        "data": "Climb High Ledge"
-                                    }
-                                ]
-                            }
-                        },
-                        "Door to East Furnace Access": {
-                            "type": "and",
-                            "data": {
-                                "comment": null,
-                                "items": []
-                            }
-                        },
                         "Door to Elder Chamber": {
                             "type": "resource",
                             "data": {
@@ -3470,6 +3413,13 @@
                                     }
                                 ]
                             }
+                        },
+                        "Event - First Chozo Ghost": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
                         }
                     }
                 },
@@ -3539,6 +3489,78 @@
                     "valid_starting_location": false,
                     "event_name": "ElderPlasmaBeam",
                     "connections": {
+                        "Chozo Statue": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
+                },
+                "Event - First Chozo Ghost": {
+                    "node_type": "event",
+                    "heal": false,
+                    "coordinates": {
+                        "x": 437.3794096472283,
+                        "y": 141.90352771778248,
+                        "z": 0.0
+                    },
+                    "description": "",
+                    "layers": [
+                        "default"
+                    ],
+                    "extra": {},
+                    "valid_starting_location": false,
+                    "event_name": "FirstChozoGhost",
+                    "connections": {
+                        "Door to Elder Hall Access": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "events",
+                                            "name": "HOTEWaveBomb",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "or",
+                                        "data": {
+                                            "comment": null,
+                                            "items": [
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "GrappleBeam",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "resource",
+                                                    "data": {
+                                                        "type": "items",
+                                                        "name": "SpiderBall",
+                                                        "amount": 1,
+                                                        "negate": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Door to Crossway Access South": {
+                            "type": "template",
+                            "data": "Climb High Ledge"
+                        },
                         "Chozo Statue": {
                             "type": "and",
                             "data": {

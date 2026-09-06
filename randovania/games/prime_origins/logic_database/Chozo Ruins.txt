@@ -786,7 +786,7 @@ Extra - room_height: 672
   * Extra - instance_id: 100967
   * Extra - facing: 0
   * Extra - dest_room: cho_Elder_Hall_Access
-  > Chozo Statue
+  > Event - First Chozo Ghost
       Trivial
 
 > Door to Crossway Access South; Heals? False
@@ -795,7 +795,7 @@ Extra - room_height: 672
   * Extra - instance_id: 100968
   * Extra - facing: 0
   * Extra - dest_room: cho_Crossway_Access_South
-  > Chozo Statue
+  > Event - First Chozo Ghost
       Trivial
 
 > Door to East Furnace Access; Heals? False
@@ -804,7 +804,7 @@ Extra - room_height: 672
   * Extra - instance_id: 100969
   * Extra - facing: 0
   * Extra - dest_room: cho_East_Furnace_Access
-  > Chozo Statue
+  > Event - First Chozo Ghost
       Trivial
 
 > Door to Elder Chamber; Heals? False
@@ -834,14 +834,6 @@ Extra - room_height: 672
       All of the following:
           After Hall of the Elders Wave Slot
           Grapple Beam or Space Jump
-  > Door to Elder Hall Access
-      All of the following:
-          After Hall of the Elders Wave Slot
-          Grapple Beam or Can Use Spider Ball
-  > Door to Crossway Access South
-      Climb High Ledge
-  > Door to East Furnace Access
-      Trivial
   > Door to Elder Chamber
       After Hall of the Elders Plasma Slot
   > Pickup (Energy Tank)
@@ -854,6 +846,8 @@ Extra - room_height: 672
       Ice Beam and Can Lay Single Bomb
   > Event - Hall of the Elders Plasma Slot
       Plasma Beam and Can Lay Single Bomb
+  > Event - First Chozo Ghost
+      Trivial
 
 > Event - Hall of the Elders Wave Slot; Heals? False
   * Layers: default
@@ -870,6 +864,18 @@ Extra - room_height: 672
 > Event - Hall of the Elders Plasma Slot; Heals? False
   * Layers: default
   * Event Hall of the Elders Plasma Slot
+  > Chozo Statue
+      Trivial
+
+> Event - First Chozo Ghost; Heals? False
+  * Layers: default
+  * Event First Chozo Ghost
+  > Door to Elder Hall Access
+      All of the following:
+          After Hall of the Elders Wave Slot
+          Grapple Beam or Spider Ball
+  > Door to Crossway Access South
+      Climb High Ledge
   > Chozo Statue
       Trivial
 

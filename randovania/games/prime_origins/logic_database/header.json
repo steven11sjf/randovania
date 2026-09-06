@@ -299,16 +299,7 @@
                                 "type": "resource",
                                 "data": {
                                     "type": "items",
-                                    "name": "PowerBombLauncher",
-                                    "amount": 1,
-                                    "negate": false
-                                }
-                            },
-                            {
-                                "type": "resource",
-                                "data": {
-                                    "type": "items",
-                                    "name": "PowerBombExpansion",
+                                    "name": "PowerBomb",
                                     "amount": 1,
                                     "negate": false
                                 }
