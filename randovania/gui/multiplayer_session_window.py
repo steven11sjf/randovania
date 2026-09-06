@@ -28,7 +28,6 @@ from randovania.gui.widgets.multiplayer_session_users_widget import MultiplayerS
 from randovania.interface_common import generator_frontend
 from randovania.layout.base.base_configuration import BaseConfiguration
 from randovania.layout.generator_parameters import GeneratorParameters, random_seed_number
-from randovania.layout.layout_description import LayoutDescription
 from randovania.layout.permalink import Permalink
 from randovania.layout.versioned_preset import VersionedPreset
 from randovania.lib import string_lib
@@ -53,6 +52,7 @@ if TYPE_CHECKING:
     from randovania.gui.lib.window_manager import WindowManager
     from randovania.gui.preset_settings.customize_preset_dialog import CustomizePresetDialog
     from randovania.interface_common.options import Options
+    from randovania.layout.layout_description import LayoutDescription
     from randovania.layout.preset import Preset
     from randovania.lib.status_update_lib import ProgressUpdateCallable
 
@@ -459,7 +459,12 @@ class MultiplayerSessionWindow(QtWidgets.QMainWindow, Ui_MultiplayerSessionWindo
         }
         self.session_visibility_button.setText(_state_to_label[session.visibility])
 
-        self.copy_permalink_button.setEnabled(session.game_details is not None)
+        is_race = session.is_race_session
+        race_tooltip = "Not available while this session is part of an async race" if is_race else ""
+        for button in (self.copy_permalink_button, self.view_game_details_button):
+            button.setToolTip(race_tooltip)
+
+        self.copy_permalink_button.setEnabled(session.game_details is not None and not is_race)
         if session.game_details is None:
             self.seed_hash_label.setText("Seed Hash: <Game not generated>")
             self.view_game_details_button.setEnabled(False)
@@ -467,7 +472,7 @@ class MultiplayerSessionWindow(QtWidgets.QMainWindow, Ui_MultiplayerSessionWindo
         else:
             game_details = session.game_details
             self.seed_hash_label.setText(f"Seed Hash: {game_details.word_hash} ({game_details.seed_hash})")
-            self.view_game_details_button.setEnabled(game_details.spoiler)
+            self.view_game_details_button.setEnabled(game_details.spoiler and not is_race)
             if len(own_entry.worlds) > 1:
                 self.export_game_button.setEnabled(True)
                 self.export_game_menu.clear()

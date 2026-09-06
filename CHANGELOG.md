@@ -5,17 +5,95 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [10.11.0] - 2026-09-01
+## [11.1.0] - 2026-10-01
 
+- Changed: The Map Tracker components are now docks that can be moved around.
+
+### Metroid Fusion
+
+#### Main Deck
+
+- Changed: Station Entrance: The Shinespark through the Speedbooster blocks is now always possible in Door Lock Rando.
+- Changed: Central Reactor Core: The Shinespark from Silo Checkpoint to Silo Tunnel is now always possible in Door Lock Rando.
+- Changed: Central Reactor Core: Doing the Shinespark from Silo Checkpoint to Silo Tunnel without Hijump has been changed to a Ludicrous Shinespark.
+
+### Metroid Prime
+
+- Changed: All beam charge combos now additionally have a pickup hint feature of being "a missile system" and "a missile-related upgrade" for consistency with Echoes.
+
+### Metroid Prime Hunters
+
+- Fixed: The Alimbic Turrets in Celestial Archives - Data Shrine 03 will now always respawn on room reload to prevent a softlock if the door to Synergy Core was not unlocked prior to leaving.
+- Fixed: The boss door in all Biodefense Chambers will now unlock automatically when collecting the Octolith pickup.
+- Fixed: Sic Transit: The scan door will now unlock in the post-boss layers if the shuffled Shield Key is collected.
+
+#### Logic Database
+
+##### Alinos
+
+- Fixed: Piston Hall: The pickup in the Artifact Shield now properly requires the correct Shield Key.
+
+## [11.0.0] - 2026-09-01
+
+- **Major** - Added: Metroid Prime Hunters has been added. Shuffle the items including Artifacts and Refills, portal destinations, Force Field weaknesses, and even Shield Keys.
+- Added: The Map Tracker can now be opened directly from the Open menu, by selecting which preset to use.
 - Changed: Automatic Item Tracker: The layout and the theme are now split and can be selected separately.
 - Changed: Improved average location distribution of "inert" pickups such as Prime Artifacts and Echoes STKs.
 - Changed: Updated the Nintendont version that is used when uploading it directly to the Wii. It will now reconnect to the network once it has lost a connection.
 - Changed: The Nintendont connector will not try to connect to the Homebrew Channel anymore for giving better feedback.
 - Fixed: Certain interactions with the server will no longer permanently fails in certain cases.
+- Added: Async race rooms can now be multiworld. A room can be created with any number of worlds, each with its own preset, and is then played by teams instead of individual players. Each team races the multiworld on their own, and the teams' times are compared. An async race played in teams can either give the whole team one shared timer, or time every member separately and add their times up. Either way the team's captain starts the race for the team.
+- Added: An async race room now tells you your own finished time as soon as your run is complete, rather than only once the whole race is over. In a race played in teams this is the team's time, however that team is timed.
+- Fixed: The audit log of an async race room can now only be read by the room's creator.
+
 
 ### Metroid Dread
 
+- Changed: The following pickups will now be placed in bulk at the same step during generation when multiple pickups are necessary to progress:
+  - Missile Tank
+  - Missile+ Tank
+  - Energy Part
+  - Energy Tank
+  - Power Bomb Tank
+  - Flash Shift Uprade
+  - Speed Booster Upgrade
 - Fixed: Some situations where the generator thinks pathing via certain doors is not possible with randomized doors.
+
+### Metroid Fusion
+
+- Added: Playing on the same seed will now always have consistent patterns for Gadoras, Zazabi and Yakuza, instead of it being RNG dependant.
+- Changed: When enabling Door Lock Rando for the default presets, Open Hatches are now also shuffled by default.
+- Changed: Rephrased the text that appears when the Operations Deck Navigation Terminal or Restricted Navigation Terminal hints 0 Metroids.
+
+#### Logic Database
+
+##### Main Deck
+- Changed: Operations Deck: Shinesparking up to reach the Operations Room Door is now possible in Door Lock Rando.
+- Added: Operations Ventilation: It is now possible to destroy the Missile Geron by running into it from Operations Deck.
+- Changed: Operations Ventilation: Shinesparking the Missile Geron is now possible in Door Lock Rando.
+- Changed: Quarantine Junction: The Speedboost through the blocks from Main Elevator Access is now possible in Door Lock Rando.
+- Central Reactor: Adjusted the Shinespark from Silo Checkpoint to Silo Tunnel:
+  - Doing it without Hi-Jump is now a ludicrous Shinespark instead of intermediate Movement.
+  - The Beam requirements have been adjusted. Having Wave Beam does not change the difficulty of the shinespark, not having Wave Beam bumps it to a ludicrous Shinespark.
+- Central Reactor: Shinesparking up from the Save Station is now always possible in Door Lock Rando.
+- Quarantine Bay: Added a node to refill infinitely, as it's very quick to do with the Hornoad.
+
+##### Sector 1 (SRX)
+- Changed: Watering Hole: Getting the item is now possible in Door Lock Rando.
+- Changed: Charge Core Arena: Getting the upper item locked by a Shinespark is now possible in Door Lock Rando.
+- Changed: Atmospheric Stabilizer Central: Sparking the Stabilizer from Stabilizer Checkpoint is now possible in Door Lock Rando.
+- Changed: Atmospheric Stabilizer Southeast: Sparking the Stabilizer from Tourian Trapdoor or Zebesian Zag is now possible in Door Lock Rando.
+- Changed: Zebesian Zag: Sparking the room up from Atmospheric Stabilizer Southeast is now possible in Door Lock Rando.
+
+##### Sector 4 (AQA)
+- Added: Evir Enclosure: A video to go up by freezing the Evir and performing Underwater Walljumps.
+
+##### Sector 6 (NOC)
+- Changed: Spaceboost Alley: It is now possible to escape with an intermediate Walljump, instead of being able to Single-Wall Walljump.
+- Changed: X-B.O.X Arena Access: Shinesparking out of Spaceboost Alley is now possible in Door Lock Rando.
+- Changed: X-B.O.X. Arena Access: Shinesparking out of Forbidden Entrance to Spaceboost Alley is now possible in Door Lock Rando.
+- Changed: X-B.O.X. Arena Access: Shinesparking out of X-B.O.X. Arena is now possible in Door Lock Rando.
+- Changed: Nocturnal Shaft: Shinesparking out of Forbidden Entrance to Pillar Highway is now possible in Door Lock Rando.
 
 ### Metroid: Samus Returns
 
@@ -46,7 +124,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed: Hive Totem: Removed door lock present on NTSC 0-02+.
 - Changed: Research Lab Aether: Unlock door when the Metroid dies in addition to the breakable wall.
 - Changed: Sunchamber: Doors no longer instantly lock upon entering.
-- Changed: Fiery Shores, Monitor Station, Sunchamber Access, Sun Tower Access: Restored crate destruction debris.
 
 #### Logic Database
 
@@ -64,6 +141,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed: Mines Security Station: The event to unlock the doors can now be logically visited multiple times, making it possible for it to be considered a safe action.
 
 ### Metroid Prime 2: Echoes
+
+- Fixed: Viewing the Debug Info tracker layout doesn't cause disconnects anymore.
 
 #### Logic Database
 
